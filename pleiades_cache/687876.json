@@ -1,0 +1,586 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4117778,
+          31.8440757
+        ]
+      },
+      "type": "Feature",
+      "id": "osm-location-of-st-george-monastery",
+      "properties": {
+        "snippet": "Monastery; AD 1800 - AD 2099",
+        "link": "https://pleiades.stoa.org/places/687876/osm-location-of-st-george-monastery",
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of St. George Monastery"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": null,
+      "name": "DARMC"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+      ],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "twenty-first-ce",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twenty-first-ce",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "twentieth-ce",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twentieth-ce",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "nineteenth-ce",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/nineteenth-ce",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://www.openstreetmap.org/browse/node/976504072",
+          "citationDetail": "Node 976504072",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "OSM",
+          "bibliographicURI": "",
+          "formattedCitation": "osm:node=976504072",
+          "otherIdentifier": "",
+          "type": "citesAsDataSource"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://en.wikipedia.org/wiki/Monastery_of_Saint_George_of_Choziba",
+          "citationDetail": "Monastery of Saint George of Choziba",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (English)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "osm-location-of-st-george-monastery",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/monastery"
+      ],
+      "end": 2099,
+      "title": "OSM location of St. George Monastery",
+      "provenance": "OpenStreetMap (Node 976504072, version 12, osm:changeset=102661756, 2021-04-09T17:42:22Z)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1800,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/monastery"
+      ],
+      "archaeologicalRemains": "notapplicable",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 20.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+      "featureType": [
+        "monastery"
+      ],
+      "description": "Representative location based on OpenStreetMap",
+      "created": "2023-03-16T01:04:57Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4117778,
+          31.8440757
+        ]
+      },
+      "locationType": [
+        "associated_modern"
+      ],
+      "uri": "https://pleiades.stoa.org/places/687876/osm-location-of-st-george-monastery",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "comment": "Edited",
+          "modifiedBy": "thomase",
+          "modified": "2023-03-16T09:03:08Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2023-03-16T08:52:44Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "thomase",
+          "modified": "2023-03-16T08:52:39Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2023-03-16T01:06:35Z"
+        },
+        {
+          "comment": "added osm location",
+          "modifiedBy": "jbecker",
+          "modified": "2023-03-16T01:06:08Z"
+        },
+        {
+          "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+          "modifiedBy": "jbecker",
+          "modified": "2023-03-16T01:04:57Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2023-03-16T01:04:57Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/43970336",
+      "citationDetail": "70 G2 Choziba",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "BAtlas",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+      "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "36-38",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Hirschfeld 1992",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IJS45QTT",
+      "formattedCitation": "<div class=\"csl-entry\">Hirschfeld, Yizhar. <i>The Judean Desert Monasteries in the Byzantine Period</i>. New Haven: Yale University Press, 1992.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://www.jstor.org/stable/43587090",
+      "citationDetail": "p. 49",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Avi-Yonah 1976",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/6M6HZR24",
+      "formattedCitation": "<div class=\"csl-entry\">Avi-Yonah, Michael. <i>Gazetteer of Roman Palestine</i>. Qedem 5. Jerusalem: Institute of Archaeology, Hebrew University of Jerusalem, 1976. https://www.jstor.org/stable/43587090.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://darmc.harvard.edu/",
+      "citationDetail": "6903",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "DARMC",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+      "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://dig.corps-cmhl.huji.ac.il/Monasteries/deir-mar-jirys-choziba",
+      "citationDetail": "Deir Mar Jirys - CHOZIBA",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "ECCMHL",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CNYI69PA",
+      "formattedCitation": "<div class=\"csl-entry\">Patrich, Joseph, and Leah Di Segni, eds. <i>A Digital Corpus of Early Christian Churches and Monasteries in the Holy Land</i>. Jerusalem: The Hebrew University of Jerusalem, 2014. https://dig.corps-cmhl.huji.ac.il/.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Monastery_of_Saint_George_of_Choziba",
+      "citationDetail": "Monastery of Saint George of Choziba",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+      "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://www.wikidata.org/wiki/Q14795053",
+      "citationDetail": "St. George's Monastery (Q14795053)",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "Wikidata",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+      "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "associated_modern",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Deir Mar Jirys",
+      "attestations": [
+        {
+          "timePeriod": "twenty-first-ce",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twenty-first-ce",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://dig.corps-cmhl.huji.ac.il/Monasteries/deir-mar-jirys-choziba",
+          "citationDetail": "Deir Mar Jirys - CHOZIBA",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "ECCMHL",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CNYI69PA",
+          "formattedCitation": "<div class=\"csl-entry\">Patrich, Joseph, and Leah Di Segni, eds. <i>A Digital Corpus of Early Christian Churches and Monasteries in the Holy Land</i>. Jerusalem: The Hebrew University of Jerusalem, 2014. https://dig.corps-cmhl.huji.ac.il/.</div>",
+          "otherIdentifier": "",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "deir-mar-jirys",
+      "end": 2099,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 2000,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "en",
+      "created": "2023-03-16T09:17:54Z",
+      "uri": "https://pleiades.stoa.org/places/687876/deir-mar-jirys",
+      "creators": [
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+      ],
+      "attested": "Deir Mar Jirys",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "jbecker",
+          "modified": "2023-03-16T16:38:36Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "thomase",
+          "modified": "2023-03-16T09:27:10Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "thomase",
+          "modified": "2023-03-16T09:17:54Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "thomase",
+          "modified": "2023-03-16T09:17:54Z"
+        }
+      ]
+    },
+    {
+      "nameType": "associated_modern",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Deir Mar Jiryis",
+      "attestations": [
+        {
+          "timePeriod": "twentieth-ce",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/twentieth-ce",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "page 1076 see \"Choziba\"",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "BAtlDir",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9377UUFB",
+          "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A. <i>Barrington Atlas of the Greek and Roman World\u202f: Map-by-Map Directory</i>. 2 vols. Princeton, N.J.: Princeton University Press, 2000.</div>",
+          "otherIdentifier": "",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "deir-mar-jiryis",
+      "end": 1999,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1900,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "en",
+      "created": "2023-03-16T09:18:59Z",
+      "uri": "https://pleiades.stoa.org/places/687876/deir-mar-jiryis",
+      "creators": [
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+      ],
+      "attested": "Deir Mar Jiryis",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "jbecker",
+          "modified": "2023-03-16T16:38:36Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "thomase",
+          "modified": "2023-03-16T09:27:10Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "thomase",
+          "modified": "2023-03-16T09:19:00Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "thomase",
+          "modified": "2023-03-16T09:18:59Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Choziba",
+      "attestations": [
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "choziba",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 70 G2 Choziba",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 300,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-17T12:32:11Z",
+      "uri": "https://pleiades.stoa.org/places/687876/choziba",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:54:19Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:47:38Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:04:04Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T12:32:11Z"
+        }
+      ]
+    }
+  ],
+  "id": "687876",
+  "subject": [
+    "dare:ancient=1",
+    "dare:major=0",
+    "dare:feature=church"
+  ],
+  "title": "Choziba",
+  "provenance": "Barrington Atlas: BAtlas 70 G2 Choziba",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/monastery"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: Deir Mar Jiryis WBK</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "A desert monastery, founded in the fifth century CE, which was located where the 19th-century Greek Orthodox monastery of Deir Mar Jirys now stands on the north cliffs above the Wadi Qelt/Kelt in the West Bank, nearly 5km west from the center of modern Jericho.",
+  "reprPoint": [
+    35.4117778,
+    31.8440757
+  ],
+  "placeTypes": [
+    "monastery"
+  ],
+  "bbox": [
+    35.4117778,
+    31.8440757,
+    35.4117778,
+    31.8440757
+  ],
+  "connectsWith": [],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2023-03-16T08:53:28Z",
+  "uri": "https://pleiades.stoa.org/places/687876",
+  "creators": [
+    {
+      "username": null,
+      "name": "B. Isaac"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "cleaned up references; summary; place type (replaced deprecated church/monastery type with monastery); added ECCMHL reference; added wikipedia reference; added Wikidata; updated Names",
+      "modifiedBy": "jbecker",
+      "modified": "2023-03-16T16:38:19Z"
+    },
+    {
+      "comment": "create DARMC citation to preserve cross-project linkage after retracting DARMC location",
+      "modifiedBy": "thomase",
+      "modified": "2023-03-16T08:53:23Z"
+    },
+    {
+      "comment": "update",
+      "modifiedBy": "jbecker",
+      "modified": "2023-03-16T01:03:58Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T20:12:26Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:54:19Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T21:51:07Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-09T19:36:41Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-17T13:47:38Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T13:04:03Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T12:32:10Z"
+    }
+  ]
+}

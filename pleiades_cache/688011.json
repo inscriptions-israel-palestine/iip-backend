@@ -1,0 +1,451 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.459418,
+          31.74188
+        ]
+      },
+      "type": "Feature",
+      "id": "darmc-location-2061",
+      "properties": {
+        "snippet": "Unknown; 330 BC - AD 300",
+        "link": "https://pleiades.stoa.org/places/688011/darmc-location-2061",
+        "description": "500K scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 2061"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.459396,
+          31.741776
+        ]
+      },
+      "type": "Feature",
+      "id": "darmc-location-7119",
+      "properties": {
+        "snippet": "Unknown; 330 BC - AD 300",
+        "link": "https://pleiades.stoa.org/places/688011/darmc-location-7119",
+        "description": "500K scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 7119"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": null,
+      "name": "DARMC"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [
+        {
+          "username": null,
+          "name": "DARMC, R. Talbert, T. Elliott, S. Gillies"
+        }
+      ],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://darmc.harvard.edu/",
+          "citationDetail": "2061",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "DARMC",
+          "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+          "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 2061.",
+          "otherIdentifier": " ",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "darmc-location-2061",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+      ],
+      "end": 300,
+      "title": "DARMC location 2061",
+      "provenance": "DARMC OBJECTID: 2061",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "DARMC OBJECTID: 2061",
+      "review_state": "published",
+      "accuracy_value": 10.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/darmc-a",
+      "featureType": [
+        "unknown"
+      ],
+      "description": "500K scale point location",
+      "created": "2011-03-09T18:47:26Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.459418,
+          31.74188
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/688011/darmc-location-2061",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:55:54Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2011-03-10T04:55:41Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-09T18:47:27Z"
+        },
+        {
+          "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-09T18:47:27Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-09T18:47:26Z"
+        }
+      ]
+    },
+    {
+      "contributors": [
+        {
+          "username": null,
+          "name": "DARMC, R. Talbert, T. Elliott, S. Gillies"
+        }
+      ],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://darmc.harvard.edu/",
+          "citationDetail": "7119",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "DARMC",
+          "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+          "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 7119.",
+          "otherIdentifier": " ",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "darmc-location-7119",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+      ],
+      "end": 300,
+      "title": "DARMC location 7119",
+      "provenance": "DARMC OBJECTID: 7119",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "DARMC OBJECTID: 7119",
+      "review_state": "published",
+      "accuracy_value": 10.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/darmc-a",
+      "featureType": [
+        "unknown"
+      ],
+      "description": "500K scale point location",
+      "created": "2011-03-09T19:40:32Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.459396,
+          31.741776
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/688011/darmc-location-7119",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:55:54Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2011-03-10T04:55:41Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-09T19:40:33Z"
+        },
+        {
+          "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-09T19:40:33Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-09T19:40:32Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/43970336",
+      "citationDetail": "70 G2 Qumran",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "BAtlas",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+      "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/695616438",
+      "citationDetail": "4 1235-40",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "NEAEHL",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/4Q6WNJMK",
+      "formattedCitation": "<div class=\"csl-entry\">S\u030ct\u0323ern, Efrayim, ed. <i>New Encyclopedia of Archaeological Excavations in the Holy Land</i>. 5 vols. Jerusalem: Simon &amp; Schuster, 1993. http://www.worldcat.org/oclc/695616438.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Qumran",
+      "citationDetail": "Qumran",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+      "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Qumran.",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://www.wikidata.org/wiki/Q223399",
+      "citationDetail": "Q223399: Qumran",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "Wikidata",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+      "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Magness 2002",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/5T22MKVG",
+      "formattedCitation": "<div class=\"csl-entry\">Magness, Jodi. <i>The Archaeology of Qumran and the Dead Sea Scrolls</i>. Studies in the Dead Sea Scrolls and Related Literature. Grand Rapids, MI: Eerdmans, 2002.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    }
+  ],
+  "names": [],
+  "id": "688011",
+  "subject": [
+    "dare:major=0",
+    "dare:ancient=0",
+    "dare:feature=settlement"
+  ],
+  "title": "Qumran",
+  "provenance": "Barrington Atlas: BAtlas 70 G2 Qumran",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: Qumran, WBK</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "Qumran is an archaeological site located in the West Bank near the northwestern shore of the Dead Sea. A Hellenistic settlement of the second century was eventually destroyed by the Romans in A.D. 68. The site is best known for the Qumran Caves where the Dead Sea Scrolls were hidden.",
+  "reprPoint": [
+    35.459407,
+    31.741827999999998
+  ],
+  "placeTypes": [
+    "settlement"
+  ],
+  "bbox": [
+    35.459396,
+    31.741776,
+    35.459418,
+    31.74188
+  ],
+  "connectsWith": [],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2009-09-17T12:34:02Z",
+  "uri": "https://pleiades.stoa.org/places/688011",
+  "creators": [
+    {
+      "username": null,
+      "name": "B. Isaac"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "update references",
+      "modifiedBy": "jbecker",
+      "modified": "2021-12-17T03:16:10Z"
+    },
+    {
+      "comment": "reference",
+      "modifiedBy": "jbecker",
+      "modified": "2018-12-13T22:16:31Z"
+    },
+    {
+      "comment": "references",
+      "modifiedBy": "jbecker",
+      "modified": "2018-12-13T18:27:17Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T20:14:41Z"
+    },
+    {
+      "comment": "Edited",
+      "modifiedBy": "jbecker",
+      "modified": "2012-03-08T17:03:14Z"
+    },
+    {
+      "comment": "added reference",
+      "modifiedBy": "jbecker",
+      "modified": "2012-03-08T17:02:48Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:55:53Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T21:51:58Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-09T19:40:34Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-09T18:47:27Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-17T13:47:56Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T13:04:21Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T12:34:02Z"
+    }
+  ]
+}

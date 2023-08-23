@@ -1,0 +1,510 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.202123,
+          31.712291
+        ]
+      },
+      "type": "Feature",
+      "id": "darmc-location-18245",
+      "properties": {
+        "snippet": "Unknown; 30 BC - AD 640",
+        "link": "https://pleiades.stoa.org/places/687856/darmc-location-18245",
+        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+        "location_precision": "precise",
+        "title": "DARMC location 18245"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": null,
+      "name": "DARMC"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "bkiesling",
+      "homepage": null,
+      "name": "Brady Kiesling",
+      "uri": "https://pleiades.stoa.org/author/bkiesling"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [
+        {
+          "username": null,
+          "name": "DARMC, R. Talbert, T. Elliott, S. Gillies"
+        }
+      ],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://darmc.harvard.edu/",
+          "citationDetail": "18245",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "DARMC",
+          "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+          "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 18245.",
+          "otherIdentifier": " ",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "darmc-location-18245",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+      ],
+      "end": 640,
+      "title": "DARMC location 18245",
+      "provenance": "DARMC OBJECTID: 18245",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "DARMC OBJECTID: 18245",
+      "review_state": "published",
+      "accuracy_value": 10.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/darmc-a",
+      "featureType": [
+        "unknown"
+      ],
+      "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University.",
+      "created": "2011-03-09T23:14:35Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.202123,
+          31.712291
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/687856/darmc-location-18245",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:54:03Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2011-03-10T05:12:13Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-09T23:14:36Z"
+        },
+        {
+          "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-09T23:14:36Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-09T23:14:35Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/43970336",
+      "citationDetail": "70 G2 Bethlehem",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "BAtlas",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+      "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/695616438",
+      "citationDetail": "1 203-10",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "NEAEHL",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/4Q6WNJMK",
+      "formattedCitation": "<div class=\"csl-entry\">S\u030ct\u0323ern, Efrayim, ed. <i>New Encyclopedia of Archaeological Excavations in the Holy Land</i>. 5 vols. Jerusalem: Simon &amp; Schuster, 1993\u20132008. http://www.worldcat.org/oclc/695616438.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0006%3Aalphabetic+letter%3DB%3Aentry+group%3D3%3Aentry%3Dbethlehem",
+      "citationDetail": "BETHLEHEM Jordan/Israel",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "PECS (Perseus)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PV9N7BQD",
+      "formattedCitation": "<div class=\"csl-entry\">Stillwell, Richard, William L MacDonald, and Marian Holland McAllister, eds. <i>The Princeton Encyclopedia of Classical Sites</i>. Princeton, N.J.: Princeton University Press, 1976. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.trismegistos.org/place/13219",
+      "citationDetail": "GEO ID 13219: Bethlehem",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "TM",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+      "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0064%3Aalphabetic+letter%3DB%3Aentry+group%3D6%3Aentry%3Dbethlehem-geo",
+      "citationDetail": "BETHLEHEM",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Smith 1854 (Perseus)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BIA378QC",
+      "formattedCitation": "<div class=\"csl-entry\">Smith, William. <i>Dictionary of Greek and Roman Geography</i>. London: Murray, 1854. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0064.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://referenceworks.brillonline.com/entries/brill-s-new-pauly/bethlehem-e216120?s.num=1&s.q=bethlehem",
+      "citationDetail": "Bethlehem",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "New Pauly",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/DUTS58MJ",
+      "formattedCitation": "<div class=\"csl-entry\">Hubert Cancik, Helmuth Schneider, Manfred Landfester, Christine F. Salazar, and Francis G. Gentry, eds. <i>Brill\u2019s New Pauly: Encyclopaedia of the Ancient World.</i> Brill, 2015. https://referenceworks.brillonline.com/browse/brill-s-new-pauly.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Bethlehem",
+      "citationDetail": "Bethlehem",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+      "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Bethlehem.",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.geonames.org/284315/bethlehem.html",
+      "citationDetail": "284315: Bethlehem",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "GeoNames",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IIFE4W6M",
+      "formattedCitation": "<div class=\"csl-entry\">Marc Wick, and Christophe Boutreux. \u201cGeoNames,\u201d 2005. http://www.geonames.org/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://topostext.org/place/317352UBet",
+      "citationDetail": "Bethlehem (Palestine)",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "ToposText",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/MC9RGDVB",
+      "formattedCitation": "Kiesling, Brady. ToposText \u2013 a Reference Tool for Greek Civilization. Version 2.0. Aikaterini Laskaridis Foundation, 2016-.",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://www.wikidata.org/wiki/Q5776",
+      "citationDetail": "Q5776: Bethlehem",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "Wikidata",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+      "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://vocab.getty.edu/page/tgn/7001388",
+      "citationDetail": "7001388: Bethlehem",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "TGN",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZLJQ5AZJ",
+      "formattedCitation": "<div class=\"csl-entry\"><i>Getty Thesaurus of Geographic Names\u00ae Online</i>, n.d. https://www.getty.edu/research/tools/vocabularies/tgn/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://arachne.dainst.org/entity/1280",
+      "citationDetail": "8002633: Bethlehem Bethlehem",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Arachne",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/HUWENJCW",
+      "formattedCitation": "<div class=\"csl-entry\">Reinhard Foertsch, ed. <i>Arachne: IDAI Objects</i>. K\u00f6ln; Berlin: Archaeological Institute, University of Cologne; German Archaeological Institute. Accessed February 5, 2020. https://arachne.uni-koeln.de/.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://gazetteer.dainst.org/place/2102117",
+      "citationDetail": "2102117: Bethlehem",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "iDAI.gazetteer",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/KNGREWYQ",
+      "formattedCitation": "<div class=\"csl-entry\"><i>IDAI.Gazetteer</i>. Deutsches Arch\u00e4ologisches Institut. Accessed February 1, 2018. https://gazetteer.dainst.org/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://syriaca.org/place/805",
+      "citationDetail": "805: Bethlehem - \u0712\u071d\u072c\u0720\u071a\u0721",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "SyrGaz",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/LJYTZ7FD",
+      "formattedCitation": "<div class=\"csl-entry\">Carlson, Thomas A., and David A. Michelson. <i>The Syriac Gazetteer</i>. Syriaca.org: The Syriac Reference Portal, 2014. http://syriaca.org/geo/index.html.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Bethlehem",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "bethlehem",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 70 G2 Bethlehem",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-17T12:31:52Z",
+      "uri": "https://pleiades.stoa.org/places/687856/bethlehem",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:54:03Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:47:35Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:04:01Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T12:31:52Z"
+        }
+      ]
+    }
+  ],
+  "id": "687856",
+  "subject": [
+    "dare:ancient=1",
+    "dare:feature=settlement",
+    "dare:major=0"
+  ],
+  "title": "Bethlehem",
+  "provenance": "Barrington Atlas: BAtlas 70 G2 Bethlehem",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: Beit Lahm WBK</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "An ancient place, cited: BAtlas 70 G2 Bethlehem",
+  "reprPoint": [
+    35.202123,
+    31.712291
+  ],
+  "placeTypes": [
+    "settlement"
+  ],
+  "bbox": [
+    35.202123,
+    31.712291,
+    35.202123,
+    31.712291
+  ],
+  "connectsWith": [],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2018-06-08T00:31:21Z",
+  "uri": "https://pleiades.stoa.org/places/687856",
+  "creators": [
+    {
+      "username": null,
+      "name": "B. Isaac"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "update references",
+      "modifiedBy": "jbecker",
+      "modified": "2021-12-25T16:40:04Z"
+    },
+    {
+      "comment": "Edited",
+      "modifiedBy": "jbecker",
+      "modified": "2019-01-30T17:54:48Z"
+    },
+    {
+      "comment": "add ToposText reference provided by bkiesling",
+      "modifiedBy": "admin",
+      "modified": "2018-06-08T00:31:23Z"
+    },
+    {
+      "comment": "Edited",
+      "modifiedBy": "jbecker",
+      "modified": "2017-03-19T16:41:37Z"
+    },
+    {
+      "comment": "added references",
+      "modifiedBy": "jbecker",
+      "modified": "2017-03-19T16:18:52Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T20:12:11Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:54:03Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T21:50:57Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-09T23:14:36Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-17T13:47:35Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T13:04:01Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T12:31:52Z"
+    }
+  ]
+}

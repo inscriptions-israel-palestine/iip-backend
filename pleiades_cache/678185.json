@@ -1,0 +1,913 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.659411,
+          32.778841
+        ]
+      },
+      "type": "Feature",
+      "id": "darmc-location-20309",
+      "properties": {
+        "snippet": "Unknown; 330 BC - AD 640",
+        "link": "https://pleiades.stoa.org/places/678185/darmc-location-20309",
+        "description": "500K scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 20309"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.660178,
+          32.7785
+        ]
+      },
+      "type": "Feature",
+      "id": "dare-location",
+      "properties": {
+        "snippet": "Settlement; 330 BC - AD 640",
+        "link": "https://pleiades.stoa.org/places/678185/dare-location",
+        "description": "Representative point location, site precision",
+        "location_precision": "precise",
+        "title": "DARE Location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.6570814,
+            32.7789607
+          ],
+          [
+            35.657017,
+            32.7784781
+          ],
+          [
+            35.6571404,
+            32.7780497
+          ],
+          [
+            35.6587122,
+            32.7776798
+          ],
+          [
+            35.6608097,
+            32.7772829
+          ],
+          [
+            35.6625477,
+            32.7770348
+          ],
+          [
+            35.6626068,
+            32.7777069
+          ],
+          [
+            35.6623493,
+            32.7782165
+          ],
+          [
+            35.6614212,
+            32.7789472
+          ],
+          [
+            35.6602249,
+            32.7794298
+          ],
+          [
+            35.6593613,
+            32.7797816
+          ],
+          [
+            35.6580738,
+            32.7794794
+          ],
+          [
+            35.6573711,
+            32.7791998
+          ],
+          [
+            35.6570814,
+            32.7789607
+          ]
+        ]
+      },
+      "type": "Feature",
+      "id": "osm-location-of-susita",
+      "properties": {
+        "snippet": "Settlement; 330 BC - AD 640",
+        "link": "https://pleiades.stoa.org/places/678185/osm-location-of-susita",
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Susita"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": null,
+      "name": "DARMC"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "jahlfeldt",
+      "homepage": null,
+      "name": "Johan \u00c5hlfeldt",
+      "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [
+        {
+          "username": null,
+          "name": "DARMC, R. Talbert, T. Elliott, S. Gillies"
+        }
+      ],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "less-confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/less-confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://darmc.harvard.edu/",
+          "citationDetail": "20309",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "DARMC",
+          "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+          "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 20309.",
+          "otherIdentifier": " ",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "darmc-location-20309",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+      ],
+      "end": 640,
+      "title": "DARMC location 20309",
+      "provenance": "DARMC OBJECTID: 20309",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "DARMC OBJECTID: 20309",
+      "review_state": "published",
+      "accuracy_value": 10.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/darmc-a",
+      "featureType": [
+        "unknown"
+      ],
+      "description": "500K scale point location",
+      "created": "2011-03-10T00:09:09Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.659411,
+          32.778841
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/678185/darmc-location-20309",
+      "creators": [
+        {
+          "username": null,
+          "name": "J.P. Brown"
+        },
+        {
+          "username": null,
+          "name": "E.M. Meyers"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:49:38Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2011-03-10T05:14:39Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-10T00:09:11Z"
+        },
+        {
+          "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-10T00:09:10Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-10T00:09:09Z"
+        }
+      ]
+    },
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "less-confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/less-confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://francia.ahlfeldt.se/imperium.php",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "Johan \u00c5hlfeldt, Digital Atlas of the Roman Empire, 2012.",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "dare-location",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+      ],
+      "end": 640,
+      "title": "DARE Location",
+      "provenance": "Digital Atlas of the Roman Empire (2012-10-15)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 10.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/dare-3",
+      "featureType": [
+        "settlement"
+      ],
+      "description": "Representative point location, site precision",
+      "created": "2012-10-20T23:12:34Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.660178,
+          32.7785
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/678185/dare-location",
+      "creators": [
+        {
+          "username": "jahlfeldt",
+          "homepage": null,
+          "name": "Johan \u00c5hlfeldt",
+          "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T23:12:35Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T23:12:35Z"
+        },
+        {
+          "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T23:12:35Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T23:12:34Z"
+        }
+      ]
+    },
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://www.openstreetmap.org/browse/way/372451642",
+          "citationDetail": "Way 372451642",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "OSM",
+          "bibliographicURI": "",
+          "formattedCitation": "osm:way=372451642",
+          "otherIdentifier": "",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "osm-location-of-susita",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+      ],
+      "end": 640,
+      "title": "OSM location of Susita",
+      "provenance": "OpenStreetMap (Way 372451642, version 4, osm:changeset=129780621, 2022-12-06T12:05:24Z)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+      ],
+      "archaeologicalRemains": "substantive",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 20.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+      "featureType": [
+        "settlement"
+      ],
+      "description": "Representative location based on OpenStreetMap",
+      "created": "2022-12-31T03:27:40Z",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.6570814,
+            32.7789607
+          ],
+          [
+            35.657017,
+            32.7784781
+          ],
+          [
+            35.6571404,
+            32.7780497
+          ],
+          [
+            35.6587122,
+            32.7776798
+          ],
+          [
+            35.6608097,
+            32.7772829
+          ],
+          [
+            35.6625477,
+            32.7770348
+          ],
+          [
+            35.6626068,
+            32.7777069
+          ],
+          [
+            35.6623493,
+            32.7782165
+          ],
+          [
+            35.6614212,
+            32.7789472
+          ],
+          [
+            35.6602249,
+            32.7794298
+          ],
+          [
+            35.6593613,
+            32.7797816
+          ],
+          [
+            35.6580738,
+            32.7794794
+          ],
+          [
+            35.6573711,
+            32.7791998
+          ],
+          [
+            35.6570814,
+            32.7789607
+          ]
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/678185/osm-location-of-susita",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2023-01-03T18:58:36Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2022-12-31T03:28:19Z"
+        },
+        {
+          "comment": "added osm location",
+          "modifiedBy": "jbecker",
+          "modified": "2022-12-31T03:28:15Z"
+        },
+        {
+          "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+          "modifiedBy": "jbecker",
+          "modified": "2022-12-31T03:27:40Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2022-12-31T03:27:40Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "http://openlibrary.org/works/OL8327792W",
+      "formattedCitation": "BAtlas 69 C4 Hippos",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "147",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "TIR Iudaea",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8GF4B886",
+      "formattedCitation": "<div class=\"csl-entry\">Tsafrir, Yoram, L Di Segni, and Judith Green. <i>Tabula Imperii Romani: Iudaea - Palaestina</i>. Jerusalem: Israel Academy of Sciences and Humanities; Akademyah ha-le\u2019umit ha-Yi\u0161re\u2019elit le-mada\u2018im; Agudah le-seker arkhe\u2019ologi shel Yi\u0161ra\u2019el; Israel: Agaf ha-medidot, 1994.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Hippos",
+      "citationDetail": "Hippos",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+      "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Hippos.",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://hippos.haifa.ac.il/",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "Hippos-Sussita Excavation Project - Home",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.encquran.brill.nl/entries/religion-past-and-present/hippos-SIM_09897",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "New Pauly, Hippos",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.trismegistos.org/place/4642",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "TM GEO ID 4642",
+      "otherIdentifier": " ",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0064%3Aalphabetic+letter%3DH%3Aentry+group%3D5%3Aentry%3Dhippus-geo",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "Smith 1854 (Perseus), HIPPUS",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0526.tlg001.perseus-eng1:14.69",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "Joseph. AJ 14.69",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Hippos",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "less-confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/less-confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "hippos",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 69 C4 Hippos",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-16T20:02:41Z",
+      "uri": "https://pleiades.stoa.org/places/678185/hippos",
+      "creators": [
+        {
+          "username": null,
+          "name": "J.P. Brown"
+        },
+        {
+          "username": null,
+          "name": "E.M. Meyers"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:49:38Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-16T20:43:03Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:19:39Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:02:41Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Sousitha",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "less-confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/less-confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "sousitha",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 69 C4 Hippos",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-16T20:02:41Z",
+      "uri": "https://pleiades.stoa.org/places/678185/sousitha",
+      "creators": [
+        {
+          "username": null,
+          "name": "J.P. Brown"
+        },
+        {
+          "username": null,
+          "name": "E.M. Meyers"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:49:38Z"
+        },
+        {
+          "comment": "Time periods copied from sibling. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+          "modifiedBy": "sgillies",
+          "modified": "2011-01-20T03:20:27Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-16T20:43:03Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:19:39Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:02:41Z"
+        }
+      ]
+    }
+  ],
+  "id": "678185",
+  "subject": [
+    "dare:ancient=1",
+    "dare:major=1",
+    "dare:feature=major settlement"
+  ],
+  "title": "Hippos",
+  "provenance": "Barrington Atlas: BAtlas 69 C4 Hippos",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: Horvat Susita/Qal'at el Husn ISR</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "Hippos was an ancient city that flourished between the third century B.C. and the seventh century A.D. It was abandoned following an earthquake in 749.",
+  "reprPoint": [
+    35.65981717403465,
+    32.77855807105689
+  ],
+  "placeTypes": [
+    "settlement"
+  ],
+  "bbox": [
+    35.657017,
+    32.7770348,
+    35.6626068,
+    32.7797816
+  ],
+  "connectsWith": [],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2009-09-16T20:02:41Z",
+  "uri": "https://pleiades.stoa.org/places/678185",
+  "creators": [
+    {
+      "username": null,
+      "name": "E.M. Meyers"
+    },
+    {
+      "username": null,
+      "name": "J.P. Brown"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "Edited",
+      "modifiedBy": "jbecker",
+      "modified": "2019-01-30T17:25:28Z"
+    },
+    {
+      "comment": "added reference",
+      "modifiedBy": "jbecker",
+      "modified": "2016-04-20T12:55:34Z"
+    },
+    {
+      "comment": "added references",
+      "modifiedBy": "jbecker",
+      "modified": "2016-04-20T12:45:11Z"
+    },
+    {
+      "comment": "added reference",
+      "modifiedBy": "jbecker",
+      "modified": "2014-06-21T20:49:26Z"
+    },
+    {
+      "comment": "DARE feature tag fix.",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-23T19:42:55Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T23:12:36Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:49:37Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T22:10:56Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-10T00:09:11Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-16T20:43:03Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:19:39Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:02:41Z"
+    }
+  ]
+}

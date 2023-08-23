@@ -1,0 +1,1615 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.353756,
+          31.317111
+        ]
+      },
+      "type": "Feature",
+      "id": "dare-location",
+      "properties": {
+        "snippet": "Fort; 330 BC - AD 640",
+        "link": "https://pleiades.stoa.org/places/687968/dare-location",
+        "description": "Representative point location, site precision",
+        "location_precision": "precise",
+        "title": "DARE Location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.3540176,
+            31.3180492
+          ],
+          [
+            35.3539594,
+            31.3180067
+          ],
+          [
+            35.3538851,
+            31.3178554
+          ],
+          [
+            35.3536671,
+            31.3178148
+          ],
+          [
+            35.3536074,
+            31.3177592
+          ],
+          [
+            35.3533108,
+            31.3177994
+          ],
+          [
+            35.353253,
+            31.3176688
+          ],
+          [
+            35.353142,
+            31.3175361
+          ],
+          [
+            35.3529702,
+            31.3173938
+          ],
+          [
+            35.3528748,
+            31.3170558
+          ],
+          [
+            35.3527555,
+            31.3168235
+          ],
+          [
+            35.3526774,
+            31.3166541
+          ],
+          [
+            35.3525521,
+            31.31649
+          ],
+          [
+            35.352642,
+            31.3163155
+          ],
+          [
+            35.3526358,
+            31.3160986
+          ],
+          [
+            35.3526239,
+            31.3160292
+          ],
+          [
+            35.3526089,
+            31.3157675
+          ],
+          [
+            35.3524499,
+            31.3154621
+          ],
+          [
+            35.3522943,
+            31.3152719
+          ],
+          [
+            35.3522089,
+            31.3150059
+          ],
+          [
+            35.3523808,
+            31.3146542
+          ],
+          [
+            35.3522724,
+            31.3145162
+          ],
+          [
+            35.3524397,
+            31.3141289
+          ],
+          [
+            35.3525025,
+            31.3137203
+          ],
+          [
+            35.3526335,
+            31.3134422
+          ],
+          [
+            35.3526329,
+            31.3131718
+          ],
+          [
+            35.3526021,
+            31.3130661
+          ],
+          [
+            35.3526211,
+            31.3129579
+          ],
+          [
+            35.3526214,
+            31.3129023
+          ],
+          [
+            35.3525108,
+            31.3128223
+          ],
+          [
+            35.3525102,
+            31.3126849
+          ],
+          [
+            35.3526021,
+            31.3125714
+          ],
+          [
+            35.3528079,
+            31.3126288
+          ],
+          [
+            35.3528562,
+            31.3127445
+          ],
+          [
+            35.3530818,
+            31.3128571
+          ],
+          [
+            35.3533812,
+            31.3131124
+          ],
+          [
+            35.3536323,
+            31.3132782
+          ],
+          [
+            35.3538288,
+            31.313477
+          ],
+          [
+            35.3540609,
+            31.31354
+          ],
+          [
+            35.3544229,
+            31.3139181
+          ],
+          [
+            35.3550559,
+            31.3148256
+          ],
+          [
+            35.3552482,
+            31.3151793
+          ],
+          [
+            35.3552705,
+            31.315513
+          ],
+          [
+            35.355115,
+            31.3163219
+          ],
+          [
+            35.3549583,
+            31.3164486
+          ],
+          [
+            35.3548051,
+            31.3165707
+          ],
+          [
+            35.3547537,
+            31.3166394
+          ],
+          [
+            35.3546087,
+            31.3168301
+          ],
+          [
+            35.3545845,
+            31.3169859
+          ],
+          [
+            35.3546085,
+            31.3171281
+          ],
+          [
+            35.354532,
+            31.3173203
+          ],
+          [
+            35.3544897,
+            31.3176919
+          ],
+          [
+            35.3544805,
+            31.3179139
+          ],
+          [
+            35.3543512,
+            31.3180677
+          ],
+          [
+            35.3543569,
+            31.3180952
+          ],
+          [
+            35.3543768,
+            31.3182177
+          ],
+          [
+            35.3544297,
+            31.3183435
+          ],
+          [
+            35.3544743,
+            31.3183999
+          ],
+          [
+            35.3544786,
+            31.3184488
+          ],
+          [
+            35.3544659,
+            31.3184707
+          ],
+          [
+            35.3544918,
+            31.3185944
+          ],
+          [
+            35.3544911,
+            31.3186325
+          ],
+          [
+            35.3544561,
+            31.3186335
+          ],
+          [
+            35.3544543,
+            31.3186965
+          ],
+          [
+            35.3543603,
+            31.3186988
+          ],
+          [
+            35.3543556,
+            31.3186139
+          ],
+          [
+            35.3543393,
+            31.3186146
+          ],
+          [
+            35.3543383,
+            31.3185998
+          ],
+          [
+            35.354298,
+            31.3185596
+          ],
+          [
+            35.3542697,
+            31.3185004
+          ],
+          [
+            35.3542477,
+            31.3183526
+          ],
+          [
+            35.3542412,
+            31.3182759
+          ],
+          [
+            35.3541788,
+            31.318229
+          ],
+          [
+            35.3541652,
+            31.3181927
+          ],
+          [
+            35.3541326,
+            31.3181113
+          ],
+          [
+            35.3541308,
+            31.3181075
+          ],
+          [
+            35.3540176,
+            31.3180492
+          ]
+        ]
+      },
+      "type": "Feature",
+      "id": "osm-location-of-massada",
+      "properties": {
+        "snippet": "Fort; 330 BC - AD 640",
+        "link": "https://pleiades.stoa.org/places/687968/osm-location-of-massada",
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Massada"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": "bkiesling",
+      "homepage": null,
+      "name": "Brady Kiesling",
+      "uri": "https://pleiades.stoa.org/author/bkiesling"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "jahlfeldt",
+      "homepage": null,
+      "name": "Johan \u00c5hlfeldt",
+      "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+    },
+    {
+      "username": "adamp",
+      "homepage": null,
+      "name": "Adam Prins",
+      "uri": "https://pleiades.stoa.org/author/adamp"
+    },
+    {
+      "username": null,
+      "name": "Jen Thum"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    },
+    {
+      "username": null,
+      "name": "DARMC"
+    },
+    {
+      "username": null,
+      "name": "Herbert Verreth"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": null,
+      "name": "Mark Depauw"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://francia.ahlfeldt.se/imperium.php",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "Johan \u00c5hlfeldt, Digital Atlas of the Roman Empire, 2012.",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "dare-location",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/fort"
+      ],
+      "end": 640,
+      "title": "DARE Location",
+      "provenance": "Digital Atlas of the Roman Empire (2012-10-15)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/fort"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 10.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/dare-3",
+      "featureType": [
+        "fort"
+      ],
+      "description": "Representative point location, site precision",
+      "created": "2012-10-20T20:13:42Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.353756,
+          31.317111
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/687968/dare-location",
+      "creators": [
+        {
+          "username": "jahlfeldt",
+          "homepage": null,
+          "name": "Johan \u00c5hlfeldt",
+          "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T20:13:44Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T20:13:44Z"
+        },
+        {
+          "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T20:13:43Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T20:13:43Z"
+        }
+      ]
+    },
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://www.openstreetmap.org/browse/way/32231475",
+          "citationDetail": "Way 32231475",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "OSM",
+          "bibliographicURI": "",
+          "formattedCitation": "osm:way=32231475",
+          "otherIdentifier": "",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "osm-location-of-massada",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/fort"
+      ],
+      "end": 640,
+      "title": "OSM location of Massada",
+      "provenance": "OpenStreetMap (Way 32231475, version 35, osm:changeset=133210619, 2023-03-02T12:47:40Z)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/fort"
+      ],
+      "archaeologicalRemains": "substantive",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 20.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+      "featureType": [
+        "fort"
+      ],
+      "description": "Representative location based on OpenStreetMap.",
+      "created": "2018-12-13T18:37:43Z",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.3540176,
+            31.3180492
+          ],
+          [
+            35.3539594,
+            31.3180067
+          ],
+          [
+            35.3538851,
+            31.3178554
+          ],
+          [
+            35.3536671,
+            31.3178148
+          ],
+          [
+            35.3536074,
+            31.3177592
+          ],
+          [
+            35.3533108,
+            31.3177994
+          ],
+          [
+            35.353253,
+            31.3176688
+          ],
+          [
+            35.353142,
+            31.3175361
+          ],
+          [
+            35.3529702,
+            31.3173938
+          ],
+          [
+            35.3528748,
+            31.3170558
+          ],
+          [
+            35.3527555,
+            31.3168235
+          ],
+          [
+            35.3526774,
+            31.3166541
+          ],
+          [
+            35.3525521,
+            31.31649
+          ],
+          [
+            35.352642,
+            31.3163155
+          ],
+          [
+            35.3526358,
+            31.3160986
+          ],
+          [
+            35.3526239,
+            31.3160292
+          ],
+          [
+            35.3526089,
+            31.3157675
+          ],
+          [
+            35.3524499,
+            31.3154621
+          ],
+          [
+            35.3522943,
+            31.3152719
+          ],
+          [
+            35.3522089,
+            31.3150059
+          ],
+          [
+            35.3523808,
+            31.3146542
+          ],
+          [
+            35.3522724,
+            31.3145162
+          ],
+          [
+            35.3524397,
+            31.3141289
+          ],
+          [
+            35.3525025,
+            31.3137203
+          ],
+          [
+            35.3526335,
+            31.3134422
+          ],
+          [
+            35.3526329,
+            31.3131718
+          ],
+          [
+            35.3526021,
+            31.3130661
+          ],
+          [
+            35.3526211,
+            31.3129579
+          ],
+          [
+            35.3526214,
+            31.3129023
+          ],
+          [
+            35.3525108,
+            31.3128223
+          ],
+          [
+            35.3525102,
+            31.3126849
+          ],
+          [
+            35.3526021,
+            31.3125714
+          ],
+          [
+            35.3528079,
+            31.3126288
+          ],
+          [
+            35.3528562,
+            31.3127445
+          ],
+          [
+            35.3530818,
+            31.3128571
+          ],
+          [
+            35.3533812,
+            31.3131124
+          ],
+          [
+            35.3536323,
+            31.3132782
+          ],
+          [
+            35.3538288,
+            31.313477
+          ],
+          [
+            35.3540609,
+            31.31354
+          ],
+          [
+            35.3544229,
+            31.3139181
+          ],
+          [
+            35.3550559,
+            31.3148256
+          ],
+          [
+            35.3552482,
+            31.3151793
+          ],
+          [
+            35.3552705,
+            31.315513
+          ],
+          [
+            35.355115,
+            31.3163219
+          ],
+          [
+            35.3549583,
+            31.3164486
+          ],
+          [
+            35.3548051,
+            31.3165707
+          ],
+          [
+            35.3547537,
+            31.3166394
+          ],
+          [
+            35.3546087,
+            31.3168301
+          ],
+          [
+            35.3545845,
+            31.3169859
+          ],
+          [
+            35.3546085,
+            31.3171281
+          ],
+          [
+            35.354532,
+            31.3173203
+          ],
+          [
+            35.3544897,
+            31.3176919
+          ],
+          [
+            35.3544805,
+            31.3179139
+          ],
+          [
+            35.3543512,
+            31.3180677
+          ],
+          [
+            35.3543569,
+            31.3180952
+          ],
+          [
+            35.3543768,
+            31.3182177
+          ],
+          [
+            35.3544297,
+            31.3183435
+          ],
+          [
+            35.3544743,
+            31.3183999
+          ],
+          [
+            35.3544786,
+            31.3184488
+          ],
+          [
+            35.3544659,
+            31.3184707
+          ],
+          [
+            35.3544918,
+            31.3185944
+          ],
+          [
+            35.3544911,
+            31.3186325
+          ],
+          [
+            35.3544561,
+            31.3186335
+          ],
+          [
+            35.3544543,
+            31.3186965
+          ],
+          [
+            35.3543603,
+            31.3186988
+          ],
+          [
+            35.3543556,
+            31.3186139
+          ],
+          [
+            35.3543393,
+            31.3186146
+          ],
+          [
+            35.3543383,
+            31.3185998
+          ],
+          [
+            35.354298,
+            31.3185596
+          ],
+          [
+            35.3542697,
+            31.3185004
+          ],
+          [
+            35.3542477,
+            31.3183526
+          ],
+          [
+            35.3542412,
+            31.3182759
+          ],
+          [
+            35.3541788,
+            31.318229
+          ],
+          [
+            35.3541652,
+            31.3181927
+          ],
+          [
+            35.3541326,
+            31.3181113
+          ],
+          [
+            35.3541308,
+            31.3181075
+          ],
+          [
+            35.3540176,
+            31.3180492
+          ]
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/687968/osm-location-of-massada",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "comment": "Reimported full way geometry and updated provenance",
+          "modifiedBy": "jbecker",
+          "modified": "2023-05-20T04:13:33Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2019-03-01T22:11:45Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2018-12-13T18:38:21Z"
+        },
+        {
+          "comment": "added OSM location",
+          "modifiedBy": "jbecker",
+          "modified": "2018-12-13T18:38:14Z"
+        },
+        {
+          "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+          "modifiedBy": "jbecker",
+          "modified": "2018-12-13T18:37:44Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2018-12-13T18:37:43Z"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "end": null,
+      "description": "",
+      "contributors": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "created": "2016-07-13T13:38:08Z",
+      "associationCertainty": "certain",
+      "title": "Mortuum Mare/Asphaltitis L.",
+      "start": null,
+      "provenance": "Pleiades",
+      "uri": "https://pleiades.stoa.org/places/687968/697709",
+      "connectionType": "near",
+      "id": "697709",
+      "attestations": [],
+      "history": [
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "jbecker",
+          "modified": "2018-12-13T22:13:02Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2016-07-13T13:38:08Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2016-07-13T13:38:08Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2016-07-13T13:38:08Z"
+        }
+      ],
+      "connectsTo": "https://pleiades.stoa.org/places/697709",
+      "details": "",
+      "references": [],
+      "review_state": "published",
+      "creators": [
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "@type": "Connection",
+      "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/near"
+    }
+  ],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "http://openlibrary.org/works/OL8327792W",
+      "citationDetail": "70 G3 Masada",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "BAtlas",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+      "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://openlibrary.org/works/OL8327792W.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://www.jstor.org/stable/297886",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Richmond 1962",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/WW92SIZ2",
+      "formattedCitation": "<div class=\"csl-entry\">Richmond, I. A. \u201cThe Roman Siege-Works of Masada, Israel.\u201d <i>The Journal of Roman Studies</i> 52 (1962): 142\u201355. https://doi.org/10.2307/297886.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Aviram 1989",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/65FZGIU3",
+      "formattedCitation": "<div class=\"csl-entry\">J. Aviram, G. Foerster, and E. Netzer, eds. <i>Masada: The Yigael Yadin Excavations 1963-65, Final Reports</i>. Jerusalem, 1989.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/695616438",
+      "citationDetail": "3 973-85",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "NEAEHL",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/4Q6WNJMK",
+      "formattedCitation": "<div class=\"csl-entry\">S\u030ct\u0323ern, Efrayim, ed. <i>New Encyclopedia of Archaeological Excavations in the Holy Land</i>. 5 vols. Jerusalem: Simon &amp; Schuster, 1993. http://www.worldcat.org/oclc/695616438.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.trismegistos.org/place/3148",
+      "citationDetail": "GEO ID 3148: Masada (El-Sebbe)",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "TM",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+      "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+      "otherIdentifier": " ",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://whc.unesco.org/en/list/1040",
+      "citationDetail": "1040: Masada",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "WHL",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BIIFWTIR",
+      "formattedCitation": "<div class=\"csl-entry\">UNESCO World Heritage Centre. <i>World Heritage List</i>, 1978. http://whc.unesco.org/en/list/.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Masada",
+      "citationDetail": "Masada",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+      "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Masada.",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=masada",
+      "citationDetail": "MASADA Israel",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "PECS (Perseus)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PV9N7BQD",
+      "formattedCitation": "<div class=\"csl-entry\">Stillwell, Richard, William L MacDonald, and Marian Holland McAllister, eds. <i>The Princeton Encyclopedia of Classical Sites</i>. Princeton, N.J.: Princeton University Press, 1976. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:16.2.44",
+      "citationDetail": "16.2.44",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+      "shortTitle": "Str. (Meineke: Perseus)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/FEVTVBA7",
+      "formattedCitation": "<div class=\"csl-entry\">Strabo. <i>Strabonis Geographica: recognovit Augustus Meineke.</i> Edited by August Meineke. 3 in 2 vols. Lipsiae, 1877.</div>",
+      "otherIdentifier": " ",
+      "type": "citesAsEvidence"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://latin.packhum.org/loc/978/1/346/601-607",
+      "citationDetail": "5.73.11",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+      "shortTitle": "Plin., NH (Mayhoff: PHI)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8AK7HSRG",
+      "formattedCitation": "<div class=\"csl-entry\">Plinius Secundus Maior, C. <i>Naturalis Historiae</i>. Edited by Karl Friedrich Theodor Mayhoff. Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana. Lipsiae: Teubner, 1906. http://latin.packhum.org/loc/978/1/0.</div>",
+      "otherIdentifier": " ",
+      "type": "citesAsEvidence"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://www.wikidata.org/wiki/Q186312",
+      "citationDetail": "Q186312: Masada",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "Wikidata",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+      "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://darmc.harvard.edu/",
+      "citationDetail": "2470",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "DARMC",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+      "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://topostext.org/place/313354FMas",
+      "citationDetail": "Masada (Palestine)",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "ToposText",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/MC9RGDVB",
+      "formattedCitation": "Kiesling, Brady. ToposText \u2013 a Reference Tool for Greek Civilization. Version 2.0. Aikaterini Laskaridis Foundation, 2016-.",
+      "otherIdentifier": "http://atlantides.org/bibliography/",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://press.princeton.edu/books/hardcover/9780691167107/masada",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Magness 2019",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QXYBJIBM",
+      "formattedCitation": "<div class=\"csl-entry\">Magness, Jodi. <i>Masada: From Jewish Revolt to Modern Myth</i>. Princeton, N.J., U.S.A.: Princeton University Press, 2019. https://press.princeton.edu/books/hardcover/9780691167107/masada.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://vocab.getty.edu/page/tgn/7001381",
+      "citationDetail": "7001381: Masada (deserted settlement)",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "TGN",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZLJQ5AZJ",
+      "formattedCitation": "<div class=\"csl-entry\"><i>Getty Thesaurus of Geographic Names\u00ae Online</i>, n.d. https://www.getty.edu/research/tools/vocabularies/tgn/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Masada",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://latin.packhum.org/loc/978/1/346/601-607",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "Plin. HN 5.73.11",
+          "otherIdentifier": " ",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "masada",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        },
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 70 G3 Masada",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "la",
+      "created": "2009-09-17T12:33:35Z",
+      "uri": "https://pleiades.stoa.org/places/687968/masada",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "attested": "Masada",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "attested",
+          "modifiedBy": "thomase",
+          "modified": "2019-03-01T22:15:01Z"
+        },
+        {
+          "comment": "added reference",
+          "modifiedBy": "jbecker",
+          "modified": "2015-02-15T04:45:10Z"
+        },
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:55:32Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:47:52Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:04:18Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T12:33:35Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Mezada",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "mezada",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 70 G3 Masada",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-17T12:33:35Z",
+      "uri": "https://pleiades.stoa.org/places/687968/mezada",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:55:32Z"
+        },
+        {
+          "comment": "Time periods copied from sibling. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+          "modifiedBy": "sgillies",
+          "modified": "2011-01-20T03:27:47Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:47:52Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:04:18Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T12:33:36Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Moasada",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:16.2.44",
+          "citationDetail": "16.2.44",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+          "shortTitle": "Str. (Meineke: Perseus)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/FEVTVBA7",
+          "formattedCitation": "<div class=\"csl-entry\">Strabo. <i>Strabonis Geographica: recognovit Augugtus Meineke.</i> Edited by August Meineke. 3 in 2 vols. Lipsiae, 1877.</div>",
+          "otherIdentifier": " ",
+          "type": "citesAsEvidence"
+        }
+      ],
+      "id": "moasada",
+      "end": 300,
+      "contributors": [
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+      ],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "grc",
+      "created": "2015-03-06T05:20:56Z",
+      "uri": "https://pleiades.stoa.org/places/687968/moasada",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "attested": "\u039c\u03bf\u03b1\u03c3\u03ac\u03b4\u03b1",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2019-03-01T22:13:09Z"
+        },
+        {
+          "comment": "fixed strabo reference formatting",
+          "modifiedBy": "thomase",
+          "modified": "2019-03-01T22:13:02Z"
+        },
+        {
+          "comment": "reference",
+          "modifiedBy": "jbecker",
+          "modified": "2017-12-09T04:46:27Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2015-03-06T05:22:02Z"
+        },
+        {
+          "comment": "added name",
+          "modifiedBy": "jbecker",
+          "modified": "2015-03-06T05:21:15Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2015-03-06T05:21:01Z"
+        }
+      ]
+    }
+  ],
+  "id": "687968",
+  "subject": [
+    "dare:major=0",
+    "UWHS",
+    "fortification",
+    "extant remains",
+    "dare:feature=fort",
+    "dare:ancient=1"
+  ],
+  "title": "Masada",
+  "provenance": "Barrington Atlas: BAtlas 70 G3 Masada",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/fort"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: Es Sebbe</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "Masada is a natural fortress in the Iudaean desert that overlooks the Dead Sea. It was the site of the standoff between Jewish rebels and the Roman army in A.D. 73. Herod the Great built a palace atop the citadel during his reign. Roman camps and siege works are still visible at the site, which is listed on the UNESCO World Heritage List.",
+  "reprPoint": [
+    35.35371358564211,
+    31.316363366337413
+  ],
+  "placeTypes": [
+    "fort"
+  ],
+  "bbox": [
+    35.3522089,
+    31.3125714,
+    35.3552705,
+    31.3186988
+  ],
+  "connectsWith": [
+    "https://pleiades.stoa.org/places/697709",
+    "https://pleiades.stoa.org/places/886501855",
+    "https://pleiades.stoa.org/places/426375172",
+    "https://pleiades.stoa.org/places/89429547"
+  ],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2018-06-07T22:56:20Z",
+  "uri": "https://pleiades.stoa.org/places/687968",
+  "creators": [
+    {
+      "username": null,
+      "name": "B. Isaac"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "add TGN 7001381: Masada (deserted settlement)",
+      "modifiedBy": "jbecker",
+      "modified": "2023-05-20T04:18:10Z"
+    },
+    {
+      "comment": "update references",
+      "modifiedBy": "jbecker",
+      "modified": "2023-05-20T04:16:34Z"
+    },
+    {
+      "comment": "reference",
+      "modifiedBy": "jbecker",
+      "modified": "2019-11-22T01:46:31Z"
+    },
+    {
+      "comment": "references",
+      "modifiedBy": "jbecker",
+      "modified": "2018-12-13T18:39:59Z"
+    },
+    {
+      "comment": "add ToposText reference provided by bkiesling",
+      "modifiedBy": "admin",
+      "modified": "2018-06-07T22:56:24Z"
+    },
+    {
+      "comment": "Baseline created",
+      "modifiedBy": "admin",
+      "modified": "2018-06-07T22:56:17Z"
+    },
+    {
+      "comment": "darmc 2470",
+      "modifiedBy": "jbecker",
+      "modified": "2017-12-09T04:49:53Z"
+    },
+    {
+      "comment": "wikidata Q186312",
+      "modifiedBy": "jbecker",
+      "modified": "2017-12-09T04:48:18Z"
+    },
+    {
+      "comment": "references",
+      "modifiedBy": "jbecker",
+      "modified": "2017-12-09T04:45:34Z"
+    },
+    {
+      "comment": "Edited",
+      "modifiedBy": "jbecker",
+      "modified": "2017-02-13T19:24:10Z"
+    },
+    {
+      "comment": "Edited",
+      "modifiedBy": "jbecker",
+      "modified": "2016-09-02T12:52:21Z"
+    },
+    {
+      "comment": "added references",
+      "modifiedBy": "jbecker",
+      "modified": "2015-02-15T04:44:00Z"
+    },
+    {
+      "comment": "edited description; added references",
+      "modifiedBy": "jbecker",
+      "modified": "2013-04-21T00:32:25Z"
+    },
+    {
+      "comment": "added UWHS",
+      "modifiedBy": "jbecker",
+      "modified": "2012-11-30T18:48:15Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T20:13:44Z"
+    },
+    {
+      "comment": "Trismegistos references from Adam Prins et al (adamp, Mark Depauw, Herbert Verreth, Jen Thum) and reviewd by Tom Elliott (thomase) in May 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-05-03T17:25:44Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:55:31Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T21:51:46Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-09T18:50:05Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-17T13:47:52Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T13:04:18Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T12:33:35Z"
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.399444,
+          28.883333
+        ]
+      },
+      "type": "Feature",
+      "id": "osm-location-of-wadi-haggag",
+      "properties": {
+        "snippet": "Station; 330 BC - AD 300",
+        "link": "https://pleiades.stoa.org/places/746833/osm-location-of-wadi-haggag",
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Wadi Haggag"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": null,
+      "name": "DARMC"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://www.openstreetmap.org/browse/node/767997480",
+          "citationDetail": "Node 767997480",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "OSM",
+          "bibliographicURI": "",
+          "formattedCitation": "osm:node=767997480",
+          "otherIdentifier": "",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "osm-location-of-wadi-haggag",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/station"
+      ],
+      "end": 300,
+      "title": "OSM location of Wadi Haggag",
+      "provenance": "OpenStreetMap (Node 767997480, version 2, osm:changeset=16913315, 2013-07-11T13:21:39Z)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/station"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 20.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+      "featureType": [
+        "station"
+      ],
+      "description": "Representative location based on OpenStreetMap.",
+      "created": "2019-08-17T15:59:32Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.399444,
+          28.883333
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/746833/osm-location-of-wadi-haggag",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2019-08-19T19:49:03Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2019-08-17T16:00:24Z"
+        },
+        {
+          "comment": "added OSM location",
+          "modifiedBy": "jbecker",
+          "modified": "2019-08-17T16:00:06Z"
+        },
+        {
+          "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+          "modifiedBy": "jbecker",
+          "modified": "2019-08-17T15:59:33Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2019-08-17T15:59:32Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "http://openlibrary.org/works/OL8327792W",
+      "formattedCitation": "BAtlas 76 E4 Wadi Haggag",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/3590795",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Negev 1977",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MMZ55GAS",
+      "formattedCitation": "<div class=\"csl-entry\">Negev, Avraham. <i>The Inscriptions of Wadi Haggag, Sinai</i>. Qedem 6. Jerusalem: Israel Exploration Society distributor; Universitah ha-\u201cIvrit bi-Yerushalayim: Makhon le-arkhe\u201dologyah, 1977. http://www.worldcat.org/oclc/3590795.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "257",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "TIR Iudaea",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8GF4B886",
+      "formattedCitation": "<div class=\"csl-entry\">Tsafrir, Yoram, L Di Segni, and Judith Green. <i>Tabula Imperii Romani: Iudaea - Palaestina</i>. Jerusalem: Israel Academy of Sciences and Humanities; Akademyah ha-le\u2019umit ha-Yi\u0161re\u2019elit le-mada\u201cim; Agudah le-seker arkhe\u201dologi shel Yi\u0161ra\u2019el; Israel: Agaf ha-medidot, 1994.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://darmc.harvard.edu/",
+      "citationDetail": "19702",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "DARMC",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+      "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    }
+  ],
+  "names": [],
+  "id": "746833",
+  "subject": [
+    "dare:major=0",
+    "dare:ancient=0",
+    "dare:feature=station",
+    "inscription"
+  ],
+  "title": "Wadi Haggag",
+  "provenance": "Barrington Atlas: BAtlas 76 E4 Wadi Haggag",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/station"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: Wadi Haggag A. Negev has published more than 260 Greek and Nabataean inscriptions from Wadi Haggag.</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "Wadi Haggag or the \"Ravine of the Pilgrims\" is located in the central, northeastern Sinai. It lies along one of the major roads leading from the Gulf of Elath to the monastery of St. Catherine and to Gebl Musa.",
+  "reprPoint": [
+    34.399444,
+    28.883333
+  ],
+  "placeTypes": [
+    "station"
+  ],
+  "bbox": [
+    34.399444,
+    28.883333,
+    34.399444,
+    28.883333
+  ],
+  "connectsWith": [],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2009-09-22T08:53:55Z",
+  "uri": "https://pleiades.stoa.org/places/746833",
+  "creators": [
+    {
+      "username": null,
+      "name": "D.F. Graf"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "added DARMC reference to maintain linkage after retracting inaccurate location",
+      "modifiedBy": "thomase",
+      "modified": "2019-08-19T19:49:58Z"
+    },
+    {
+      "comment": "summary",
+      "modifiedBy": "jbecker",
+      "modified": "2019-08-17T15:58:50Z"
+    },
+    {
+      "comment": "Initial revision",
+      "modifiedBy": "jbecker",
+      "modified": "2017-01-04T14:16:37Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T20:28:39Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T08:18:28Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T22:36:18Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-09T23:47:46Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-22T15:38:02Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-22T09:14:39Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-22T08:53:55Z"
+    }
+  ]
+}

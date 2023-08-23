@@ -1,0 +1,394 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1255017,
+          31.2799119
+        ]
+      },
+      "type": "Feature",
+      "id": "location-of-tel-arad",
+      "properties": {
+        "snippet": "Settlement, ; 4000 BC - AD 640",
+        "link": "https://pleiades.stoa.org/places/87764825/location-of-tel-arad",
+        "description": "Representative ocation based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Tel Arad"
+      }
+    }
+  ],
+  "contributors": [],
+  "locations": [
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "4th-millenium-bce",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/4th-millenium-bce",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "3rd-millennium-bc",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/3rd-millennium-bc",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "2nd-millenium-bce",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/2nd-millenium-bce",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "archaic",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/archaic",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "classical",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "hellenistic-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.openstreetmap.org/browse/node/278473085",
+          "citationDetail": "Node 278473085",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "OSM",
+          "bibliographicURI": "",
+          "formattedCitation": "osm:node=278473085",
+          "otherIdentifier": " ",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "location-of-tel-arad",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+        "https://pleiades.stoa.org/vocabularies/place-types/"
+      ],
+      "end": 640,
+      "title": "OSM location of Tel Arad",
+      "provenance": "OpenStreetMap (Node 278473085, version 5, osm:changeset=6569818, 2010-12-06T22:38:42Z)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -4000,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+        "https://pleiades.stoa.org/vocabularies/place-types/"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 20.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+      "featureType": [
+        "settlement",
+        ""
+      ],
+      "description": "Representative ocation based on OpenStreetMap.",
+      "created": "2013-08-03T19:26:53Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1255017,
+          31.2799119
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/87764825/location-of-tel-arad",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "jbecker",
+          "modified": "2016-02-06T21:52:36Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "jbecker",
+          "modified": "2016-02-06T21:51:54Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2013-11-14T13:40:21Z"
+        },
+        {
+          "comment": "added location",
+          "modifiedBy": "jbecker",
+          "modified": "2013-08-03T19:28:23Z"
+        },
+        {
+          "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+          "modifiedBy": "jbecker",
+          "modified": "2013-08-03T19:26:57Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2013-08-03T19:26:55Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Tel_Arad",
+      "citationDetail": "Tel Arad",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+      "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Tel Arad.",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0006%3Aalphabetic+letter%3DA%3Aentry+group%3D8%3Aentry%3Darad",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "PECS (Perseus), ARAD Israel",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "less-certain",
+      "romanized": "Beit Yahweh",
+      "attestations": [
+        {
+          "timePeriod": "iron-age-southern-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/iron-age-southern-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://digitool.haifa.ac.il/R/2TRUEI9RLTUUGE75EQ8ACS3RVXJNGITPREK2YQGGNV61M2TRMS-00814?func=search-simple-go&local_base=GEN01&find_code=WTI&request=%D7%9E%D7%9B%D7%AA%D7%91%20%D7%9C%D7%90%D7%9C%D7%99%D7%A9%D7%99%D7%91%20%D7%91%D7%95%20%D7%A0%D7%96%D7%9B%D",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "Qadmoniot 3, 103.",
+          "otherIdentifier": " ",
+          "type": "citesAsEvidence"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://he.wikipedia.org/wiki/%D7%9E%D7%9B%D7%AA%D7%91%D7%99_%D7%A2%D7%A8%D7%93",
+          "citationDetail": "\u05de\u05db\u05ea\u05d1\u05d9 \u05e2\u05e8\u05d3",
+          "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+          "shortTitle": "Wikipedia (Hebrew)",
+          "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/SMNW5UAT",
+          "formattedCitation": "\u05d5\u05d9\u05e7\u05d9\u05e4\u05d3\u05d9\u05d4, \u05d4\u05d0\u05d9\u05e0\u05e6\u05d9\u05e7\u05dc\u05d5\u05e4\u05d3\u05d9\u05d4 \u05d4\u05d7\u05d5\u05e4\u05e9\u05d9\u05ea (2001-), \u05de\u05db\u05ea\u05d1\u05d9 \u05e2\u05e8\u05d3.",
+          "otherIdentifier": " ",
+          "type": "seeAlso"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.jstor.org/discover/10.2307/27925035?uid=2&uid=4&sid=21103204986153",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "Aharoni, Y. 1968. \"Hebrew Ostraca from Tel Arad.\" Israel Exploration Journal 16.1:1-7.",
+          "otherIdentifier": " ",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "name.2013-12-13.1954754348",
+      "end": -550,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/less-certain",
+      "start": -1200,
+      "details": "",
+      "review_state": "published",
+      "description": "A Hebrew ostracon found at Tel Arad refers to the \"House of Yahweh,\" which might refer to the name of the settlement, if not the temple on the site.",
+      "transcriptionCompleteness": "complete",
+      "language": "hbo",
+      "created": "2013-12-13T10:27:46Z",
+      "uri": "https://pleiades.stoa.org/places/87764825/name.2013-12-13.1954754348",
+      "creators": [
+        {
+          "username": "nkaye",
+          "homepage": null,
+          "name": "Noah Kaye",
+          "uri": "https://pleiades.stoa.org/author/nkaye"
+        }
+      ],
+      "attested": "\u05d1\u05d9\u05ea \u05d9\u05d4\u05d5\u05d4",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "jbecker",
+          "modified": "2016-02-06T21:52:28Z"
+        },
+        {
+          "comment": "edited references",
+          "modifiedBy": "jbecker",
+          "modified": "2015-09-12T22:40:05Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "nkaye",
+          "modified": "2013-12-13T14:50:06Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "nkaye",
+          "modified": "2013-12-13T14:49:46Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "nkaye",
+          "modified": "2013-12-13T14:38:42Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "nkaye",
+          "modified": "2013-12-13T14:37:02Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "nkaye",
+          "modified": "2013-12-13T14:35:38Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "nkaye",
+          "modified": "2013-12-13T10:31:22Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "nkaye",
+          "modified": "2013-12-13T10:27:52Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "nkaye",
+          "modified": "2013-12-13T10:27:49Z"
+        }
+      ]
+    }
+  ],
+  "id": "87764825",
+  "subject": [],
+  "title": "Tel Arad",
+  "provenance": "Pleiades",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+  ],
+  "details": "",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "A multi-period settlement with occupation stretching from the Chalcolithic period to the second century A.D.",
+  "reprPoint": [
+    35.1255017,
+    31.2799119
+  ],
+  "placeTypes": [
+    "settlement"
+  ],
+  "bbox": [
+    35.1255017,
+    31.2799119,
+    35.1255017,
+    31.2799119
+  ],
+  "connectsWith": [],
+  "rights": "Copyright \u00a9 The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2013-08-03T19:25:33Z",
+  "uri": "https://pleiades.stoa.org/places/87764825",
+  "creators": [
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    },
+    {
+      "username": "nkaye",
+      "homepage": null,
+      "name": "Noah Kaye",
+      "uri": "https://pleiades.stoa.org/author/nkaye"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "action": "Publish externally",
+      "modifiedBy": "jbecker",
+      "modified": "2016-02-06T21:52:11Z"
+    },
+    {
+      "comment": "Edited",
+      "modifiedBy": "jbecker",
+      "modified": "2016-02-06T21:51:17Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "jbecker",
+      "modified": "2013-11-14T13:40:04Z"
+    },
+    {
+      "comment": "created place",
+      "modifiedBy": "jbecker",
+      "modified": "2013-08-03T19:25:38Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "jbecker",
+      "modified": "2013-08-03T19:25:34Z"
+    }
+  ]
+}

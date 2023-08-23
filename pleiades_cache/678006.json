@@ -1,0 +1,496 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7,
+          33.0
+        ]
+      },
+      "type": "Feature",
+      "id": "ahmadiya-ahmadiyye",
+      "properties": {
+        "snippet": "Settlement, ; 30 BC - AD 640",
+        "link": "https://pleiades.stoa.org/places/678006/ahmadiya-ahmadiyye",
+        "description": "Representative location based on Tabula Imperii Romani.",
+        "location_precision": "precise",
+        "title": "Tabula Imperii Romani location of Ahmadiya (Ahmadiyye)"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": null,
+      "name": "DARMC"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "rmhorne",
+      "homepage": null,
+      "name": "Ryan Horne",
+      "uri": "https://pleiades.stoa.org/author/rmhorne"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    },
+    {
+      "username": "sbond",
+      "homepage": null,
+      "name": "Sarah Bond",
+      "uri": "https://pleiades.stoa.org/author/sbond"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [
+        {
+          "username": "rmhorne",
+          "homepage": null,
+          "name": "Ryan Horne",
+          "uri": "https://pleiades.stoa.org/author/rmhorne"
+        }
+      ],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://library.brown.edu/cds/projects/iip/viewinscr_zotero/ahma0001/",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "Inscriptions of Israel/Palestine: AHMA0001",
+          "otherIdentifier": " ",
+          "type": "citesAsEvidence"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "",
+          "bibliographicURI": "http://atlantides.org/bibliography/",
+          "formattedCitation": "TIR Iudaea 216267",
+          "otherIdentifier": " ",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "http://library.brown.edu/cds/projects/iip/viewinscr_zotero/ahma0002/",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "Inscriptions of Israel/Palestine: AHMA0002",
+          "otherIdentifier": " ",
+          "type": "citesAsEvidence"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "http://library.brown.edu/cds/projects/iip/viewinscr_zotero/ahma0003/",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "Inscriptions of Israel/Palestine: AHMA0003",
+          "otherIdentifier": " ",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "ahmadiya-ahmadiyye",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+        "https://pleiades.stoa.org/vocabularies/place-types/"
+      ],
+      "end": 640,
+      "title": "Tabula Imperii Romani location of Ahmadiya (Ahmadiyye)",
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+        "https://pleiades.stoa.org/vocabularies/place-types/"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 203.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/generic-map-scale-1-400-000",
+      "featureType": [
+        "settlement",
+        ""
+      ],
+      "description": "Representative location based on Tabula Imperii Romani.",
+      "created": "2015-08-04T18:46:06Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7,
+          33.0
+        ]
+      },
+      "locationType": [
+        "representative",
+        ""
+      ],
+      "uri": "https://pleiades.stoa.org/places/678006/ahmadiya-ahmadiyye",
+      "creators": [
+        {
+          "username": "sbond",
+          "homepage": null,
+          "name": "Sarah Bond",
+          "uri": "https://pleiades.stoa.org/author/sbond"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "rmhorne",
+          "modified": "2016-08-19T16:21:32Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "rmhorne",
+          "modified": "2016-08-04T16:14:08Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "rmhorne",
+          "modified": "2016-08-04T16:13:43Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "rmhorne",
+          "modified": "2016-08-04T16:04:47Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "rmhorne",
+          "modified": "2016-08-04T16:01:36Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "rmhorne",
+          "modified": "2016-08-04T15:48:24Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "rmhorne",
+          "modified": "2016-08-04T15:46:11Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "rmhorne",
+          "modified": "2016-08-04T15:41:33Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "rmhorne",
+          "modified": "2016-08-04T15:34:48Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "rmhorne",
+          "modified": "2016-08-01T16:24:12Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sbond",
+          "modified": "2015-08-04T19:03:08Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "sbond",
+          "modified": "2015-08-04T19:02:59Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "sbond",
+          "modified": "2015-08-04T19:02:14Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "sbond",
+          "modified": "2015-08-04T18:59:21Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "sbond",
+          "modified": "2015-08-04T18:46:14Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sbond",
+          "modified": "2015-08-04T18:46:09Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "http://openlibrary.org/works/OL8327792W",
+      "citationDetail": "69 C4 Ahmadiya",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "BAtlas",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+      "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://openlibrary.org/works/OL8327792W.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "59",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "TIR Iudaea",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8GF4B886",
+      "formattedCitation": "<div class=\"csl-entry\">Tsafrir, Yoram, L Di Segni, and Judith Green. <i>Tabula Imperii Romani: Iudaea - Palaestina</i>. Jerusalem: Israel Academy of Sciences and Humanities; Akademyah ha-le\u2019umit ha-Yi\u0161re\u2019elit le-mada\u2018im; Agudah le-seker arkhe\u2019ologi shel Yi\u0161ra\u2019el; Israel: Agaf ha-medidot, 1994.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/31207400",
+      "citationDetail": "455-461",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Urman 1995",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/B6T44QTQ",
+      "formattedCitation": "<div class=\"csl-entry\">Urman, D. \u201cPublic Structures and Jewish Communities in the Golan Heights.\u201d In <i>Ancient Synagogues: Historical Analysis and Archaeological Discovery</i>, 2:373\u2013618. Leiden; New York: Brill, 1995, pp. 455-461.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://darmc.harvard.edu/",
+      "citationDetail": "11220",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "DARMC",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+      "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Ahmadiya",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://openlibrary.org/works/OL8327792W",
+          "citationDetail": "69 C4 Ahmadiya",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "BAtlas",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+          "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. See: 69 C4 Ahmadiya</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "ahmadiya",
+      "end": 2100,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "en",
+      "created": "2018-02-07T20:05:19Z",
+      "uri": "https://pleiades.stoa.org/places/678006/ahmadiya",
+      "creators": [
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+      ],
+      "attested": "Ahmadiya",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "jbecker",
+          "modified": "2018-09-08T15:20:54Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "thomase",
+          "modified": "2018-02-07T20:10:24Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "thomase",
+          "modified": "2018-02-07T20:10:07Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "thomase",
+          "modified": "2018-02-07T20:05:20Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "thomase",
+          "modified": "2018-02-07T20:05:19Z"
+        }
+      ]
+    }
+  ],
+  "id": "678006",
+  "subject": [
+    "dare:major=0",
+    "dare:ancient=0",
+    "dare:feature=settlement"
+  ],
+  "title": "Ahmadiya",
+  "provenance": "Barrington Atlas: BAtlas 69 C4 Ahmadiya",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: Ahmadiya, WBK</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "Remains of an ancient village in the Golan that produced Greek and Hebrew Inscriptions probably associated with a synagogue. The site is described by Urman et al. as occupying \"two low hills near a group of springs about two kilometers northeast of Qas\u0323rin.\"",
+  "reprPoint": [
+    35.7,
+    33.0
+  ],
+  "placeTypes": [
+    "settlement"
+  ],
+  "bbox": [
+    35.7,
+    33.0,
+    35.7,
+    33.0
+  ],
+  "connectsWith": [
+    "https://pleiades.stoa.org/places/794388243"
+  ],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2018-02-07T19:50:25Z",
+  "uri": "https://pleiades.stoa.org/places/678006",
+  "creators": [
+    {
+      "username": null,
+      "name": "E.M. Meyers"
+    },
+    {
+      "username": null,
+      "name": "J.P. Brown"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "references",
+      "modifiedBy": "jbecker",
+      "modified": "2018-09-08T15:22:54Z"
+    },
+    {
+      "comment": "check in of working copy",
+      "modifiedBy": "jbecker",
+      "modified": "2018-09-08T15:21:38Z"
+    },
+    {
+      "comment": "Baseline created",
+      "modifiedBy": "thomase",
+      "modified": "2018-02-07T19:50:20Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T23:10:35Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:47:31Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T22:09:39Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-09T20:38:33Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-16T20:42:28Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:19:14Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T19:59:52Z"
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3896182,
+          32.6871101
+        ]
+      },
+      "type": "Feature",
+      "id": "osm-location-of-mount-tabor",
+      "properties": {
+        "snippet": "Mountain; AD 1700 - AD 2100",
+        "link": "https://pleiades.stoa.org/places/678419/osm-location-of-mount-tabor",
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Mount Tabor"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://www.openstreetmap.org/browse/node/3663541539",
+          "citationDetail": "Node 3663541539",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "OSM",
+          "bibliographicURI": "",
+          "formattedCitation": "osm:node=3663541539",
+          "otherIdentifier": "",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "osm-location-of-mount-tabor",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/mountain"
+      ],
+      "end": 2100,
+      "title": "OSM location of Mount Tabor",
+      "provenance": "OpenStreetMap (Node 3663541539, version 7, osm:changeset=61966848, 2018-08-24T18:14:00Z)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/mountain"
+      ],
+      "archaeologicalRemains": "notapplicable",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 20.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+      "featureType": [
+        "mountain"
+      ],
+      "description": "Representative location based on OpenStreetMap.",
+      "created": "2019-01-30T18:49:27Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3896182,
+          32.6871101
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/678419/osm-location-of-mount-tabor",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2019-02-01T20:23:13Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2019-01-30T18:50:05Z"
+        },
+        {
+          "comment": "added OSM location",
+          "modifiedBy": "jbecker",
+          "modified": "2019-01-30T18:49:52Z"
+        },
+        {
+          "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+          "modifiedBy": "jbecker",
+          "modified": "2019-01-30T18:49:28Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2019-01-30T18:49:27Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "http://openlibrary.org/works/OL8327792W",
+      "formattedCitation": "BAtlas 69 B4 Thabor M.",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "246-47",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "TIR Iudaea",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8GF4B886",
+      "formattedCitation": "<div class=\"csl-entry\">Tsafrir, Yoram, L Di Segni, and Judith Green. <i>Tabula Imperii Romani: Iudaea - Palaestina</i>. Jerusalem: Israel Academy of Sciences and Humanities; Akademyah ha-le\u2019umit ha-Yi\u0161re\u2019elit le-mada\u2018im; Agudah le-seker arkhe\u2019ologi shel Yi\u0161ra\u2019el; Israel: Agaf ha-medidot, 1994.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Mount_Tabor",
+      "citationDetail": "Mount Tabor",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+      "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://www.trismegistos.org/place/37136",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "TM GEO ID 37136",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.geonames.org/293418/mount-tabor.html",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "GeoNames 293418",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Thabor",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "Thabor-M",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 69 B4 Thabor M.",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-16T20:05:54Z",
+      "uri": "https://pleiades.stoa.org/places/678419/Thabor-M",
+      "creators": [
+        {
+          "username": null,
+          "name": "J.P. Brown"
+        },
+        {
+          "username": null,
+          "name": "E.M. Meyers"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "programmatically changing titles, summaries, name languages, and romanized/attested forms as part of site-wide cleanup of mountains imported from the Barrington Atlas",
+          "modifiedBy": "admin",
+          "modified": "2021-03-01T22:40:40Z"
+        },
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:52:11Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-16T20:43:50Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:20:12Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:05:54Z"
+        }
+      ]
+    }
+  ],
+  "id": "678419",
+  "subject": [],
+  "title": "Thabor (mountain)",
+  "provenance": "Barrington Atlas: BAtlas 69 B4 Thabor M.",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/mountain"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: Tabor ISR</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "Mount Tabor is located in the Lower Galilee at the eastern end of the Jezreel Valley, approximately 18 km west of the Sea of Galilee.",
+  "reprPoint": [
+    35.3896182,
+    32.6871101
+  ],
+  "placeTypes": [
+    "mountain"
+  ],
+  "bbox": [
+    35.3896182,
+    32.6871101,
+    35.3896182,
+    32.6871101
+  ],
+  "connectsWith": [],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2009-09-16T20:05:54Z",
+  "uri": "https://pleiades.stoa.org/places/678419",
+  "creators": [
+    {
+      "username": null,
+      "name": "E.M. Meyers"
+    },
+    {
+      "username": null,
+      "name": "J.P. Brown"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "title",
+      "modifiedBy": "thomase",
+      "modified": "2019-02-01T20:22:58Z"
+    },
+    {
+      "comment": "summary, references",
+      "modifiedBy": "jbecker",
+      "modified": "2019-01-30T18:54:34Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:52:10Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T22:12:38Z"
+    },
+    {
+      "comment": "Finding mountains by their titles and setting feature types",
+      "modifiedBy": "sgillies",
+      "modified": "2011-07-18T21:53:03Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-16T20:43:50Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:20:11Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:05:54Z"
+    }
+  ]
+}

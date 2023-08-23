@@ -1,0 +1,386 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.489119,
+          30.627038
+        ]
+      },
+      "type": "Feature",
+      "id": "darmc-location-19415",
+      "properties": {
+        "snippet": "Unknown; 30 BC - AD 640",
+        "link": "https://pleiades.stoa.org/places/697726/darmc-location-19415",
+        "description": "500K scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 19415"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": null,
+      "name": "DARMC"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [
+        {
+          "username": null,
+          "name": "DARMC, R. Talbert, T. Elliott, S. Gillies"
+        }
+      ],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://darmc.harvard.edu/",
+          "citationDetail": "19415",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "DARMC",
+          "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+          "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 19415.",
+          "otherIdentifier": " ",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "darmc-location-19415",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+      ],
+      "end": 640,
+      "title": "DARMC location 19415",
+      "provenance": "DARMC OBJECTID: 19415",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "DARMC OBJECTID: 19415",
+      "review_state": "published",
+      "accuracy_value": 10.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/darmc-a",
+      "featureType": [
+        "unknown"
+      ],
+      "description": "500K scale point location",
+      "created": "2011-03-09T23:37:43Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.489119,
+          30.627038
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/697726/darmc-location-19415",
+      "creators": [
+        {
+          "username": null,
+          "name": "S.T. Parker"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T08:00:50Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2011-03-10T05:13:17Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-09T23:37:44Z"
+        },
+        {
+          "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-09T23:37:44Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-09T23:37:43Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "http://openlibrary.org/works/OL8327792W",
+      "formattedCitation": "BAtlas 71 A4 Phaino",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Hauptmann 1992",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/3TFMQ2V9",
+      "formattedCitation": "<div class=\"csl-entry\">Hauptmann, A., and G. Weisgerber. \u201cPeriods of Ore Exploitation and Metal Production in the Area of Feinan, Wadi \u2019Araba, Jordan.\u201d In <i>Studies in the History and Archaeology of Jordan 4</i>, 61\u201366. Amman, 1992.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://www.tandfonline.com/doi/abs/10.1179/lev.1999.31.1.255",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Barker 1999",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BDUIUJZK",
+      "formattedCitation": "<div class=\"csl-entry\">Barker, G.W., R. Adams, O.H. Creighton, D. Crook, D.D. Gilbertson, and J.P. Grattan. \u201cEnvironment and Land Use in the Wadi Faynan, Southern Jordan: The Third Season of Geoarchaeology and Landscape Archaeology (1998).\u201d <i>Levant</i> 31 (1999): 255\u201392. https://doi.org/https://doi.org/10.1179/lev.1999.31.1.255.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Phaino",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "phaino",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 71 A4 Phaino",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-17T13:19:51Z",
+      "uri": "https://pleiades.stoa.org/places/697726/phaino",
+      "creators": [
+        {
+          "username": null,
+          "name": "S.T. Parker"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T08:00:50Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:50:21Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:33:14Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:19:52Z"
+        }
+      ]
+    }
+  ],
+  "id": "697726",
+  "subject": [
+    "dare:ancient=1",
+    "copper",
+    "dare:feature=major settlement",
+    "dare:major=1"
+  ],
+  "title": "Phaino",
+  "provenance": "Barrington Atlas: BAtlas 71 A4 Phaino",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+    "https://pleiades.stoa.org/vocabularies/place-types/mine-2"
+  ],
+  "details": "The Barrington Atlas notes material(s): Cu",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "An ancient place, cited: BAtlas 71 A4 Phaino",
+  "reprPoint": [
+    35.489119,
+    30.627038
+  ],
+  "placeTypes": [
+    "settlement",
+    "mine-2"
+  ],
+  "bbox": [
+    35.489119,
+    30.627038,
+    35.489119,
+    30.627038
+  ],
+  "connectsWith": [],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2009-09-17T13:19:51Z",
+  "uri": "https://pleiades.stoa.org/places/697726",
+  "creators": [
+    {
+      "username": null,
+      "name": "S.T. Parker"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "updates",
+      "modifiedBy": "jbecker",
+      "modified": "2021-02-10T15:47:31Z"
+    },
+    {
+      "comment": "DARE feature tag fix.",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-23T19:33:33Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T20:17:35Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T08:00:49Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T22:06:34Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-09T23:37:44Z"
+    },
+    {
+      "comment": "Mined or quarried materials from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-01T22:28:59Z"
+    },
+    {
+      "comment": "Mined or quarried materials from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-01T22:22:34Z"
+    },
+    {
+      "comment": "Mined or quarried materials from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-01T22:17:17Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-17T13:50:21Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T13:33:14Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T13:19:51Z"
+    }
+  ]
+}

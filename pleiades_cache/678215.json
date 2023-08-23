@@ -1,0 +1,793 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.529938,
+          33.11132
+        ]
+      },
+      "type": "Feature",
+      "id": "darmc-location-20357",
+      "properties": {
+        "snippet": "Unknown; 330 BC - AD 640",
+        "link": "https://pleiades.stoa.org/places/678215/darmc-location-20357",
+        "description": "500K scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 20357"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5309562,
+          33.1101085
+        ]
+      },
+      "type": "Feature",
+      "id": "tel-kedesh",
+      "properties": {
+        "snippet": "Settlement, ; 540 BC - 140 BC",
+        "link": "https://pleiades.stoa.org/places/678215/tel-kedesh",
+        "description": "Representative location based on a node derived from OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Centerpoint of Tel Kedesh"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": null,
+      "name": "DARMC"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    },
+    {
+      "username": "nkaye",
+      "homepage": null,
+      "name": "Noah Kaye",
+      "uri": "https://pleiades.stoa.org/author/nkaye"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [
+        {
+          "username": null,
+          "name": "DARMC, R. Talbert, T. Elliott, S. Gillies"
+        }
+      ],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://darmc.harvard.edu/",
+          "citationDetail": "20357",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "DARMC",
+          "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+          "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 20357.",
+          "otherIdentifier": " ",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "darmc-location-20357",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+      ],
+      "end": 640,
+      "title": "DARMC location 20357",
+      "provenance": "DARMC OBJECTID: 20357",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "DARMC OBJECTID: 20357",
+      "review_state": "published",
+      "accuracy_value": 10.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/darmc-a",
+      "featureType": [
+        "unknown"
+      ],
+      "description": "500K scale point location",
+      "created": "2011-03-10T00:10:35Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.529938,
+          33.11132
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/678215/darmc-location-20357",
+      "creators": [
+        {
+          "username": null,
+          "name": "J.P. Brown"
+        },
+        {
+          "username": null,
+          "name": "E.M. Meyers"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:49:53Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2011-03-10T05:14:43Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-10T00:10:36Z"
+        },
+        {
+          "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-10T00:10:36Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-10T00:10:35Z"
+        }
+      ]
+    },
+    {
+      "contributors": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "achaemenid-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/achaemenid-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "hellenistic-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.openstreetmap.org/node/278470759",
+          "citationDetail": "Node 278470759",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "OSM",
+          "bibliographicURI": "",
+          "formattedCitation": "osm:node=278470759",
+          "otherIdentifier": " ",
+          "type": "citesAsDataSource"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://en.wikipedia.org/wiki/Kedesh",
+          "citationDetail": "Kedesh",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (English)",
+          "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+          "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Kedesh.",
+          "otherIdentifier": " ",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "tel-kedesh",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+        "https://pleiades.stoa.org/vocabularies/place-types/"
+      ],
+      "end": -140,
+      "title": "OSM location of Centerpoint of Tel Kedesh",
+      "provenance": "OpenStreetMap (Node 2588207339, version 1, osm:changeset=19554655, 2013-12-20T18:43:59Z)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -540,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+        "https://pleiades.stoa.org/vocabularies/place-types/"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 20.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+      "featureType": [
+        "settlement",
+        ""
+      ],
+      "description": "Representative location based on a node derived from OpenStreetMap",
+      "created": "2014-01-21T00:57:41Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5309562,
+          33.1101085
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/678215/tel-kedesh",
+      "creators": [
+        {
+          "username": "nkaye",
+          "homepage": null,
+          "name": "Noah Kaye",
+          "uri": "https://pleiades.stoa.org/author/nkaye"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "comment": "Edited",
+          "modifiedBy": "jbecker",
+          "modified": "2016-02-06T16:11:10Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "jbecker",
+          "modified": "2016-02-04T15:43:17Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "nkaye",
+          "modified": "2016-02-04T14:21:11Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "nkaye",
+          "modified": "2016-02-04T14:17:38Z"
+        },
+        {
+          "action": "Retract",
+          "modifiedBy": "jbecker",
+          "modified": "2016-01-16T15:10:48Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "jbecker",
+          "modified": "2016-01-16T15:06:05Z"
+        },
+        {
+          "comment": "added reference and corrected title",
+          "modifiedBy": "jbecker",
+          "modified": "2016-01-16T15:05:55Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "nkaye",
+          "modified": "2016-01-07T22:18:39Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "nkaye",
+          "modified": "2014-01-21T01:17:15Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "nkaye",
+          "modified": "2014-01-21T01:16:20Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "nkaye",
+          "modified": "2014-01-21T00:59:42Z"
+        },
+        {
+          "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+          "modifiedBy": "nkaye",
+          "modified": "2014-01-21T00:57:45Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "nkaye",
+          "modified": "2014-01-21T00:57:43Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/43970336",
+      "citationDetail": "69 C3 Kadasa",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "BAtlas",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+      "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "93-94",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "TIR Iudaea",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8GF4B886",
+      "formattedCitation": "<div class=\"csl-entry\">Tsafrir, Yoram, L Di Segni, and Judith Green. <i>Tabula Imperii Romani: Iudaea - Palaestina</i>. Jerusalem: Israel Academy of Sciences and Humanities; Akademyah ha-le\u2019umit ha-Yi\u0161re\u2019elit le-mada\u201cim; Agudah le-seker arkhe\u201dologi shel Yi\u0161ra\u2019el; Israel: Agaf ha-medidot, 1994.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.geonames.org/8142125/tel-qedesh.html",
+      "citationDetail": "8142125: Tel Qedesh",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "GeoNames",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IIFE4W6M",
+      "formattedCitation": "<div class=\"csl-entry\">Marc Wick, and Christophe Boutreux. \u201cGeoNames,\u201d 2005. http://www.geonames.org/.</div>",
+      "otherIdentifier": " ",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Kedesh",
+      "citationDetail": "Kedesh",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+      "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Kedesh.",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://www.trismegistos.org/place/1192",
+      "citationDetail": "GEO ID 1192: Kydisos (Tel Kedesh)",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "TM",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+      "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+      "otherIdentifier": " ",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.encquran.brill.nl/entries/supplementum-epigraphicum-graecum/seg-41-1532-1533-kadesh-two-inscriptions-from-the-roman-temple-complex-2nd-cent-ad-a41_1532_1533",
+      "citationDetail": "41-1532-1533. Kadesh. Two inscriptions from the Roman temple complex, 2nd cent A.D.",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+      "shortTitle": "SEG",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/S3GAFDX3",
+      "formattedCitation": "<div class=\"csl-entry\"><i>Supplementum Epigraphicum Graecum</i>, n.d.</div>",
+      "otherIdentifier": " ",
+      "type": "citesAsEvidence"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://www.jstor.org/stable/1357821",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Herbert 2003",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/XL573RN3",
+      "formattedCitation": "<div class=\"csl-entry\">Herbert, Sharon C., and Andrea M. Berlin. \u201cA New Administrative Center for Persian and Hellenistic Galilee: Preliminary Report of the University of Michigan/University of Minnesota Excavations at Kedesh.\u201d <i>Bulletin of the American Schools of Oriental Research</i>, no. 329 (2003): 13\u201359. https://doi.org/10.2307/1357821.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://archive.archaeology.org/1205/features/tel_kedesh_mound_upper_galilee_israel.html",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Berlin 2012",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/YQRJ4XSB",
+      "formattedCitation": "<div class=\"csl-entry\">Berlin, Andrea, and Sharon Herbert. \u201cThe Story of a Site and a Project: Excavating Tel Kedesh - Archaeology Magazine Archive.\u201d <i>Archaeology</i> 65, no. 3 (June 2012). https://archive.archaeology.org/1205/features/tel_kedesh_mound_upper_galilee_israel.html.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Kadasa",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "kadasa",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 69 C3 Kadasa",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-16T20:03:02Z",
+      "uri": "https://pleiades.stoa.org/places/678215/kadasa",
+      "creators": [
+        {
+          "username": null,
+          "name": "J.P. Brown"
+        },
+        {
+          "username": null,
+          "name": "E.M. Meyers"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:49:53Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-16T20:43:11Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:19:43Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:03:02Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Kydissos",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.jstor.org/discover/10.2307/1357822?uid=3739560&uid=2&uid=4&uid=3739256&sid=21103269678031",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": " Ariel, D. and J. Naveh. 2003. \"Selected Inscribed Sealings from Kedesh in the Upper Galilee.\" BASOR 329:72-75.",
+          "otherIdentifier": " ",
+          "type": "citesAsEvidence"
+        }
+      ],
+      "id": "kydissos",
+      "end": -140,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "grc",
+      "created": "2014-01-21T01:04:26Z",
+      "uri": "https://pleiades.stoa.org/places/678215/kydissos",
+      "creators": [
+        {
+          "username": "nkaye",
+          "homepage": null,
+          "name": "Noah Kaye",
+          "uri": "https://pleiades.stoa.org/author/nkaye"
+        }
+      ],
+      "attested": "\u039a\u03cd\u03b4\u03b9\u03c3\u03c3\u03bf\u03c2",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "jbecker",
+          "modified": "2016-01-16T15:10:07Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "nkaye",
+          "modified": "2014-01-21T19:12:42Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "nkaye",
+          "modified": "2014-01-21T19:12:35Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "nkaye",
+          "modified": "2014-01-21T01:04:35Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "nkaye",
+          "modified": "2014-01-21T01:04:28Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Tel Qedesh",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.geonames.org/8142125/tel-qedesh.html",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "GeoNames 8142125",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "tel-qedesh",
+      "end": 2100,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "he",
+      "created": "2016-01-16T15:28:18Z",
+      "uri": "https://pleiades.stoa.org/places/678215/tel-qedesh",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "attested": "\u05ea\u05dc \u05e7\u05d3\u05e9",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "jbecker",
+          "modified": "2016-01-16T15:28:56Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2016-01-16T15:28:44Z"
+        },
+        {
+          "comment": "added name",
+          "modifiedBy": "jbecker",
+          "modified": "2016-01-16T15:28:29Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2016-01-16T15:28:20Z"
+        }
+      ]
+    }
+  ],
+  "id": "678215",
+  "subject": [
+    "dare:ancient=1",
+    "dare:feature=settlement",
+    "dare:major=0"
+  ],
+  "title": "Kadasa",
+  "provenance": "Barrington Atlas: BAtlas 69 C3 Kadasa",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: Tel Qedesh ISR</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "A multi-period settlement, with Bronze Age to Roman occupation, most notably the site of a large, Persian and Hellenistic administrative building.",
+  "reprPoint": [
+    35.5304471,
+    33.11071425
+  ],
+  "placeTypes": [
+    "settlement"
+  ],
+  "bbox": [
+    35.529938,
+    33.1101085,
+    35.5309562,
+    33.11132
+  ],
+  "connectsWith": [
+    "https://pleiades.stoa.org/places/937106860"
+  ],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2009-09-16T20:03:02Z",
+  "uri": "https://pleiades.stoa.org/places/678215",
+  "creators": [
+    {
+      "username": null,
+      "name": "E.M. Meyers"
+    },
+    {
+      "username": null,
+      "name": "J.P. Brown"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "update references",
+      "modifiedBy": "jbecker",
+      "modified": "2021-12-05T17:19:13Z"
+    },
+    {
+      "comment": "summary, references",
+      "modifiedBy": "jbecker",
+      "modified": "2020-07-11T20:19:41Z"
+    },
+    {
+      "comment": "Edited",
+      "modifiedBy": "jbecker",
+      "modified": "2017-11-06T22:47:50Z"
+    },
+    {
+      "comment": "added references",
+      "modifiedBy": "jbecker",
+      "modified": "2016-01-16T15:09:48Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T23:12:51Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:49:52Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T22:11:07Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-10T00:10:37Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-16T20:43:11Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:19:43Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:03:02Z"
+    }
+  ]
+}

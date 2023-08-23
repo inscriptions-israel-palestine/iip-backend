@@ -1,0 +1,643 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.573386,
+          32.713858
+        ]
+      },
+      "type": "Feature",
+      "id": "darmc-location-14249",
+      "properties": {
+        "snippet": "Unknown; 3000 BC - AD 1150",
+        "link": "https://pleiades.stoa.org/places/678333/darmc-location-14249",
+        "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University. Dates after Greenberg.",
+        "location_precision": "precise",
+        "title": "DARMC location 14249"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": null,
+      "name": "DARMC"
+    },
+    {
+      "username": "gmckee",
+      "homepage": null,
+      "name": "Gabriel Mckee",
+      "uri": "https://pleiades.stoa.org/author/gmckee"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [
+        {
+          "username": null,
+          "name": "DARMC"
+        },
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+      ],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "3rd-millennium-bc",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/3rd-millennium-bc",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "2nd-millenium-bce",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/2nd-millenium-bce",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "1st-millennium-bce",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/1st-millennium-bce",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "1st-millennium-ce",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/1st-millennium-ce",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "caliphate-fatimid-southern-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/caliphate-fatimid-southern-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "ummayad",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/ummayad",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://darmc.harvard.edu/",
+          "citationDetail": "14249",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "DARMC",
+          "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+          "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 14249.",
+          "otherIdentifier": " ",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "darmc-location-14249",
+      "featureTypeURI": [],
+      "end": 1150,
+      "title": "DARMC location 14249",
+      "provenance": "DARMC OBJECTID: 14249",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -3000,
+      "locationTypeURI": [],
+      "archaeologicalRemains": "substantive",
+      "details": "<p>DARMC OBJECTID: 14249</p>",
+      "review_state": "published",
+      "accuracy_value": 100.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/darmc-b",
+      "featureType": [],
+      "description": "1:500,000 scale representative point location digitized from the Barrington Atlas of the Greek and Roman World by the Digital Atlas of Roman and Medieval Civilizations project at Harvard University. Dates after Greenberg.",
+      "created": "2023-03-08T21:38:06Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.573386,
+          32.713858
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/678333/darmc-location-14249",
+      "creators": [
+        {
+          "username": null,
+          "name": "E.M. Meyers"
+        },
+        {
+          "username": null,
+          "name": "J.P. Brown"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "comment": "Edited; dates; substantive",
+          "modifiedBy": "thomase",
+          "modified": "2023-03-08T21:44:15Z"
+        },
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:51:13Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2011-03-10T05:08:53Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-09T22:02:23Z"
+        },
+        {
+          "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-09T22:02:23Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-09T22:02:22Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/43970336",
+      "citationDetail": "69 C4 Philoteria",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "BAtlas",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+      "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "203",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "TIR Iudaea",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8GF4B886",
+      "formattedCitation": "<div class=\"csl-entry\">Tsafrir, Yoram, L Di Segni, and Judith Green. <i>Tabula Imperii Romani: Iudaea - Palaestina</i>. Jerusalem: Israel Academy of Sciences and Humanities; Akademyah ha-le\u2019umit ha-Yi\u0161re\u2019elit le-mada\u2018im; Agudah le-seker arkhe\u2019ologi shel Yi\u0161ra\u2019el; Israel: Agaf ha-medidot, 1994.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=5969708",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Greenberg 2014",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/3GZRAGNJ",
+      "formattedCitation": "<div class=\"csl-entry\">Greenberg, Raphael. <i>Bet Yerah: The Early Bronze Age Mound II\u202f: Urban Structure and Material Culture 1933-1986 Excavations</i>. Jerusalem, ISRAEL: Israel Antiquities Authority, 2014. http://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=5969708.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://doi.org/10.1080/00438243.2021.1999855",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Greenberg 2021",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PERTPCYZ",
+      "formattedCitation": "<div class=\"csl-entry\">Greenberg, Raphael. \u201cFragments of an Anarchic Society: Kura-Araxes Territorialization in the Third Millennium BC Town at Tel Bet Yerah.\u201d <i>World Archaeology</i> 53, no. 3 (May 27, 2021): 384\u2013400. https://doi.org/10.1080/00438243.2021.1999855.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://public.ebookcentral.proquest.com/choice/publicfullrecord.aspx?p=5968136",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Greenberg 2012",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/25V3NSZN",
+      "formattedCitation": "<div class=\"csl-entry\">Greenberg, Raphael, Emmanuel Eisenberg, and Sarit Paz. <i>Bet Yerah: The Early Bronze Age Mound I: Excavation Reports, 1933-1986</i>. IAA Reports. Jerusalem: Israel Antiquities Authority, 2012. https://public.ebookcentral.proquest.com/choice/publicfullrecord.aspx?p=5968136.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Greenberg 2017",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/DA9Q6WMP",
+      "formattedCitation": "<div class=\"csl-entry\">Greenberg, Raphael, Oren Tal, and Tawfiq Da\u02bbadli. <i>Bet Yerah: Hellenistic Philoteria and Islamic al-Sinnabra, the 1933-1986 and 2007-2013 Excavations</i>. IAA Reports. Jerusalem: Israel antiquities authority, 2017.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://www.wikidata.org/wiki/Q2063503",
+      "citationDetail": " Khirbet Kerak (Q2063503) ",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "Wikidata",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+      "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Philoteria",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "philoteria",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 69 C4 Philoteria",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-16T20:04:44Z",
+      "uri": "https://pleiades.stoa.org/places/678333/philoteria",
+      "creators": [
+        {
+          "username": null,
+          "name": "J.P. Brown"
+        },
+        {
+          "username": null,
+          "name": "E.M. Meyers"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:51:13Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-16T20:43:34Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:19:59Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:04:44Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Tel Bet Yera\u1e96, Tel Beth Yerah, Tel Beit Yerah, Tel Beth Yerak",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.geonames.org/8309909/tel-bet-yerah.html",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "Geonames, Tel Bet Yera\u1e96",
+          "bibliographicURI": "",
+          "formattedCitation": "",
+          "otherIdentifier": "",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "tel-bet-yeraao",
+      "end": 2100,
+      "contributors": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "he",
+      "created": "2018-07-06T14:25:45Z",
+      "uri": "https://pleiades.stoa.org/places/678333/tel-bet-yeraao",
+      "creators": [
+        {
+          "username": "gmckee",
+          "homepage": null,
+          "name": "Gabriel Mckee",
+          "uri": "https://pleiades.stoa.org/author/gmckee"
+        }
+      ],
+      "attested": "\u05ea\u05dc \u05d1\u05d9\u05ea \u05d9\u05e8\u05d7",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "jbecker",
+          "modified": "2018-07-06T16:54:36Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "jbecker",
+          "modified": "2018-07-06T16:54:28Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "gmckee",
+          "modified": "2018-07-06T14:28:31Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "gmckee",
+          "modified": "2018-07-06T14:25:51Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "gmckee",
+          "modified": "2018-07-06T14:25:45Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Khirbet Kerak, Khirbet al-Kerak, Khirbet al-Karak",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://www.wikidata.org/wiki/Q2063503",
+          "citationDetail": "Q2063503",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "Wikidata",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+          "otherIdentifier": "",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "khirbet-kerak",
+      "end": 2100,
+      "contributors": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "arb",
+      "created": "2018-07-06T14:27:58Z",
+      "uri": "https://pleiades.stoa.org/places/678333/khirbet-kerak",
+      "creators": [
+        {
+          "username": "gmckee",
+          "homepage": null,
+          "name": "Gabriel Mckee",
+          "uri": "https://pleiades.stoa.org/author/gmckee"
+        }
+      ],
+      "attested": "\u062e\u0631\u0628\u0629 \u0627\u0644\u0643\u0631\u0643",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "jbecker",
+          "modified": "2018-07-06T16:53:57Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "jbecker",
+          "modified": "2018-07-06T16:53:29Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "gmckee",
+          "modified": "2018-07-06T14:28:22Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "gmckee",
+          "modified": "2018-07-06T14:28:00Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "gmckee",
+          "modified": "2018-07-06T14:27:58Z"
+        }
+      ]
+    }
+  ],
+  "id": "678333",
+  "subject": [
+    "dare:ancient=1",
+    "dare:feature=settlement",
+    "dare:major=0"
+  ],
+  "title": "Tel Bet Yerah/Khirbet el-Kerak",
+  "provenance": "Barrington Atlas: BAtlas 69 C4 Philoteria",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: Beth Yerah/Khirbet el Kerak ISR</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "An ancient settlement, represented by a massive mound located on the southern coast of the Sea of Galilee, now partly covered by modern structures. Recurrent periods of habitation on the site date from at least the third milennium BCE to Islamic times.",
+  "reprPoint": [
+    35.573386,
+    32.713858
+  ],
+  "placeTypes": [
+    "settlement"
+  ],
+  "bbox": [
+    35.573386,
+    32.713858,
+    35.573386,
+    32.713858
+  ],
+  "connectsWith": [],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2023-03-08T20:46:27Z",
+  "uri": "https://pleiades.stoa.org/places/678333",
+  "creators": [
+    {
+      "username": null,
+      "name": "E.M. Meyers"
+    },
+    {
+      "username": null,
+      "name": "J.P. Brown"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "title; summary; added Greenberg bibliography; cleaned up references; added wikidata reference",
+      "modifiedBy": "thomase",
+      "modified": "2023-03-08T21:45:15Z"
+    },
+    {
+      "comment": "Baseline created",
+      "modifiedBy": "thomase",
+      "modified": "2023-03-08T20:46:27Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T20:10:03Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:51:12Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T22:12:03Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-09T22:02:24Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-16T20:43:34Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:19:59Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:04:44Z"
+    }
+  ]
+}

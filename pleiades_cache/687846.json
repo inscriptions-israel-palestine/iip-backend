@@ -1,0 +1,1262 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.840792,
+          31.24509
+        ]
+      },
+      "type": "Feature",
+      "id": "dare-location",
+      "properties": {
+        "snippet": "Settlement; 30 BC - AD 640",
+        "link": "https://pleiades.stoa.org/places/687846/dare-location",
+        "description": "Representative point location, site precision",
+        "location_precision": "precise",
+        "title": "DARE Location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8406,
+          31.2449
+        ]
+      },
+      "type": "Feature",
+      "id": "cigs-location-of-tel-beer-sheva",
+      "properties": {
+        "snippet": "Archaeological-site",
+        "link": "https://pleiades.stoa.org/places/687846/cigs-location-of-tel-beer-sheva",
+        "description": "",
+        "location_precision": "precise",
+        "title": "CIGS location of Tel Be'er Sheva"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            34.8415195,
+            31.2469245
+          ],
+          [
+            34.8411387,
+            31.2463286
+          ],
+          [
+            34.8408329,
+            31.2458378
+          ],
+          [
+            34.8404702,
+            31.2458019
+          ],
+          [
+            34.8400551,
+            31.2456039
+          ],
+          [
+            34.8395491,
+            31.2453949
+          ],
+          [
+            34.8396135,
+            31.2449498
+          ],
+          [
+            34.8398029,
+            31.244305
+          ],
+          [
+            34.8404359,
+            31.2440812
+          ],
+          [
+            34.8411437,
+            31.2441917
+          ],
+          [
+            34.8414943,
+            31.2445918
+          ],
+          [
+            34.8418151,
+            31.2456657
+          ],
+          [
+            34.8419929,
+            31.2460556
+          ],
+          [
+            34.842134,
+            31.2464608
+          ],
+          [
+            34.8422364,
+            31.2465036
+          ],
+          [
+            34.8422364,
+            31.2466275
+          ],
+          [
+            34.8422362,
+            31.2470042
+          ],
+          [
+            34.8415195,
+            31.2469245
+          ]
+        ]
+      },
+      "type": "Feature",
+      "id": "5ea5dc-5d15d05e8-5e95d15e2",
+      "properties": {
+        "snippet": "Archaeological-site",
+        "link": "https://pleiades.stoa.org/places/687846/5ea5dc-5d15d05e8-5e95d15e2",
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of \u05ea\u05dc \u05d1\u05d0\u05e8 \u05e9\u05d1\u05e2"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "jahlfeldt",
+      "homepage": null,
+      "name": "Johan \u00c5hlfeldt",
+      "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    },
+    {
+      "username": "cjohansson",
+      "homepage": null,
+      "name": "Carolin Johansson",
+      "uri": "https://pleiades.stoa.org/author/cjohansson"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    },
+    {
+      "username": null,
+      "name": "DARMC"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "nkaye",
+      "homepage": null,
+      "name": "Noah Kaye",
+      "uri": "https://pleiades.stoa.org/author/nkaye"
+    },
+    {
+      "username": "rrattenborg",
+      "homepage": null,
+      "name": "Rune Rattenborg",
+      "uri": "https://pleiades.stoa.org/author/rrattenborg"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://francia.ahlfeldt.se/imperium.php",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "Johan \u00c5hlfeldt, Digital Atlas of the Roman Empire, 2012.",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "dare-location",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+      ],
+      "end": 640,
+      "title": "DARE Location",
+      "provenance": "Digital Atlas of the Roman Empire (2012-10-15)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 10.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/dare-3",
+      "featureType": [
+        "settlement"
+      ],
+      "description": "Representative point location, site precision",
+      "created": "2012-10-20T20:12:02Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.840792,
+          31.24509
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/687846/dare-location",
+      "creators": [
+        {
+          "username": "jahlfeldt",
+          "homepage": null,
+          "name": "Johan \u00c5hlfeldt",
+          "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T20:12:03Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T20:12:03Z"
+        },
+        {
+          "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T20:12:03Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T20:12:02Z"
+        }
+      ]
+    },
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://doi.org/10.4324/9780203875506",
+          "citationDetail": "pages 115-116",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Bryce 2009",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZSXV8M2K",
+          "formattedCitation": "<div class=\"csl-entry\">Bryce, Trevor. <i>The Routledge Handbook of the Peoples and Places of Ancient Western Asia: The Near East from the Early Bronze Age to the Fall of the Persian Empire</i>. London; New York: Routledge, 2012. https://doi.org/10.4324/9780203875506.</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://en.wikipedia.org/wiki/Tel_Be%27er_Sheva",
+          "citationDetail": "Tel_Be%27er_Sheva",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (English)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>, Tel_Be%27er_Sheva.",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://he.wikipedia.org/wiki/\u05ea\u05dc_\u05d1\u05d0\u05e8_\u05e9\u05d1\u05e2",
+          "citationDetail": "\u05ea\u05dc_\u05d1\u05d0\u05e8_\u05e9\u05d1\u05e2",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (Hebrew)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SMNW5UAT",
+          "formattedCitation": "<div class=\"csl-entry\"><i>\u05d5\u05d9\u05e7\u05d9\u05e4\u05d3\u05d9\u05d4, \u05d4\u05d0\u05d9\u05e0\u05e6\u05d9\u05e7\u05dc\u05d5\u05e4\u05d3\u05d9\u05d4 \u05d4\u05d7\u05d5\u05e4\u05e9\u05d9\u05ea</i>, 2001. https://he.wikipedia.org.</div>, \u05ea\u05dc_\u05d1\u05d0\u05e8_\u05e9\u05d1\u05e2.",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://www.wikidata.org/wiki/Q534596",
+          "citationDetail": "Q534596",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikidata",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>, Q534596.",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "cigs-location-of-tel-beer-sheva",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+      ],
+      "end": null,
+      "title": "CIGS location of Tel Be'er Sheva",
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": null,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+      ],
+      "archaeologicalRemains": "substantive",
+      "details": "<p>Centre point location extracted from polygon drawn around entire site as identified on Google Earth base imagery in QGIS 3.x.</p>",
+      "review_state": "published",
+      "accuracy_value": 5.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-2016ff",
+      "featureType": [
+        "archaeological-site"
+      ],
+      "description": "",
+      "created": "2023-02-09T09:53:06Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8406,
+          31.2449
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/687846/cigs-location-of-tel-beer-sheva",
+      "creators": [
+        {
+          "username": "cjohansson",
+          "homepage": null,
+          "name": "Carolin Johansson",
+          "uri": "https://pleiades.stoa.org/author/cjohansson"
+        },
+        {
+          "username": "rrattenborg",
+          "homepage": null,
+          "name": "Rune Rattenborg",
+          "uri": "https://pleiades.stoa.org/author/rrattenborg"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2023-02-09T17:07:00Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-02-09T09:56:23Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-02-09T09:53:07Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-02-09T09:53:06Z"
+        }
+      ]
+    },
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://www.openstreetmap.org/browse/way/96320718",
+          "citationDetail": "Way 96320718",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "OSM",
+          "bibliographicURI": "",
+          "formattedCitation": "osm:way=96320718",
+          "otherIdentifier": "",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "5ea5dc-5d15d05e8-5e95d15e2",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+      ],
+      "end": null,
+      "title": "OSM location of \u05ea\u05dc \u05d1\u05d0\u05e8 \u05e9\u05d1\u05e2",
+      "provenance": "OpenStreetMap (Way 96320718, version 5, osm:changeset=50005731, 2017-07-03T11:03:11Z)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": null,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+      ],
+      "archaeologicalRemains": "substantive",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 20.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+      "featureType": [
+        "archaeological-site"
+      ],
+      "description": "Location based on OpenStreetMap",
+      "created": "2023-02-09T09:54:38Z",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            34.8415195,
+            31.2469245
+          ],
+          [
+            34.8411387,
+            31.2463286
+          ],
+          [
+            34.8408329,
+            31.2458378
+          ],
+          [
+            34.8404702,
+            31.2458019
+          ],
+          [
+            34.8400551,
+            31.2456039
+          ],
+          [
+            34.8395491,
+            31.2453949
+          ],
+          [
+            34.8396135,
+            31.2449498
+          ],
+          [
+            34.8398029,
+            31.244305
+          ],
+          [
+            34.8404359,
+            31.2440812
+          ],
+          [
+            34.8411437,
+            31.2441917
+          ],
+          [
+            34.8414943,
+            31.2445918
+          ],
+          [
+            34.8418151,
+            31.2456657
+          ],
+          [
+            34.8419929,
+            31.2460556
+          ],
+          [
+            34.842134,
+            31.2464608
+          ],
+          [
+            34.8422364,
+            31.2465036
+          ],
+          [
+            34.8422364,
+            31.2466275
+          ],
+          [
+            34.8422362,
+            31.2470042
+          ],
+          [
+            34.8415195,
+            31.2469245
+          ]
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/687846/5ea5dc-5d15d05e8-5e95d15e2",
+      "creators": [
+        {
+          "username": "cjohansson",
+          "homepage": null,
+          "name": "Carolin Johansson",
+          "uri": "https://pleiades.stoa.org/author/cjohansson"
+        },
+        {
+          "username": "rrattenborg",
+          "homepage": null,
+          "name": "Rune Rattenborg",
+          "uri": "https://pleiades.stoa.org/author/rrattenborg"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2023-02-09T17:06:54Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-02-09T09:57:00Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-02-09T09:56:51Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-02-09T09:55:22Z"
+        },
+        {
+          "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-02-09T09:54:38Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-02-09T09:54:38Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "http://openlibrary.org/works/OL8327792W",
+      "citationDetail": "70 F3 Beer Sheva/Berosaba",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "BAtlas",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+      "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://openlibrary.org/works/OL8327792W.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "75",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "TIR Iudaea",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8GF4B886",
+      "formattedCitation": "<div class=\"csl-entry\">Tsafrir, Yoram, L Di Segni, and Judith Green. <i>Tabula Imperii Romani: Iudaea - Palaestina</i>. Jerusalem: Israel Academy of Sciences and Humanities; Akademyah ha-le\u2019umit ha-Yi\u0161re\u2019elit le-mada\u2018im; Agudah le-seker arkhe\u2019ologi shel Yi\u0161ra\u2019el; Israel: Agaf ha-medidot, 1994.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://whc.unesco.org/en/list/1108",
+      "citationDetail": "1108: Biblical Tels - Megiddo, Hazor, Beer Sheba",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "WHL",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BIIFWTIR",
+      "formattedCitation": "<div class=\"csl-entry\">UNESCO World Heritage Centre. <i>World Heritage List</i>, 1978. http://whc.unesco.org/en/list/.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Tel_Be'er_Sheva",
+      "citationDetail": "Tel Be'er Sheva",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+      "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Tel Be'er Sheva.",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.geonames.org/293389/tel-be-er-sheva.html",
+      "citationDetail": "293389: Tel Be\u2019\u00e9r Sheva\u2018",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "GeoNames",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IIFE4W6M",
+      "formattedCitation": "<div class=\"csl-entry\">Marc Wick, and Christophe Boutreux. \u201cGeoNames,\u201d 2005. http://www.geonames.org/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://darmc.harvard.edu/",
+      "citationDetail": "6344",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "DARMC",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+      "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Beer Sheva",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "beer-sheva",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 70 F3 Beer Sheva/Berosaba",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-17T12:31:43Z",
+      "uri": "https://pleiades.stoa.org/places/687846/beer-sheva",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:53:54Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:47:34Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:03:59Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T12:31:43Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Berosaba",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "berosaba",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 70 F3 Beer Sheva/Berosaba",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-17T12:31:43Z",
+      "uri": "https://pleiades.stoa.org/places/687846/berosaba",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:53:55Z"
+        },
+        {
+          "comment": "Time periods copied from sibling. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+          "modifiedBy": "sgillies",
+          "modified": "2011-01-20T03:33:12Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:47:34Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:03:59Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T12:31:43Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Bersabe",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "bersabe",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 70 F3 Beer Sheva/Berosaba",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-17T12:31:43Z",
+      "uri": "https://pleiades.stoa.org/places/687846/bersabe",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:53:55Z"
+        },
+        {
+          "comment": "Time periods copied from sibling. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+          "modifiedBy": "sgillies",
+          "modified": "2011-01-20T03:33:12Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:47:34Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:03:59Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T12:31:43Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Tel Be'er Sheva",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.geonames.org/293389/tel-be-er-sheva.html",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "GeoNames 293389",
+          "otherIdentifier": "",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "tel-beer-sheva",
+      "end": 2100,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "details": "",
+      "review_state": "published",
+      "description": "Modern name of the archaeological site.",
+      "transcriptionCompleteness": "complete",
+      "language": "en",
+      "created": "2017-02-13T19:08:07Z",
+      "uri": "https://pleiades.stoa.org/places/687846/tel-beer-sheva",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "attested": "Tel Be\u2019\u00e9r Sheva\u2018",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2021-11-30T22:53:49Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "jbecker",
+          "modified": "2018-12-14T01:51:55Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2017-02-13T19:08:18Z"
+        },
+        {
+          "comment": "added name",
+          "modifiedBy": "jbecker",
+          "modified": "2017-02-13T19:08:11Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2017-02-13T19:08:07Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Be'er Sheva",
+      "attestations": [
+        {
+          "timePeriod": "iron-age-southern-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/iron-age-southern-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.sefaria.org/Genesis.21.32?lang=bi&with=all&lang2=en",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+          "shortTitle": "Gen 21:32",
+          "bibliographicURI": "",
+          "formattedCitation": "",
+          "otherIdentifier": "",
+          "type": "citesAsEvidence"
+        }
+      ],
+      "id": "name.2017-02-15.7943415721",
+      "end": -550,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -1200,
+      "details": "",
+      "review_state": "published",
+      "description": "\"Well of the seven-fold oath.\"",
+      "transcriptionCompleteness": "complete",
+      "language": "hbo",
+      "created": "2017-02-15T15:51:26Z",
+      "uri": "https://pleiades.stoa.org/places/687846/name.2017-02-15.7943415721",
+      "creators": [
+        {
+          "username": "nkaye",
+          "homepage": null,
+          "name": "Noah Kaye",
+          "uri": "https://pleiades.stoa.org/author/nkaye"
+        }
+      ],
+      "attested": " \u05d1\u05d0\u05e8 \u05e9\u05d1\u05e2",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "jbecker",
+          "modified": "2017-02-16T19:15:44Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2017-02-16T19:15:39Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "nkaye",
+          "modified": "2017-02-15T15:51:27Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "nkaye",
+          "modified": "2017-02-15T15:51:26Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Tel Be'er Sheva",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://doi.org/10.4324/9780203875506",
+          "citationDetail": "pages 115-116",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Bryce 2009",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZSXV8M2K",
+          "formattedCitation": "<div class=\"csl-entry\">Bryce, Trevor. <i>The Routledge Handbook of the Peoples and Places of Ancient Western Asia: The Near East from the Early Bronze Age to the Fall of the Persian Empire</i>. London; New York: Routledge, 2012. https://doi.org/10.4324/9780203875506.</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://en.wikipedia.org/Tel_Be%27er_Sheva",
+          "citationDetail": "Tel_Be%27er_Sheva",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (English)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>, Tel_Be%27er_Sheva.",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://he.wikipedia.org/wiki/\u05ea\u05dc_\u05d1\u05d0\u05e8_\u05e9\u05d1\u05e2",
+          "citationDetail": "\u05ea\u05dc_\u05d1\u05d0\u05e8_\u05e9\u05d1\u05e2",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (Hebrew)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SMNW5UAT",
+          "formattedCitation": "<div class=\"csl-entry\"><i>\u05d5\u05d9\u05e7\u05d9\u05e4\u05d3\u05d9\u05d4, \u05d4\u05d0\u05d9\u05e0\u05e6\u05d9\u05e7\u05dc\u05d5\u05e4\u05d3\u05d9\u05d4 \u05d4\u05d7\u05d5\u05e4\u05e9\u05d9\u05ea</i>, 2001. https://he.wikipedia.org.</div>, \u05ea\u05dc_\u05d1\u05d0\u05e8_\u05e9\u05d1\u05e2.",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://www.wikidata.org/\u05ea\u05dc_\u05d1\u05d0\u05e8_\u05e9\u05d1\u05e2/Q534596",
+          "citationDetail": "Q534596",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikidata",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>, Q534596.",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "tel-beer-sheva-1",
+      "end": 2100,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "details": "<p>Romanization according to the ALA-LC specifications for Hebrew and Yiddish (2011) (https://www.loc.gov/catdir/cpso/roman.html).</p>",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "he",
+      "created": "2023-02-09T09:53:08Z",
+      "uri": "https://pleiades.stoa.org/places/687846/tel-beer-sheva-1",
+      "creators": [
+        {
+          "username": "cjohansson",
+          "homepage": null,
+          "name": "Carolin Johansson",
+          "uri": "https://pleiades.stoa.org/author/cjohansson"
+        },
+        {
+          "username": "rrattenborg",
+          "homepage": null,
+          "name": "Rune Rattenborg",
+          "uri": "https://pleiades.stoa.org/author/rrattenborg"
+        }
+      ],
+      "attested": "\u05ea\u05dc \u05d1\u05d0\u05e8 \u05e9\u05d1\u05e2",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2023-02-09T17:07:10Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-02-09T09:57:17Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-02-09T09:53:08Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-02-09T09:53:08Z"
+        }
+      ]
+    }
+  ],
+  "id": "687846",
+  "subject": [
+    "dare:major=0",
+    "UWHS",
+    "extant remains",
+    "dare:ancient=1",
+    "dare:feature=settlement"
+  ],
+  "title": "Beer Sheva/Berosaba",
+  "provenance": "Barrington Atlas: BAtlas 70 F3 Beer Sheva/Berosaba",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+    "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+  ],
+  "details": "<p>Beer Sheva/Berosaba was enrolled as a UNESCO World Heritage Site in 2005, counted among the \"Biblical Tels - Megiddo, Hazor, Beer Sheba\". The <em>Barrington Atlas Directory</em> notes: Bir es Saba</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "Tel Be'er Sheva is an archeological site in southern Israel that is believed to be the location of the remains of the biblical town of Beersheba.",
+  "reprPoint": [
+    34.84079678739385,
+    31.245164159557305
+  ],
+  "placeTypes": [
+    "settlement",
+    "archaeological-site"
+  ],
+  "bbox": [
+    34.8395491,
+    31.2440812,
+    34.8422364,
+    31.2470042
+  ],
+  "connectsWith": [
+    "https://pleiades.stoa.org/places/429129176",
+    "https://pleiades.stoa.org/places/690103"
+  ],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2009-09-17T12:31:42Z",
+  "uri": "https://pleiades.stoa.org/places/687846",
+  "creators": [
+    {
+      "username": null,
+      "name": "B. Isaac"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "reference cleanup",
+      "modifiedBy": "jbecker",
+      "modified": "2020-07-09T18:32:00Z"
+    },
+    {
+      "comment": "DARMC 6344",
+      "modifiedBy": "jbecker",
+      "modified": "2018-12-14T01:54:06Z"
+    },
+    {
+      "comment": "Edited",
+      "modifiedBy": "jbecker",
+      "modified": "2018-12-14T01:40:13Z"
+    },
+    {
+      "comment": "Edited",
+      "modifiedBy": "jbecker",
+      "modified": "2018-12-14T01:38:31Z"
+    },
+    {
+      "comment": "edited summary, added references",
+      "modifiedBy": "jbecker",
+      "modified": "2017-02-13T19:06:58Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T20:12:04Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:53:54Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T21:50:54Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-09T19:25:58Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-17T13:47:34Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T13:03:59Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T12:31:43Z"
+    }
+  ]
+}

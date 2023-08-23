@@ -1,0 +1,842 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1020631,
+          31.5251263
+        ]
+      },
+      "type": "Feature",
+      "id": "tel-hebron",
+      "properties": {
+        "snippet": "Unknown",
+        "link": "https://pleiades.stoa.org/places/687915/tel-hebron",
+        "description": "Location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Tel Hebron"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1023,
+          31.5245
+        ]
+      },
+      "type": "Feature",
+      "id": "cigs-location-of-tel-hebron",
+      "properties": {
+        "snippet": "Archaeological-site",
+        "link": "https://pleiades.stoa.org/places/687915/cigs-location-of-tel-hebron",
+        "description": "",
+        "location_precision": "precise",
+        "title": "CIGS location of Tel Hebron"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": "bkiesling",
+      "homepage": null,
+      "name": "Brady Kiesling",
+      "uri": "https://pleiades.stoa.org/author/bkiesling"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    },
+    {
+      "username": "cjohansson",
+      "homepage": null,
+      "name": "Carolin Johansson",
+      "uri": "https://pleiades.stoa.org/author/cjohansson"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    },
+    {
+      "username": null,
+      "name": "DARMC"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "rrattenborg",
+      "homepage": null,
+      "name": "Rune Rattenborg",
+      "uri": "https://pleiades.stoa.org/author/rrattenborg"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://www.openstreetmap.org/browse/node/1258388380",
+          "citationDetail": "Node 1258388380",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "OSM",
+          "bibliographicURI": "",
+          "formattedCitation": "osm:node=1258388380",
+          "otherIdentifier": "",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "tel-hebron",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+      ],
+      "end": null,
+      "title": "OSM location of Tel Hebron",
+      "provenance": "OpenStreetMap (Node 1258388380, version 5, osm:changeset=18175771, 2013-10-04T10:18:49Z)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": null,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 20.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+      "featureType": [
+        "unknown"
+      ],
+      "description": "Location based on OpenStreetMap",
+      "created": "2023-04-28T10:19:23Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1020631,
+          31.5251263
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/687915/tel-hebron",
+      "creators": [
+        {
+          "username": "cjohansson",
+          "homepage": null,
+          "name": "Carolin Johansson",
+          "uri": "https://pleiades.stoa.org/author/cjohansson"
+        },
+        {
+          "username": "rrattenborg",
+          "homepage": null,
+          "name": "Rune Rattenborg",
+          "uri": "https://pleiades.stoa.org/author/rrattenborg"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2023-04-28T15:35:43Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-04-28T10:35:52Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-04-28T10:19:50Z"
+        },
+        {
+          "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-04-28T10:19:23Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-04-28T10:19:23Z"
+        }
+      ]
+    },
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://doi.org/10.4324/9780203875506",
+          "citationDetail": "pages 306-307",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Bryce 2009",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZSXV8M2K",
+          "formattedCitation": "<div class=\"csl-entry\">Bryce, Trevor. <i>The Routledge Handbook of the Peoples and Places of Ancient Western Asia: The Near East from the Early Bronze Age to the Fall of the Persian Empire</i>. London; New York: Routledge, 2012. https://doi.org/10.4324/9780203875506.</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://en.wikipedia.org/wiki/Tel_Rumeida",
+          "citationDetail": "Tel_Rumeida",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (English)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>, Tel_Rumeida.",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://he.wikipedia.org/wiki/\u05ea\u05dc_\u05e8\u05d5\u05de\u05d9\u05d9\u05d3\u05d4",
+          "citationDetail": "\u05ea\u05dc_\u05e8\u05d5\u05de\u05d9\u05d9\u05d3\u05d4",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (Hebrew)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SMNW5UAT",
+          "formattedCitation": "<div class=\"csl-entry\"><i>\u05d5\u05d9\u05e7\u05d9\u05e4\u05d3\u05d9\u05d4, \u05d4\u05d0\u05d9\u05e0\u05e6\u05d9\u05e7\u05dc\u05d5\u05e4\u05d3\u05d9\u05d4 \u05d4\u05d7\u05d5\u05e4\u05e9\u05d9\u05ea</i>, 2001. https://he.wikipedia.org.</div>, \u05ea\u05dc_\u05e8\u05d5\u05de\u05d9\u05d9\u05d3\u05d4.",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://www.wikidata.org/wiki/Q13577875",
+          "citationDetail": "Q13577875",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikidata",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>, Q13577875.",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "cigs-location-of-tel-hebron",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+      ],
+      "end": null,
+      "title": "CIGS location of Tel Hebron",
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": null,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+      ],
+      "archaeologicalRemains": "substantive",
+      "details": "<p>Centre point location extracted from polygon drawn around entire site as identified on Google Earth base imagery in QGIS 3.x.</p>",
+      "review_state": "published",
+      "accuracy_value": 5.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-2016ff",
+      "featureType": [
+        "archaeological-site"
+      ],
+      "description": "",
+      "created": "2023-04-28T10:33:41Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1023,
+          31.5245
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/687915/cigs-location-of-tel-hebron",
+      "creators": [
+        {
+          "username": "cjohansson",
+          "homepage": null,
+          "name": "Carolin Johansson",
+          "uri": "https://pleiades.stoa.org/author/cjohansson"
+        },
+        {
+          "username": "rrattenborg",
+          "homepage": null,
+          "name": "Rune Rattenborg",
+          "uri": "https://pleiades.stoa.org/author/rrattenborg"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2023-04-28T15:35:43Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-04-28T10:34:57Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-04-28T10:33:41Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-04-28T10:33:41Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/43970336",
+      "citationDetail": "70 G2 Hebron",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "BAtlas",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+      "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/695616438",
+      "citationDetail": "2 606-609",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "NEAEHL",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/4Q6WNJMK",
+      "formattedCitation": "<div class=\"csl-entry\">S\u030ct\u0323ern, Efrayim, ed. <i>New Encyclopedia of Archaeological Excavations in the Holy Land</i>. 5 vols. Jerusalem: Simon &amp; Schuster, 1993. http://www.worldcat.org/oclc/695616438.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://topostext.org/place/315351UHeb",
+      "citationDetail": "Hebron (Palestine)",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "ToposText",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/MC9RGDVB",
+      "formattedCitation": "Kiesling, Brady. ToposText \u2013 a Reference Tool for Greek Civilization. Version 2.0. Aikaterini Laskaridis Foundation, 2016-.",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://darmc.harvard.edu/",
+      "citationDetail": "28690",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "DARMC",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+      "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://www.wikidata.org/wiki/Q168225",
+      "citationDetail": "Q168225: Hebron",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "Wikidata",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+      "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://www.trismegistos.org/place/16893",
+      "citationDetail": "GEO ID 16893: Hebron (El-Khalil)",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "TM",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+      "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://vocab.getty.edu/page/tgn/7029354",
+      "citationDetail": "7029354: Hebron (inhabited place)",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "TGN",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZLJQ5AZJ",
+      "formattedCitation": "<div class=\"csl-entry\"><i>Getty Thesaurus of Geographic Names\u00ae Online</i>, n.d. https://www.getty.edu/research/tools/vocabularies/tgn/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0526.tlg001.perseus-grc1:12.8.6",
+      "citationDetail": "12.8.6",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+      "shortTitle": "Jos., AJ (Niese: Perseus)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/LGJXWFPN",
+      "formattedCitation": "<div class=\"csl-entry\">Josephus, Flavius. \u201cAntiquitates Judaicae.\u201d In <i>Flavii Iosephi Opera</i>, edited by Benedictus Niese, Vol. 1\u20134. Berolini: Apud Weidmannos, 1885. http://data.perseus.org/texts/urn:cts:greekLit:tlg0526.tlg001.perseus-grc1.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsEvidence"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0526.tlg004.perseus-grc1:4.529",
+      "citationDetail": "4.529",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+      "shortTitle": "Jos. BJ (Niese: Perseus)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/WLPHDE3F",
+      "formattedCitation": "<div class=\"csl-entry\">Josephus, Flavius, and Benedikt Niese. \u201cDe bello Judaico.\u201d In <i>Flavii Iosephi opera</i>, Vol. 7. Berolini: apud Weidmannos, 1895. http://data.perseus.org/texts/urn:cts:greekLit:tlg0526.tlg004.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsEvidence"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Hebron",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0526.tlg004.perseus-grc1:4.529",
+          "citationDetail": "4.529",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+          "shortTitle": "Jos. BJ (Niese: Perseus)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/WLPHDE3F",
+          "formattedCitation": "<div class=\"csl-entry\">Josephus, Flavius, and Benedikt Niese. \u201cDe bello Judaico.\u201d In <i>Flavii Iosephi opera</i>, Vol. 7. Berolini: apud Weidmannos, 1895. http://data.perseus.org/texts/urn:cts:greekLit:tlg0526.tlg004.</div>",
+          "otherIdentifier": "",
+          "type": "citesAsEvidence"
+        }
+      ],
+      "id": "hebron",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        },
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 70 G2 Hebron",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "grc",
+      "created": "2023-04-29T14:48:44Z",
+      "uri": "https://pleiades.stoa.org/places/687915/hebron",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "attested": "\u03a7\u03b5\u03b2\u03c1\u03ce\u03bd",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Greek name, reference",
+          "modifiedBy": "thomase",
+          "modified": "2023-05-02T20:35:50Z"
+        },
+        {
+          "comment": "Baseline created",
+          "modifiedBy": "jbecker",
+          "modified": "2023-04-29T14:48:43Z"
+        },
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:54:50Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:47:43Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:04:10Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T12:32:46Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Hevron",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "hevron",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 70 G2 Hebron",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-17T12:32:46Z",
+      "uri": "https://pleiades.stoa.org/places/687915/hevron",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:54:51Z"
+        },
+        {
+          "comment": "Time periods copied from sibling. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+          "modifiedBy": "sgillies",
+          "modified": "2011-01-20T03:30:42Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:47:43Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:04:10Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T12:32:46Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Tel Hebron",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://doi.org/10.4324/9780203875506",
+          "citationDetail": "pages 306-307",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Bryce 2009",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZSXV8M2K",
+          "formattedCitation": "<div class=\"csl-entry\">Bryce, Trevor. <i>The Routledge Handbook of the Peoples and Places of Ancient Western Asia: The Near East from the Early Bronze Age to the Fall of the Persian Empire</i>. London; New York: Routledge, 2012. https://doi.org/10.4324/9780203875506.</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://en.wikipedia.org/wiki/Tel_Rumeida",
+          "citationDetail": "Tel_Rumeida",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (English)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>, Tel_Rumeida.",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://he.wikipedia.org",
+          "citationDetail": "\u05ea\u05dc_\u05e8\u05d5\u05de\u05d9\u05d9\u05d3\u05d4",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (Hebrew)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SMNW5UAT",
+          "formattedCitation": "<div class=\"csl-entry\"><i>\u05d5\u05d9\u05e7\u05d9\u05e4\u05d3\u05d9\u05d4, \u05d4\u05d0\u05d9\u05e0\u05e6\u05d9\u05e7\u05dc\u05d5\u05e4\u05d3\u05d9\u05d4 \u05d4\u05d7\u05d5\u05e4\u05e9\u05d9\u05ea</i>, 2001. https://he.wikipedia.org.</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "Q13577875",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+          "formattedCitation": "",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "tel-hebron-1",
+      "end": 2100,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "details": "<p>Romanization according to the ALA-LC specifications for Hebrew and Yiddish (2011) (https://www.loc.gov/catdir/cpso/roman.html).</p>",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "he",
+      "created": "2023-04-28T10:32:58Z",
+      "uri": "https://pleiades.stoa.org/places/687915/tel-hebron-1",
+      "creators": [
+        {
+          "username": "cjohansson",
+          "homepage": null,
+          "name": "Carolin Johansson",
+          "uri": "https://pleiades.stoa.org/author/cjohansson"
+        },
+        {
+          "username": "rrattenborg",
+          "homepage": null,
+          "name": "Rune Rattenborg",
+          "uri": "https://pleiades.stoa.org/author/rrattenborg"
+        }
+      ],
+      "attested": "\u05ea\u05dc \u05d7\u05d1\u05e8\u05d5\u05df",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2023-04-28T15:35:43Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-04-28T10:35:12Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-04-28T10:32:59Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-04-28T10:32:58Z"
+        }
+      ]
+    }
+  ],
+  "id": "687915",
+  "subject": [
+    "dare:ancient=1",
+    "dare:feature=settlement",
+    "dare:major=0"
+  ],
+  "title": "Hebron",
+  "provenance": "Barrington Atlas: BAtlas 70 G2 Hebron",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+    "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: el Khalil WBK</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "An ancient place, cited: BAtlas 70 G2 Hebron",
+  "reprPoint": [
+    35.10218155,
+    31.52481315
+  ],
+  "placeTypes": [
+    "settlement",
+    "archaeological-site"
+  ],
+  "bbox": [
+    35.1020631,
+    31.5245,
+    35.1023,
+    31.5251263
+  ],
+  "connectsWith": [
+    "https://pleiades.stoa.org/places/690093"
+  ],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2018-06-07T23:35:08Z",
+  "uri": "https://pleiades.stoa.org/places/687915",
+  "creators": [
+    {
+      "username": null,
+      "name": "B. Isaac"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "add Josephus x 2",
+      "modifiedBy": "jbecker",
+      "modified": "2023-04-29T14:48:30Z"
+    },
+    {
+      "comment": "update references, add TM GEO ID, TGN",
+      "modifiedBy": "jbecker",
+      "modified": "2023-04-29T14:44:36Z"
+    },
+    {
+      "comment": "update references",
+      "modifiedBy": "jbecker",
+      "modified": "2023-04-29T14:43:07Z"
+    },
+    {
+      "comment": "create DARMC citation to preserve cross-project linkage after retracting DARMC location",
+      "modifiedBy": "thomase",
+      "modified": "2023-04-28T15:36:16Z"
+    },
+    {
+      "comment": "add ToposText reference provided by bkiesling",
+      "modifiedBy": "admin",
+      "modified": "2018-06-07T23:35:11Z"
+    },
+    {
+      "comment": "Baseline created",
+      "modifiedBy": "admin",
+      "modified": "2018-06-07T23:35:07Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T20:12:58Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:54:49Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T21:51:21Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-08-02T20:42:27Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-17T13:47:43Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T13:04:10Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T12:32:45Z"
+    }
+  ]
+}

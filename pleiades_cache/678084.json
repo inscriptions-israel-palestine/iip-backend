@@ -1,0 +1,578 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0466669,
+          32.7286111
+        ]
+      },
+      "type": "Feature",
+      "id": "5d45e8-5db5e85de5dc",
+      "properties": {
+        "snippet": "Mountain; AD 1700 - AD 2100",
+        "link": "https://pleiades.stoa.org/places/678084/5d45e8-5db5e85de5dc",
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Mount Carmel"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": null,
+      "name": "jbecler"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    },
+    {
+      "username": "auser",
+      "homepage": null,
+      "name": "Anne User",
+      "uri": "https://pleiades.stoa.org/author/auser"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "rmhorne",
+      "homepage": null,
+      "name": "Ryan Horne",
+      "uri": "https://pleiades.stoa.org/author/rmhorne"
+    },
+    {
+      "username": "gmoss",
+      "homepage": null,
+      "name": "Gabriel Moss",
+      "uri": "https://pleiades.stoa.org/author/gmoss"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.openstreetmap.org/browse/node/278477246",
+          "citationDetail": "Node 278477246",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "OSM",
+          "bibliographicURI": "",
+          "formattedCitation": "osm:node=278477246",
+          "otherIdentifier": " ",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "5d45e8-5db5e85de5dc",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/mountain"
+      ],
+      "end": 2100,
+      "title": "OSM location of Mount Carmel",
+      "provenance": "OpenStreetMap (Node 278477246, version 3, osm:changeset=4944253, 2010-06-09T10:55:07Z)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/mountain"
+      ],
+      "archaeologicalRemains": "notapplicable",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 20.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+      "featureType": [
+        "mountain"
+      ],
+      "description": "Representative location based on OpenStreetMap.",
+      "created": "2013-04-06T17:49:26Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0466669,
+          32.7286111
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/678084/5d45e8-5db5e85de5dc",
+      "creators": [
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "gmoss",
+          "modified": "2018-02-16T14:52:10Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2017-12-09T03:30:04Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "jbecker",
+          "modified": "2017-12-09T03:29:43Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "thomase",
+          "modified": "2013-04-06T17:51:34Z"
+        },
+        {
+          "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+          "modifiedBy": "thomase",
+          "modified": "2013-04-06T17:49:31Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "thomase",
+          "modified": "2013-04-06T17:49:29Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "http://openlibrary.org/works/OL8327792W",
+      "formattedCitation": "BAtlas 69 B4 Carmel M.",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "100-101",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "TIR Iudaea",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8GF4B886",
+      "formattedCitation": "<div class=\"csl-entry\">Tsafrir, Yoram, L Di Segni, and Judith Green. <i>Tabula Imperii Romani: Iudaea - Palaestina</i>. Jerusalem: Israel Academy of Sciences and Humanities; Akademyah ha-le\u2019umit ha-Yi\u0161re\u2019elit le-mada\u2018im; Agudah le-seker arkhe\u2019ologi shel Yi\u0161ra\u2019el; Israel: Agaf ha-medidot, 1994.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Mount_Carmel",
+      "citationDetail": "Mount Carmel",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+      "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Mount Carmel.",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:16.2.28",
+      "citationDetail": "16.2.28",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+      "shortTitle": "Meineke 1877",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/FEVTVBA7",
+      "formattedCitation": "<div class=\"csl-entry\">Strabo. <i>Strabonis Geographica: recognovit Augugtus Meineke.</i> Edited by August Meineke. 3 in 2 vols. Lipsiae, 1877.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsEvidence"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/948173039",
+      "citationDetail": "22, 179",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Bryce 2016",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/P3ZNEWRV",
+      "formattedCitation": "<div class=\"csl-entry\">Bryce, Trevor. <i>Atlas of the Ancient Near East: From Prehistoric Times to the Roman Imperial Period</i>. London: Routledge, 2016. http://www.worldcat.org/oclc/948173039.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Carmel M.",
+      "attestations": [],
+      "references": [],
+      "id": "Carmel-M",
+      "end": null,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 69 B4 Carmel M.",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": null,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-16T20:01:04Z",
+      "uri": "https://pleiades.stoa.org/places/678084/Carmel-M",
+      "creators": [
+        {
+          "username": null,
+          "name": "J.P. Brown"
+        },
+        {
+          "username": null,
+          "name": "E.M. Meyers"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:48:25Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-16T20:42:42Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:19:25Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:01:04Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Karmelos",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:16.2.28",
+          "citationDetail": "16.2.28",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+          "shortTitle": "Meineke 1877",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/FEVTVBA7",
+          "formattedCitation": "<div class=\"csl-entry\">Strabo. <i>Strabonis Geographica: recognovit Augugtus Meineke.</i> Edited by August Meineke. 3 in 2 vols. Lipsiae, 1877.</div>",
+          "otherIdentifier": "",
+          "type": "citesAsEvidence"
+        }
+      ],
+      "id": "karmelos",
+      "end": 300,
+      "contributors": [
+        {
+          "username": "gmoss",
+          "homepage": null,
+          "name": "Gabriel Moss",
+          "uri": "https://pleiades.stoa.org/author/gmoss"
+        }
+      ],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "grc",
+      "created": "2017-12-09T03:28:22Z",
+      "uri": "https://pleiades.stoa.org/places/678084/karmelos",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "attested": "\u039a\u03ac\u03c1\u03bc\u03b7\u03bb\u03bf\u03c2",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Edited",
+          "modifiedBy": "jbecker",
+          "modified": "2018-02-16T15:27:09Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "gmoss",
+          "modified": "2018-02-16T14:59:43Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "gmoss",
+          "modified": "2018-02-16T14:56:26Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "gmoss",
+          "modified": "2018-02-16T14:56:06Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2017-12-09T03:28:34Z"
+        },
+        {
+          "comment": "name",
+          "modifiedBy": "jbecker",
+          "modified": "2017-12-09T03:28:23Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2017-12-09T03:28:22Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "promunturium Carmelum",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://latin.packhum.org/loc/978/1/348/267-273#348",
+          "citationDetail": "5.75.3",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+          "shortTitle": "Mayhoff 1906 (PHI)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8AK7HSRG",
+          "formattedCitation": "<div class=\"csl-entry\">Plinius Secundus Maior, C. <i>Naturalis Historiae</i>. Edited by Karl Friedrich Theodor Mayhoff. Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana. Lipsiae: Teubner, 1906. http://latin.packhum.org/loc/978/1/0.</div>",
+          "otherIdentifier": "",
+          "type": "citesAsEvidence"
+        }
+      ],
+      "id": "promunturium-carmelum",
+      "end": 300,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "la",
+      "created": "2017-12-17T14:44:26Z",
+      "uri": "https://pleiades.stoa.org/places/678084/promunturium-carmelum",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "attested": "promunturium Carmelum",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2020-12-17T18:42:25Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2017-12-17T14:44:39Z"
+        },
+        {
+          "comment": "name",
+          "modifiedBy": "jbecker",
+          "modified": "2017-12-17T14:44:30Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2017-12-17T14:44:26Z"
+        }
+      ]
+    }
+  ],
+  "id": "678084",
+  "subject": [],
+  "title": "Carmel",
+  "provenance": "Barrington Atlas: BAtlas 69 B4 Carmel M.",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/mountain"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: Mt. Carmel ISR</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "A coastal mountain range in northern Israel.",
+  "reprPoint": [
+    35.0466669,
+    32.7286111
+  ],
+  "placeTypes": [
+    "mountain"
+  ],
+  "bbox": [
+    35.0466669,
+    32.7286111,
+    35.0466669,
+    32.7286111
+  ],
+  "connectsWith": [],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2009-09-16T20:01:04Z",
+  "uri": "https://pleiades.stoa.org/places/678084",
+  "creators": [
+    {
+      "username": null,
+      "name": "E.M. Meyers"
+    },
+    {
+      "username": null,
+      "name": "J.P. Brown"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "Edited",
+      "modifiedBy": "thomase",
+      "modified": "2020-12-17T18:42:36Z"
+    },
+    {
+      "comment": "reference",
+      "modifiedBy": "jbecker",
+      "modified": "2017-12-09T03:27:18Z"
+    },
+    {
+      "comment": "references",
+      "modifiedBy": "jbecker",
+      "modified": "2017-12-09T03:26:05Z"
+    },
+    {
+      "comment": "edited description; added references",
+      "modifiedBy": "jbecker",
+      "modified": "2013-02-22T16:50:28Z"
+    },
+    {
+      "comment": "Initial revision",
+      "modifiedBy": "jbecker",
+      "modified": "2013-02-22T16:49:20Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:48:25Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T22:10:11Z"
+    },
+    {
+      "comment": "Finding mountains by their titles and setting feature types",
+      "modifiedBy": "sgillies",
+      "modified": "2011-07-18T21:48:19Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-16T20:42:42Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:19:25Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:01:04Z"
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.848706,
+          32.556411
+        ]
+      },
+      "type": "Feature",
+      "id": "darmc-location-5297",
+      "properties": {
+        "snippet": "Unknown, ; AD 300 - AD 640",
+        "link": "https://pleiades.stoa.org/places/678028/darmc-location-5297",
+        "description": "500K scale point location",
+        "location_precision": "precise",
+        "title": "DARMC location 5297"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    },
+    {
+      "username": null,
+      "name": "W. R\u00f6llig"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    },
+    {
+      "username": null,
+      "name": "H. Kopp"
+    },
+    {
+      "username": null,
+      "name": "DARMC"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": null,
+      "name": "B. Siewert-Mayer"
+    },
+    {
+      "username": "fdeblauwe",
+      "homepage": null,
+      "name": "Francis Deblauwe",
+      "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+    },
+    {
+      "username": "ekansa",
+      "homepage": null,
+      "name": "Eric Kansa",
+      "uri": "https://pleiades.stoa.org/author/ekansa"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [
+        {
+          "username": null,
+          "name": "DARMC"
+        },
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+      ],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://darmc.harvard.edu/",
+          "citationDetail": "5297",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "DARMC",
+          "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+          "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 5297.",
+          "otherIdentifier": " ",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "darmc-location-5297",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unknown",
+        "https://pleiades.stoa.org/vocabularies/place-types/"
+      ],
+      "end": 640,
+      "title": "DARMC location 5297",
+      "provenance": "DARMC OBJECTID: 5297",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 300,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unknown",
+        "https://pleiades.stoa.org/vocabularies/place-types/"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "DARMC OBJECTID: 5297",
+      "review_state": "published",
+      "accuracy_value": 10.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/darmc-a",
+      "featureType": [
+        "unknown",
+        ""
+      ],
+      "description": "500K scale point location",
+      "created": "2011-03-09T19:15:32Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.848706,
+          32.556411
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/678028/darmc-location-5297",
+      "creators": [
+        {
+          "username": null,
+          "name": "E.M. Meyers"
+        },
+        {
+          "username": null,
+          "name": "J.P. Brown"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "comment": "Remove bogus precision",
+          "modifiedBy": "sgillies",
+          "modified": "2012-12-19T23:04:46Z"
+        },
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:47:45Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2011-03-10T04:56:44Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-09T19:15:33Z"
+        },
+        {
+          "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-09T19:15:33Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2011-03-09T19:15:32Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Irbid",
+      "citationDetail": "Irbid",
+      "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+      "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Irbid.",
+      "otherIdentifier": " ",
+      "type": "seeAlso"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "http://openlibrary.org/works/OL8327792W",
+      "formattedCitation": "BAtlas 69 C4 Arbela",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "http://atlantides.org/bibliography/t.html#Thomsen-1907-24-(n.-1)",
+      "formattedCitation": "Thomsen 1907 24 (n. 1)",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Arbela",
+      "attestations": [
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "arbela",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 69 C4 Arbela",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 300,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-16T20:00:12Z",
+      "uri": "https://pleiades.stoa.org/places/678028/arbela",
+      "creators": [
+        {
+          "username": null,
+          "name": "J.P. Brown"
+        },
+        {
+          "username": null,
+          "name": "E.M. Meyers"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:47:45Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-16T20:42:31Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:19:17Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:00:13Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Arb\u0113la, Arbela, Arabella",
+      "attestations": [
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 1, p. False)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "arbela-1",
+      "end": 640,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 300,
+      "details": "GANE OBJECT 4424",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 1, p. False)",
+      "transcriptionCompleteness": "complete",
+      "language": "grc",
+      "created": "2013-08-22T16:29:25Z",
+      "uri": "https://pleiades.stoa.org/places/678028/arbela-1",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": null,
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T16:29:50Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T16:29:44Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T16:29:43Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T16:29:36Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Irbid, Tell Irbid",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 2, p. 808)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "irbid",
+      "end": 2100,
+      "contributors": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "details": "GANE OBJECT 29718",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 2, p. 808)",
+      "transcriptionCompleteness": "complete",
+      "language": "arb",
+      "created": "2013-08-22T16:45:25Z",
+      "uri": "https://pleiades.stoa.org/places/678028/irbid",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "jbecker",
+          "modified": "2022-11-30T19:07:42Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T16:45:56Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T16:45:41Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T16:45:31Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T16:45:30Z"
+        }
+      ]
+    }
+  ],
+  "id": "678028",
+  "subject": [
+    "dare:ancient=1",
+    "dare:feature=settlement",
+    "dare:major=0"
+  ],
+  "title": "Arbela",
+  "provenance": "Barrington Atlas: BAtlas 69 C4 Arbela",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+  ],
+  "details": "The Barrington Atlas Directory notes: Irbid JOR",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "An ancient place, cited: BAtlas 69 C4 Arbela",
+  "reprPoint": [
+    35.848706,
+    32.556411
+  ],
+  "placeTypes": [
+    "settlement"
+  ],
+  "bbox": [
+    35.848706,
+    32.556411,
+    35.848706,
+    32.556411
+  ],
+  "connectsWith": [],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2009-09-16T20:00:12Z",
+  "uri": "https://pleiades.stoa.org/places/678028",
+  "creators": [
+    {
+      "username": null,
+      "name": "E.M. Meyers"
+    },
+    {
+      "username": null,
+      "name": "J.P. Brown"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "Baseline created",
+      "modifiedBy": "fdeblauwe",
+      "modified": "2012-12-17T01:50:05Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T23:10:51Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:47:44Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T22:09:48Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-09T19:15:33Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-09T18:57:30Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-16T20:42:31Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:19:17Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:00:12Z"
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              35.94903722374255,
+              33.599852925790685
+            ],
+            [
+              35.98258762392487,
+              33.60056676409255
+            ],
+            [
+              36.004002772977344,
+              33.60056676409255
+            ],
+            [
+              36.018993377314075,
+              33.60270827899768
+            ],
+            [
+              36.051116100892784,
+              33.60484979390304
+            ],
+            [
+              36.07324508824695,
+              33.60841898541179
+            ],
+            [
+              36.109650841636096,
+              33.61484353012753
+            ]
+          ]
+        ]
+      },
+      "type": "Feature",
+      "id": "batlas-map-label-location",
+      "properties": {
+        "snippet": "Label; 30 BC - AD 300",
+        "link": "https://pleiades.stoa.org/places/677994/batlas-map-label-location",
+        "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+        "location_precision": "precise",
+        "title": "BAtlas Map Label Location"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "mheubel",
+      "homepage": null,
+      "name": "Michael Heubel",
+      "uri": "https://pleiades.stoa.org/author/mheubel"
+    },
+    {
+      "username": "rmhorne",
+      "homepage": null,
+      "name": "Ryan Horne",
+      "uri": "https://pleiades.stoa.org/author/rmhorne"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    },
+    {
+      "username": null,
+      "name": "Richard Talbert"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [
+        {
+          "username": "rmhorne",
+          "homepage": null,
+          "name": "Ryan Horne",
+          "uri": "https://pleiades.stoa.org/author/rmhorne"
+        },
+        {
+          "username": null,
+          "name": "Richard Talbert"
+        },
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        },
+        {
+          "username": "mheubel",
+          "homepage": null,
+          "name": "Michael Heubel",
+          "uri": "https://pleiades.stoa.org/author/mheubel"
+        }
+      ],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://github.com/AWMC/geodata/blob/a289d378b75eba8c9b640f0248763e3cbf9d2583/Cultural-Data/regional_name_linework/regional_names_linework.geojson",
+          "citationDetail": "Abilene",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "AWMC Geodata: Regional Name Linework",
+          "bibliographicURI": "https://www.zotero.org/groups/2533/items/AKGKQTM5",
+          "formattedCitation": "<div class=\"csl-entry\">AWMC Geodata: Regional Name Linework. Geojson. Chapel Hill: Ancient World Mapping Center, University of North Carolina at Chapel Hill, June 20, 2016. Github.</div>",
+          "otherIdentifier": "",
+          "type": "citesAsDataSource"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "69 C2 Abilene",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "BAtlas",
+          "bibliographicURI": "https://www.zotero.org/groups/2533/items/MIAGQ5C6",
+          "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. Barrington Atlas of the Greek and Roman World. Princeton, N.J.: Princeton University Press, 2000.</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "batlas-map-label-location",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/label"
+      ],
+      "end": 300,
+      "title": "BAtlas Map Label Location",
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/label"
+      ],
+      "archaeologicalRemains": "notapplicable",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 930.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/awmc-batlas-data-1-500-000-scale",
+      "featureType": [
+        "label"
+      ],
+      "description": "Centerline/arc of label location used on the Barrington Atlas map for this feature",
+      "created": "2022-08-30T11:15:18Z",
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              35.94903722374255,
+              33.599852925790685
+            ],
+            [
+              35.98258762392487,
+              33.60056676409255
+            ],
+            [
+              36.004002772977344,
+              33.60056676409255
+            ],
+            [
+              36.018993377314075,
+              33.60270827899768
+            ],
+            [
+              36.051116100892784,
+              33.60484979390304
+            ],
+            [
+              36.07324508824695,
+              33.60841898541179
+            ],
+            [
+              36.109650841636096,
+              33.61484353012753
+            ]
+          ]
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/677994/batlas-map-label-location",
+      "creators": [
+        {
+          "username": null,
+          "name": "J.P. Brown"
+        },
+        {
+          "username": null,
+          "name": "E.M. Meyers"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "gmckee",
+          "modified": "2022-09-13T15:20:13Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "thomase",
+          "modified": "2022-08-31T18:32:33Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "thomase",
+          "modified": "2022-08-30T11:15:18Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/43970336",
+      "citationDetail": "69 C2 Abilene",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "BAtlas",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+      "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "I 567",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Sch\u00fcrer 1973",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/U3NZGP5W",
+      "formattedCitation": "<div class=\"csl-entry\">Sch\u00fcrer, Emil, ed. <i>The History of the Jewish People in the Age of Jesus Christ (175 B.C.-A.D. 135)</i>. 3 in 4 vols. Edinburgh: Clark, 1973.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0064%3Aalphabetic+letter%3DA%3Aentry+group%3D1%3Aentry%3Dabilene-geo",
+      "citationDetail": "ABIL\u00c9NE",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Smith 1854 (Perseus)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BIA378QC",
+      "formattedCitation": "<div class=\"csl-entry\">Smith, William. <i>Dictionary of Greek and Roman Geography</i>. London: Murray, 1854. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0064.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Abilene",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "abilene",
+      "end": 300,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 69 C2 Abilene",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-16T19:59:39Z",
+      "uri": "https://pleiades.stoa.org/places/677994/abilene",
+      "creators": [
+        {
+          "username": null,
+          "name": "J.P. Brown"
+        },
+        {
+          "username": null,
+          "name": "E.M. Meyers"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:47:23Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-16T20:42:25Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:19:12Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T19:59:39Z"
+        }
+      ]
+    }
+  ],
+  "id": "677994",
+  "subject": [],
+  "title": "Abilene",
+  "provenance": "Barrington Atlas: BAtlas 69 C2 Abilene",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/region",
+    "https://pleiades.stoa.org/vocabularies/place-types/label"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: SYR</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "An ancient place, cited: BAtlas 69 C2 Abilene",
+  "reprPoint": [
+    36.029600906475885,
+    33.604603381842196
+  ],
+  "placeTypes": [
+    "region",
+    "label"
+  ],
+  "bbox": [
+    35.94903722374255,
+    33.599852925790685,
+    36.109650841636096,
+    33.61484353012753
+  ],
+  "connectsWith": [
+    "https://pleiades.stoa.org/places/677992"
+  ],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2009-09-16T19:59:39Z",
+  "uri": "https://pleiades.stoa.org/places/677994",
+  "creators": [
+    {
+      "username": null,
+      "name": "E.M. Meyers"
+    },
+    {
+      "username": null,
+      "name": "J.P. Brown"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "Edited",
+      "modifiedBy": "jbecker",
+      "modified": "2020-08-23T14:27:32Z"
+    },
+    {
+      "comment": "Edited",
+      "modifiedBy": "jbecker",
+      "modified": "2020-08-23T14:23:28Z"
+    },
+    {
+      "comment": "added reference",
+      "modifiedBy": "jbecker",
+      "modified": "2015-10-25T19:26:37Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:47:23Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T22:09:33Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-16T20:42:25Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:19:12Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T19:59:39Z"
+    }
+  ]
+}

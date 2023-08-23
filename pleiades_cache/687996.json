@@ -1,0 +1,1025 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.930717,
+          32.104811
+        ]
+      },
+      "type": "Feature",
+      "id": "dare-location",
+      "properties": {
+        "snippet": "Settlement; 330 BC - AD 640",
+        "link": "https://pleiades.stoa.org/places/687996/dare-location",
+        "description": "Representative point location, site precision",
+        "location_precision": "precise",
+        "title": "DARE Location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9311,
+          32.1053
+        ]
+      },
+      "type": "Feature",
+      "id": "tel-afek",
+      "properties": {
+        "snippet": "Archaeological-site",
+        "link": "https://pleiades.stoa.org/places/687996/tel-afek",
+        "description": "",
+        "location_precision": "precise",
+        "title": "CIGS location of Tel Afek"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": "bkiesling",
+      "homepage": null,
+      "name": "Brady Kiesling",
+      "uri": "https://pleiades.stoa.org/author/bkiesling"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "jahlfeldt",
+      "homepage": null,
+      "name": "Johan \u00c5hlfeldt",
+      "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    },
+    {
+      "username": "cjohansson",
+      "homepage": null,
+      "name": "Carolin Johansson",
+      "uri": "https://pleiades.stoa.org/author/cjohansson"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    },
+    {
+      "username": null,
+      "name": "DARMC"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "rrattenborg",
+      "homepage": null,
+      "name": "Rune Rattenborg",
+      "uri": "https://pleiades.stoa.org/author/rrattenborg"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://francia.ahlfeldt.se/imperium.php",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "Johan \u00c5hlfeldt, Digital Atlas of the Roman Empire, 2012.",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "dare-location",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+      ],
+      "end": 640,
+      "title": "DARE Location",
+      "provenance": "Digital Atlas of the Roman Empire (2012-10-15)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 10.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/dare-3",
+      "featureType": [
+        "settlement"
+      ],
+      "description": "Representative point location, site precision",
+      "created": "2012-10-20T20:13:59Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.930717,
+          32.104811
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/687996/dare-location",
+      "creators": [
+        {
+          "username": "jahlfeldt",
+          "homepage": null,
+          "name": "Johan \u00c5hlfeldt",
+          "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T20:14:00Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T20:14:00Z"
+        },
+        {
+          "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T20:14:00Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T20:13:59Z"
+        }
+      ]
+    },
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://doi.org/10.4324/9780203875506",
+          "citationDetail": "page 50-51",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Bryce 2009",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZSXV8M2K",
+          "formattedCitation": "<div class=\"csl-entry\">Bryce, Trevor. <i>The Routledge Handbook of the Peoples and Places of Ancient Western Asia: The Near East from the Early Bronze Age to the Fall of the Persian Empire</i>. London; New York: Routledge, 2012. https://doi.org/10.4324/9780203875506.</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://en.wikipedia.org/wiki/Antipatris",
+          "citationDetail": "Antipatris",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (English)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>, Antipatris.",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://he.wikipedia.org/wiki/\u05ea\u05dc_\u05d0\u05e4\u05e7_(\u05d0\u05e0\u05d8\u05d9\u05e4\u05d8\u05e8\u05d9\u05e1)",
+          "citationDetail": "\u05ea\u05dc_\u05d0\u05e4\u05e7_(\u05d0\u05e0\u05d8\u05d9\u05e4\u05d8\u05e8\u05d9\u05e1)",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (Hebrew)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SMNW5UAT",
+          "formattedCitation": "<div class=\"csl-entry\"><i>\u05d5\u05d9\u05e7\u05d9\u05e4\u05d3\u05d9\u05d4, \u05d4\u05d0\u05d9\u05e0\u05e6\u05d9\u05e7\u05dc\u05d5\u05e4\u05d3\u05d9\u05d4 \u05d4\u05d7\u05d5\u05e4\u05e9\u05d9\u05ea</i>, 2001. https://he.wikipedia.org.</div>, \u05ea\u05dc_\u05d0\u05e4\u05e7_(\u05d0\u05e0\u05d8\u05d9\u05e4\u05d8\u05e8\u05d9\u05e1).",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://www.wikidata.org/wiki/Q682612",
+          "citationDetail": "Q682612",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikidata",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>, Q682612.",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "tel-afek",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+      ],
+      "end": null,
+      "title": "CIGS location of Tel Afek",
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": null,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+      ],
+      "archaeologicalRemains": "substantive",
+      "details": "<p>Centre point location extracted from polygon drawn around entire site as identified on Google Earth base imagery in QGIS 3.x.</p>",
+      "review_state": "published",
+      "accuracy_value": 5.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-2016ff",
+      "featureType": [
+        "archaeological-site"
+      ],
+      "description": "",
+      "created": "2023-06-08T14:01:31Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9311,
+          32.1053
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/687996/tel-afek",
+      "creators": [
+        {
+          "username": "cjohansson",
+          "homepage": null,
+          "name": "Carolin Johansson",
+          "uri": "https://pleiades.stoa.org/author/cjohansson"
+        },
+        {
+          "username": "rrattenborg",
+          "homepage": null,
+          "name": "Rune Rattenborg",
+          "uri": "https://pleiades.stoa.org/author/rrattenborg"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "comment": "Standardized title",
+          "modifiedBy": "jbecker",
+          "modified": "2023-06-10T21:28:02Z"
+        },
+        {
+          "comment": "Baseline created",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-06-08T14:01:31Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2023-01-13T21:57:33Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-12T09:53:24Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-12T09:52:18Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "cjohansson",
+          "modified": "2022-12-12T12:57:10Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "cjohansson",
+          "modified": "2022-12-12T12:57:10Z"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "end": null,
+      "description": "",
+      "contributors": [],
+      "created": "2016-07-13T13:38:09Z",
+      "associationCertainty": "certain",
+      "title": "Untitled",
+      "start": null,
+      "provenance": "Pleiades",
+      "uri": "https://pleiades.stoa.org/places/687996/690074",
+      "connectionType": "connection",
+      "id": "690074",
+      "attestations": [],
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2016-07-13T13:38:09Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2016-07-13T13:38:09Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2016-07-13T13:38:09Z"
+        }
+      ],
+      "connectsTo": "https://pleiades.stoa.org/places/690074",
+      "details": "",
+      "references": [],
+      "review_state": "published",
+      "creators": [
+        {
+          "username": "admin",
+          "homepage": null,
+          "name": "",
+          "uri": "https://pleiades.stoa.org/author/admin"
+        }
+      ],
+      "@type": "Connection",
+      "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection"
+    }
+  ],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "http://openlibrary.org/works/OL8327792W",
+      "formattedCitation": "BAtlas 70 F1 Pegai/Antipatris/Arethousa?",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "http://atlantides.org/bibliography/n.html#NEAEHL-2-444-45",
+      "formattedCitation": "NEAEHL 2 444-45",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "http://atlantides.org/bibliography/t.html#TIR-Iudaea-63",
+      "formattedCitation": "TIR Iudaea 63, 200",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Antipatris",
+      "citationDetail": "Antipatris",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+      "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Antipatris.",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0064%3Aalphabetic+letter%3DA%3Aentry+group%3D10%3Aentry%3Dantipatris-geo",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "Smith 1854 (Perseus), ANTIPATRIS",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Majdal_Yaba",
+      "citationDetail": "Majdal Yaba",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+      "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Majdal Yaba.",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=antipatris",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "PECS (Perseus), ANTIPATRIS Israel",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=J.%20AJ%2016.142&lang=original",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "Flav. Jos. AJ 16.142",
+      "otherIdentifier": " ",
+      "type": "citesAsEvidence"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=J.%20BJ%201.417&lang=original",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "Flav. Jos. BJ 1.417",
+      "otherIdentifier": " ",
+      "type": "citesAsEvidence"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://topostext.org/place/321349UAnt",
+      "citationDetail": "Antipatris/Aphek (Palestina)",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "ToposText",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/MC9RGDVB",
+      "formattedCitation": "Kiesling, Brady. ToposText \u2013 a Reference Tool for Greek Civilization. Version 2.0. Aikaterini Laskaridis Foundation, 2016-.",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://darmc.harvard.edu/",
+      "citationDetail": "5118",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "DARMC",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+      "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Pegai",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "pegai",
+      "end": -30,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 70 F1 Pegai/Antipatris/Arethousa?",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-17T12:33:56Z",
+      "uri": "https://pleiades.stoa.org/places/687996/pegai",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:55:49Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:47:55Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:04:20Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T12:33:56Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Antipatris",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0526.tlg004.perseus-grc1:1.417",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "Flav. Jos. BJ 1.417",
+          "otherIdentifier": " ",
+          "type": "citesAsEvidence"
+        }
+      ],
+      "id": "antipatris",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        },
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 70 F1 Pegai/Antipatris/Arethousa?",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "grc",
+      "created": "2009-09-17T12:33:56Z",
+      "uri": "https://pleiades.stoa.org/places/687996/antipatris",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "attested": "\u1f08\u03bd\u03c4\u03b9\u03c0\u03b1\u03c4\u03c1\u03af\u03c2",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "added reference",
+          "modifiedBy": "jbecker",
+          "modified": "2015-02-25T17:08:30Z"
+        },
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:55:49Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:47:55Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:04:20Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T12:33:56Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "less-certain",
+      "romanized": "Arethousa",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "arethousa",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 70 F1 Pegai/Antipatris/Arethousa?",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/less-certain",
+      "start": -330,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-17T12:33:56Z",
+      "uri": "https://pleiades.stoa.org/places/687996/arethousa",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:55:50Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:47:55Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:04:20Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T12:33:56Z"
+        }
+      ]
+    },
+    {
+      "nameType": "associated_modern",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Tel Afek",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://www.wikidata.org/wiki/Q682612",
+          "citationDetail": "Q682612",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikidata",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>, Q682612.",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://doi.org/10.4324/9780203875506",
+          "citationDetail": "pages 50-51",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Bryce 2009",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZSXV8M2K",
+          "formattedCitation": "<div class=\"csl-entry\">Bryce, Trevor. <i>The Routledge Handbook of the Peoples and Places of Ancient Western Asia: The Near East from the Early Bronze Age to the Fall of the Persian Empire</i>. London; New York: Routledge, 2012. https://doi.org/10.4324/9780203875506.</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://en.wikipedia.org/wiki/Antipatris",
+          "citationDetail": "Antipatris",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (English)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>, Antipatris.",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://he.wikipedia.org/wiki/\u05ea\u05dc_\u05d0\u05e4\u05e7_(\u05d0\u05e0\u05d8\u05d9\u05e4\u05d8\u05e8\u05d9\u05e1)",
+          "citationDetail": "\u05ea\u05dc_\u05d0\u05e4\u05e7_(\u05d0\u05e0\u05d8\u05d9\u05e4\u05d8\u05e8\u05d9\u05e1)",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (Hebrew)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SMNW5UAT",
+          "formattedCitation": "<div class=\"csl-entry\"><i>\u05d5\u05d9\u05e7\u05d9\u05e4\u05d3\u05d9\u05d4, \u05d4\u05d0\u05d9\u05e0\u05e6\u05d9\u05e7\u05dc\u05d5\u05e4\u05d3\u05d9\u05d4 \u05d4\u05d7\u05d5\u05e4\u05e9\u05d9\u05ea</i>, 2001. https://he.wikipedia.org.</div>, \u05ea\u05dc_\u05d0\u05e4\u05e7_(\u05d0\u05e0\u05d8\u05d9\u05e4\u05d8\u05e8\u05d9\u05e1).",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "tel-afek-1",
+      "end": 2100,
+      "contributors": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "details": "<p>Romanization according to the ALA-LC specifications for Hebrew (2011) (https://www.loc.gov/catdir/cpso/roman.html).</p>",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "he",
+      "created": "2022-12-12T13:04:23Z",
+      "uri": "https://pleiades.stoa.org/places/687996/tel-afek-1",
+      "creators": [
+        {
+          "username": "cjohansson",
+          "homepage": null,
+          "name": "Carolin Johansson",
+          "uri": "https://pleiades.stoa.org/author/cjohansson"
+        },
+        {
+          "username": "rrattenborg",
+          "homepage": null,
+          "name": "Rune Rattenborg",
+          "uri": "https://pleiades.stoa.org/author/rrattenborg"
+        }
+      ],
+      "attested": "\u05ea\u05dc \u05d0\u05e4\u05e7",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "name type --> associated modern name",
+          "modifiedBy": "jbecker",
+          "modified": "2023-06-10T21:28:28Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2023-01-13T21:57:57Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-12T10:03:18Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-12T10:02:57Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "cjohansson",
+          "modified": "2022-12-12T13:04:23Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "cjohansson",
+          "modified": "2022-12-12T13:04:23Z"
+        }
+      ]
+    }
+  ],
+  "id": "687996",
+  "subject": [
+    "dare:ancient=1",
+    "dare:major=1",
+    "dare:feature=major settlement"
+  ],
+  "title": "Pegai/Antipatris/Arethousa?",
+  "provenance": "Barrington Atlas: BAtlas 70 F1 Pegai/Antipatris/Arethousa?",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+    "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: Ras el-Ain/Rosh Ha-Ayin</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "Pegai/Antipatris/Arethousa? was a city built by Herod the Great and named for his father-in-law, Antipater.",
+  "reprPoint": [
+    34.9309085,
+    32.1050555
+  ],
+  "placeTypes": [
+    "settlement",
+    "archaeological-site"
+  ],
+  "bbox": [
+    34.930717,
+    32.104811,
+    34.9311,
+    32.1053
+  ],
+  "connectsWith": [
+    "https://pleiades.stoa.org/places/690074",
+    "https://pleiades.stoa.org/places/1001939"
+  ],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2018-06-08T00:18:46Z",
+  "uri": "https://pleiades.stoa.org/places/687996",
+  "creators": [
+    {
+      "username": null,
+      "name": "B. Isaac"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "create DARMC citation to preserve cross-project linkage after retracting DARMC location",
+      "modifiedBy": "thomase",
+      "modified": "2022-12-14T16:34:52Z"
+    },
+    {
+      "comment": "add ToposText reference provided by bkiesling",
+      "modifiedBy": "admin",
+      "modified": "2018-06-08T00:18:50Z"
+    },
+    {
+      "comment": "Baseline created",
+      "modifiedBy": "admin",
+      "modified": "2018-06-08T00:18:44Z"
+    },
+    {
+      "comment": "added references",
+      "modifiedBy": "jbecker",
+      "modified": "2015-02-25T16:45:02Z"
+    },
+    {
+      "comment": "edited description, added references",
+      "modifiedBy": "jbecker",
+      "modified": "2013-11-10T16:37:37Z"
+    },
+    {
+      "comment": "added connection",
+      "modifiedBy": "jbecker",
+      "modified": "2013-09-22T15:18:15Z"
+    },
+    {
+      "comment": "DARE feature tag fix.",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-23T19:33:27Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T20:14:00Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:55:48Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T21:51:55Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-09T19:12:38Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-17T13:47:55Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T13:04:20Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T12:33:56Z"
+    }
+  ]
+}

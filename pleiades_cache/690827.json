@@ -1,0 +1,408 @@
+{
+  "features": [
+    {
+      "geometry": null,
+      "type": "Feature",
+      "id": "undetermined",
+      "properties": {
+        "snippet": "Unknown; 30 BC - AD 640",
+        "link": "https://pleiades.stoa.org/places/690827/undetermined",
+        "description": "",
+        "location_precision": "unlocated",
+        "title": "Undetermined location"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "adamp",
+      "homepage": null,
+      "name": "Adam Prins",
+      "uri": "https://pleiades.stoa.org/author/adamp"
+    },
+    {
+      "username": null,
+      "name": "Jen Thum"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    },
+    {
+      "username": null,
+      "name": "Herbert Verreth"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": null,
+      "name": "Mark Depauw"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "less-confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/less-confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "less-confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/less-confident"
+        }
+      ],
+      "references": [],
+      "id": "undetermined",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+      ],
+      "end": 640,
+      "title": "Undetermined location",
+      "provenance": "Barrington Atlas: BAtlas 70  Aristoboulias",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": null,
+      "accuracy": null,
+      "featureType": [
+        "unknown"
+      ],
+      "description": "",
+      "created": "2009-09-17T12:31:13Z",
+      "geometry": null,
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/690827/undetermined",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:56:46Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:47:28Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:03:55Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T12:31:13Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "http://openlibrary.org/works/OL8327792W",
+      "formattedCitation": "BAtlas 70  Aristoboulias",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "http://atlantides.org/bibliography/t.html#TIR-Iudaea-67",
+      "formattedCitation": "TIR Iudaea 67",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.trismegistos.org/place/3112",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "TM, GEO ID 3112",
+      "otherIdentifier": " ",
+      "type": "seeAlso"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Aristoboulias",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "less-confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/less-confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "less-confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/less-confident"
+        }
+      ],
+      "references": [],
+      "id": "aristoboulias",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 70  Aristoboulias",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-17T12:31:12Z",
+      "uri": "https://pleiades.stoa.org/places/690827/aristoboulias",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:56:46Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:47:28Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:03:55Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T12:31:12Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Khirbet Istabul",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "khirbet-istabul",
+      "end": 2100,
+      "contributors": [
+        {
+          "username": null,
+          "name": "Herbert Verreth"
+        },
+        {
+          "username": null,
+          "name": "Mark Depauw"
+        },
+        {
+          "username": null,
+          "name": "Jen Thum"
+        }
+      ],
+      "provenance": "Trismegistos",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "details": "",
+      "review_state": "published",
+      "description": "Modern Name",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2012-05-03T17:25:48Z",
+      "uri": "https://pleiades.stoa.org/places/690827/khirbet-istabul",
+      "creators": [
+        {
+          "username": "adamp",
+          "homepage": null,
+          "name": "Adam Prins",
+          "uri": "https://pleiades.stoa.org/author/adamp"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "sgillies",
+          "modified": "2012-05-03T17:25:50Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2012-05-03T17:25:49Z"
+        },
+        {
+          "comment": "Trismegistos references from Adam Prins et al (adamp, Mark Depauw, Herbert Verreth, Jen Thum) and reviewd by Tom Elliott (thomase) in May 2012",
+          "modifiedBy": "sgillies",
+          "modified": "2012-05-03T17:25:49Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2012-05-03T17:25:49Z"
+        }
+      ]
+    }
+  ],
+  "id": "690827",
+  "subject": [],
+  "title": "Aristoboulias",
+  "provenance": "Barrington Atlas: BAtlas 70  Aristoboulias",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/unlocated"
+  ],
+  "details": "The Barrington Atlas Directory notes: Khirbet Istabul WBK?",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "An ancient place, cited: BAtlas 70 unlocated Aristoboulias",
+  "reprPoint": null,
+  "placeTypes": [
+    "unlocated"
+  ],
+  "bbox": null,
+  "connectsWith": [],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2009-09-17T12:31:12Z",
+  "uri": "https://pleiades.stoa.org/places/690827",
+  "creators": [
+    {
+      "username": null,
+      "name": "B. Isaac"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "Changing 'unlocated toponym' type to 'unlocated'",
+      "modifiedBy": "sgillies",
+      "modified": "2012-07-23T19:17:17Z"
+    },
+    {
+      "comment": "Trismegistos references from Adam Prins et al (adamp, Mark Depauw, Herbert Verreth, Jen Thum) and reviewd by Tom Elliott (thomase) in May 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-05-03T17:25:50Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:56:46Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T21:50:39Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-17T13:47:28Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T13:03:55Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T12:31:12Z"
+    }
+  ]
+}

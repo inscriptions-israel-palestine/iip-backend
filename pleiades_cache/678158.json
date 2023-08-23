@@ -1,0 +1,1612 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.891455,
+          32.281264
+        ]
+      },
+      "type": "Feature",
+      "id": "dare-location",
+      "properties": {
+        "snippet": "Settlement; 330 BC - AD 640",
+        "link": "https://pleiades.stoa.org/places/678158/dare-location",
+        "description": "Representative point location, site precision",
+        "location_precision": "precise",
+        "title": "DARE Location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.8868422,
+            32.2787859
+          ],
+          [
+            35.88791,
+            32.2774957
+          ],
+          [
+            35.8885216,
+            32.2767826
+          ],
+          [
+            35.8890061,
+            32.2762796
+          ],
+          [
+            35.8895294,
+            32.2762387
+          ],
+          [
+            35.8895698,
+            32.2758872
+          ],
+          [
+            35.8895196,
+            32.2754924
+          ],
+          [
+            35.8892908,
+            32.2750283
+          ],
+          [
+            35.8899114,
+            32.2747711
+          ],
+          [
+            35.889906,
+            32.2747675
+          ],
+          [
+            35.8898655,
+            32.2742482
+          ],
+          [
+            35.8898794,
+            32.2739233
+          ],
+          [
+            35.8894949,
+            32.2734623
+          ],
+          [
+            35.889011,
+            32.2726996
+          ],
+          [
+            35.889209,
+            32.2724765
+          ],
+          [
+            35.889158,
+            32.2721653
+          ],
+          [
+            35.8893015,
+            32.2722313
+          ],
+          [
+            35.8901743,
+            32.2726228
+          ],
+          [
+            35.8903438,
+            32.2723099
+          ],
+          [
+            35.8905125,
+            32.272023
+          ],
+          [
+            35.8906468,
+            32.2719499
+          ],
+          [
+            35.8907891,
+            32.2718712
+          ],
+          [
+            35.8914323,
+            32.2719498
+          ],
+          [
+            35.8914659,
+            32.2722629
+          ],
+          [
+            35.8914368,
+            32.2728259
+          ],
+          [
+            35.8913942,
+            32.2736017
+          ],
+          [
+            35.8913586,
+            32.2740301
+          ],
+          [
+            35.8911069,
+            32.2742019
+          ],
+          [
+            35.8910958,
+            32.2752171
+          ],
+          [
+            35.8912007,
+            32.2756868
+          ],
+          [
+            35.891531,
+            32.2758091
+          ],
+          [
+            35.8919181,
+            32.2766976
+          ],
+          [
+            35.8921129,
+            32.2771297
+          ],
+          [
+            35.8921724,
+            32.2772616
+          ],
+          [
+            35.8922123,
+            32.2776831
+          ],
+          [
+            35.8922239,
+            32.277806
+          ],
+          [
+            35.8922334,
+            32.2783315
+          ],
+          [
+            35.8922441,
+            32.2785645
+          ],
+          [
+            35.8922927,
+            32.2786716
+          ],
+          [
+            35.8922348,
+            32.2787475
+          ],
+          [
+            35.8924532,
+            32.2789501
+          ],
+          [
+            35.8924672,
+            32.2789755
+          ],
+          [
+            35.8924765,
+            32.2789925
+          ],
+          [
+            35.8924854,
+            32.2790085
+          ],
+          [
+            35.8924999,
+            32.279035
+          ],
+          [
+            35.892667,
+            32.2793241
+          ],
+          [
+            35.8928744,
+            32.2796105
+          ],
+          [
+            35.8930915,
+            32.279895
+          ],
+          [
+            35.8934302,
+            32.2803393
+          ],
+          [
+            35.8937286,
+            32.2808162
+          ],
+          [
+            35.8937692,
+            32.2811375
+          ],
+          [
+            35.8939302,
+            32.2814369
+          ],
+          [
+            35.8942392,
+            32.281671
+          ],
+          [
+            35.8941748,
+            32.2818016
+          ],
+          [
+            35.8941555,
+            32.2824548
+          ],
+          [
+            35.89418,
+            32.2826633
+          ],
+          [
+            35.8942457,
+            32.2832224
+          ],
+          [
+            35.8946803,
+            32.284148
+          ],
+          [
+            35.8948344,
+            32.284247
+          ],
+          [
+            35.8948579,
+            32.284288
+          ],
+          [
+            35.8948553,
+            32.2844037
+          ],
+          [
+            35.8947735,
+            32.2845556
+          ],
+          [
+            35.8944613,
+            32.2848917
+          ],
+          [
+            35.8939943,
+            32.285008
+          ],
+          [
+            35.893828,
+            32.2848606
+          ],
+          [
+            35.8937368,
+            32.2843708
+          ],
+          [
+            35.8934375,
+            32.2844783
+          ],
+          [
+            35.8928136,
+            32.2845659
+          ],
+          [
+            35.8925392,
+            32.2847711
+          ],
+          [
+            35.8923501,
+            32.2849212
+          ],
+          [
+            35.8921637,
+            32.2849762
+          ],
+          [
+            35.8916522,
+            32.2849445
+          ],
+          [
+            35.8904996,
+            32.2849254
+          ],
+          [
+            35.8899216,
+            32.2849015
+          ],
+          [
+            35.8898817,
+            32.2848622
+          ],
+          [
+            35.88957,
+            32.2845358
+          ],
+          [
+            35.8892278,
+            32.2842137
+          ],
+          [
+            35.888908,
+            32.2838483
+          ],
+          [
+            35.8878327,
+            32.282923
+          ],
+          [
+            35.8875365,
+            32.2824004
+          ],
+          [
+            35.8874271,
+            32.281524
+          ],
+          [
+            35.8874464,
+            32.2808436
+          ],
+          [
+            35.8873734,
+            32.280375
+          ],
+          [
+            35.8871865,
+            32.2797257
+          ],
+          [
+            35.8868422,
+            32.2787859
+          ]
+        ]
+      },
+      "type": "Feature",
+      "id": "osm-location-of-jerash",
+      "properties": {
+        "snippet": "Archaeological-site, Settlement; 330 BC - AD 640",
+        "link": "https://pleiades.stoa.org/places/678158/osm-location-of-jerash",
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Jerash"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": "bkiesling",
+      "homepage": null,
+      "name": "Brady Kiesling",
+      "uri": "https://pleiades.stoa.org/author/bkiesling"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "jahlfeldt",
+      "homepage": null,
+      "name": "Johan \u00c5hlfeldt",
+      "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    },
+    {
+      "username": null,
+      "name": "DARMC"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": null,
+      "name": "jfu"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://francia.ahlfeldt.se/imperium.php",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "Johan \u00c5hlfeldt, Digital Atlas of the Roman Empire, 2012.",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "dare-location",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+      ],
+      "end": 640,
+      "title": "DARE Location",
+      "provenance": "Digital Atlas of the Roman Empire (2012-10-15)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 10.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/dare-3",
+      "featureType": [
+        "settlement"
+      ],
+      "description": "Representative point location, site precision",
+      "created": "2012-10-20T23:12:11Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.891455,
+          32.281264
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/678158/dare-location",
+      "creators": [
+        {
+          "username": "jahlfeldt",
+          "homepage": null,
+          "name": "Johan \u00c5hlfeldt",
+          "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T23:12:13Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T23:12:13Z"
+        },
+        {
+          "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T23:12:12Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T23:12:12Z"
+        }
+      ]
+    },
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://www.openstreetmap.org/browse/way/91339020",
+          "citationDetail": "Way 91339020",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "OSM",
+          "bibliographicURI": "",
+          "formattedCitation": "osm:way=91339020",
+          "otherIdentifier": "",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "osm-location-of-jerash",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site",
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+      ],
+      "end": 640,
+      "title": "OSM location of Jerash",
+      "provenance": "OpenStreetMap (Way 91339020, version 24, osm:changeset=132088009, 2023-02-04T19:36:14Z)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site",
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+      ],
+      "archaeologicalRemains": "substantive",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 20.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+      "featureType": [
+        "archaeological-site",
+        "settlement"
+      ],
+      "description": "Representative location based on OpenStreetMap",
+      "created": "2023-03-10T16:03:12Z",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.8868422,
+            32.2787859
+          ],
+          [
+            35.88791,
+            32.2774957
+          ],
+          [
+            35.8885216,
+            32.2767826
+          ],
+          [
+            35.8890061,
+            32.2762796
+          ],
+          [
+            35.8895294,
+            32.2762387
+          ],
+          [
+            35.8895698,
+            32.2758872
+          ],
+          [
+            35.8895196,
+            32.2754924
+          ],
+          [
+            35.8892908,
+            32.2750283
+          ],
+          [
+            35.8899114,
+            32.2747711
+          ],
+          [
+            35.889906,
+            32.2747675
+          ],
+          [
+            35.8898655,
+            32.2742482
+          ],
+          [
+            35.8898794,
+            32.2739233
+          ],
+          [
+            35.8894949,
+            32.2734623
+          ],
+          [
+            35.889011,
+            32.2726996
+          ],
+          [
+            35.889209,
+            32.2724765
+          ],
+          [
+            35.889158,
+            32.2721653
+          ],
+          [
+            35.8893015,
+            32.2722313
+          ],
+          [
+            35.8901743,
+            32.2726228
+          ],
+          [
+            35.8903438,
+            32.2723099
+          ],
+          [
+            35.8905125,
+            32.272023
+          ],
+          [
+            35.8906468,
+            32.2719499
+          ],
+          [
+            35.8907891,
+            32.2718712
+          ],
+          [
+            35.8914323,
+            32.2719498
+          ],
+          [
+            35.8914659,
+            32.2722629
+          ],
+          [
+            35.8914368,
+            32.2728259
+          ],
+          [
+            35.8913942,
+            32.2736017
+          ],
+          [
+            35.8913586,
+            32.2740301
+          ],
+          [
+            35.8911069,
+            32.2742019
+          ],
+          [
+            35.8910958,
+            32.2752171
+          ],
+          [
+            35.8912007,
+            32.2756868
+          ],
+          [
+            35.891531,
+            32.2758091
+          ],
+          [
+            35.8919181,
+            32.2766976
+          ],
+          [
+            35.8921129,
+            32.2771297
+          ],
+          [
+            35.8921724,
+            32.2772616
+          ],
+          [
+            35.8922123,
+            32.2776831
+          ],
+          [
+            35.8922239,
+            32.277806
+          ],
+          [
+            35.8922334,
+            32.2783315
+          ],
+          [
+            35.8922441,
+            32.2785645
+          ],
+          [
+            35.8922927,
+            32.2786716
+          ],
+          [
+            35.8922348,
+            32.2787475
+          ],
+          [
+            35.8924532,
+            32.2789501
+          ],
+          [
+            35.8924672,
+            32.2789755
+          ],
+          [
+            35.8924765,
+            32.2789925
+          ],
+          [
+            35.8924854,
+            32.2790085
+          ],
+          [
+            35.8924999,
+            32.279035
+          ],
+          [
+            35.892667,
+            32.2793241
+          ],
+          [
+            35.8928744,
+            32.2796105
+          ],
+          [
+            35.8930915,
+            32.279895
+          ],
+          [
+            35.8934302,
+            32.2803393
+          ],
+          [
+            35.8937286,
+            32.2808162
+          ],
+          [
+            35.8937692,
+            32.2811375
+          ],
+          [
+            35.8939302,
+            32.2814369
+          ],
+          [
+            35.8942392,
+            32.281671
+          ],
+          [
+            35.8941748,
+            32.2818016
+          ],
+          [
+            35.8941555,
+            32.2824548
+          ],
+          [
+            35.89418,
+            32.2826633
+          ],
+          [
+            35.8942457,
+            32.2832224
+          ],
+          [
+            35.8946803,
+            32.284148
+          ],
+          [
+            35.8948344,
+            32.284247
+          ],
+          [
+            35.8948579,
+            32.284288
+          ],
+          [
+            35.8948553,
+            32.2844037
+          ],
+          [
+            35.8947735,
+            32.2845556
+          ],
+          [
+            35.8944613,
+            32.2848917
+          ],
+          [
+            35.8939943,
+            32.285008
+          ],
+          [
+            35.893828,
+            32.2848606
+          ],
+          [
+            35.8937368,
+            32.2843708
+          ],
+          [
+            35.8934375,
+            32.2844783
+          ],
+          [
+            35.8928136,
+            32.2845659
+          ],
+          [
+            35.8925392,
+            32.2847711
+          ],
+          [
+            35.8923501,
+            32.2849212
+          ],
+          [
+            35.8921637,
+            32.2849762
+          ],
+          [
+            35.8916522,
+            32.2849445
+          ],
+          [
+            35.8904996,
+            32.2849254
+          ],
+          [
+            35.8899216,
+            32.2849015
+          ],
+          [
+            35.8898817,
+            32.2848622
+          ],
+          [
+            35.88957,
+            32.2845358
+          ],
+          [
+            35.8892278,
+            32.2842137
+          ],
+          [
+            35.888908,
+            32.2838483
+          ],
+          [
+            35.8878327,
+            32.282923
+          ],
+          [
+            35.8875365,
+            32.2824004
+          ],
+          [
+            35.8874271,
+            32.281524
+          ],
+          [
+            35.8874464,
+            32.2808436
+          ],
+          [
+            35.8873734,
+            32.280375
+          ],
+          [
+            35.8871865,
+            32.2797257
+          ],
+          [
+            35.8868422,
+            32.2787859
+          ]
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/678158/osm-location-of-jerash",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2023-03-10T23:39:00Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2023-03-10T16:03:57Z"
+        },
+        {
+          "comment": "added osm location",
+          "modifiedBy": "jbecker",
+          "modified": "2023-03-10T16:03:49Z"
+        },
+        {
+          "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+          "modifiedBy": "jbecker",
+          "modified": "2023-03-10T16:03:12Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2023-03-10T16:03:12Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/43970336",
+      "citationDetail": "69 C5 Gerasa/Antiochia ad Chrysorhoam",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "BAtlas",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+      "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Kraeling 1938",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/K7SI7IVU",
+      "formattedCitation": "<div class=\"csl-entry\">Kraeling, Carl H, ed. <i>Gerasa, City of the Decapolis: An Account Embodying the Record of a Joint Excavation Conducted by Yale University and the British School of Archaeology in Jerusalem (1928-1930), and Yale University and the American Schools of Oriental Research ...</i> New Haven, Conn: British School of Archaeology in Jerusalem; American Schools of Oriental Research; Yale University, 1938.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.trismegistos.org/place/16815",
+      "citationDetail": "GEO ID 16815: Gerasa (Jerash)",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "TM",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+      "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+      "otherIdentifier": " ",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Jerash",
+      "citationDetail": "Jerash",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+      "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Jerash.",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=gerasa",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "PECS (Perseus), GERASA (Jerash) Jordan",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.encquran.brill.nl/entries/brill-s-new-pauly/gerasa-e422270",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "New Pauly, Gerasa",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0064%3Aalphabetic+letter%3DG%3Aentry+group%3D3%3Aentry%3Dgerasa-geo",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "Smith 1854 (Perseus), GERASA",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Browning 1982",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MVDUNQU2",
+      "formattedCitation": "<div class=\"csl-entry\">Browning, Iain. <i>Jerash and the Decapolis</i>. London: Chatto &amp; Windus, 1982.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Seigne 1987",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/B9R8KEGK",
+      "formattedCitation": "<div class=\"csl-entry\">Seigne, J., and F. Braemer. \u201cJerash, la Gerasa antique.\u201d In <i>Dossiers d\u2019arch\u00e9ologie, 118.1987</i>, 48\u201362, Abb, 1987.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://topostext.org/place/322358UGer",
+      "citationDetail": "Gerasa/Antiochia ad Chrysorhoam (Syria)",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "ToposText",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/MC9RGDVB",
+      "formattedCitation": "Kiesling, Brady. ToposText \u2013 a Reference Tool for Greek Civilization. Version 2.0. Aikaterini Laskaridis Foundation, 2016-.",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://catalog.hathitrust.org/api/volumes/oclc/48004471.html",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Borgia 2001",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IHQT9D57",
+      "formattedCitation": "<div class=\"csl-entry\">Borgia, E. <i>Jordan, Past &amp; Present: Petra, Jerash, Amman</i>. Roma; Amman, Jordan: VISION\u202f; Distributed by Jordan Distribution Agency Co., 2001. http://catalog.hathitrust.org/api/volumes/oclc/48004471.html.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0526.tlg004.perseus-grc1:2.457",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "Joseph. BJ 2.457",
+      "otherIdentifier": "",
+      "type": "citesAsEvidence"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0526.tlg004.perseus-grc1:2.477",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "Joseph. BJ 2.477",
+      "otherIdentifier": "",
+      "type": "citesAsEvidence"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://doi.org/10.1080/00758914.2023.2165362",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Uscatescu 2022",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/96PH48MJ",
+      "formattedCitation": "<div class=\"csl-entry\">Uscatescu, Alexandra. \u201cAssembling Columns: Construction Process through the Masons\u2019 Marks from the Macellum of Gerasa (Jerash, Jordan).\u201d <i>Levant</i> 54, no. 3 (September 2, 2022): 378\u2013405. https://doi.org/10.1080/00758914.2023.2165362.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://vocab.getty.edu/page/tgn/7002404",
+      "citationDetail": "7002404: Gerasa (deserted settlement)",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "TGN",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZLJQ5AZJ",
+      "formattedCitation": "<div class=\"csl-entry\"><i>Getty Thesaurus of Geographic Names\u00ae Online</i>, n.d. https://www.getty.edu/research/tools/vocabularies/tgn/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://darmc.harvard.edu/",
+      "citationDetail": "20281",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "DARMC",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+      "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Gerasa",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "",
+          "bibliographicURI": "http://atlantides.org/bibliography/",
+          "formattedCitation": "Ptol. 5.15",
+          "otherIdentifier": " ",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "gerasa",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        },
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 69 C5 Gerasa/Antiochia ad Chrysorhoam",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "grc",
+      "created": "2009-09-16T20:02:12Z",
+      "uri": "https://pleiades.stoa.org/places/678158/gerasa",
+      "creators": [
+        {
+          "username": null,
+          "name": "E.M. Meyers"
+        },
+        {
+          "username": null,
+          "name": "J.P. Brown"
+        }
+      ],
+      "attested": "\u0393\u03ad\u03c1\u03b1\u03c3\u03b1",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "added reference",
+          "modifiedBy": "jbecker",
+          "modified": "2015-02-14T19:47:08Z"
+        },
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:49:16Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-16T20:42:54Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:19:35Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:02:12Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Antiochia ad Chrysorhoam",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "antiochia-ad-chrysorhoam",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        },
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 69 C5 Gerasa/Antiochia ad Chrysorhoam",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "la",
+      "created": "2009-09-16T20:02:12Z",
+      "uri": "https://pleiades.stoa.org/places/678158/antiochia-ad-chrysorhoam",
+      "creators": [
+        {
+          "username": null,
+          "name": "E.M. Meyers"
+        },
+        {
+          "username": null,
+          "name": "J.P. Brown"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "jbecker",
+          "modified": "2020-06-19T15:33:29Z"
+        },
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:49:17Z"
+        },
+        {
+          "comment": "Time periods copied from sibling. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+          "modifiedBy": "sgillies",
+          "modified": "2011-01-20T03:29:52Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-16T20:42:54Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:19:35Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:02:12Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Jerash",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://en.wikipedia.org/wiki/Jerash",
+          "citationDetail": "Jerash",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "Wikipedia (English)",
+          "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+          "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Jerash.",
+          "otherIdentifier": " ",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "name.2015-02-14.2522021839",
+      "end": 2100,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "en",
+      "created": "2015-02-15T03:59:12Z",
+      "uri": "https://pleiades.stoa.org/places/678158/name.2015-02-14.2522021839",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "attested": "Jerash",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "jbecker",
+          "modified": "2020-06-19T15:33:13Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "jbecker",
+          "modified": "2020-06-19T15:33:07Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2018-06-05T20:17:37Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "jbecker",
+          "modified": "2018-06-05T20:13:51Z"
+        },
+        {
+          "comment": "added name",
+          "modifiedBy": "jbecker",
+          "modified": "2015-02-15T03:59:25Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2015-02-15T03:59:17Z"
+        }
+      ]
+    }
+  ],
+  "id": "678158",
+  "subject": [
+    "dare:ancient=1",
+    "dare:major=1",
+    "dare:feature=major settlement"
+  ],
+  "title": "Gerasa/Antiochia ad Chrysorhoam",
+  "provenance": "Barrington Atlas: BAtlas 69 C5 Gerasa/Antiochia ad Chrysorhoam",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/urban",
+    "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+    "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: Jerash JOR</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "Gerasa (modern Jerash in Jordan) became a substantial center under Antiochos IV Epiphanes, at which time it became known as Antioch on the Chrysorhoas. It became part of the territory of Iudaea and in 63 B.C. Pompeius Magnus made it part of the Decapolis. It received the status of a Roman colony in the third century.",
+  "reprPoint": [
+    35.89109212818856,
+    32.280089876437785
+  ],
+  "placeTypes": [
+    "urban",
+    "settlement",
+    "archaeological-site"
+  ],
+  "bbox": [
+    35.8868422,
+    32.2718712,
+    35.8948579,
+    32.285008
+  ],
+  "connectsWith": [
+    "https://pleiades.stoa.org/places/312305084"
+  ],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2020-06-19T14:54:09Z",
+  "uri": "https://pleiades.stoa.org/places/678158",
+  "creators": [
+    {
+      "username": null,
+      "name": "E.M. Meyers"
+    },
+    {
+      "username": null,
+      "name": "J.P. Brown"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "create DARMC citation to preserve cross-project linkage after retracting DARMC location",
+      "modifiedBy": "thomase",
+      "modified": "2023-03-10T23:39:44Z"
+    },
+    {
+      "comment": "add TGN ref.",
+      "modifiedBy": "jbecker",
+      "modified": "2023-03-10T16:05:21Z"
+    },
+    {
+      "comment": "added Uscatescu 2022",
+      "modifiedBy": "thomase",
+      "modified": "2023-03-08T20:22:59Z"
+    },
+    {
+      "comment": "summary",
+      "modifiedBy": "thomase",
+      "modified": "2023-03-08T20:22:27Z"
+    },
+    {
+      "comment": "Edited",
+      "modifiedBy": "jbecker",
+      "modified": "2020-10-25T21:45:43Z"
+    },
+    {
+      "comment": "Edited; reference cleanup; Edited",
+      "modifiedBy": "jbecker",
+      "modified": "2020-06-19T15:32:51Z"
+    },
+    {
+      "comment": "add ToposText reference provided by bkiesling",
+      "modifiedBy": "admin",
+      "modified": "2018-06-08T11:03:17Z"
+    },
+    {
+      "comment": "Baseline created",
+      "modifiedBy": "admin",
+      "modified": "2018-06-08T11:03:09Z"
+    },
+    {
+      "comment": "references, summary",
+      "modifiedBy": "jbecker",
+      "modified": "2018-06-05T20:11:33Z"
+    },
+    {
+      "comment": "references",
+      "modifiedBy": "jbecker",
+      "modified": "2018-06-05T18:35:12Z"
+    },
+    {
+      "comment": "added references",
+      "modifiedBy": "jbecker",
+      "modified": "2015-02-14T19:44:38Z"
+    },
+    {
+      "comment": "DARE feature tag fix.",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-23T19:42:54Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T23:12:13Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:49:16Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T22:10:42Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-10T00:08:28Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-16T20:42:54Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:19:35Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:02:12Z"
+    }
+  ]
+}

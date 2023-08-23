@@ -1,0 +1,1126 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.619574,
+          32.8928556
+        ]
+      },
+      "type": "Feature",
+      "id": "osm-location-of-el-araj",
+      "properties": {
+        "snippet": "Archaeological-site",
+        "link": "https://pleiades.stoa.org/places/678065/osm-location-of-el-araj",
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of El Araj"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": null,
+      "name": "DARMC"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "bkiesling",
+      "homepage": null,
+      "name": "Brady Kiesling",
+      "uri": "https://pleiades.stoa.org/author/bkiesling"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "fdeblauwe",
+      "homepage": null,
+      "name": "Francis Deblauwe",
+      "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://www.openstreetmap.org/browse/node/10173119077",
+          "citationDetail": "Node 10173119077",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "OSM",
+          "bibliographicURI": "",
+          "formattedCitation": "osm:node=10173119077",
+          "otherIdentifier": "",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "osm-location-of-el-araj",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+      ],
+      "end": null,
+      "title": "OSM location of El Araj",
+      "provenance": "OpenStreetMap (Node 10173119077, version 1, osm:changeset=128721773, 2022-11-10T08:48:26Z)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": null,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 20.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+      "featureType": [
+        "archaeological-site"
+      ],
+      "description": "Representative location based on OpenStreetMap",
+      "created": "2022-12-31T03:22:49Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.619574,
+          32.8928556
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/678065/osm-location-of-el-araj",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2023-01-03T18:57:17Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2022-12-31T03:23:17Z"
+        },
+        {
+          "comment": "added osm location",
+          "modifiedBy": "jbecker",
+          "modified": "2022-12-31T03:23:06Z"
+        },
+        {
+          "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+          "modifiedBy": "jbecker",
+          "modified": "2022-12-31T03:22:49Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2022-12-31T03:22:49Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "http://openlibrary.org/works/OL8327792W",
+      "formattedCitation": "BAtlas 69 C4 Bethsaida?/Iulias?",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "http://atlantides.org/bibliography/t.html#TIR-Iudaea-85",
+      "formattedCitation": "TIR Iudaea 85",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://topostext.org/place/329356UBSa",
+      "citationDetail": "Bethsaida/Julias (Palestine)",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "ToposText",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/MC9RGDVB",
+      "formattedCitation": "Kiesling, Brady. ToposText \u2013 a Reference Tool for Greek Civilization. Version 2.0. Aikaterini Laskaridis Foundation, 2016-.",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://darmc.harvard.edu/",
+      "citationDetail": "11723",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "DARMC",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+      "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "less-certain",
+      "romanized": "Iulias",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "iulias",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 69 C4 Bethsaida?/Iulias?",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/less-certain",
+      "start": -30,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "la",
+      "created": "2009-09-16T20:00:47Z",
+      "uri": "https://pleiades.stoa.org/places/678065/iulias",
+      "creators": [
+        {
+          "username": null,
+          "name": "E.M. Meyers"
+        },
+        {
+          "username": null,
+          "name": "J.P. Brown"
+        }
+      ],
+      "attested": "Iulias",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "merging",
+          "modifiedBy": "thomase",
+          "modified": "2012-07-13T21:23:46Z"
+        },
+        {
+          "comment": "Baseline created",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-13T04:51:29Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-04T22:49:16Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-04T22:49:16Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-04T22:49:15Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-16T20:42:38Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:19:22Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:00:47Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "at-Tall, et-Tell, el-Tell, al-Tall",
+      "attestations": [],
+      "references": [],
+      "id": "at-tall",
+      "end": null,
+      "contributors": [
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+      ],
+      "provenance": "TAVO",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": null,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "arb",
+      "created": "2012-06-04T22:16:02Z",
+      "uri": "https://pleiades.stoa.org/places/678065/at-tall",
+      "creators": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2012-07-17T03:06:46Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-07-17T00:05:22Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-07-16T23:48:11Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-07-16T23:41:57Z"
+        },
+        {
+          "comment": "Delete empty reference",
+          "modifiedBy": "sgillies",
+          "modified": "2012-07-13T21:10:58Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "thomase",
+          "modified": "2012-07-13T21:04:39Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "thomase",
+          "modified": "2012-07-13T21:03:56Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-04T22:49:15Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-04T22:16:02Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "al-Ma\u1e63\u02bfad\u012bya, al-Mas'adiya, al-Masadiya, al-Masadiyah, al-Mas'adiyah, el-Mas'adiya, el-Masadiya, el-Masadiyah, el-Mas'adiyah",
+      "attestations": [],
+      "references": [],
+      "id": "al-masadiya",
+      "end": null,
+      "contributors": [
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+      ],
+      "provenance": "TAVO",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": null,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "arb",
+      "created": "2012-06-04T22:23:01Z",
+      "uri": "https://pleiades.stoa.org/places/678065/al-masadiya",
+      "creators": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2012-07-17T03:06:47Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-07-17T00:05:43Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-07-16T23:48:56Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "thomase",
+          "modified": "2012-07-13T20:56:07Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-04T22:49:15Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-04T22:23:01Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "al-\u02bfAra\u01e7, al-Araj, el-Araj, al-'Araj, el-'Araj, al-Arag, el-Arag, al-'Arag, el-'Arag",
+      "attestations": [],
+      "references": [],
+      "id": "al-araj",
+      "end": null,
+      "contributors": [
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+      ],
+      "provenance": "TAVO",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": null,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "arb",
+      "created": "2012-06-04T22:40:16Z",
+      "uri": "https://pleiades.stoa.org/places/678065/al-araj",
+      "creators": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2012-07-17T03:06:47Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-07-17T00:05:09Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-07-16T23:47:52Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "thomase",
+          "modified": "2012-07-13T20:55:35Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-04T22:49:15Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-04T22:40:17Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "\u1e62ayd\u0227n, Saydan, Sayd\u0227n",
+      "attestations": [],
+      "references": [],
+      "id": "saydan",
+      "end": null,
+      "contributors": [
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+      ],
+      "provenance": "TAVO",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": null,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "hbo",
+      "created": "2012-06-04T22:48:52Z",
+      "uri": "https://pleiades.stoa.org/places/678065/saydan",
+      "creators": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2012-07-17T03:06:47Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-07-17T00:04:57Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-07-16T23:40:25Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "thomase",
+          "modified": "2012-07-13T21:36:58Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-04T22:49:15Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-04T22:48:53Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Bait \u1e62aid\u0101, Bait Saida, Bait \u1e62aida, Beyt Saida, Bayt Saida, Beit Saida",
+      "attestations": [],
+      "references": [],
+      "id": "bait-saida",
+      "end": null,
+      "contributors": [
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+      ],
+      "provenance": "TAVO",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": null,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "arb",
+      "created": "2012-06-04T22:52:29Z",
+      "uri": "https://pleiades.stoa.org/places/678065/bait-saida",
+      "creators": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2012-07-17T03:06:48Z"
+        },
+        {
+          "comment": "more alternate transliterations",
+          "modifiedBy": "thomase",
+          "modified": "2012-07-17T03:06:11Z"
+        },
+        {
+          "comment": "Baseline created",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-07-17T00:06:08Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-07-17T00:05:55Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-07-17T00:03:41Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "thomase",
+          "modified": "2012-07-13T21:25:53Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-04T22:52:30Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-04T22:52:29Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "B\u1eb9t \u1e62\u1eb9d\u0227, Bet Seda",
+      "attestations": [],
+      "references": [],
+      "id": "bet-seda",
+      "end": null,
+      "contributors": [
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+      ],
+      "provenance": "TAVO",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": null,
+      "details": "\r\n<p>actually Modern Hebrew (not yet in list)</p>\r\n",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "he",
+      "created": "2012-06-04T22:55:55Z",
+      "uri": "https://pleiades.stoa.org/places/678065/bet-seda",
+      "creators": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Reverted to revision ${version}",
+          "modifiedBy": "sgillies",
+          "modified": "2012-08-30T00:37:41Z"
+        },
+        {
+          "comment": "Reverted to revision ${version}",
+          "modifiedBy": "sgillies",
+          "modified": "2012-08-30T00:37:29Z"
+        },
+        {
+          "comment": "Reverted to revision ${version}",
+          "modifiedBy": "sgillies",
+          "modified": "2012-08-30T00:37:13Z"
+        },
+        {
+          "comment": "Reverted to revision ${version}",
+          "modifiedBy": "sgillies",
+          "modified": "2012-08-30T00:37:01Z"
+        },
+        {
+          "comment": "Remove \"Bet Seda\" romanization to test indexing",
+          "modifiedBy": "sgillies",
+          "modified": "2012-08-29T18:36:56Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2012-07-17T03:06:48Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-07-17T00:04:43Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-07-16T23:35:38Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-07-16T23:29:57Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "thomase",
+          "modified": "2012-07-13T21:19:29Z"
+        },
+        {
+          "action": "Retract",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-13T06:15:39Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-13T05:50:11Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-13T05:49:53Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-04T22:55:57Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-04T22:55:55Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "less-certain",
+      "romanized": "Bethsaida, B\u0113thsaida, Bethsa\u00efda, B\u0113thsa\u00efda",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://atlantides.org/bibliography/t.html#TAVO",
+          "formattedCitation": "TAVO",
+          "otherIdentifier": "",
+          "type": "cites"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+          "shortTitle": "",
+          "bibliographicURI": "http://atlantides.org/bibliography/j.html#John-1:44",
+          "formattedCitation": "John 1:44",
+          "otherIdentifier": "",
+          "type": "citesAsEvidence"
+        }
+      ],
+      "id": "bethsaida",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 69 C4 Bethsaida?/Iulias?",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/less-certain",
+      "start": -30,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "grc",
+      "created": "2009-09-16T20:00:47Z",
+      "uri": "https://pleiades.stoa.org/places/678065/bethsaida",
+      "creators": [
+        {
+          "username": null,
+          "name": "E.M. Meyers"
+        },
+        {
+          "username": null,
+          "name": "J.P. Brown"
+        }
+      ],
+      "attested": "\u0392\u03b7\u03b8\u03c3\u03b1\u0390\u03b4\u03ac",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Edited",
+          "modifiedBy": "thomase",
+          "modified": "2012-07-13T21:35:28Z"
+        },
+        {
+          "comment": "greek!",
+          "modifiedBy": "thomase",
+          "modified": "2012-07-10T02:29:50Z"
+        },
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:48:11Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-16T20:42:38Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:19:22Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:00:47Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Ioulias",
+      "attestations": [],
+      "references": [],
+      "id": "ioulias",
+      "end": null,
+      "contributors": [],
+      "provenance": "TAVO",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": null,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "grc",
+      "created": "2012-06-04T22:13:05Z",
+      "uri": "https://pleiades.stoa.org/places/678065/ioulias",
+      "creators": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2012-07-17T03:06:48Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-07-17T00:04:29Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-07-16T23:35:58Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-07-16T23:26:18Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-07-16T23:19:05Z"
+        },
+        {
+          "action": "Send back",
+          "modifiedBy": "thomase",
+          "modified": "2012-07-13T21:37:25Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-04T23:09:56Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-04T22:13:07Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "fdeblauwe",
+          "modified": "2012-06-04T22:13:05Z"
+        }
+      ]
+    }
+  ],
+  "id": "678065",
+  "subject": [
+    "dare:ancient=1",
+    "dare:feature=settlement",
+    "dare:major=0"
+  ],
+  "title": "Bethsaida",
+  "provenance": "Barrington Atlas: BAtlas 69 C4 Bethsaida?/Iulias?",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+    "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: et Tell/el 'Araj ISR</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "An ancient place, cited: BAtlas 69 C4 Bethsaida?/Iulias?",
+  "reprPoint": [
+    35.619574,
+    32.8928556
+  ],
+  "placeTypes": [
+    "settlement",
+    "archaeological-site"
+  ],
+  "bbox": [
+    35.619574,
+    32.8928556,
+    35.619574,
+    32.8928556
+  ],
+  "connectsWith": [],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2018-06-08T12:00:12Z",
+  "uri": "https://pleiades.stoa.org/places/678065",
+  "creators": [
+    {
+      "username": null,
+      "name": "E.M. Meyers"
+    },
+    {
+      "username": null,
+      "name": "J.P. Brown"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "create DARMC citation to preserve cross-project linkage after retracting DARMC location",
+      "modifiedBy": "thomase",
+      "modified": "2023-01-03T18:58:12Z"
+    },
+    {
+      "comment": "add ToposText reference provided by bkiesling",
+      "modifiedBy": "admin",
+      "modified": "2018-06-08T12:00:19Z"
+    },
+    {
+      "comment": "Baseline created",
+      "modifiedBy": "admin",
+      "modified": "2018-06-08T12:00:08Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T23:11:13Z"
+    },
+    {
+      "comment": "merging",
+      "modifiedBy": "thomase",
+      "modified": "2012-07-13T21:30:41Z"
+    },
+    {
+      "comment": "Baseline created",
+      "modifiedBy": "fdeblauwe",
+      "modified": "2012-06-04T22:49:08Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:48:10Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T22:10:02Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-09T20:51:37Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-16T20:42:38Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:19:22Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:00:47Z"
+    }
+  ]
+}

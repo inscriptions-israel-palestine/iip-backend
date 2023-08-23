@@ -1,0 +1,3424 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.068626,
+          32.920744
+        ]
+      },
+      "type": "Feature",
+      "id": "dare-location",
+      "properties": {
+        "snippet": "Settlement; 330 BC - AD 640",
+        "link": "https://pleiades.stoa.org/places/678010/dare-location",
+        "description": "Representative point location, village precision",
+        "location_precision": "precise",
+        "title": "DARE Location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.091044,
+          32.9218295
+        ]
+      },
+      "type": "Feature",
+      "id": "location-of-tel-akko",
+      "properties": {
+        "snippet": "Settlement; 2000 BC - AD 2000",
+        "link": "https://pleiades.stoa.org/places/678010/location-of-tel-akko",
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Tel Akko"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": "bkiesling",
+      "homepage": null,
+      "name": "Brady Kiesling",
+      "uri": "https://pleiades.stoa.org/author/bkiesling"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": null,
+      "name": "Jen Thum"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    },
+    {
+      "username": "jnovotny",
+      "homepage": null,
+      "name": "Jamie Novotny",
+      "uri": "https://pleiades.stoa.org/author/jnovotny"
+    },
+    {
+      "username": null,
+      "name": "H. Kopp"
+    },
+    {
+      "username": null,
+      "name": "Herbert Verreth"
+    },
+    {
+      "username": null,
+      "name": "B. Siewert-Mayer"
+    },
+    {
+      "username": "nkaye",
+      "homepage": null,
+      "name": "Noah Kaye",
+      "uri": "https://pleiades.stoa.org/author/nkaye"
+    },
+    {
+      "username": null,
+      "name": "Mark Depauw"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "jahlfeldt",
+      "homepage": null,
+      "name": "Johan \u00c5hlfeldt",
+      "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+    },
+    {
+      "username": "adamp",
+      "homepage": null,
+      "name": "Adam Prins",
+      "uri": "https://pleiades.stoa.org/author/adamp"
+    },
+    {
+      "username": null,
+      "name": "W. R\u00f6llig"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    },
+    {
+      "username": null,
+      "name": "DARMC"
+    },
+    {
+      "username": "fdeblauwe",
+      "homepage": null,
+      "name": "Francis Deblauwe",
+      "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+    },
+    {
+      "username": "ekansa",
+      "homepage": null,
+      "name": "Eric Kansa",
+      "uri": "https://pleiades.stoa.org/author/ekansa"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://francia.ahlfeldt.se/imperium.php",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "Johan \u00c5hlfeldt, Digital Atlas of the Roman Empire, 2012.",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "dare-location",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+      ],
+      "end": 640,
+      "title": "DARE Location",
+      "provenance": "Digital Atlas of the Roman Empire (2012-10-15)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 100.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/dare-2",
+      "featureType": [
+        "settlement"
+      ],
+      "description": "Representative point location, village precision",
+      "created": "2012-10-20T23:10:38Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.068626,
+          32.920744
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/678010/dare-location",
+      "creators": [
+        {
+          "username": "jahlfeldt",
+          "homepage": null,
+          "name": "Johan \u00c5hlfeldt",
+          "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T23:10:41Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T23:10:40Z"
+        },
+        {
+          "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T23:10:40Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T23:10:39Z"
+        }
+      ]
+    },
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "2nd-millenium-bce",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/2nd-millenium-bce",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "hellenistic-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "modern-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.openstreetmap.org/browse/node/1366585253",
+          "citationDetail": "Node 1366585253",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "OSM",
+          "bibliographicURI": "",
+          "formattedCitation": "osm:node=1366585253",
+          "otherIdentifier": " ",
+          "type": "citesAsDataSource"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://en.wikipedia.org/wiki/Acre,_Israel",
+          "citationDetail": "Acre, Israel",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (English)",
+          "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+          "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Acre, Israel.",
+          "otherIdentifier": " ",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "location-of-tel-akko",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+      ],
+      "end": 2000,
+      "title": "OSM location of Tel Akko",
+      "provenance": "OpenStreetMap (Node 1366585253, version 3, osm:changeset=14255656, 2012-12-13T02:28:52Z)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -2000,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+      ],
+      "archaeologicalRemains": "substantive",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 20.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+      "featureType": [
+        "settlement"
+      ],
+      "description": "Representative location based on OpenStreetMap.",
+      "created": "2013-02-22T21:10:47Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.091044,
+          32.9218295
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/678010/location-of-tel-akko",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "comment": "Generic OSM Accuracy Assessment",
+          "modifiedBy": "jbecker",
+          "modified": "2023-02-25T01:49:20Z"
+        },
+        {
+          "comment": "title, summary",
+          "modifiedBy": "jbecker",
+          "modified": "2017-10-20T17:40:10Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2013-04-12T20:44:22Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "thomase",
+          "modified": "2013-04-12T20:44:08Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "thomase",
+          "modified": "2013-04-12T20:43:52Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2013-02-22T21:13:42Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2013-02-22T21:10:49Z"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "end": -540,
+      "description": "Akk\u00fb belonged to Sidon at the end of the eighth century BC.",
+      "contributors": [],
+      "created": "2020-08-06T10:08:08Z",
+      "associationCertainty": "certain",
+      "title": "Sidon/Col. Aurelia Pia",
+      "start": -720,
+      "provenance": "Pleiades",
+      "uri": "https://pleiades.stoa.org/places/678010/sidon-col-aurelia-pia",
+      "connectionType": "part_of_admin",
+      "id": "sidon-col-aurelia-pia",
+      "attestations": [
+        {
+          "timePeriod": "neo-assyrian-babylonian-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/neo-assyrian-babylonian-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "jbecker",
+          "modified": "2020-08-06T17:07:09Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-06T10:08:19Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-06T10:08:09Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-06T10:08:08Z"
+        }
+      ],
+      "connectsTo": "https://pleiades.stoa.org/places/678393",
+      "details": "",
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.worldcat.org/oclc/230137758",
+          "citationDetail": "229",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "Bagg, RGTC 7/1",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZZYLSAR5",
+          "formattedCitation": "<div class=\"csl-entry\">Bagg, Ariel M, Wolfgang R\u00f6llig, Dietz Otto Edzard, Brigitte Groneberg, \u1e2a\u0101lid N\u0101\u0161if, Giuseppe F Del Monte, Ran Zadok, et al. <i>R\u00e9pertoire g\u00e9ographique des textes cun\u00e9iformes 7,1 7,1</i>. T\u00fcbinger Atlas des Vorderen Orients / Beihefte / B, 7,7,1. Wiesbaden: Reichert, 2007. http://www.worldcat.org/oclc/230137758.</div>",
+          "otherIdentifier": "",
+          "type": "cites"
+        }
+      ],
+      "review_state": "published",
+      "creators": [
+        {
+          "username": "jnovotny",
+          "homepage": null,
+          "name": "Jamie Novotny",
+          "uri": "https://pleiades.stoa.org/author/jnovotny"
+        }
+      ],
+      "@type": "Connection",
+      "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_admin"
+    }
+  ],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Acre,_Israel",
+      "citationDetail": "Acre, Israel",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+      "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Acre, Israel.",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/695616438",
+      "citationDetail": "1 16-31",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "NEAEHL",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/4Q6WNJMK",
+      "formattedCitation": "<div class=\"csl-entry\">S\u030ct\u0323ern, Efrayim, ed. <i>New Encyclopedia of Archaeological Excavations in the Holy Land</i>. 5 vols. Jerusalem: Simon &amp; Schuster, 1993\u20132008. http://www.worldcat.org/oclc/695616438.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.trismegistos.org/place/2020",
+      "citationDetail": "GEO ID 2020: Ptolemais Akko (Ake)",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "TM",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+      "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+      "otherIdentifier": " ",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://fr.wikipedia.org/wiki/Acre_(Isra%C3%ABl)",
+      "citationDetail": "Acre (Israe\u0308l)",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (French)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/B4HPCZIK",
+      "formattedCitation": "Wikip\u00e9dia: L\u2019encyclop\u00e9die libre que chacun peut am\u00e9liorer (2001-), Acre (Israe\u0308l).",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/43970336",
+      "citationDetail": "69 B4 Ake/Ptolemais",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "BAtlas",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+      "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://de.wikipedia.org/wiki/Akkon",
+      "citationDetail": "Akkon",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (German)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/QVRBJVTM",
+      "formattedCitation": "Wikipedia: Die freie Enzyklop\u00e4die (2001-), Akkon.",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "204-205",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "TIR Iudaea",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8GF4B886",
+      "formattedCitation": "<div class=\"csl-entry\">Tsafrir, Yoram, L Di Segni, and Judith Green. <i>Tabula Imperii Romani: Iudaea - Palaestina</i>. Jerusalem: Israel Academy of Sciences and Humanities; Akademyah ha-le\u2019umit ha-Yi\u0161re\u2019elit le-mada\u201cim; Agudah le-seker arkhe\u201dologi shel Yi\u0161ra\u2019el; Israel: Agaf ha-medidot, 1994.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace486.html",
+      "citationDetail": "9C2 (Talbert 486)",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+      "shortTitle": "TP (Talbert: CUP)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QT8GLGGI",
+      "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard. \u201cDatabase: Peutinger Map Names and Features, with Commentary and User\u2019s Guide.\u201d In <i>Explore the Peutinger Map</i>. Cambridge UP, 2010. http://www.cambridge.org/us/talbert/talbertdatabase/prm.html.</div>",
+      "otherIdentifier": " ",
+      "type": "citesAsEvidence"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=ptolemais-1",
+      "citationDetail": "PTOLEMAIS (Acre) Israel",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "PECS (Perseus)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PV9N7BQD",
+      "formattedCitation": "<div class=\"csl-entry\">Stillwell, Richard, William L MacDonald, and Marian Holland McAllister, eds. <i>The Princeton Encyclopedia of Classical Sites</i>. Princeton, N.J.: Princeton University Press, 1976. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://whc.unesco.org/en/list/1042",
+      "citationDetail": "1042: Old City of Acre",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "WHL",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BIIFWTIR",
+      "formattedCitation": "<div class=\"csl-entry\">UNESCO World Heritage Centre. <i>World Heritage List</i>, 1978. http://whc.unesco.org/en/list/.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://darmc.harvard.edu/",
+      "citationDetail": "11270",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "DARMC",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+      "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 11270.",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://www.wikidata.org/wiki/Q126084",
+      "citationDetail": "Q126084: Acre",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "Wikidata",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+      "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.geonames.org/293407/tel-akko.html",
+      "citationDetail": "293407: Tel \u2018Akko",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "GeoNames",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IIFE4W6M",
+      "formattedCitation": "<div class=\"csl-entry\">Marc Wick, and Christophe Boutreux. \u201cGeoNames,\u201d 2005. http://www.geonames.org/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.geonames.org/295721/acre.html",
+      "citationDetail": "295721: Acre",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "GeoNames",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IIFE4W6M",
+      "formattedCitation": "<div class=\"csl-entry\">Marc Wick, and Christophe Boutreux. \u201cGeoNames,\u201d 2005. http://www.geonames.org/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.telakko.com/",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Tel Akko Total Archaeology in Israel",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/GUX8F3LQ",
+      "formattedCitation": "<div class=\"csl-entry\">Munro, Jennifer. \u201cHome.\u201d Tel Akko. Accessed October 20, 2017. http://www.telakko.com/.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://latin.packhum.org/loc/978/1/348/267-273#348",
+      "citationDetail": "5.75.8",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+      "shortTitle": "Plin., NH (Mayhoff: PHI)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8AK7HSRG",
+      "formattedCitation": "<div class=\"csl-entry\">Plinius Secundus Maior, C. <i>Naturalis Historiae</i>. Edited by Karl Friedrich Theodor Mayhoff. Bibliotheca Scriptorum Graecorum et Romanorum Teubneriana. Lipsiae: Teubner, 1906. http://latin.packhum.org/loc/978/1/0.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsEvidence"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://topostext.org/place/329351UPto",
+      "citationDetail": "Ake/Ptolemais (Israel)",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "ToposText",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/MC9RGDVB",
+      "formattedCitation": "Kiesling, Brady. ToposText \u2013 a Reference Tool for Greek Civilization. Version 2.0. Aikaterini Laskaridis Foundation, 2016-.",
+      "otherIdentifier": "http://atlantides.org/bibliography/",
+      "type": "seeFurther"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Ake",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "ake",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 69 B4 Ake/Ptolemais",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-16T19:59:57Z",
+      "uri": "https://pleiades.stoa.org/places/678010/ake",
+      "creators": [
+        {
+          "username": null,
+          "name": "J.P. Brown"
+        },
+        {
+          "username": null,
+          "name": "E.M. Meyers"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:47:35Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-16T20:42:28Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:19:15Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T19:59:57Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Ptolemais",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "ptolemais",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 69 B4 Ake/Ptolemais",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-16T19:59:57Z",
+      "uri": "https://pleiades.stoa.org/places/678010/ptolemais",
+      "creators": [
+        {
+          "username": null,
+          "name": "J.P. Brown"
+        },
+        {
+          "username": null,
+          "name": "E.M. Meyers"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:47:35Z"
+        },
+        {
+          "comment": "Time periods copied from sibling. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+          "modifiedBy": "sgillies",
+          "modified": "2011-01-20T03:33:22Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-16T20:42:28Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:19:15Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T19:59:57Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "\u02bfAkko, Akko, Acco",
+      "attestations": [
+        {
+          "timePeriod": "paleolithic-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/paleolithic-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "2nd-millennium-bc-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/2nd-millennium-bc-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "egyptian-hittite-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/egyptian-hittite-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "neo-assyrian-babylonian-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/neo-assyrian-babylonian-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "hellenistic-roman-early-empire",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-roman-early-empire",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "hellenistic-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman-early-byzantine-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-early-byzantine-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "iron-age-southern-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/iron-age-southern-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "modern-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 1, p. 60)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.geonames.org/293407/tel-akko.html",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "GeoNames 293407",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "2bfakko-hbbb",
+      "end": 2000,
+      "contributors": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -2600000,
+      "details": "GANE OBJECT 2269",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 1, p. 60)",
+      "transcriptionCompleteness": "complete",
+      "language": "hbo",
+      "created": "2013-08-22T05:04:38Z",
+      "uri": "https://pleiades.stoa.org/places/678010/2bfakko-hbbb",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": "\u05ea\u05dc \u05e2\u05db\u05d5",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "reference",
+          "modifiedBy": "jbecker",
+          "modified": "2017-10-20T17:45:44Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T05:05:04Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T05:04:54Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T05:04:45Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T05:04:41Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "\u02bfAkko, Akko, Acco",
+      "attestations": [
+        {
+          "timePeriod": "paleolithic-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/paleolithic-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "2nd-millennium-bc-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/2nd-millennium-bc-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "egyptian-hittite-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/egyptian-hittite-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "neo-assyrian-babylonian-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/neo-assyrian-babylonian-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "hellenistic-roman-early-empire",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-roman-early-empire",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "hellenistic-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman-early-byzantine-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-early-byzantine-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "iron-age-southern-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/iron-age-southern-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "modern-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 1, p. 60)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "2bfakko-heb",
+      "end": 2000,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -2600000,
+      "details": "GANE OBJECT 2269",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 1, p. 60)",
+      "transcriptionCompleteness": "complete",
+      "language": "heb",
+      "created": "2013-08-22T05:05:17Z",
+      "uri": "https://pleiades.stoa.org/places/678010/2bfakko-heb",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": null,
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T05:05:43Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T05:05:33Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T05:05:24Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T05:05:20Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Akk\u00fb, Akk\u016b, Akku",
+      "attestations": [
+        {
+          "timePeriod": "neo-assyrian-babylonian-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/neo-assyrian-babylonian-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "(Vol. 1, p. 61)",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "TAVO Index",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/RY7UL7U8",
+          "formattedCitation": "<div class=\"csl-entry\">Siewert-Mayer, Beate, Horst Kopp, and Wolfgang R\u00f6llig. <i>T\u00fcbinger Atlas des Vorderen Orients: Register zu den Karten = general index</i>. Wiesbaden: Reichert, 1994.</div>",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "akku",
+      "end": -540,
+      "contributors": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+          "username": "jnovotny",
+          "homepage": null,
+          "name": "Jamie Novotny",
+          "uri": "https://pleiades.stoa.org/author/jnovotny"
+        },
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -720,
+      "details": "GANE OBJECT 2277",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 1, p. 61)",
+      "transcriptionCompleteness": "complete",
+      "language": "akk",
+      "created": "2013-08-22T05:54:56Z",
+      "uri": "https://pleiades.stoa.org/places/678010/akku",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "merging of duplicate names, update reference, added jnovotny as contributor",
+          "modifiedBy": "jbecker",
+          "modified": "2020-07-10T15:08:10Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T05:55:08Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T05:55:04Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T05:55:03Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T05:54:59Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Antiocheia",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 1, p. 102)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "antiocheia",
+      "end": -140,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "details": "GANE OBJECT 3756",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 1, p. 102)",
+      "transcriptionCompleteness": "complete",
+      "language": "grc",
+      "created": "2013-08-22T06:51:57Z",
+      "uri": "https://pleiades.stoa.org/places/678010/antiocheia",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": null,
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T06:52:09Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T06:52:06Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T06:52:05Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T06:52:01Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Col. Claudia (Ner\u014dnia) C. Pt., Colonia Claudia Nero\u0304nia Caesarea Ptolemais, Colonia Claudia Caesarea Ptolemais",
+      "attestations": [
+        {
+          "timePeriod": "roman-early-empire-parthian-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-early-empire-parthian-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 1, p. 350)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "Col-Claudia-Neronia-C-Pt",
+      "end": 226,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "details": "GANE OBJECT 12924",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 1, p. 350)",
+      "transcriptionCompleteness": "complete",
+      "language": "ka",
+      "created": "2013-08-22T09:35:35Z",
+      "uri": "https://pleiades.stoa.org/places/678010/Col-Claudia-Neronia-C-Pt",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": null,
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T09:35:52Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T09:35:48Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T09:35:46Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T09:35:41Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Ak\u0113, Ake",
+      "attestations": [
+        {
+          "timePeriod": "achaemenid-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/achaemenid-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "hellenistic-roman-early-empire",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-roman-early-empire",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "hellenistic-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 1, p. 59)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "ake-1",
+      "end": 300,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -540,
+      "details": "GANE OBJECT 2210",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 1, p. 59)",
+      "transcriptionCompleteness": "complete",
+      "language": "grc",
+      "created": "2013-08-22T10:19:28Z",
+      "uri": "https://pleiades.stoa.org/places/678010/ake-1",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": null,
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T10:19:47Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T10:19:42Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T10:19:38Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T10:19:34Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Antiocheia Ptolemais",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 1, p. 102)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "antiocheia-ptolemais",
+      "end": -140,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "details": "GANE OBJECT 3787",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 1, p. 102)",
+      "transcriptionCompleteness": "complete",
+      "language": "grc",
+      "created": "2013-08-22T10:34:35Z",
+      "uri": "https://pleiades.stoa.org/places/678010/antiocheia-ptolemais",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": null,
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T10:34:53Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T10:34:47Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T10:34:45Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T10:34:41Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Acre",
+      "attestations": [
+        {
+          "timePeriod": "crusader-seljuq-ayyubid-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/crusader-seljuq-ayyubid-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 1, p. 22)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "acre",
+      "end": 1291,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1099,
+      "details": "GANE OBJECT 810",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 1, p. 22)",
+      "transcriptionCompleteness": "complete",
+      "language": "fr",
+      "created": "2013-08-22T10:47:34Z",
+      "uri": "https://pleiades.stoa.org/places/678010/acre",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": null,
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T10:47:52Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T10:47:48Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T10:47:46Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T10:47:41Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "\u02bfAkka",
+      "attestations": [
+        {
+          "timePeriod": "ilkhanate-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/ilkhanate-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 1, p. 60)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "2bfakka",
+      "end": 1335,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1258,
+      "details": "GANE OBJECT 2239",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 1, p. 60)",
+      "transcriptionCompleteness": "complete",
+      "language": null,
+      "created": "2013-08-22T13:21:47Z",
+      "uri": "https://pleiades.stoa.org/places/678010/2bfakka",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": null,
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T13:22:04Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T13:21:59Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T13:21:57Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T13:21:53Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Akka",
+      "attestations": [
+        {
+          "timePeriod": "egyptian-hittite-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/egyptian-hittite-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 1, p. 60)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "akka",
+      "end": -1212,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -1344,
+      "details": "GANE OBJECT 2238",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 1, p. 60)",
+      "transcriptionCompleteness": "complete",
+      "language": "akk",
+      "created": "2013-08-22T13:22:13Z",
+      "uri": "https://pleiades.stoa.org/places/678010/akka",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": null,
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T13:22:29Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T13:22:24Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T13:22:22Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T13:22:18Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Tall al-Fa\u1e2b\u1e2b\u0101r",
+      "attestations": [
+        {
+          "timePeriod": "egyptian-hittite-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/egyptian-hittite-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 3, p. 1582)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "tall-al-fahhar",
+      "end": -1212,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -1344,
+      "details": "GANE OBJECT 58152",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 3, p. 1582)",
+      "transcriptionCompleteness": "complete",
+      "language": null,
+      "created": "2013-08-22T13:43:30Z",
+      "uri": "https://pleiades.stoa.org/places/678010/tall-al-fahhar",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": null,
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T13:43:49Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T13:43:45Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T13:43:42Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T13:43:38Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Ptolemais, Ptolemai\u0308s",
+      "attestations": [
+        {
+          "timePeriod": "achaemenid-roman-republic-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/achaemenid-roman-republic-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "hellenistic-roman-early-empire",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-roman-early-empire",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "hellenistic-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman-early-empire-parthian-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-early-empire-parthian-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "transition-roman-early-empire-late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/transition-roman-early-empire-late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique-sasanian-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique-sasanian-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 2, p. 1262)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "ptolemais-1",
+      "end": 640,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -540,
+      "details": "GANE OBJECT 46427",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 2, p. 1262)",
+      "transcriptionCompleteness": "complete",
+      "language": "grc",
+      "created": "2013-08-22T14:49:20Z",
+      "uri": "https://pleiades.stoa.org/places/678010/ptolemais-1",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": null,
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T14:50:03Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T14:49:42Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T14:49:33Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T14:49:29Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Colonia Claudia (Ner\u014dnia) Caes., Colonia Claudia Caesarea, Colonia Claudia Neronia Caesarea",
+      "attestations": [
+        {
+          "timePeriod": "roman-early-empire-parthian-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-early-empire-parthian-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 1, p. False)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "Colonia-Claudia-Neronia-Caes",
+      "end": 226,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "details": "GANE OBJECT 12968",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 1, p. False)",
+      "transcriptionCompleteness": "complete",
+      "language": "ka",
+      "created": "2013-08-22T14:52:24Z",
+      "uri": "https://pleiades.stoa.org/places/678010/Colonia-Claudia-Neronia-Caes",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": null,
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T14:52:40Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T14:52:36Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T14:52:35Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T14:52:29Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Tall al-Fu\u1e2b\u1e2b\u0101r, Tall al-Fukhar, Tall al-Fukkhar, Tell el-Fukhar, Tell el-Foukhar, Tall al-Fakhar, Tell el-Fakhar",
+      "attestations": [
+        {
+          "timePeriod": "2nd-millennium-bc-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/2nd-millennium-bc-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "egyptian-hittite-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/egyptian-hittite-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "neo-assyrian-babylonian-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/neo-assyrian-babylonian-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "iron-age-southern-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/iron-age-southern-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 3, p. 1583)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "tall-al-fuhhar",
+      "end": -540,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -2000,
+      "details": "GANE OBJECT 58168",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 3, p. 1583)",
+      "transcriptionCompleteness": "complete",
+      "language": "arb",
+      "created": "2013-08-22T15:03:36Z",
+      "uri": "https://pleiades.stoa.org/places/678010/tall-al-fuhhar",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": null,
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T15:03:50Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T15:03:47Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T15:03:45Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T15:03:42Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Accon",
+      "attestations": [
+        {
+          "timePeriod": "crusader-seljuq-ayyubid-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/crusader-seljuq-ayyubid-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "1200-bc-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/1200-bc-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 1, p. 21)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "accon",
+      "end": 1291,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -1200,
+      "details": "GANE OBJECT 754",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 1, p. 21)",
+      "transcriptionCompleteness": "complete",
+      "language": "ka",
+      "created": "2013-08-22T15:29:31Z",
+      "uri": "https://pleiades.stoa.org/places/678010/accon",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": null,
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T15:29:48Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T15:29:44Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T15:29:42Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T15:29:37Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Ptolema\u00efs",
+      "attestations": [
+        {
+          "timePeriod": "roman-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman-early-empire-parthian-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-early-empire-parthian-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 2, p. 1262)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:16.2.25",
+          "citationDetail": "16.2.25",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+          "shortTitle": "Meineke 1877",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/FEVTVBA7",
+          "formattedCitation": "<div class=\"csl-entry\">Strabo. <i>Strabonis Geographica: recognovit Augugtus Meineke.</i> Edited by August Meineke. 3 in 2 vols. Lipsiae, 1877.</div>",
+          "otherIdentifier": "",
+          "type": "citesAsEvidence"
+        }
+      ],
+      "id": "ptolemais-2",
+      "end": 640,
+      "contributors": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -140,
+      "details": "GANE OBJECT 46435",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 2, p. 1262)",
+      "transcriptionCompleteness": "complete",
+      "language": "grc",
+      "created": "2013-08-22T16:16:51Z",
+      "uri": "https://pleiades.stoa.org/places/678010/ptolemais-2",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": "\u03a0\u03c4\u03bf\u03bb\u03b5\u03bc\u03b1\u0390\u03c2",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "reference",
+          "modifiedBy": "jbecker",
+          "modified": "2017-12-09T03:04:56Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T16:17:07Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T16:17:03Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T16:17:01Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-08-22T16:16:57Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Saint Jean d'Acre, Saint-Jean-d'Acre, St-Jean-d'Acre",
+      "attestations": [
+        {
+          "timePeriod": "crusader-seljuq-ayyubid-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/crusader-seljuq-ayyubid-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 3, p. 1407)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "saint-jean-dacre",
+      "end": 1291,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1099,
+      "details": "GANE OBJECT 51717",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 3, p. 1407)",
+      "transcriptionCompleteness": "complete",
+      "language": "fro",
+      "created": "2013-09-10T00:03:32Z",
+      "uri": "https://pleiades.stoa.org/places/678010/saint-jean-dacre",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": null,
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:03:43Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:03:40Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:03:39Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:03:35Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "\u02bfAkk\u0101, Akka",
+      "attestations": [
+        {
+          "timePeriod": "egyptian-hittite-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/egyptian-hittite-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "hellenistic-roman-early-empire",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-roman-early-empire",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "iron-age-southern-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/iron-age-southern-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "caliphate-umayyad-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/caliphate-umayyad-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "abassid-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/abassid-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "crusader-seljuq-ayyubid-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/crusader-seljuq-ayyubid-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "ilkhanate-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/ilkhanate-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "ottoman-rise",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/ottoman-rise",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "1500-ad-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/1500-ad-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-ottoman-empire",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-ottoman-empire",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "khedivate-egypt",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/khedivate-egypt",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "modern-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 1, p. 60)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "2bfakka-1",
+      "end": 2000,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -1344,
+      "details": "GANE OBJECT 2242",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 1, p. 60)",
+      "transcriptionCompleteness": "complete",
+      "language": "arb",
+      "created": "2013-09-10T00:12:57Z",
+      "uri": "https://pleiades.stoa.org/places/678010/2bfakka-1",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": null,
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:13:34Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:13:19Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:13:05Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:13:00Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Acca",
+      "attestations": [],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 1, p. 21)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "acca",
+      "end": null,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": null,
+      "details": "GANE OBJECT 68397",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 1, p. 21)",
+      "transcriptionCompleteness": "complete",
+      "language": null,
+      "created": "2013-09-10T00:22:14Z",
+      "uri": "https://pleiades.stoa.org/places/678010/acca",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": null,
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:22:25Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:22:23Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:22:21Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:22:17Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Akkon, Accho, Akers, Akko",
+      "attestations": [],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 1, p. 61)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.wibilex.de/nc/wibilex/das-bibellexikon/details/quelle/WIBI/referenz/12949/cache/bd1368ff121231cbbdcda824067ca7f8/",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "W. Zwickel. Akko. in WiBiLex - Das wissenschaftliche Bibellexikon im Internet. 2011",
+          "otherIdentifier": " ",
+          "type": "seeAlso"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.tertullian.org/fathers/eusebius_onomasticon_02_trans.htm#SECTION_A",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "Euseb., Onom. 30.10 (s.v. Akchon)",
+          "otherIdentifier": " ",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "akkon",
+      "end": null,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": null,
+      "details": "GANE OBJECT 68396",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 1, p. 61)",
+      "transcriptionCompleteness": "complete",
+      "language": "de",
+      "created": "2013-09-10T00:22:31Z",
+      "uri": "https://pleiades.stoa.org/places/678010/akkon",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "check in",
+          "modifiedBy": "jbecker",
+          "modified": "2018-06-16T23:29:49Z"
+        },
+        {
+          "comment": "Baseline created",
+          "modifiedBy": "sbond",
+          "modified": "2014-03-07T10:56:55Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:22:42Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:22:40Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:22:38Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:22:34Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Ptolema\u01d0s",
+      "attestations": [
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 2, p. 1262)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "ptolemais-3",
+      "end": 640,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 300,
+      "details": "GANE OBJECT 68392",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 2, p. 1262)",
+      "transcriptionCompleteness": "complete",
+      "language": null,
+      "created": "2013-09-10T00:23:00Z",
+      "uri": "https://pleiades.stoa.org/places/678010/ptolemais-3",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": null,
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:23:11Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:23:08Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:23:06Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:23:03Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Colonia Claudia Caes. Ptol., Colonia Claudia Caesarea Ptolemais",
+      "attestations": [
+        {
+          "timePeriod": "roman-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 1, p. 352)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "Colonia-Claudia-Caes-Ptol",
+      "end": 640,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -140,
+      "details": "GANE OBJECT 12967",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 1, p. 352)",
+      "transcriptionCompleteness": "complete",
+      "language": "ka",
+      "created": "2013-09-10T00:37:45Z",
+      "uri": "https://pleiades.stoa.org/places/678010/Colonia-Claudia-Caes-Ptol",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": null,
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:37:57Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:37:54Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:37:53Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:37:48Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Colonia Claudia Caes. P., Colonia Claudia Caesarea Ptolemais",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/32624915",
+          "formattedCitation": "TAVO Index (Vol. 1, p. 352)",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "Colonia-Claudia-Caes-P",
+      "end": 300,
+      "contributors": [
+        {
+          "username": "fdeblauwe",
+          "homepage": null,
+          "name": "Francis Deblauwe",
+          "uri": "https://pleiades.stoa.org/author/fdeblauwe"
+        },
+        {
+          "username": "ekansa",
+          "homepage": null,
+          "name": "Eric Kansa",
+          "uri": "https://pleiades.stoa.org/author/ekansa"
+        }
+      ],
+      "provenance": "TAVO Index",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "details": "GANE OBJECT 12966",
+      "review_state": "published",
+      "description": "A place name from the TAVO Index (Vol. 1, p. 352)",
+      "transcriptionCompleteness": "complete",
+      "language": null,
+      "created": "2013-09-10T00:38:02Z",
+      "uri": "https://pleiades.stoa.org/places/678010/Colonia-Claudia-Caes-P",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Siewert-Mayer"
+        },
+        {
+          "username": null,
+          "name": "W. R\u00f6llig"
+        },
+        {
+          "username": null,
+          "name": "H. Kopp"
+        }
+      ],
+      "attested": null,
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:38:13Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:38:11Z"
+        },
+        {
+          "comment": "New locations, names, and places for the Ancient Near East from the Alexandria Archive Institute's GANE project: http://alexandriaarchive.org/projects/gane/.",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:38:09Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2013-09-10T00:38:05Z"
+        }
+      ]
+    }
+  ],
+  "id": "678010",
+  "subject": [
+    "dare:ancient=1",
+    "dare:major=1",
+    "dare:feature=major settlement",
+    "UWHS"
+  ],
+  "title": "Ake/Ptolemais",
+  "provenance": "Barrington Atlas: BAtlas 69 B4 Ake/Ptolemais",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: Tell Acco ISR</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "The Phoenician city of Akko was re-founded by Ptolemy II Philadelphos from ca. 285-246 B.C.",
+  "reprPoint": [
+    35.079835,
+    32.92128675
+  ],
+  "placeTypes": [
+    "settlement"
+  ],
+  "bbox": [
+    35.068626,
+    32.920744,
+    35.091044,
+    32.9218295
+  ],
+  "connectsWith": [
+    "https://pleiades.stoa.org/places/678393",
+    "https://pleiades.stoa.org/places/534036732"
+  ],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2018-06-07T22:58:03Z",
+  "uri": "https://pleiades.stoa.org/places/678010",
+  "creators": [
+    {
+      "username": null,
+      "name": "E.M. Meyers"
+    },
+    {
+      "username": null,
+      "name": "J.P. Brown"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "reference cleanup",
+      "modifiedBy": "jbecker",
+      "modified": "2020-08-06T16:55:56Z"
+    },
+    {
+      "comment": "Edited",
+      "modifiedBy": "jbecker",
+      "modified": "2020-08-06T16:52:31Z"
+    },
+    {
+      "comment": "add ToposText reference provided by bkiesling",
+      "modifiedBy": "admin",
+      "modified": "2018-06-07T22:58:13Z"
+    },
+    {
+      "comment": "reference",
+      "modifiedBy": "jbecker",
+      "modified": "2017-12-17T14:36:20Z"
+    },
+    {
+      "comment": "Edited",
+      "modifiedBy": "jbecker",
+      "modified": "2017-10-20T17:51:38Z"
+    },
+    {
+      "comment": "GeoNames 295721 (Acre)",
+      "modifiedBy": "jbecker",
+      "modified": "2017-10-20T17:49:16Z"
+    },
+    {
+      "comment": "references",
+      "modifiedBy": "jbecker",
+      "modified": "2017-10-20T17:43:49Z"
+    },
+    {
+      "comment": "added UWHS",
+      "modifiedBy": "jbecker",
+      "modified": "2017-02-13T19:26:33Z"
+    },
+    {
+      "comment": "added references",
+      "modifiedBy": "jbecker",
+      "modified": "2015-02-26T01:49:14Z"
+    },
+    {
+      "comment": "DARE feature tag fix.",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-23T19:42:48Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T23:10:41Z"
+    },
+    {
+      "comment": "Trismegistos references from Adam Prins et al (adamp, Mark Depauw, Herbert Verreth, Jen Thum) and reviewd by Tom Elliott (thomase) in May 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-05-03T17:25:34Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:47:34Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T22:09:41Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-09T20:39:25Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-16T20:42:28Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:19:15Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T19:59:57Z"
+    }
+  ]
+}

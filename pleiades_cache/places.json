@@ -1,0 +1,60 @@
+{
+  "description": "",
+  "contributors": [],
+  "created": "2009-04-17T20:09:32Z",
+  "title": "Ancient Places",
+  "uri": "https://pleiades.stoa.org/places",
+  "id": "places",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "creators": [
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    }
+  ],
+  "@type": "Container for Places",
+  "history": [
+    {
+      "action": "Publish externally",
+      "modifiedBy": "admin",
+      "modified": "2009-09-09T15:22:20Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "admin",
+      "modified": "2009-09-09T15:21:38Z"
+    },
+    {
+      "action": "Retract",
+      "modifiedBy": "admin",
+      "modified": "2009-09-09T15:20:07Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "admin",
+      "modified": "2009-04-17T20:15:44Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "admin",
+      "modified": "2009-04-17T20:13:27Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "admin",
+      "modified": "2009-04-17T20:09:32Z"
+    }
+  ]
+}

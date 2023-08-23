@@ -1,0 +1,287 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.0,
+              31.5
+            ],
+            [
+              35.5,
+              31.5
+            ],
+            [
+              35.5,
+              32.0
+            ],
+            [
+              35.0,
+              32.0
+            ],
+            [
+              35.0,
+              31.5
+            ]
+          ]
+        ]
+      },
+      "type": "Feature",
+      "id": "undetermined",
+      "properties": {
+        "snippet": "Unknown; 30 BC - AD 640",
+        "link": "https://pleiades.stoa.org/places/689323/undetermined",
+        "description": "",
+        "location_precision": "rough",
+        "title": "Undetermined location"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "undetermined",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+      ],
+      "end": 640,
+      "title": "Undetermined location",
+      "provenance": "Barrington Atlas: BAtlas 70 G2",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/unknown"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": null,
+      "accuracy": null,
+      "featureType": [
+        "unknown"
+      ],
+      "description": "",
+      "created": "2009-09-17T12:31:10Z",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              35.0,
+              31.5
+            ],
+            [
+              35.5,
+              31.5
+            ],
+            [
+              35.5,
+              32.0
+            ],
+            [
+              35.0,
+              32.0
+            ],
+            [
+              35.0,
+              31.5
+            ]
+          ]
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/689323/undetermined",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:56:28Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:47:28Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:03:54Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T12:31:10Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/43970336",
+      "citationDetail": "70 G2",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "BAtlas",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+      "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "73",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Thomsen 1917",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZGVX2RMT",
+      "formattedCitation": "<div class=\"csl-entry\">P. Thomsen. \u201cDie R\u00f6mischen Meilensteine Der Provinzen Syria, Arabia Und Palaestina.\u201d <i>Zeitschrift Des Deutschen Pal\u00e4stina-Vereins</i> 40 (1917): 1\u2013142.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    }
+  ],
+  "names": [],
+  "id": "689323",
+  "subject": [],
+  "title": "Untitled",
+  "provenance": "Barrington Atlas: BAtlas 70 G2",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/bridge"
+  ],
+  "details": "The Barrington Atlas Directory notes: near Hierichous, at Jisr Wadi el Qelt across Wadi Qelt",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "An ancient place, cited: BAtlas 70 G2 unnamed bridge (near Hierichous, at Jisr Wadi el Qelt across Wadi Qelt)",
+  "reprPoint": [
+    35.25,
+    31.75
+  ],
+  "placeTypes": [
+    "bridge"
+  ],
+  "bbox": [
+    35.0,
+    31.5,
+    35.5,
+    32.0
+  ],
+  "connectsWith": [],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2009-09-17T12:31:10Z",
+  "uri": "https://pleiades.stoa.org/places/689323",
+  "creators": [
+    {
+      "username": null,
+      "name": "B. Isaac"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "update references",
+      "modifiedBy": "jbecker",
+      "modified": "2023-08-13T01:46:43Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:56:28Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T21:50:38Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-17T13:47:28Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T13:03:54Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T12:31:10Z"
+    }
+  ]
+}

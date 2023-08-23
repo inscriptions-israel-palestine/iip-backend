@@ -1,0 +1,501 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8575,
+          33.416111
+        ]
+      },
+      "type": "Feature",
+      "id": "location-of-hermon-m",
+      "properties": {
+        "snippet": "Mountain, ; AD 1700 - AD 2100",
+        "link": "https://pleiades.stoa.org/places/678181/location-of-hermon-m",
+        "description": "verified in Google Earth 2013.",
+        "location_precision": "precise",
+        "title": "location of Hermon M."
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "jnovotny",
+      "homepage": null,
+      "name": "Jamie Novotny",
+      "uri": "https://pleiades.stoa.org/author/jnovotny"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://en.wikipedia.org/wiki/Mount_Hermon",
+          "citationDetail": "Mount Hermon",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "Wikipedia (English)",
+          "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+          "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Mount Hermon.",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "location-of-hermon-m",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/mountain",
+        "https://pleiades.stoa.org/vocabularies/place-types/"
+      ],
+      "end": 2100,
+      "title": "location of Hermon M.",
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/mountain",
+        "https://pleiades.stoa.org/vocabularies/place-types/"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 5.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-and-geoeye-imagery-2012",
+      "featureType": [
+        "mountain",
+        ""
+      ],
+      "description": "verified in Google Earth 2013.",
+      "created": "2013-02-22T18:07:55Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.8575,
+          33.416111
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/678181/location-of-hermon-m",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2013-04-06T19:10:06Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2013-02-22T18:08:09Z"
+        },
+        {
+          "comment": "added location",
+          "modifiedBy": "jbecker",
+          "modified": "2013-02-22T18:08:00Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2013-02-22T18:07:57Z"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "end": null,
+      "description": "",
+      "contributors": [],
+      "created": "2016-07-13T13:58:19Z",
+      "associationCertainty": "certain",
+      "title": "Antilibanus M.",
+      "start": null,
+      "provenance": "Pleiades",
+      "uri": "https://pleiades.stoa.org/places/678181/668192",
+      "connectionType": "connection",
+      "id": "668192",
+      "attestations": [],
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2016-07-13T13:58:19Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2016-07-13T13:58:19Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2016-07-13T13:58:19Z"
+        }
+      ],
+      "connectsTo": "https://pleiades.stoa.org/places/668192",
+      "details": "",
+      "references": [],
+      "review_state": "published",
+      "creators": [
+        {
+          "username": "admin",
+          "homepage": null,
+          "name": "",
+          "uri": "https://pleiades.stoa.org/author/admin"
+        }
+      ],
+      "@type": "Connection",
+      "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection"
+    }
+  ],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "http://openlibrary.org/works/OL8327792W",
+      "formattedCitation": "BAtlas 69 C3 Hermon M.",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "142-43",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "TIR Iudaea",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8GF4B886",
+      "formattedCitation": "<div class=\"csl-entry\">Tsafrir, Yoram, L Di Segni, and Judith Green. <i>Tabula Imperii Romani: Iudaea - Palaestina</i>. Jerusalem: Israel Academy of Sciences and Humanities; Akademyah ha-le\u2019umit ha-Yi\u0161re\u2019elit le-mada\u2018im; Agudah le-seker arkhe\u2019ologi shel Yi\u0161ra\u2019el; Israel: Agaf ha-medidot, 1994.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Mount_Hermon",
+      "citationDetail": "Mount Hermon",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+      "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Mount Hermon.",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Temples_of_Mount_Hermon",
+      "citationDetail": "Temples of Mount Hermon",
+      "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+      "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Temples of Mount Hermon.",
+      "otherIdentifier": " ",
+      "type": "seeAlso"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Hermon M.",
+      "attestations": [],
+      "references": [],
+      "id": "Hermon-M",
+      "end": null,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 69 C3 Hermon M.",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": null,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-16T20:02:37Z",
+      "uri": "https://pleiades.stoa.org/places/678181/Hermon-M",
+      "creators": [
+        {
+          "username": null,
+          "name": "J.P. Brown"
+        },
+        {
+          "username": null,
+          "name": "E.M. Meyers"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:49:35Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-16T20:43:02Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:19:38Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-16T20:02:37Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Sirara",
+      "attestations": [
+        {
+          "timePeriod": "neo-assyrian-babylonian-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/neo-assyrian-babylonian-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.worldcat.org/oclc/230137758",
+          "citationDetail": "221-222",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "Bagg, RGTC 7/1",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZZYLSAR5",
+          "formattedCitation": "<div class=\"csl-entry\">Bagg, Ariel M, Wolfgang R\u00f6llig, Dietz Otto Edzard, Brigitte Groneberg, \u1e2a\u0101lid N\u0101\u0161if, Giuseppe F Del Monte, Ran Zadok, et al. <i>R\u00e9pertoire g\u00e9ographique des textes cun\u00e9iformes 7,1 7,1</i>. T\u00fcbinger Atlas des Vorderen Orients / Beihefte / B, 7,7,1. Wiesbaden: Reichert, 2007. http://www.worldcat.org/oclc/230137758.</div>",
+          "otherIdentifier": "",
+          "type": "cites"
+        }
+      ],
+      "id": "sirara",
+      "end": -540,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -720,
+      "details": "",
+      "review_state": "published",
+      "description": "Sirara is a mountain range in the Levant that is to be identified with Mount Hermon (biblical \u1e25erm\u00f4n; modern Gebal a\u0161-\u0160ai\u1e2b; amorite \u015b\u1d49nir), as well as the southern part of Anti-Lebanon mountains (modern Gebal a\u0161-\u0160arq\u012bf). Sirara is mentioned in Assyrian royal inscriptions composed in the reigns of Sennacherib. Esarhaddon, and Ashurbanipal.",
+      "transcriptionCompleteness": "complete",
+      "language": "akk",
+      "created": "2020-08-07T06:18:08Z",
+      "uri": "https://pleiades.stoa.org/places/678181/sirara",
+      "creators": [
+        {
+          "username": "jnovotny",
+          "homepage": null,
+          "name": "Jamie Novotny",
+          "uri": "https://pleiades.stoa.org/author/jnovotny"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2020-08-07T16:11:21Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-07T06:20:49Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-07T06:20:41Z"
+        },
+        {
+          "action": "Retract",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-07T06:20:14Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-07T06:18:30Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-07T06:18:12Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-07T06:18:09Z"
+        }
+      ]
+    }
+  ],
+  "id": "678181",
+  "subject": [],
+  "title": "Hermon (mountain)",
+  "provenance": "Barrington Atlas: BAtlas 69 C3 Hermon M.",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/mountain"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: Jebel esh-Sheikh LEB/SYR</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "Hermon M. (Mount Hermon)",
+  "reprPoint": [
+    35.8575,
+    33.416111
+  ],
+  "placeTypes": [
+    "mountain"
+  ],
+  "bbox": [
+    35.8575,
+    33.416111,
+    35.8575,
+    33.416111
+  ],
+  "connectsWith": [
+    "https://pleiades.stoa.org/places/668192"
+  ],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2009-09-16T20:02:37Z",
+  "uri": "https://pleiades.stoa.org/places/678181",
+  "creators": [
+    {
+      "username": null,
+      "name": "E.M. Meyers"
+    },
+    {
+      "username": null,
+      "name": "J.P. Brown"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "title",
+      "modifiedBy": "thomase",
+      "modified": "2020-08-07T16:11:41Z"
+    },
+    {
+      "comment": "Edited",
+      "modifiedBy": "jbecker",
+      "modified": "2019-02-01T01:25:36Z"
+    },
+    {
+      "comment": "added reference",
+      "modifiedBy": "jbecker",
+      "modified": "2013-12-23T05:20:35Z"
+    },
+    {
+      "comment": "added reference and connection",
+      "modifiedBy": "jbecker",
+      "modified": "2013-02-22T18:06:35Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:49:35Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T22:10:53Z"
+    },
+    {
+      "comment": "Finding mountains by their titles and setting feature types",
+      "modifiedBy": "sgillies",
+      "modified": "2011-07-18T21:48:18Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-16T20:43:02Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:19:38Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-16T20:02:37Z"
+    }
+  ]
+}

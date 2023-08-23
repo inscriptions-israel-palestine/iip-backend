@@ -1,0 +1,218 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.725,
+          31.766667
+        ]
+      },
+      "type": "Feature",
+      "id": "summit-of-mount-nebo",
+      "properties": {
+        "snippet": "Mountain, ; AD 1700 - AD 2100",
+        "link": "https://pleiades.stoa.org/places/563265622/summit-of-mount-nebo",
+        "description": "verified in Google Earth 2013",
+        "location_precision": "precise",
+        "title": "summit of Mount Nebo"
+      }
+    }
+  ],
+  "contributors": [],
+  "locations": [
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://en.wikipedia.org/wiki/Mount_Nebo",
+          "citationDetail": "Mount Nebo",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "Wikipedia (English)",
+          "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+          "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Mount Nebo.",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "summit-of-mount-nebo",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/mountain",
+        "https://pleiades.stoa.org/vocabularies/place-types/"
+      ],
+      "end": 2100,
+      "title": "summit of Mount Nebo",
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/mountain",
+        "https://pleiades.stoa.org/vocabularies/place-types/"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 5.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-and-geoeye-imagery-2012",
+      "featureType": [
+        "mountain",
+        ""
+      ],
+      "description": "verified in Google Earth 2013",
+      "created": "2013-01-15T17:12:36Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.725,
+          31.766667
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/563265622/summit-of-mount-nebo",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2013-02-05T21:28:11Z"
+        },
+        {
+          "comment": "edited reference to cite Wikipedia",
+          "modifiedBy": "jbecker",
+          "modified": "2013-02-04T22:25:25Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2013-01-15T17:12:56Z"
+        },
+        {
+          "comment": "added location",
+          "modifiedBy": "jbecker",
+          "modified": "2013-01-15T17:12:38Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2013-01-15T17:12:37Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Mount_Nebo",
+      "citationDetail": "Mount Nebo",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+      "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Mount Nebo.",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    }
+  ],
+  "names": [],
+  "id": "563265622",
+  "subject": [],
+  "title": "Mount Nebo",
+  "provenance": "Pleiades",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/mountain"
+  ],
+  "details": "",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "A mountain in Jordan rising to ca. 817 meters (2680 feet) above sea level, Mount Nebo is connected with the Hebrew prophet Moses and a Christian site (4th century AD) stands on its summit.",
+  "reprPoint": [
+    35.725,
+    31.766667
+  ],
+  "placeTypes": [
+    "mountain"
+  ],
+  "bbox": [
+    35.725,
+    31.766667,
+    35.725,
+    31.766667
+  ],
+  "connectsWith": [
+    "https://pleiades.stoa.org/places/697721"
+  ],
+  "rights": "Copyright \u00a9 The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2013-01-15T17:11:14Z",
+  "uri": "https://pleiades.stoa.org/places/563265622",
+  "creators": [
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2013-02-05T21:26:36Z"
+    },
+    {
+      "comment": "Edited",
+      "modifiedBy": "thomase",
+      "modified": "2013-02-05T21:26:22Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "jbecker",
+      "modified": "2013-01-15T17:13:39Z"
+    },
+    {
+      "comment": "added connection",
+      "modifiedBy": "jbecker",
+      "modified": "2013-01-15T17:13:24Z"
+    },
+    {
+      "comment": "created place",
+      "modifiedBy": "jbecker",
+      "modified": "2013-01-15T17:11:19Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "jbecker",
+      "modified": "2013-01-15T17:11:14Z"
+    }
+  ]
+}

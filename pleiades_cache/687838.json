@@ -1,0 +1,1660 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.656061,
+          31.756038
+        ]
+      },
+      "type": "Feature",
+      "id": "dare-location",
+      "properties": {
+        "snippet": "Settlement; 330 BC - AD 640",
+        "link": "https://pleiades.stoa.org/places/687838/dare-location",
+        "description": "Representative point location, site precision",
+        "location_precision": "precise",
+        "title": "DARE Location"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.6593,
+          31.756
+        ]
+      },
+      "type": "Feature",
+      "id": "cigs-location-of-ashdod",
+      "properties": {
+        "snippet": "Archaeological-site",
+        "link": "https://pleiades.stoa.org/places/687838/cigs-location-of-ashdod",
+        "description": "",
+        "location_precision": "precise",
+        "title": "CIGS location of Ashdod"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": "bkiesling",
+      "homepage": null,
+      "name": "Brady Kiesling",
+      "uri": "https://pleiades.stoa.org/author/bkiesling"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "jahlfeldt",
+      "homepage": null,
+      "name": "Johan \u00c5hlfeldt",
+      "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    },
+    {
+      "username": "cjohansson",
+      "homepage": null,
+      "name": "Carolin Johansson",
+      "uri": "https://pleiades.stoa.org/author/cjohansson"
+    },
+    {
+      "username": "jnovotny",
+      "homepage": null,
+      "name": "Jamie Novotny",
+      "uri": "https://pleiades.stoa.org/author/jnovotny"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    },
+    {
+      "username": null,
+      "name": "DARMC"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "rrattenborg",
+      "homepage": null,
+      "name": "Rune Rattenborg",
+      "uri": "https://pleiades.stoa.org/author/rrattenborg"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://francia.ahlfeldt.se/imperium.php",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "Johan \u00c5hlfeldt, Digital Atlas of the Roman Empire, 2012.",
+          "otherIdentifier": " ",
+          "type": "cites"
+        }
+      ],
+      "id": "dare-location",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+      ],
+      "end": 640,
+      "title": "DARE Location",
+      "provenance": "Digital Atlas of the Roman Empire (2012-10-15)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/settlement"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 10.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/dare-3",
+      "featureType": [
+        "settlement"
+      ],
+      "description": "Representative point location, site precision",
+      "created": "2012-10-20T20:11:54Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.656061,
+          31.756038
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/687838/dare-location",
+      "creators": [
+        {
+          "username": "jahlfeldt",
+          "homepage": null,
+          "name": "Johan \u00c5hlfeldt",
+          "uri": "https://pleiades.stoa.org/author/jahlfeldt"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T20:11:56Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T20:11:56Z"
+        },
+        {
+          "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T20:11:56Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2012-10-20T20:11:55Z"
+        }
+      ]
+    },
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://doi.org/10.4324/9780203875506",
+          "citationDetail": "pages 75-76",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Bryce 2009",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZSXV8M2K",
+          "formattedCitation": "<div class=\"csl-entry\">Bryce, Trevor. <i>The Routledge Handbook of the Peoples and Places of Ancient Western Asia: The Near East from the Early Bronze Age to the Fall of the Persian Empire</i>. London; New York: Routledge, 2012. https://doi.org/10.4324/9780203875506.</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://en.wikipedia.org/wiki/Isdud",
+          "citationDetail": "Isdud",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (English)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>, Isdud.",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://www.wikidata.org/wiki/Q7183947",
+          "citationDetail": "Q7183947",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikidata",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>, Q7183947",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "cigs-location-of-ashdod",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+      ],
+      "end": null,
+      "title": "CIGS location of Ashdod",
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": null,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "<p>Centre point location extracted from polygon drawn around entire site as identified on Google Earth base imagery in QGIS 3.x.</p>",
+      "review_state": "published",
+      "accuracy_value": 5.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-2016ff",
+      "featureType": [
+        "archaeological-site"
+      ],
+      "description": "",
+      "created": "2023-01-18T10:56:08Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.6593,
+          31.756
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/687838/cigs-location-of-ashdod",
+      "creators": [
+        {
+          "username": "cjohansson",
+          "homepage": null,
+          "name": "Carolin Johansson",
+          "uri": "https://pleiades.stoa.org/author/cjohansson"
+        },
+        {
+          "username": "rrattenborg",
+          "homepage": null,
+          "name": "Rune Rattenborg",
+          "uri": "https://pleiades.stoa.org/author/rrattenborg"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2023-01-19T11:53:01Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-18T12:29:52Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-18T11:09:05Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-18T11:08:52Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-18T11:03:54Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-18T11:03:36Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-18T10:56:08Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-18T10:56:08Z"
+        }
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "end": -550,
+      "description": "",
+      "contributors": [],
+      "created": "2018-07-10T20:07:20Z",
+      "associationCertainty": "certain",
+      "title": "Philistia",
+      "start": -1200,
+      "provenance": "Pleiades",
+      "uri": "https://pleiades.stoa.org/places/687838/philistia",
+      "connectionType": "part_of_admin",
+      "id": "philistia",
+      "attestations": [
+        {
+          "timePeriod": "iron-age-southern-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/iron-age-southern-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2018-07-11T00:50:38Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "gmckee",
+          "modified": "2018-07-10T20:08:14Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "gmckee",
+          "modified": "2018-07-10T20:07:24Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "gmckee",
+          "modified": "2018-07-10T20:07:20Z"
+        }
+      ],
+      "connectsTo": "https://pleiades.stoa.org/places/660988416",
+      "details": "",
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "page 1095",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Mountjoy 2018",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/YT5NUHRQ",
+          "formattedCitation": "<div class=\"csl-entry\">Mountjoy, Penelope A, and Shelby White and Leon Levy Program for Archaeological Publications (Firm). <i>Decorated Pottery in Cyprus and Philistia in the 12th Century BC: Cypriot IIIC and Philistine IIIC</i>, 2018.</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "review_state": "published",
+      "creators": [
+        {
+          "username": "gmckee",
+          "homepage": null,
+          "name": "Gabriel Mckee",
+          "uri": "https://pleiades.stoa.org/author/gmckee"
+        }
+      ],
+      "@type": "Connection",
+      "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_admin"
+    }
+  ],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/43970336",
+      "citationDetail": "70 F2 Ashdod/Azotos (Mesogeios)",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "BAtlas",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+      "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "II 108-09",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Sch\u00fcrer 1973",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/U3NZGP5W",
+      "formattedCitation": "<div class=\"csl-entry\">Sch\u00fcrer, Emil, ed. <i>The History of the Jewish People in the Age of Jesus Christ (175 B.C.-A.D. 135)</i>. 3 in 4 vols. Edinburgh: Clark, 1973.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/695616438",
+      "citationDetail": "1 93-102",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "NEAEHL",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/4Q6WNJMK",
+      "formattedCitation": "<div class=\"csl-entry\">S\u030ct\u0323ern, Efrayim, ed. <i>New Encyclopedia of Archaeological Excavations in the Holy Land</i>. 5 vols. Jerusalem: Simon &amp; Schuster, 1993. http://www.worldcat.org/oclc/695616438.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "72",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "TIR Iudaea",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8GF4B886",
+      "formattedCitation": "<div class=\"csl-entry\">Tsafrir, Yoram, L Di Segni, and Judith Green. <i>Tabula Imperii Romani: Iudaea - Palaestina</i>. Jerusalem: Israel Academy of Sciences and Humanities; Akademyah ha-le\u2019umit ha-Yi\u0161re\u2019elit le-mada\u2018im; Agudah le-seker arkhe\u2019ologi shel Yi\u0161ra\u2019el; Israel: Agaf ha-medidot, 1994.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Ashdod",
+      "citationDetail": "Ashdod",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+      "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Ashdod.",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace435.html",
+      "citationDetail": "9C1 (Talbert 435)",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+      "shortTitle": "TP (Talbert: CUP)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QT8GLGGI",
+      "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard. \u201cDatabase: Peutinger Map Names and Features, with Commentary and User\u2019s Guide.\u201d In <i>Explore the Peutinger Map</i>. Cambridge UP, 2010. http://www.cambridge.org/us/talbert/talbertdatabase/prm.html.</div>",
+      "otherIdentifier": " ",
+      "type": "citesAsEvidence"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=azotus",
+      "citationDetail": "AZOTUS Palestine, Israel",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "PECS (Perseus)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PV9N7BQD",
+      "formattedCitation": "<div class=\"csl-entry\">Stillwell, Richard, William L MacDonald, and Marian Holland McAllister, eds. <i>The Princeton Encyclopedia of Classical Sites</i>. Princeton, N.J.: Princeton University Press, 1976. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=J.%20AJ%2013.395&lang=original",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "Flav. Jos. AJ AJ 13.395",
+      "otherIdentifier": " ",
+      "type": "citesAsEvidence"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=J.%20BJ%201.156&lang=original",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "Flav. Jos. BJ 1.156",
+      "otherIdentifier": " ",
+      "type": "citesAsEvidence"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+      "shortTitle": "",
+      "bibliographicURI": "http://atlantides.org/bibliography/",
+      "formattedCitation": "Eus. Onom. 20.18",
+      "otherIdentifier": " ",
+      "type": "citesAsEvidence"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.trismegistos.org/place/37278",
+      "citationDetail": "GEO ID 37278: Azotos (Tel Ashdod)",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "TM",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+      "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+      "otherIdentifier": " ",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:16.2.29",
+      "citationDetail": "16.2.29",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+      "shortTitle": "Str. (Meineke: Perseus)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/FEVTVBA7",
+      "formattedCitation": "<div class=\"csl-entry\">Strabo. <i>Strabonis Geographica: recognovit Augustus Meineke.</i> Edited by August Meineke. 3 in 2 vols. Lipsiae, 1877.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsEvidence"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://topostext.org/place/318347UAzo",
+      "citationDetail": "Azotos (Palestine)",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "ToposText",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/MC9RGDVB",
+      "formattedCitation": "Kiesling, Brady. ToposText \u2013 a Reference Tool for Greek Civilization. Version 2.0. Aikaterini Laskaridis Foundation, 2016-.",
+      "otherIdentifier": "http://atlantides.org/bibliography/",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Ashdod-Sea",
+      "citationDetail": "Ashdod-Sea",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+      "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://darmc.harvard.edu/",
+      "citationDetail": "6295",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "DARMC",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+      "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Ashdod",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "ashdod",
+      "end": 300,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 70 F2 Ashdod/Azotos (Mesogeios)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-17T12:31:38Z",
+      "uri": "https://pleiades.stoa.org/places/687838/ashdod",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:53:50Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:47:33Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:03:59Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T12:31:38Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Azotos Mesogeios",
+      "attestations": [
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://babel.hathitrust.org/cgi/pt?id=uc1.b4636497&view=1up&seq=95",
+          "citationDetail": "718.6",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+          "shortTitle": "HierSyn (Burckhardt; HaithiTrust)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TLDJB2AJ",
+          "formattedCitation": "<div class=\"csl-entry\">Hierocles. <i>Hieroclis Synecdemvs; Accedvnt Fragmenta Apvd Constantinvm Porphyrogennetvm Servata et Nomina Vrbivm Mvtata; Recensvit Avgvstvs Bvrckhardt.</i> Edited by August Burckhardt. Lipsiae: in aedibvs B. G. Tevbneri, 1893. https://catalog.hathitrust.org/Record/011157792.</div>",
+          "otherIdentifier": "",
+          "type": "citesAsEvidence"
+        }
+      ],
+      "id": "azotos-mesogeios",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 70 F2 Ashdod/Azotos (Mesogeios)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 300,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "grc",
+      "created": "2019-08-12T21:22:27Z",
+      "uri": "https://pleiades.stoa.org/places/687838/azotos-mesogeios",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "attested": "\u1f0c\u03b6\u03c9\u03c4\u03bf\u03c2 \u03bc\u03b5\u03c3\u03cc\u03b3\u03b5\u03b9\u03bf\u03c2",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "check-in of working copy",
+          "modifiedBy": "jbecker",
+          "modified": "2019-08-16T14:46:35Z"
+        },
+        {
+          "comment": "Baseline created",
+          "modifiedBy": "thomase",
+          "modified": "2019-08-12T21:22:27Z"
+        },
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:53:51Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:47:33Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:03:59Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T12:31:38Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Azotos",
+      "attestations": [
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://data.perseus.org/citations/urn:cts:greekLit:tlg0099.tlg001.perseus-grc1:16.2.29",
+          "citationDetail": "16.2.29",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+          "shortTitle": "Str. (Meineke: Perseus)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/FEVTVBA7",
+          "formattedCitation": "<div class=\"csl-entry\">Strabo. <i>Strabonis Geographica: recognovit Augustus Meineke.</i> Edited by August Meineke. 3 in 2 vols. Lipsiae, 1877.</div>",
+          "otherIdentifier": "",
+          "type": "citesAsEvidence"
+        }
+      ],
+      "id": "azotos",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        },
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 70 F2 Ashdod/Azotos (Mesogeios)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -330,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "grc",
+      "created": "2019-08-12T21:20:43Z",
+      "uri": "https://pleiades.stoa.org/places/687838/azotos",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "attested": "\u1f08\u03b6\u03c9\u03c4\u03cc\u03c2",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "check-in of working copy",
+          "modifiedBy": "jbecker",
+          "modified": "2019-08-16T14:46:56Z"
+        },
+        {
+          "comment": "Baseline created",
+          "modifiedBy": "thomase",
+          "modified": "2019-08-12T21:20:43Z"
+        },
+        {
+          "comment": "reference",
+          "modifiedBy": "jbecker",
+          "modified": "2017-12-09T03:45:47Z"
+        },
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:53:51Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:47:33Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:03:59Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T12:31:38Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Hippenos",
+      "attestations": [
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "less-confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/less-confident"
+        }
+      ],
+      "references": [],
+      "id": "hippenos",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 70 F2 Ashdod/Azotos (Mesogeios)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 300,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-17T12:31:38Z",
+      "uri": "https://pleiades.stoa.org/places/687838/hippenos",
+      "creators": [
+        {
+          "username": null,
+          "name": "B. Isaac"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T07:53:51Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:47:33Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:03:59Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T12:31:39Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Asd\u016bdu, Asd\u016bdi",
+      "attestations": [
+        {
+          "timePeriod": "neo-assyrian-babylonian-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/neo-assyrian-babylonian-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.worldcat.org/oclc/230137758",
+          "citationDetail": "30-32",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "Bagg, RGTC 7/1",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZZYLSAR5",
+          "formattedCitation": "<div class=\"csl-entry\">Bagg, Ariel M, Wolfgang R\u00f6llig, Dietz Otto Edzard, Brigitte Groneberg, \u1e2a\u0101lid N\u0101\u0161if, Giuseppe F Del Monte, Ran Zadok, et al. <i>R\u00e9pertoire g\u00e9ographique des textes cun\u00e9iformes 7,1 7,1</i>. T\u00fcbinger Atlas des Vorderen Orients / Beihefte / B, 7,7,1. Wiesbaden: Reichert, 2007. http://www.worldcat.org/oclc/230137758.</div>",
+          "otherIdentifier": "",
+          "type": "cites"
+        }
+      ],
+      "id": "asdudu",
+      "end": -540,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -720,
+      "details": "",
+      "review_state": "published",
+      "description": "Name of Ashdod in Akkadian sources, especially Neo-Assyrian royal inscriptions.",
+      "transcriptionCompleteness": "complete",
+      "language": "akk",
+      "created": "2020-08-05T11:16:33Z",
+      "uri": "https://pleiades.stoa.org/places/687838/asdudu",
+      "creators": [
+        {
+          "username": "jnovotny",
+          "homepage": null,
+          "name": "Jamie Novotny",
+          "uri": "https://pleiades.stoa.org/author/jnovotny"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "jbecker",
+          "modified": "2020-08-05T15:50:54Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-05T11:16:56Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-05T11:16:34Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-05T11:16:33Z"
+        }
+      ]
+    },
+    {
+      "nameType": "ethnic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Asd\u016bd\u0101ja, Asd\u016bd\u0101ya",
+      "attestations": [
+        {
+          "timePeriod": "early-1st-millennium-mesopotamia",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/early-1st-millennium-mesopotamia",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "neo-assyrian-babylonian-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/neo-assyrian-babylonian-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.worldcat.org/oclc/230137758",
+          "citationDetail": "30-32",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "Bagg, RGTC 7/1",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZZYLSAR5",
+          "formattedCitation": "<div class=\"csl-entry\">Bagg, Ariel M, Wolfgang R\u00f6llig, Dietz Otto Edzard, Brigitte Groneberg, \u1e2a\u0101lid N\u0101\u0161if, Giuseppe F Del Monte, Ran Zadok, et al. <i>R\u00e9pertoire g\u00e9ographique des textes cun\u00e9iformes 7,1 7,1</i>. T\u00fcbinger Atlas des Vorderen Orients / Beihefte / B, 7,7,1. Wiesbaden: Reichert, 2007. http://www.worldcat.org/oclc/230137758.</div>",
+          "otherIdentifier": "",
+          "type": "cites"
+        }
+      ],
+      "id": "asdudaja",
+      "end": -540,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -1000,
+      "details": "",
+      "review_state": "published",
+      "description": "Ethnic name used to designate a person from Ashdod in Neo-Assyrian sources, especially royal inscriptions of Sargon II (r. 721-705 BC) and Sennacherib (r. 704-681 BC).",
+      "transcriptionCompleteness": "complete",
+      "language": "akk",
+      "created": "2020-08-05T11:20:25Z",
+      "uri": "https://pleiades.stoa.org/places/687838/asdudaja",
+      "creators": [
+        {
+          "username": "jnovotny",
+          "homepage": null,
+          "name": "Jamie Novotny",
+          "uri": "https://pleiades.stoa.org/author/jnovotny"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "jbecker",
+          "modified": "2020-08-05T15:50:45Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-05T11:21:11Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-05T11:20:52Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-05T11:20:26Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-05T11:20:25Z"
+        }
+      ]
+    },
+    {
+      "nameType": "ethnic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Sad\u016bd\u0101ja, Sad\u016bd\u0101ya",
+      "attestations": [
+        {
+          "timePeriod": "early-1st-millennium-mesopotamia",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/early-1st-millennium-mesopotamia",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "neo-assyrian-babylonian-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/neo-assyrian-babylonian-middle-east",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.worldcat.org/oclc/230137758",
+          "citationDetail": "30-32",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "Bagg, RGTC 7/1",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZZYLSAR5",
+          "formattedCitation": "<div class=\"csl-entry\">Bagg, Ariel M, Wolfgang R\u00f6llig, Dietz Otto Edzard, Brigitte Groneberg, \u1e2a\u0101lid N\u0101\u0161if, Giuseppe F Del Monte, Ran Zadok, et al. <i>R\u00e9pertoire g\u00e9ographique des textes cun\u00e9iformes 7,1 7,1</i>. T\u00fcbinger Atlas des Vorderen Orients / Beihefte / B, 7,7,1. Wiesbaden: Reichert, 2007. http://www.worldcat.org/oclc/230137758.</div>",
+          "otherIdentifier": "",
+          "type": "cites"
+        }
+      ],
+      "id": "sadudaja",
+      "end": -540,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -1000,
+      "details": "",
+      "review_state": "published",
+      "description": "Ethnic name used to designate a person from Ashdod in several Neo-Assyrian letters (reigns of Tiglath-pileser III and Sargon II).",
+      "transcriptionCompleteness": "complete",
+      "language": "akk",
+      "created": "2020-08-05T11:24:57Z",
+      "uri": "https://pleiades.stoa.org/places/687838/sadudaja",
+      "creators": [
+        {
+          "username": "jnovotny",
+          "homepage": null,
+          "name": "Jamie Novotny",
+          "uri": "https://pleiades.stoa.org/author/jnovotny"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "jbecker",
+          "modified": "2020-08-05T15:50:35Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-05T11:25:18Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-05T11:24:58Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-05T11:24:57Z"
+        }
+      ]
+    },
+    {
+      "nameType": "ethnic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Sid\u016bd\u0101ja, Sid\u016bd\u0101ya",
+      "attestations": [
+        {
+          "timePeriod": "early-1st-millennium-mesopotamia",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/early-1st-millennium-mesopotamia",
+          "confidence": "less-confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/less-confident"
+        },
+        {
+          "timePeriod": "neo-assyrian-babylonian-middle-east",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/neo-assyrian-babylonian-middle-east",
+          "confidence": "less-confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/less-confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.worldcat.org/oclc/230137758",
+          "citationDetail": "30-32",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Bagg, RGTC 7/1",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/ZZYLSAR5",
+          "formattedCitation": "<div class=\"csl-entry\">Bagg, Ariel M, Wolfgang R\u00f6llig, Dietz Otto Edzard, Brigitte Groneberg, \u1e2a\u0101lid N\u0101\u0161if, Giuseppe F Del Monte, Ran Zadok, et al. <i>R\u00e9pertoire g\u00e9ographique des textes cun\u00e9iformes 7,1 7,1</i>. T\u00fcbinger Atlas des Vorderen Orients / Beihefte / B, 7,7,1. Wiesbaden: Reichert, 2007. http://www.worldcat.org/oclc/230137758.</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "sidudaja",
+      "end": -540,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -1000,
+      "details": "",
+      "review_state": "published",
+      "description": "Ethnic name used to designate a person from Ashdod in an eighth-century-BC letter (reign of Tiglath-pileser III [r. 745-727 BC] or Sargon II [r. 721-705]).",
+      "transcriptionCompleteness": "complete",
+      "language": "akk",
+      "created": "2020-08-05T11:28:37Z",
+      "uri": "https://pleiades.stoa.org/places/687838/sidudaja",
+      "creators": [
+        {
+          "username": "jnovotny",
+          "homepage": null,
+          "name": "Jamie Novotny",
+          "uri": "https://pleiades.stoa.org/author/jnovotny"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "jbecker",
+          "modified": "2020-08-05T15:50:24Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-05T11:28:48Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-05T11:28:37Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jnovotny",
+          "modified": "2020-08-05T11:28:37Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Ashdod",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://www.wikidata.org/Q7183947",
+          "citationDetail": "Q7183947",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikidata",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>, Q7183947.",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://en.wikipedia.org/wiki/Isdud",
+          "citationDetail": "Isdud",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (English)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>, Isdud.",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "ashdod-1",
+      "end": 2100,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "details": "<p>Romanization according to the ALA-LC specifications for\u00a0<span>Hebrew and Yiddish (2011)</span> (https://www.loc.gov/catdir/cpso/roman.html).</p>",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "he",
+      "created": "2023-01-18T11:29:37Z",
+      "uri": "https://pleiades.stoa.org/places/687838/ashdod-1",
+      "creators": [
+        {
+          "username": "cjohansson",
+          "homepage": null,
+          "name": "Carolin Johansson",
+          "uri": "https://pleiades.stoa.org/author/cjohansson"
+        },
+        {
+          "username": "rrattenborg",
+          "homepage": null,
+          "name": "Rune Rattenborg",
+          "uri": "https://pleiades.stoa.org/author/rrattenborg"
+        }
+      ],
+      "attested": "\u05d0\u05b7\u05e9\u05b0\u05c1\u05d3\u05bc\u05d5\u05b9\u05d3",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2023-01-19T11:54:15Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-18T12:27:10Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-18T11:29:38Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-18T11:29:37Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Ashd\u016bd",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://en.wikipedia.org/wiki/Isdud",
+          "citationDetail": "Isdud",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (English)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>, Isdud.",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "ashdud",
+      "end": 2100,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "details": "<p><span>Romanization according to the ALA-LC specifications for Arabic (2012) (https://www.loc.gov/catdir/cpso/roman.html).</span></p>",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "ar",
+      "created": "2023-01-18T12:23:33Z",
+      "uri": "https://pleiades.stoa.org/places/687838/ashdud",
+      "creators": [
+        {
+          "username": "cjohansson",
+          "homepage": null,
+          "name": "Carolin Johansson",
+          "uri": "https://pleiades.stoa.org/author/cjohansson"
+        },
+        {
+          "username": "rrattenborg",
+          "homepage": null,
+          "name": "Rune Rattenborg",
+          "uri": "https://pleiades.stoa.org/author/rrattenborg"
+        }
+      ],
+      "attested": "\u0627\u0633\u062f\u0648\u062f\u200e",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2023-01-19T11:54:15Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-18T12:29:29Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-18T12:23:48Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-18T12:23:34Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-18T12:23:33Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Isdud",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://en.wikipedia.org/wiki/Isdud",
+          "citationDetail": "Isdud",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (English)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>, Isdud",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "https://he.wikipedia.org/wiki/\u05d0\u05d9\u05e1\u05d3\u05d5\u05d3",
+          "citationDetail": "\u05d0\u05d9\u05e1\u05d3\u05d5\u05d3",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (Hebrew)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/SMNW5UAT",
+          "formattedCitation": "<div class=\"csl-entry\"><i>\u05d5\u05d9\u05e7\u05d9\u05e4\u05d3\u05d9\u05d4, \u05d4\u05d0\u05d9\u05e0\u05e6\u05d9\u05e7\u05dc\u05d5\u05e4\u05d3\u05d9\u05d4 \u05d4\u05d7\u05d5\u05e4\u05e9\u05d9\u05ea</i>, 2001. https://he.wikipedia.org.</div>, \u05d0\u05d9\u05e1\u05d3\u05d5\u05d3.",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "isdod",
+      "end": 2100,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "details": "<p>Romanization according to the ALA-LC specifications for Hebrew and Yiddish (2011)\u00a0 (https://www.loc.gov/catdir/cpso/roman.html).</p>",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "he",
+      "created": "2023-01-18T12:23:35Z",
+      "uri": "https://pleiades.stoa.org/places/687838/isdod",
+      "creators": [
+        {
+          "username": "cjohansson",
+          "homepage": null,
+          "name": "Carolin Johansson",
+          "uri": "https://pleiades.stoa.org/author/cjohansson"
+        },
+        {
+          "username": "rrattenborg",
+          "homepage": null,
+          "name": "Rune Rattenborg",
+          "uri": "https://pleiades.stoa.org/author/rrattenborg"
+        }
+      ],
+      "attested": "\u05d0\u05d9\u05e1\u05d3\u05d5\u05d3",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2023-01-19T11:54:15Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-18T12:27:24Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-18T12:25:07Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-18T12:23:35Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "cjohansson",
+          "modified": "2023-01-18T12:23:35Z"
+        }
+      ]
+    }
+  ],
+  "id": "687838",
+  "subject": [
+    "dare:ancient=1",
+    "dare:major=1",
+    "dare:feature=major settlement"
+  ],
+  "title": "Ashdod/Azotos (Mesogeios)",
+  "provenance": "Barrington Atlas: BAtlas 70 F2 Ashdod/Azotos (Mesogeios)",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/settlement",
+    "https://pleiades.stoa.org/vocabularies/place-types/archaeological-site"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: Tel Ashdod</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "An ancient settlement of the Philistines.",
+  "reprPoint": [
+    34.6576805,
+    31.756019000000002
+  ],
+  "placeTypes": [
+    "settlement",
+    "archaeological-site"
+  ],
+  "bbox": [
+    34.656061,
+    31.756,
+    34.6593,
+    31.756038
+  ],
+  "connectsWith": [
+    "https://pleiades.stoa.org/places/660988416",
+    "https://pleiades.stoa.org/places/1001939",
+    "https://pleiades.stoa.org/places/14077997",
+    "https://pleiades.stoa.org/places/687843"
+  ],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2018-06-08T11:27:21Z",
+  "uri": "https://pleiades.stoa.org/places/687838",
+  "creators": [
+    {
+      "username": null,
+      "name": "B. Isaac"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "create DARMC citation to preserve cross-project linkage after retracting DARMC location",
+      "modifiedBy": "thomase",
+      "modified": "2023-01-19T11:53:46Z"
+    },
+    {
+      "comment": "Edited",
+      "modifiedBy": "jbecker",
+      "modified": "2020-08-05T15:50:13Z"
+    },
+    {
+      "comment": "reference",
+      "modifiedBy": "jbecker",
+      "modified": "2019-08-16T14:47:32Z"
+    },
+    {
+      "comment": "add ToposText reference provided by bkiesling",
+      "modifiedBy": "admin",
+      "modified": "2018-06-08T11:27:25Z"
+    },
+    {
+      "comment": "Baseline created",
+      "modifiedBy": "admin",
+      "modified": "2018-06-08T11:27:19Z"
+    },
+    {
+      "comment": "references",
+      "modifiedBy": "jbecker",
+      "modified": "2017-12-09T03:44:53Z"
+    },
+    {
+      "comment": "added reference",
+      "modifiedBy": "jbecker",
+      "modified": "2016-05-06T01:00:24Z"
+    },
+    {
+      "comment": "added references",
+      "modifiedBy": "jbecker",
+      "modified": "2015-02-25T17:15:08Z"
+    },
+    {
+      "comment": "added reference",
+      "modifiedBy": "jbecker",
+      "modified": "2013-02-22T19:23:32Z"
+    },
+    {
+      "comment": "DARE feature tag fix.",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-23T19:33:14Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T20:11:56Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T07:53:50Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T21:50:51Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-09T19:25:04Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-17T13:47:33Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T13:03:59Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T12:31:38Z"
+    }
+  ]
+}

@@ -1,0 +1,842 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.9181438,
+            31.5021464
+          ],
+          [
+            35.9183989,
+            31.5023777
+          ],
+          [
+            35.9188255,
+            31.502705
+          ],
+          [
+            35.9190511,
+            31.502745
+          ],
+          [
+            35.9195527,
+            31.5026621
+          ],
+          [
+            35.9200329,
+            31.5024145
+          ],
+          [
+            35.921575,
+            31.5023806
+          ],
+          [
+            35.9221647,
+            31.5017976
+          ],
+          [
+            35.9227276,
+            31.5014844
+          ],
+          [
+            35.9231434,
+            31.5009327
+          ],
+          [
+            35.9233445,
+            31.5002482
+          ],
+          [
+            35.9234822,
+            31.4998324
+          ],
+          [
+            35.9234267,
+            31.4986755
+          ],
+          [
+            35.9221804,
+            31.4983968
+          ],
+          [
+            35.9216099,
+            31.4981456
+          ],
+          [
+            35.9209382,
+            31.4978871
+          ],
+          [
+            35.9191399,
+            31.4975738
+          ],
+          [
+            35.9188943,
+            31.4988387
+          ],
+          [
+            35.9181659,
+            31.4989511
+          ],
+          [
+            35.9170398,
+            31.4994173
+          ],
+          [
+            35.9174641,
+            31.5012602
+          ],
+          [
+            35.917648,
+            31.5016693
+          ],
+          [
+            35.9181438,
+            31.5021464
+          ]
+        ]
+      },
+      "type": "Feature",
+      "id": "osm-location",
+      "properties": {
+        "snippet": "Fort; AD 300 - AD 640",
+        "link": "https://pleiades.stoa.org/places/697646/osm-location",
+        "description": "Representative location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM location of Umm ar Rasas"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": null,
+      "name": "DARMC"
+    },
+    {
+      "username": "gmckee",
+      "homepage": null,
+      "name": "Gabriel Mckee",
+      "uri": "https://pleiades.stoa.org/author/gmckee"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    },
+    {
+      "username": "irisf",
+      "homepage": null,
+      "name": "Iris Fernandez",
+      "uri": "https://pleiades.stoa.org/author/irisf"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+      ],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.openstreetmap.org/browse/way/82908941",
+          "citationDetail": "Way 82908941",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "OSM",
+          "bibliographicURI": "",
+          "formattedCitation": "osm:way=82908941",
+          "otherIdentifier": " ",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "osm-location",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/fort"
+      ],
+      "end": 640,
+      "title": "OSM location of Umm ar Rasas",
+      "provenance": "OpenStreetMap (Way 82908941, version 5, osm:changeset=71024116, 2019-06-07T13:35:49Z)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 300,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/fort"
+      ],
+      "archaeologicalRemains": "unknown",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 20.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+      "featureType": [
+        "fort"
+      ],
+      "description": "Representative location based on OpenStreetMap",
+      "created": "2015-03-06T03:36:56Z",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.9181438,
+            31.5021464
+          ],
+          [
+            35.9183989,
+            31.5023777
+          ],
+          [
+            35.9188255,
+            31.502705
+          ],
+          [
+            35.9190511,
+            31.502745
+          ],
+          [
+            35.9195527,
+            31.5026621
+          ],
+          [
+            35.9200329,
+            31.5024145
+          ],
+          [
+            35.921575,
+            31.5023806
+          ],
+          [
+            35.9221647,
+            31.5017976
+          ],
+          [
+            35.9227276,
+            31.5014844
+          ],
+          [
+            35.9231434,
+            31.5009327
+          ],
+          [
+            35.9233445,
+            31.5002482
+          ],
+          [
+            35.9234822,
+            31.4998324
+          ],
+          [
+            35.9234267,
+            31.4986755
+          ],
+          [
+            35.9221804,
+            31.4983968
+          ],
+          [
+            35.9216099,
+            31.4981456
+          ],
+          [
+            35.9209382,
+            31.4978871
+          ],
+          [
+            35.9191399,
+            31.4975738
+          ],
+          [
+            35.9188943,
+            31.4988387
+          ],
+          [
+            35.9181659,
+            31.4989511
+          ],
+          [
+            35.9170398,
+            31.4994173
+          ],
+          [
+            35.9174641,
+            31.5012602
+          ],
+          [
+            35.917648,
+            31.5016693
+          ],
+          [
+            35.9181438,
+            31.5021464
+          ]
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/697646/osm-location",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2020-12-18T10:22:16Z"
+        },
+        {
+          "comment": "reimported OSM geometry",
+          "modifiedBy": "thomase",
+          "modified": "2020-12-18T10:22:10Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2018-07-05T16:03:23Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "jbecker",
+          "modified": "2018-07-05T16:03:04Z"
+        },
+        {
+          "comment": "added location",
+          "modifiedBy": "jbecker",
+          "modified": "2015-03-06T03:44:13Z"
+        },
+        {
+          "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+          "modifiedBy": "jbecker",
+          "modified": "2015-03-06T03:37:01Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2015-03-06T03:36:59Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/43970336",
+      "citationDetail": "71 B3 Castra Mefaa",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "BAtlas",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+      "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/695616438",
+      "citationDetail": "4 1490-93",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "NEAEHL",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/4Q6WNJMK",
+      "formattedCitation": "<div class=\"csl-entry\">S\u030ct\u0323ern, Efrayim, ed. <i>New Encyclopedia of Archaeological Excavations in the Holy Land</i>. 5 vols. Jerusalem: Simon &amp; Schuster, 1993\u20132008. http://www.worldcat.org/oclc/695616438.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Umm_ar-Rasas",
+      "citationDetail": "Umm ar-Rasas",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+      "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Umm ar-Rasas.",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://whc.unesco.org/en/list/1093",
+      "citationDetail": "1093: Um er-Rasas (Kastrom Mefa'a)",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "WHL",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BIIFWTIR",
+      "formattedCitation": "<div class=\"csl-entry\">UNESCO World Heritage Centre. <i>World Heritage List</i>, 1978. http://whc.unesco.org/en/list/.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.trismegistos.org/place/2828",
+      "citationDetail": "GEO ID 2828: Kastron Mephaa (Umm el-Rasas)",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "TM",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+      "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.geonames.org/246330/umm-ar-rasas.html",
+      "citationDetail": "246330: Umm ar Ra\u015f\u0101\u015f",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "GeoNames",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IIFE4W6M",
+      "formattedCitation": "<div class=\"csl-entry\">Marc Wick, and Christophe Boutreux. \u201cGeoNames,\u201d 2005. http://www.geonames.org/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://www.wikidata.org/wiki/Q822842",
+      "citationDetail": "Q822842: Umm ar-Rasas",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "Wikidata",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCQIKDKS",
+      "formattedCitation": "<div class=\"csl-entry\"><i>Wikidata: The Free Knowledge Base That Anyone Can Edit</i>. Wikimedia Foundation, 2014. https://www.wikidata.org/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://darmc.harvard.edu/",
+      "citationDetail": "19088",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "DARMC",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/9UD9W75C",
+      "formattedCitation": "<div class=\"csl-entry\">Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds. <i>The Digital Atlas of Roman and Medieval Civilizations</i>. Cambridge (Massachusetts): Harvard University, 2007. https://darmc.harvard.edu/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Castra Mefaa",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "castra-mefaa",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 71 B3 Castra Mefaa",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-17T13:18:52Z",
+      "uri": "https://pleiades.stoa.org/places/697646/castra-mefaa",
+      "creators": [
+        {
+          "username": null,
+          "name": "S.T. Parker"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T08:00:16Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-17T13:50:11Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:33:07Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-17T13:18:52Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Umm ar-Rasas, Umm er-Rasas, Umm al-Ra\u1e63\u0101\u1e63",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://dbpedia.org/resource/Umm_ar-Rasas",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "dbpedia: Umm ar Rasas",
+          "otherIdentifier": " ",
+          "type": "cites"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.geonames.org/246330/umm-ar-rasas.html",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "GeoNames 246330",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "umm-ar-rasas",
+      "end": 2100,
+      "contributors": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        },
+        {
+          "username": "gmckee",
+          "homepage": null,
+          "name": "Gabriel Mckee",
+          "uri": "https://pleiades.stoa.org/author/gmckee"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 71 B3 Castra Mefaa",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "ar",
+      "created": "2012-01-06T21:45:38Z",
+      "uri": "https://pleiades.stoa.org/places/697646/umm-ar-rasas",
+      "creators": [
+        {
+          "username": "irisf",
+          "homepage": null,
+          "name": "Iris Fernandez",
+          "uri": "https://pleiades.stoa.org/author/irisf"
+        }
+      ],
+      "attested": "\u0623\u0645 \u0627\u0644\u0631\u0651\u0635\u0627\u0635",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Edited",
+          "modifiedBy": "gmckee",
+          "modified": "2022-04-04T17:21:17Z"
+        },
+        {
+          "comment": "reference",
+          "modifiedBy": "jbecker",
+          "modified": "2017-10-12T15:09:11Z"
+        },
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T08:00:16Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2012-01-08T23:13:46Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "irisf",
+          "modified": "2012-01-06T21:52:53Z"
+        },
+        {
+          "comment": "Added name and temporal attestations",
+          "modifiedBy": "irisf",
+          "modified": "2012-01-06T21:45:40Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "irisf",
+          "modified": "2012-01-06T21:45:39Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Kastrom Mefa'a",
+      "attestations": [],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://whc.unesco.org/en/list/1093/",
+          "citationDetail": "Um er-Rasas (Kastrom Mefa'a)",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "WHL",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BIIFWTIR",
+          "formattedCitation": "<div class=\"csl-entry\">UNESCO World Heritage Centre. <i>World Heritage List</i>, 1978. http://whc.unesco.org/en/list/.</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "name.2017-10-12.9631409763",
+      "end": null,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": null,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "en",
+      "created": "2017-10-12T15:09:31Z",
+      "uri": "https://pleiades.stoa.org/places/697646/name.2017-10-12.9631409763",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "attested": "Kastrom Mefa'a",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2020-12-18T10:20:01Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2020-03-20T13:30:36Z"
+        },
+        {
+          "comment": "reference",
+          "modifiedBy": "jbecker",
+          "modified": "2020-03-20T13:30:30Z"
+        },
+        {
+          "comment": "name",
+          "modifiedBy": "jbecker",
+          "modified": "2017-10-12T15:09:32Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2017-10-12T15:09:31Z"
+        }
+      ]
+    }
+  ],
+  "id": "697646",
+  "subject": [
+    "dare:major=0",
+    "UWHS",
+    "extant remains",
+    "dare:feature=fort",
+    "dare:ancient=1"
+  ],
+  "title": "Castra Mefaa",
+  "provenance": "Barrington Atlas: BAtlas 71 B3 Castra Mefaa",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/fort"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: Umm er-Resas</p>\r\n<p>Inscribed as a\u00a0UNESCO World Heritage Site in 2004.</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "A site that originated as a Roman castrum and developed into a town from the fifth century onward. Archaeological remains date from the Roman, Byzantine, and Early Muslim periods.",
+  "reprPoint": [
+    35.92025885980826,
+    31.500126264163864
+  ],
+  "placeTypes": [
+    "fort"
+  ],
+  "bbox": [
+    35.9170398,
+    31.4975738,
+    35.9234822,
+    31.502745
+  ],
+  "connectsWith": [],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2009-09-17T13:18:52Z",
+  "uri": "https://pleiades.stoa.org/places/697646",
+  "creators": [
+    {
+      "username": null,
+      "name": "S.T. Parker"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "updates",
+      "modifiedBy": "jbecker",
+      "modified": "2020-12-18T14:28:13Z"
+    },
+    {
+      "comment": "Edited",
+      "modifiedBy": "thomase",
+      "modified": "2020-12-18T10:24:15Z"
+    },
+    {
+      "comment": "typo in summary",
+      "modifiedBy": "thomase",
+      "modified": "2020-12-18T10:20:21Z"
+    },
+    {
+      "comment": "summary",
+      "modifiedBy": "jbecker",
+      "modified": "2020-03-20T13:29:37Z"
+    },
+    {
+      "comment": "TM GEO ID 2828",
+      "modifiedBy": "jbecker",
+      "modified": "2017-10-12T15:08:41Z"
+    },
+    {
+      "comment": "references",
+      "modifiedBy": "jbecker",
+      "modified": "2017-10-12T13:32:09Z"
+    },
+    {
+      "comment": "added reference",
+      "modifiedBy": "jbecker",
+      "modified": "2015-03-06T03:26:07Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T20:16:43Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T08:00:16Z"
+    },
+    {
+      "comment": "Initial revision",
+      "modifiedBy": "thomase",
+      "modified": "2012-01-08T23:14:06Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T22:06:07Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-09T23:32:45Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-17T13:50:11Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T13:33:07Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-17T13:18:52Z"
+    }
+  ]
+}

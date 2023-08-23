@@ -1,0 +1,892 @@
+{
+  "features": [],
+  "contributors": [
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    },
+    {
+      "username": "bkiesling",
+      "homepage": null,
+      "name": "Brady Kiesling",
+      "uri": "https://pleiades.stoa.org/author/bkiesling"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    }
+  ],
+  "locations": [],
+  "connections": [
+    {
+      "end": null,
+      "description": "",
+      "contributors": [],
+      "created": "2016-07-13T13:33:11Z",
+      "associationCertainty": "certain",
+      "title": "Cyrene",
+      "start": null,
+      "provenance": "Pleiades",
+      "uri": "https://pleiades.stoa.org/places/373732/373778",
+      "connectionType": "connection",
+      "id": "373778",
+      "attestations": [],
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "admin",
+          "modified": "2016-07-13T13:33:11Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "admin",
+          "modified": "2016-07-13T13:33:11Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "admin",
+          "modified": "2016-07-13T13:33:11Z"
+        }
+      ],
+      "connectsTo": "https://pleiades.stoa.org/places/373778",
+      "details": "",
+      "references": [],
+      "review_state": "published",
+      "creators": [
+        {
+          "username": "admin",
+          "homepage": null,
+          "name": "",
+          "uri": "https://pleiades.stoa.org/author/admin"
+        }
+      ],
+      "@type": "Connection",
+      "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/connection"
+    },
+    {
+      "end": null,
+      "description": "",
+      "contributors": [
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+      ],
+      "created": "2022-09-23T23:38:08Z",
+      "associationCertainty": "certain",
+      "title": "Pentapolis",
+      "start": null,
+      "provenance": "Pleiades",
+      "uri": "https://pleiades.stoa.org/places/373732/pentapolis",
+      "connectionType": "part_of_regional",
+      "id": "pentapolis",
+      "attestations": [],
+      "history": [
+        {
+          "comment": "part of regional (not administrative)",
+          "modifiedBy": "thomase",
+          "modified": "2023-01-23T22:06:40Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2023-01-23T22:03:00Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2023-01-20T23:03:03Z"
+        },
+        {
+          "comment": "reference",
+          "modifiedBy": "jbecker",
+          "modified": "2023-01-20T23:02:58Z"
+        },
+        {
+          "comment": "cnxn",
+          "modifiedBy": "jbecker",
+          "modified": "2022-09-23T23:38:10Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2022-09-23T23:38:08Z"
+        }
+      ],
+      "connectsTo": "https://pleiades.stoa.org/places/373869",
+      "details": "",
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://en.wikipedia.org/wiki/Apollonia_(Cyrenaica)",
+          "citationDetail": "Apollonia (Cyrenaica)",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (English)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "review_state": "published",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "@type": "Connection",
+      "connectionTypeURI": "https://pleiades.stoa.org/vocabularies/relationship-types/part_of_regional"
+    }
+  ],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/43970336",
+      "citationDetail": "38 C1 Apollonia/Sozousa",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "BAtlas",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MIAGQ5C6",
+      "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard J. A., ed. <i>Barrington Atlas of the Greek and Roman World</i>. Princeton, N.J.: Princeton University Press, 2000. http://www.worldcat.org/oclc/43970336.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Purcaro Pagano 1976",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/E76HZ6MI",
+      "formattedCitation": "<div class=\"csl-entry\">Purcaro Pagano, V. \u201cLe Rotte Antiche Tra La Grecia E La Cirenaica E Gli Itinerari Marittimi E Terresti Lungo Le Coste Cirenaiche E Della Grande Sirte.\u201d <i>Quaderni Di Archeologia Della Libia</i> 8 (1976): 285\u2013352.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Laronde 1996",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BCMWT9WE",
+      "formattedCitation": "<div class=\"csl-entry\">Laronde, Andr\u00e9. \u201cApollonia de Cyr\u00e9na\u00efque: Arch\u00e9ologie et Histoire.\u201d <i>Journal Des Savants</i>, January 1996, 3\u201349.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Stucchi 1975",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/MK6NMMWU",
+      "formattedCitation": "<div class=\"csl-entry\">Stucchi, Sandro. <i>Architettura Cirenaica</i>. Monografie Di Archeologia Libica 9. Roma: L\u2019Erma di Bretschneider, 1975.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace348.html",
+      "citationDetail": "7C5 (Talbert 348)",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+      "shortTitle": "TP (Talbert: CUP)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/QT8GLGGI",
+      "formattedCitation": "<div class=\"csl-entry\">Talbert, Richard. \u201cDatabase: Peutinger Map Names and Features, with Commentary and User\u2019s Guide.\u201d In <i>Explore the Peutinger Map</i>. Cambridge UP, 2010. http://www.cambridge.org/us/talbert/talbertdatabase/prm.html.</div>",
+      "otherIdentifier": " ",
+      "type": "citesAsEvidence"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.livius.org/ap-ark/apollonia/apollonia.html",
+      "citationDetail": "Apollonia",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Livius.org",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/726HWVKS",
+      "formattedCitation": "<div class=\"csl-entry\">Lendering, Jona. <i>Livius - Articles on Ancient History</i>, 1995. http://www.livius.org/.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006:entry=apollonia-2",
+      "citationDetail": "APOLLONIA (Marsa Susa) Libya",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "PECS (Perseus)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/PV9N7BQD",
+      "formattedCitation": "<div class=\"csl-entry\">Stillwell, Richard, William L MacDonald, and Marian Holland McAllister, eds. <i>The Princeton Encyclopedia of Classical Sites</i>. Princeton, N.J.: Princeton University Press, 1976. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0006.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Apollonia,_Cyrenaica",
+      "citationDetail": "Apollonia, Cyrenaica",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+      "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Apollonia, Cyrenaica.",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.geonames.org/81584/susah.html",
+      "citationDetail": "81584: Susah",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "GeoNames",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/IIFE4W6M",
+      "formattedCitation": "<div class=\"csl-entry\">Marc Wick, and Christophe Boutreux. \u201cGeoNames,\u201d 2005. http://www.geonames.org/.</div>",
+      "otherIdentifier": " ",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0064%3Aalphabetic+letter%3DA%3Aentry+group%3D11%3Aentry%3Dapollonia-geo03",
+      "citationDetail": "APOLL\u00d3NIA",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Smith 1854 (Perseus)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/BIA378QC",
+      "formattedCitation": "<div class=\"csl-entry\">Smith, William. <i>Dictionary of Greek and Roman Geography</i>. London: Murray, 1854. http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0064.</div>",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.org/wiki/Eratosthenes",
+      "citationDetail": "Eratosthenes",
+      "citationTypeURI": "http://purl.org/spar/cito/seeAlso",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/CI6F6W7W",
+      "formattedCitation": "Wikipedia: the free encyclopedia that anyone can edit (2001-), Eratosthenes.",
+      "otherIdentifier": " ",
+      "type": "seeAlso"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Humphrey 1976",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/3TSEEA9P",
+      "formattedCitation": "<div class=\"csl-entry\">Humphrey, John H, ed. <i>Apollonia, the Port of Cyrene: Excavations by the University of Michigan, 1965-1967</i>. Libya Antiqua Supplement 4. Tripoli: The Department of Antiquities, 1976.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.trismegistos.org/place/252",
+      "citationDetail": "GEO ID 252",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "TM",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/TN3GJAU8",
+      "formattedCitation": "<div class=\"csl-entry\">Depauw, Mark, Tom Gheldof, Herbert Verreth, Nico Dogaer, Willy Clarysse, Yanne Broux, Gert Baetens, and Heinz-Josef Thissen. <i>Trismegistos: An Interdisciplinary Portal of the Ancient World</i>. Leuven, 2006. http://www.trismegistos.org/.</div>",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://topostext.org/place/329220PApo",
+      "citationDetail": "Apollonia (Libya)",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "ToposText",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/items/MC9RGDVB",
+      "formattedCitation": "Kiesling, Brady. ToposText \u2013 a Reference Tool for Greek Civilization. Version 2.0. Aikaterini Laskaridis Foundation, 2016-.",
+      "otherIdentifier": "http://atlantides.org/bibliography/",
+      "type": "seeFurther"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Apollonia",
+      "attestations": [
+        {
+          "timePeriod": "archaic",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/archaic",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "classical",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/4384938",
+          "formattedCitation": "Humphrey 1976",
+          "otherIdentifier": " ",
+          "type": "cites"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://atlantides.org/bibliography/p.html#Purcaro-Pagano-1976",
+          "formattedCitation": "Purcaro Pagano 1976, 32-28",
+          "otherIdentifier": "",
+          "type": "cites"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://atlantides.org/bibliography/l.html#Laronde-1996",
+          "formattedCitation": "Laronde 1996",
+          "otherIdentifier": "",
+          "type": "cites"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "http://latin.packhum.org/loc/929/1/0/15092-15103",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "Mela 1.40.2",
+          "otherIdentifier": " ",
+          "type": "citesAsEvidence"
+        }
+      ],
+      "id": "apollonia",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        },
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 38 C1 Apollonia/Sozousa",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -750,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "la",
+      "created": "2011-01-08T14:21:12Z",
+      "uri": "https://pleiades.stoa.org/places/373732/apollonia",
+      "creators": [
+        {
+          "username": null,
+          "name": "D.J. Mattingly"
+        }
+      ],
+      "attested": "Apollonia",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "added reference to primary source",
+          "modifiedBy": "jbecker",
+          "modified": "2016-05-19T16:07:03Z"
+        },
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T04:29:05Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "sgillies",
+          "modified": "2011-01-08T14:38:22Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2011-01-08T14:36:35Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2011-01-08T14:21:13Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Sozousa",
+      "attestations": [
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/cites",
+          "shortTitle": "",
+          "bibliographicURI": "http://www.worldcat.org/oclc/462295396",
+          "formattedCitation": "Stucchi 1975, 358",
+          "otherIdentifier": " ",
+          "type": "cites"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+          "shortTitle": "",
+          "bibliographicURI": "http://atlantides.org/bibliography/",
+          "formattedCitation": "Epiphan. Haeres. 73. 26",
+          "otherIdentifier": " ",
+          "type": "citesAsEvidence"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+          "shortTitle": "",
+          "bibliographicURI": "http://atlantides.org/bibliography/",
+          "formattedCitation": "Hierocl. p. 732",
+          "otherIdentifier": " ",
+          "type": "citesAsEvidence"
+        }
+      ],
+      "id": "sozousa",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        },
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        },
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 38 C1 Apollonia/Sozousa",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 300,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "grc",
+      "created": "2011-01-08T14:21:13Z",
+      "uri": "https://pleiades.stoa.org/places/373732/sozousa",
+      "creators": [
+        {
+          "username": null,
+          "name": "D.J. Mattingly"
+        }
+      ],
+      "attested": "\u03a3\u03ce\u03b6\u03bf\u03c5\u03c3\u03b1",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "added references",
+          "modifiedBy": "jbecker",
+          "modified": "2016-05-19T15:52:10Z"
+        },
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T04:29:05Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "sgillies",
+          "modified": "2011-01-08T14:38:22Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2011-01-08T14:36:35Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2011-01-08T14:21:13Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Portus Cyrenorum",
+      "attestations": [
+        {
+          "timePeriod": "archaic",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/archaic",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "classical",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/classical",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "hellenistic-republican",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/hellenistic-republican",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "portus-cyrenorum",
+      "end": -30,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 38 C1 Apollonia/Sozousa",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -750,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2011-01-08T14:21:13Z",
+      "uri": "https://pleiades.stoa.org/places/373732/portus-cyrenorum",
+      "creators": [
+        {
+          "username": null,
+          "name": "D.J. Mattingly"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T04:29:05Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "sgillies",
+          "modified": "2011-01-08T14:38:22Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2011-01-08T14:36:35Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2011-01-08T14:21:13Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Susah",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.geonames.org/81584/susah.html",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+          "shortTitle": "",
+          "bibliographicURI": "",
+          "formattedCitation": "GeoNames 81584",
+          "otherIdentifier": " ",
+          "type": "citesAsEvidence"
+        }
+      ],
+      "id": "susah",
+      "end": 2100,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "en",
+      "created": "2016-05-19T15:39:27Z",
+      "uri": "https://pleiades.stoa.org/places/373732/susah",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "attested": "S\u016bsah",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2021-11-30T22:53:24Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2016-05-19T15:39:52Z"
+        },
+        {
+          "comment": "added name",
+          "modifiedBy": "jbecker",
+          "modified": "2016-05-19T15:39:31Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2016-05-19T15:39:27Z"
+        }
+      ]
+    }
+  ],
+  "id": "373732",
+  "subject": [
+    "dare:ancient=1",
+    "dare:major=1",
+    "dare:feature=major settlement"
+  ],
+  "title": "Apollonia/Sozousa",
+  "provenance": "Barrington Atlas: BAtlas 38 C1 Apollonia/Sozousa",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/port"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: Marsa Susa</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "Apollonia was an ancient city in the Cyrenaica and a port of Cyrene. The city was one of the five cities of the Libyan Pentapolis in Cyrenaica.",
+  "reprPoint": [
+    21.970830693141515,
+    32.90234355046499
+  ],
+  "placeTypes": [
+    "port"
+  ],
+  "bbox": [
+    20.436229704970913,
+    32.22588282119625,
+    22.756204185655463,
+    32.9026892
+  ],
+  "connectsWith": [
+    "https://pleiades.stoa.org/places/373778",
+    "https://pleiades.stoa.org/places/373869",
+    "https://pleiades.stoa.org/places/589166546",
+    "https://pleiades.stoa.org/places/305199887",
+    "https://pleiades.stoa.org/places/465308593",
+    "https://pleiades.stoa.org/places/321867660",
+    "https://pleiades.stoa.org/places/244211030",
+    "https://pleiades.stoa.org/places/876619726",
+    "https://pleiades.stoa.org/places/876619727",
+    "https://pleiades.stoa.org/places/190648274"
+  ],
+  "rights": "Copyright \u00a9 The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2018-06-08T11:33:26Z",
+  "uri": "https://pleiades.stoa.org/places/373732",
+  "creators": [
+    {
+      "username": null,
+      "name": "D.J. Mattingly"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "Edited",
+      "modifiedBy": "jbecker",
+      "modified": "2020-01-31T21:07:55Z"
+    },
+    {
+      "comment": "reference clean up",
+      "modifiedBy": "jbecker",
+      "modified": "2020-01-31T21:07:32Z"
+    },
+    {
+      "comment": "add ToposText reference provided by bkiesling",
+      "modifiedBy": "admin",
+      "modified": "2018-06-08T11:33:32Z"
+    },
+    {
+      "comment": "references",
+      "modifiedBy": "jbecker",
+      "modified": "2017-06-15T03:51:05Z"
+    },
+    {
+      "comment": "added cnxn",
+      "modifiedBy": "jbecker",
+      "modified": "2016-05-19T16:00:43Z"
+    },
+    {
+      "comment": "added references",
+      "modifiedBy": "jbecker",
+      "modified": "2016-05-19T15:51:06Z"
+    },
+    {
+      "comment": "added reference",
+      "modifiedBy": "jbecker",
+      "modified": "2016-05-19T15:38:36Z"
+    },
+    {
+      "comment": "edited description, added references",
+      "modifiedBy": "jbecker",
+      "modified": "2014-03-14T15:33:51Z"
+    },
+    {
+      "comment": "added reference",
+      "modifiedBy": "jbecker",
+      "modified": "2013-07-09T03:38:10Z"
+    },
+    {
+      "comment": "DARE feature tag fix.",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-23T19:30:55Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T19:25:37Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T04:29:04Z"
+    },
+    {
+      "comment": "Detail text updated from former modernLocation. See http://atlantides.org/trac/pleiades/wiki/PlaceDetailsUpgrade",
+      "modifiedBy": "sgillies",
+      "modified": "2011-01-14T19:34:07Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "sgillies",
+      "modified": "2011-01-08T14:38:22Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2011-01-08T14:36:35Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2011-01-08T14:21:12Z"
+    }
+  ]
+}

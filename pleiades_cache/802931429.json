@@ -1,0 +1,568 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.5208335,
+            32.5950816
+          ],
+          [
+            35.5210025,
+            32.5950771
+          ],
+          [
+            35.521005,
+            32.5951422
+          ],
+          [
+            35.5214281,
+            32.59513
+          ],
+          [
+            35.5214263,
+            32.5950872
+          ],
+          [
+            35.5215658,
+            32.595083
+          ],
+          [
+            35.5215672,
+            32.5951166
+          ],
+          [
+            35.5221208,
+            32.5951013
+          ],
+          [
+            35.5221552,
+            32.5951016
+          ],
+          [
+            35.5221429,
+            32.5961406
+          ],
+          [
+            35.5220347,
+            32.5961398
+          ],
+          [
+            35.5220352,
+            32.5960851
+          ],
+          [
+            35.5215254,
+            32.5960824
+          ],
+          [
+            35.5215252,
+            32.5961301
+          ],
+          [
+            35.521381,
+            32.5961299
+          ],
+          [
+            35.5213809,
+            32.5960745
+          ],
+          [
+            35.5210759,
+            32.5960754
+          ],
+          [
+            35.5210762,
+            32.5961097
+          ],
+          [
+            35.5208806,
+            32.5961117
+          ],
+          [
+            35.520878,
+            32.5959405
+          ],
+          [
+            35.5209417,
+            32.5959396
+          ],
+          [
+            35.5209356,
+            32.5956537
+          ],
+          [
+            35.5208793,
+            32.5956547
+          ],
+          [
+            35.5208744,
+            32.5954808
+          ],
+          [
+            35.5209314,
+            32.5954795
+          ],
+          [
+            35.5209233,
+            32.5952416
+          ],
+          [
+            35.5208395,
+            32.5952437
+          ],
+          [
+            35.5208335,
+            32.5950816
+          ]
+        ]
+      },
+      "type": "Feature",
+      "id": "osm-location-of-kokhav-hayarden",
+      "properties": {
+        "snippet": "Fort; AD 640 - AD 1453",
+        "link": "https://pleiades.stoa.org/places/802931429/osm-location-of-kokhav-hayarden",
+        "description": "Representative location based on OpenStreetMap.",
+        "location_precision": "precise",
+        "title": "OSM location of Kokhav HaYarden"
+      }
+    }
+  ],
+  "contributors": [],
+  "locations": [
+    {
+      "contributors": [],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "mediaeval-byzantine",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/mediaeval-byzantine",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://www.openstreetmap.org/browse/way/121527147",
+          "citationDetail": "Way 121527147",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "OSM",
+          "bibliographicURI": "",
+          "formattedCitation": "osm:way=121527147",
+          "otherIdentifier": "",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "osm-location-of-kokhav-hayarden",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/fort"
+      ],
+      "end": 1453,
+      "title": "OSM location of Kokhav HaYarden",
+      "provenance": "OpenStreetMap (Way 121527147, version 6, osm:changeset=48971561, 2017-05-25T11:53:22Z)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 640,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/fort"
+      ],
+      "archaeologicalRemains": "substantive",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 20.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+      "featureType": [
+        "fort"
+      ],
+      "description": "Representative location based on OpenStreetMap.",
+      "created": "2020-05-01T01:41:45Z",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.5208335,
+            32.5950816
+          ],
+          [
+            35.5210025,
+            32.5950771
+          ],
+          [
+            35.521005,
+            32.5951422
+          ],
+          [
+            35.5214281,
+            32.59513
+          ],
+          [
+            35.5214263,
+            32.5950872
+          ],
+          [
+            35.5215658,
+            32.595083
+          ],
+          [
+            35.5215672,
+            32.5951166
+          ],
+          [
+            35.5221208,
+            32.5951013
+          ],
+          [
+            35.5221552,
+            32.5951016
+          ],
+          [
+            35.5221429,
+            32.5961406
+          ],
+          [
+            35.5220347,
+            32.5961398
+          ],
+          [
+            35.5220352,
+            32.5960851
+          ],
+          [
+            35.5215254,
+            32.5960824
+          ],
+          [
+            35.5215252,
+            32.5961301
+          ],
+          [
+            35.521381,
+            32.5961299
+          ],
+          [
+            35.5213809,
+            32.5960745
+          ],
+          [
+            35.5210759,
+            32.5960754
+          ],
+          [
+            35.5210762,
+            32.5961097
+          ],
+          [
+            35.5208806,
+            32.5961117
+          ],
+          [
+            35.520878,
+            32.5959405
+          ],
+          [
+            35.5209417,
+            32.5959396
+          ],
+          [
+            35.5209356,
+            32.5956537
+          ],
+          [
+            35.5208793,
+            32.5956547
+          ],
+          [
+            35.5208744,
+            32.5954808
+          ],
+          [
+            35.5209314,
+            32.5954795
+          ],
+          [
+            35.5209233,
+            32.5952416
+          ],
+          [
+            35.5208395,
+            32.5952437
+          ],
+          [
+            35.5208335,
+            32.5950816
+          ]
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/802931429/osm-location-of-kokhav-hayarden",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2020-05-01T20:55:43Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2020-05-01T01:46:13Z"
+        },
+        {
+          "comment": "added OSM location",
+          "modifiedBy": "jbecker",
+          "modified": "2020-05-01T01:42:13Z"
+        },
+        {
+          "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+          "modifiedBy": "jbecker",
+          "modified": "2020-05-01T01:41:45Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2020-05-01T01:41:45Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "https://en.wikipedia.orghttps://en.wikipedia.org/wiki/Belvoir_Fortress",
+      "citationDetail": "Belvoir Fortress",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Wikipedia (English)",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+      "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Kochav HaYarden",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://en.wikipedia.org/wiki/Belvoir_Fortress",
+          "citationDetail": "Belvoir Fortress",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (English)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "kochav-hayarden",
+      "end": 2100,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "he",
+      "created": "2020-05-01T01:43:24Z",
+      "uri": "https://pleiades.stoa.org/places/802931429/kochav-hayarden",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "attested": "\u05db\u05d5\u05db\u05d1 \u05d4\u05d9\u05e8\u05d3",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2020-05-01T20:55:43Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2020-05-01T01:46:13Z"
+        },
+        {
+          "comment": "name",
+          "modifiedBy": "jbecker",
+          "modified": "2020-05-01T01:43:27Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2020-05-01T01:43:24Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Kawkab al-Hawa ",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "https://en.wikipedia.org/wiki/Belvoir_Fortress",
+          "citationDetail": "Belvoir Fortress",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Wikipedia (English)",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/CI6F6W7W",
+          "formattedCitation": "<div class=\"csl-entry\"><i>Wikipedia: The Free Encyclopedia That Anyone Can Edit</i>. Wikimedia Foundation, 2001. https://en.wikipedia.org.</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "kawkab-al-hawa",
+      "end": 2100,
+      "contributors": [],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "ar",
+      "created": "2020-05-01T01:44:24Z",
+      "uri": "https://pleiades.stoa.org/places/802931429/kawkab-al-hawa",
+      "creators": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "attested": "\u0643\u0648\u0643\u0628 \u0627\u0644\u0647\u0648\u0627\u200e",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2020-05-01T20:55:43Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "jbecker",
+          "modified": "2020-05-01T01:46:13Z"
+        },
+        {
+          "comment": "name",
+          "modifiedBy": "jbecker",
+          "modified": "2020-05-01T01:44:28Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "jbecker",
+          "modified": "2020-05-01T01:44:24Z"
+        }
+      ]
+    }
+  ],
+  "id": "802931429",
+  "subject": [],
+  "title": "Belvoir Fortress",
+  "provenance": "Pleiades",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/fort"
+  ],
+  "details": "",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "A Crusader fortress located in northern Israel. Gilbert of Assailly, Grand Master of the Knights Hospitaller, began construction in 1168.",
+  "reprPoint": [
+    35.52147771219105,
+    32.59560256995758
+  ],
+  "placeTypes": [
+    "fort"
+  ],
+  "bbox": [
+    35.5208335,
+    32.5950771,
+    35.5221552,
+    32.5961406
+  ],
+  "connectsWith": [],
+  "rights": "Copyright \u00a9 The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2020-05-01T01:40:58Z",
+  "uri": "https://pleiades.stoa.org/places/802931429",
+  "creators": [
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2020-05-01T20:55:42Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "jbecker",
+      "modified": "2020-05-01T01:46:13Z"
+    },
+    {
+      "comment": "created Belvoir Fortress",
+      "modifiedBy": "jbecker",
+      "modified": "2020-05-01T01:41:02Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "jbecker",
+      "modified": "2020-05-01T01:40:58Z"
+    }
+  ]
+}

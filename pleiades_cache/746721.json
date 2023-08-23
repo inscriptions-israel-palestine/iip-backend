@@ -1,0 +1,753 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.0627077,
+            29.9000154
+          ],
+          [
+            35.0569265,
+            29.8993276
+          ],
+          [
+            35.0557694,
+            29.8992132
+          ],
+          [
+            35.0547153,
+            29.8962389
+          ],
+          [
+            35.056389,
+            29.8956622
+          ],
+          [
+            35.0570542,
+            29.8951026
+          ],
+          [
+            35.0557475,
+            29.8945482
+          ],
+          [
+            35.0553923,
+            29.89338
+          ],
+          [
+            35.0562108,
+            29.8929215
+          ],
+          [
+            35.0571545,
+            29.8933242
+          ],
+          [
+            35.0582987,
+            29.8925285
+          ],
+          [
+            35.057913,
+            29.891968
+          ],
+          [
+            35.0586459,
+            29.8909172
+          ],
+          [
+            35.0600363,
+            29.8901733
+          ],
+          [
+            35.0610351,
+            29.8911253
+          ],
+          [
+            35.0637179,
+            29.8902426
+          ],
+          [
+            35.0651759,
+            29.8921718
+          ],
+          [
+            35.0669349,
+            29.8915969
+          ],
+          [
+            35.0678104,
+            29.8934274
+          ],
+          [
+            35.063455,
+            29.89525
+          ],
+          [
+            35.0633284,
+            29.9001052
+          ],
+          [
+            35.0627077,
+            29.9000154
+          ]
+        ]
+      },
+      "type": "Feature",
+      "id": "osm-location",
+      "properties": {
+        "snippet": "Unknown; AD 1700 - AD 2100",
+        "link": "https://pleiades.stoa.org/places/746721/osm-location",
+        "description": "Associated modern location based on OpenStreetMap",
+        "location_precision": "precise",
+        "title": "OSM Location of modern Yotvata"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": "msatlow",
+      "homepage": null,
+      "name": "Michael Satlow",
+      "uri": "https://pleiades.stoa.org/author/msatlow"
+    },
+    {
+      "username": null,
+      "name": "R. Talbert"
+    },
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    },
+    {
+      "username": "glembi",
+      "homepage": null,
+      "name": "Gaia Lembi",
+      "uri": "https://pleiades.stoa.org/author/glembi"
+    },
+    {
+      "username": "thomase",
+      "homepage": null,
+      "name": "Tom Elliott",
+      "uri": "https://pleiades.stoa.org/author/thomase"
+    },
+    {
+      "username": null,
+      "name": "DARMC"
+    },
+    {
+      "username": "gmckee",
+      "homepage": null,
+      "name": "Gabriel Mckee",
+      "uri": "https://pleiades.stoa.org/author/gmckee"
+    },
+    {
+      "username": null,
+      "name": "Gaia Lembi"
+    },
+    {
+      "username": "sgillies",
+      "homepage": null,
+      "name": "Sean Gillies",
+      "uri": "https://pleiades.stoa.org/author/sgillies"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [
+        {
+          "username": "msatlow",
+          "homepage": null,
+          "name": "Michael Satlow",
+          "uri": "https://pleiades.stoa.org/author/msatlow"
+        }
+      ],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.openstreetmap.org/browse/way/60206115",
+          "citationDetail": "Way 60206115",
+          "citationTypeURI": "http://purl.org/spar/cito/citesAsDataSource",
+          "shortTitle": "OSM",
+          "bibliographicURI": "",
+          "formattedCitation": "osm:way=60206115",
+          "otherIdentifier": "",
+          "type": "citesAsDataSource"
+        }
+      ],
+      "id": "osm-location",
+      "featureTypeURI": [],
+      "end": 2100,
+      "title": "OSM Location of modern Yotvata",
+      "provenance": "OpenStreetMap (Way 60206115, version 8, osm:changeset=33104400, 2015-08-04T17:05:30Z)",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "locationTypeURI": [],
+      "archaeologicalRemains": "unknown",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 20.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/generic-osm-accuracy-assessment",
+      "featureType": [],
+      "description": "Associated modern location based on OpenStreetMap",
+      "created": "2016-12-03T22:22:55Z",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            35.0627077,
+            29.9000154
+          ],
+          [
+            35.0569265,
+            29.8993276
+          ],
+          [
+            35.0557694,
+            29.8992132
+          ],
+          [
+            35.0547153,
+            29.8962389
+          ],
+          [
+            35.056389,
+            29.8956622
+          ],
+          [
+            35.0570542,
+            29.8951026
+          ],
+          [
+            35.0557475,
+            29.8945482
+          ],
+          [
+            35.0553923,
+            29.89338
+          ],
+          [
+            35.0562108,
+            29.8929215
+          ],
+          [
+            35.0571545,
+            29.8933242
+          ],
+          [
+            35.0582987,
+            29.8925285
+          ],
+          [
+            35.057913,
+            29.891968
+          ],
+          [
+            35.0586459,
+            29.8909172
+          ],
+          [
+            35.0600363,
+            29.8901733
+          ],
+          [
+            35.0610351,
+            29.8911253
+          ],
+          [
+            35.0637179,
+            29.8902426
+          ],
+          [
+            35.0651759,
+            29.8921718
+          ],
+          [
+            35.0669349,
+            29.8915969
+          ],
+          [
+            35.0678104,
+            29.8934274
+          ],
+          [
+            35.063455,
+            29.89525
+          ],
+          [
+            35.0633284,
+            29.9001052
+          ],
+          [
+            35.0627077,
+            29.9000154
+          ]
+        ]
+      },
+      "locationType": [
+        "associated_modern"
+      ],
+      "uri": "https://pleiades.stoa.org/places/746721/osm-location",
+      "creators": [
+        {
+          "username": "glembi",
+          "homepage": null,
+          "name": "Gaia Lembi",
+          "uri": "https://pleiades.stoa.org/author/glembi"
+        },
+        {
+          "username": "thomase",
+          "homepage": null,
+          "name": "Tom Elliott",
+          "uri": "https://pleiades.stoa.org/author/thomase"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "comment": "added glembi as co-creator",
+          "modifiedBy": "thomase",
+          "modified": "2016-12-04T18:28:19Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2016-12-03T22:26:28Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "thomase",
+          "modified": "2016-12-03T22:26:23Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "thomase",
+          "modified": "2016-12-03T22:25:51Z"
+        },
+        {
+          "comment": "Location from OSM created by Products.PleiadesEntity.browser.osm.OSMLocationFactory",
+          "modifiedBy": "thomase",
+          "modified": "2016-12-03T22:22:55Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "thomase",
+          "modified": "2016-12-03T22:22:55Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "",
+      "bibliographicURI": "http://openlibrary.org/works/OL8327792W",
+      "formattedCitation": "BAtlas 76 G2 (B)Ossia/Ad Dianam?",
+      "otherIdentifier": " ",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "57",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "TIR Iudaea",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/8GF4B886",
+      "formattedCitation": "<div class=\"csl-entry\">Tsafrir, Yoram, L Di Segni, and Judith Green. <i>Tabula Imperii Romani: Iudaea - Palaestina</i>. Jerusalem: Israel Academy of Sciences and Humanities; Akademyah ha-le\u2019umit ha-Yi\u0161re\u2019elit le-mada\u201cim; Agudah le-seker arkhe\u201dologi shel Yi\u0161ra\u2019el; Israel: Agaf ha-medidot, 1994.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.cambridge.org/us/talbert/talbertdatabase/TPPlace452.html",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsEvidence",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "TP 8C5 (Talbert 452)",
+      "otherIdentifier": " ",
+      "type": "citesAsEvidence"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "https://darmc.harvard.edu/",
+      "citationDetail": "6996",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "DARMC",
+      "bibliographicURI": "https://www.zotero.org/groups/2533/pleiades/items/itemKey/9UD9W75C",
+      "formattedCitation": "Michael McCormick, Giovanni Zambotti, Leland Grigoli, and Kelly Gibson, eds., The Digital Atlas of Roman and Medieval Civilizations (Cambridge (Massachusetts): Harvard University, 2007-), 6996.",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.trismegistos.org/place/16813",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/citesAsRelated",
+      "shortTitle": "",
+      "bibliographicURI": "",
+      "formattedCitation": "TM GEO ID 16813",
+      "otherIdentifier": "",
+      "type": "citesAsRelated"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Singer-Avits 2022",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/GHRF2E9E",
+      "formattedCitation": "<div class=\"csl-entry\">Singer-Avitz, Lily, and Etan Ayalon. <i>Yotvata: The Ze\u02bcev Meshel Excavations (1974-1980)\u202f: The Iron I \u201cFortress\u201d and the Early Islamic Settlement</i>. Monograph Series (Makhon Le-Arkhe\u02bcologyah \u02bba. Sh. Sonyah u-Mar\u1e33o Nadler) 42. University Park, Pennsylvania, [Tel Aviv, Israel]: Eisenbrauns\u202f; Emery and Claire Yass Publications in Archaeology, The Institute of Archaeology, Tel Aviv University, 2022.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": " Bossia",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "bossia",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 76 G2 (B)Ossia/Ad Dianam?",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-22T08:52:38Z",
+      "uri": "https://pleiades.stoa.org/places/746721/bossia",
+      "creators": [
+        {
+          "username": null,
+          "name": "D.F. Graf"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T08:17:34Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-22T15:38:10Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-22T09:14:44Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-22T08:52:38Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": " Ossia",
+      "attestations": [
+        {
+          "timePeriod": "roman",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/roman",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        },
+        {
+          "timePeriod": "late-antique",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/late-antique",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [],
+      "id": "ossia",
+      "end": 640,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 76 G2 (B)Ossia/Ad Dianam?",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -30,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-22T08:52:38Z",
+      "uri": "https://pleiades.stoa.org/places/746721/ossia",
+      "creators": [
+        {
+          "username": null,
+          "name": "D.F. Graf"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T08:17:34Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-22T15:38:10Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-22T09:14:44Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-22T08:52:38Z"
+        }
+      ]
+    },
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "less-certain",
+      "romanized": "Ad Dianam",
+      "attestations": [],
+      "references": [],
+      "id": "ad-dianam",
+      "end": null,
+      "contributors": [
+        {
+          "username": null,
+          "name": "R. Talbert"
+        },
+        {
+          "username": null,
+          "name": "T. Elliott"
+        },
+        {
+          "username": "sgillies",
+          "homepage": null,
+          "name": "Sean Gillies",
+          "uri": "https://pleiades.stoa.org/author/sgillies"
+        }
+      ],
+      "provenance": "Barrington Atlas: BAtlas 76 G2 (B)Ossia/Ad Dianam?",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/less-certain",
+      "start": null,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "",
+      "created": "2009-09-22T08:52:38Z",
+      "uri": "https://pleiades.stoa.org/places/746721/ad-dianam",
+      "creators": [
+        {
+          "username": null,
+          "name": "D.F. Graf"
+        }
+      ],
+      "attested": "",
+      "@type": "Name",
+      "history": [
+        {
+          "comment": "Global migration and reindexing of citations and provenance, February 2012",
+          "modifiedBy": "admin",
+          "modified": "2012-02-15T08:17:34Z"
+        },
+        {
+          "action": "Publish externally",
+          "modifiedBy": "thomase",
+          "modified": "2009-09-22T15:38:10Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-22T09:14:44Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "sgillies",
+          "modified": "2009-09-22T08:52:38Z"
+        }
+      ]
+    }
+  ],
+  "id": "746721",
+  "subject": [
+    "dare:ancient=1",
+    "dare:major=0",
+    "dare:feature=fort"
+  ],
+  "title": "(B)Ossia/Ad Dianam?",
+  "provenance": "Barrington Atlas: BAtlas 76 G2 (B)Ossia/Ad Dianam?",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/fort"
+  ],
+  "details": "<p>The Barrington Atlas Directory notes: Yotvata ISR</p>",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "An ancient place, cited: BAtlas 76 G2 (B)Ossia/Ad Dianam?",
+  "reprPoint": [
+    35.06076053241624,
+    29.89491027580263
+  ],
+  "placeTypes": [
+    "fort"
+  ],
+  "bbox": [
+    35.0547153,
+    29.8901733,
+    35.0678104,
+    29.9001052
+  ],
+  "connectsWith": [],
+  "rights": "Copyright \u00a9 The Creators. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2009-09-22T08:52:37Z",
+  "uri": "https://pleiades.stoa.org/places/746721",
+  "creators": [
+    {
+      "username": null,
+      "name": "D.F. Graf"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "comment": "Edited",
+      "modifiedBy": "gmckee",
+      "modified": "2023-04-11T16:33:22Z"
+    },
+    {
+      "comment": "added reference",
+      "modifiedBy": "jbecker",
+      "modified": "2017-01-04T15:30:05Z"
+    },
+    {
+      "comment": "added DARMC reference after superseding associated location geometry",
+      "modifiedBy": "thomase",
+      "modified": "2016-12-03T22:32:48Z"
+    },
+    {
+      "comment": "added reference",
+      "modifiedBy": "jbecker",
+      "modified": "2014-11-24T16:55:19Z"
+    },
+    {
+      "comment": "Location updates and tags from Johan Ahlfeldt's (jahlfeldt) Digital Atlas of the Roman Empire in October 2012",
+      "modifiedBy": "sgillies",
+      "modified": "2012-10-20T20:27:37Z"
+    },
+    {
+      "comment": "Global migration and reindexing of citations and provenance, February 2012",
+      "modifiedBy": "admin",
+      "modified": "2012-02-15T08:17:33Z"
+    },
+    {
+      "comment": "Fixing modern/alt locations fumbled in intial import",
+      "modifiedBy": "sgillies",
+      "modified": "2011-12-20T22:35:35Z"
+    },
+    {
+      "comment": "New locations, coordinates, and metadata from Harvard's DARMC project. See http://atlantides.org/trac/pleiades/wiki/PlaceUpgradesAndMigrations",
+      "modifiedBy": "sgillies",
+      "modified": "2011-03-09T19:38:08Z"
+    },
+    {
+      "action": "Publish externally",
+      "modifiedBy": "thomase",
+      "modified": "2009-09-22T15:38:10Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-22T09:14:44Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "sgillies",
+      "modified": "2009-09-22T08:52:38Z"
+    }
+  ]
+}
