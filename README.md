@@ -13,21 +13,21 @@ It consists of three main parts:
 
 1. Create a [virtual environment](https://docs.python.org/3/library/venv.html):
 
-        ```sh
-        $ python -m venv my_venv
-        ```
+```sh
+$ python -m venv my_venv
+```
 
 2. Install dependencies:
 
-        ```sh
-        $ pip install -r requirements.txt
-        ```
+```sh
+$ pip install -r requirements.txt
+```
 
 3. Run the ingestion script:
 
-        ```sh
-        python ./ingest_inscriptions.py
-        ```
+```sh
+python ./ingest_inscriptions.py
+```
 
 The ingestion script uses upserts on data that can change, so you can rerun the script whenever you need.
 

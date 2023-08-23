@@ -14,6 +14,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-ENV EPIDOC_FILES_DIR="./epidoc_files"
+ENV EPIDOC_FILES_DIR="epidoc-files"
 
 CMD ["/bin/sh", "start.sh"]
