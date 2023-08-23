@@ -18,7 +18,7 @@ from iip_search.epidoc_parser import EpidocParser
 
 logging.basicConfig(format="%(levelname)s: %(asctime)s %(message)s", level=logging.INFO)
 
-EPIDOC_FILES_DIR = os.getenv("EPIDOC_FILES_DIR", "./epidoc-files")
+EPIDOC_FILES_DIR = os.getenv("EPIDOC_FILES_DIR", "epidoc-files")
 PLEIADES_CACHE_DIR = "./pleiades_cache"
 
 
