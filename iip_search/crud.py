@@ -169,29 +169,29 @@ def list_inscriptions(
         ands.append(models.Inscription.not_after <= not_after)
 
     if cities is not None and len(cities) > 0:
-        ands.append(models.Inscription.city_id.in_(cities))
+        ors.append(models.Inscription.city_id.in_(cities))
 
     if provenances is not None and len(provenances) > 0:
-        ands.append(models.Inscription.provenance_id.in_(provenances))
+        ors.append(models.Inscription.provenance_id.in_(provenances))
 
     if genres is not None and len(genres) > 0:
-        ands.append(models.Inscription.iip_genres.any(models.IIPGenre.id.in_(genres)))
+        ors.append(models.Inscription.iip_genres.any(models.IIPGenre.id.in_(genres)))
 
     if physical_types is not None and len(physical_types) > 0:
-        ands.append(
+        ors.append(
             models.Inscripton.iip_forms.any(models.IIPForm.id.in_(physical_types))
         )
 
     if languages is not None and len(languages) > 0:
-        ands.append(models.Inscription.languages.any(models.Language.id.in_(languages)))
+        ors.append(models.Inscription.languages.any(models.Language.id.in_(languages)))
 
     if religions is not None and len(religions) > 0:
-        ands.append(
+        ors.append(
             models.Inscription.iip_religions.any(models.IIPReligion.id.in_(religions))
         )
 
     if materials is not None and len(materials) > 0:
-        ands.append(
+        ors.append(
             models.Inscription.iip_materials.any(models.IIPMaterial.id.in_(materials))
         )
 
