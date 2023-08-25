@@ -4,7 +4,8 @@ from typing import Optional
 from pydantic import BaseModel
 from pydantic import ConfigDict
 
-from .models import DisplayStatus, EditionType
+from .models import DisplayStatus
+from .models import EditionType
 
 
 class IIPBase(BaseModel):
@@ -158,3 +159,9 @@ class Inscription(InscriptionListResponse):
     iip_writings: List[IIPWriting]
     provenance: Optional[Provenance]
     region: Optional[Region]
+
+# InscriptionPatch is used for updating inscriptions via
+# the REST API. Right now, it only supports the `display_status`
+# parameter.
+class InscriptionPatch(IIPBase):
+    display_status: DisplayStatus

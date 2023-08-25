@@ -3,6 +3,7 @@ from typing import Literal
 from sqlalchemy import and_, or_
 from sqlalchemy.orm import Session
 from iip_search import models
+from iip_search import schemas
 
 
 def get_city(db: Session, city_id: int):
@@ -16,6 +17,14 @@ def get_inscription(db: Session, slug: str):
         .one()
     )
 
+
+def update_inscription(db: Session, slug: str, inscription: schemas.InscriptionPatch):
+    to_update = db.query(models.Inscription).filter_by(filename=f"{slug}.xml").one()
+    to_update.display_status = inscription.display_status
+
+    db.commit()
+    
+    return get_inscription(db, slug)
 
 def get_provenance(db: Session, provenance_id: id):
     return (
