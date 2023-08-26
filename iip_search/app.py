@@ -3,6 +3,8 @@ import logging
 import os
 import unicodedata
 
+from urllib import parse
+
 
 # I imagine this style of imports looks strange at first,
 # but it makes it much easier to keep things
@@ -117,7 +119,7 @@ def list_inscriptions(
         db,
         crud.list_inscriptions(
             db,
-            text_search,
+            parse.unquote(text_search),
             description_place_id,
             figures,
             not_before,
@@ -155,7 +157,7 @@ def list_inscriptions(
 ):
     query = crud.list_inscriptions(
         db,
-        text_search,
+        parse.unquote(text_search),
         description_place_id,
         figures,
         not_before,
