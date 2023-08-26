@@ -456,13 +456,12 @@ class Inscription(Base):
     region_id = mapped_column(ForeignKey("regions.id"), nullable=True)
     region: Mapped[Optional[Region]] = relationship(back_populates="inscriptions")
     short_description: Mapped[Optional[str]]
-    slug: Mapped[str] = mapped_column(server_default="replace(filename, '.xml', '')", unique=True)
     title: Mapped[Optional[str]]
     searchable_text = mapped_column(
         TSVector,
         Computed(
             """
-        to_tsvector('english', immutable_concat_ws(' ', description, slug, short_description, title))
+        to_tsvector('english', immutable_concat_ws(' ', description, replace(filename, '.xml', ''), short_description, title))
         """
         ),
     )

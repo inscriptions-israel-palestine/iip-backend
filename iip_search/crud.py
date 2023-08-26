@@ -1,3 +1,5 @@
+import unicodedata
+
 from typing import Literal
 from urllib import parse
 
@@ -143,9 +145,10 @@ def list_inscriptions(
     ors = []
 
     if text_search is not None:
+        cleaned_text_search = remove_accents(parse.unquote(text_search))
         ors.append(
             models.Inscription.editions.any(
-                models.Edition.searchable_text.match(parse.unquote(text_search))
+                models.Edition.searchable_text.match(cleaned_text_search)
             )
         )
 

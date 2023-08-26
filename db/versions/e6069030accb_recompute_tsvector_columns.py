@@ -1,7 +1,7 @@
 """Recompute TSVector columns
 
 Revision ID: e6069030accb
-Revises: 361861770445
+Revises: 0477afe48dd1
 Create Date: 2023-08-26 10:49:08.762406
 
 """
@@ -13,7 +13,7 @@ import iip_search
 
 # revision identifiers, used by Alembic.
 revision = 'e6069030accb'
-down_revision = '361861770445'
+down_revision = '0477afe48dd1'
 branch_labels = None
 depends_on = None
 
