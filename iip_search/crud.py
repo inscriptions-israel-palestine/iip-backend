@@ -1,4 +1,5 @@
 from typing import Literal
+from urllib import parse
 
 from sqlalchemy import and_, or_
 from sqlalchemy.orm import Session
@@ -144,7 +145,7 @@ def list_inscriptions(
     if text_search is not None:
         ors.append(
             models.Inscription.editions.any(
-                models.Edition.searchable_text.match(text_search)
+                models.Edition.searchable_text.match(parse.unquote(text_search))
             )
         )
 
