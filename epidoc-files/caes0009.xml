@@ -75,7 +75,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0286" notAfter="0305">286 CE - 305 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Uncovered in the fields between the Byzantine Esplanade and the hippodrome,

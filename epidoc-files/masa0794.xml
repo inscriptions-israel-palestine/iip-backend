@@ -103,7 +103,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0401" notAfter="0599">V-VI centuryCE</date>
                      <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687968">Masada</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687968">Masada</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

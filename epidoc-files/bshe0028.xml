@@ -104,7 +104,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0144" notAfter="0145">144-5 CE. </date>
                      <placeName>
                                 <region>Jordan Valley</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
                                 <geogName type="site">In secondary use in an Arab building at the
                                     foot of the tell.</geogName>
                                 <geogFeat type="locus">City Center - a building erected on the

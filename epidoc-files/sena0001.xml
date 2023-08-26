@@ -69,7 +69,7 @@
                      <date period="Talmudic" notBefore="0150" notAfter="0399">150 CE to 399 CE Based on paleography and other attestations of the name Galesos.</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678181">Hermon Mons (Har Senaim)</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678181">Hermon Mons (Har Senaim)</settlement>
                         <geogName type="site">temenos area</geogName>
                         <geogFeat type="locus">91</geogFeat>
                      </placeName>

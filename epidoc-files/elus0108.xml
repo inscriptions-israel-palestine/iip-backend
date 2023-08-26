@@ -76,7 +76,7 @@
                         <origin><date notBefore="0305" notAfter="0306" period="http://n2t.net/ark:/99152/p0m63njtmv8">1 May 305-25 July 306
                                 CE</date><placeName>
                                 <region>Negev</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687890">Elusa
+                                <settlement ref="http://pleiades.stoa.org/places/687890">Elusa
                                     (Haluza)</settlement>
                                 <geogName type="site">Bathhouse</geogName>
                                 <geogFeat type="locus"/>

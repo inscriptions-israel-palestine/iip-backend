@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date notBefore="0550" notAfter="0650" period="http://n2t.net/ark:/99152/p0m63njjcn4">550-650 CE</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687917 ">Jericho</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687917 ">Jericho</settlement>
                                 <geogName type="site">Synagogue</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>

@@ -104,7 +104,7 @@
                                 BCE</date>
                      <placeName>
                                 <region>Negev</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687927">Idumea</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687927">Idumea</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

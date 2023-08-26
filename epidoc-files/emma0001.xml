@@ -72,7 +72,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0067" notAfter="0070">67 CE - 70 CE</date>
                      <placeName>
                         <region>Judaea</region>
-                        <settlement ref="https://pleiades.stoa.org/places/687891">Emmaus</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/687891">Emmaus</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Judean lowlands, Emmaus I (Nicopolis, 'Imwas), northwest of Jerusalem.</p>

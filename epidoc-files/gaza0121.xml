@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date notBefore="0229" notAfter="0230" period="http://n2t.net/ark:/99152/p0m63njtmv8">229-230 CE</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687902">Gaza</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687902">Gaza</settlement>
                                 <geogName type="site">Saracene race coufrse (Meidan ez
                                     Zaid)</geogName>
                                 <geogFeat type="locus">southwestern corner</geogFeat>

@@ -103,7 +103,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njgvtd" notBefore="-0117" notAfter="-0116">117/6 BCE</date>
                      <placeName>
                                 <region>Jordan Valley</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

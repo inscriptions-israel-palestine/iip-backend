@@ -80,7 +80,7 @@
                         </summary>
                         <origin><date notBefore="-0400" notAfter="-0100" period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njdf2z">probably 200-100 BCE, maybe 400-200 BCE</date><placeName>
                                 <region>Samaria</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678147">Mount
+                                <settlement ref="http://pleiades.stoa.org/places/678147">Mount
                                     Gerizim</settlement>
                                 <geogName type="site">Area S</geogName>
                                 <geogFeat type="locus">outside the eastern wall of the sacred

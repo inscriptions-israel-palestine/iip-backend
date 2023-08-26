@@ -75,7 +75,7 @@
                         <origin><date notBefore="0320" notAfter="0640" period="http://n2t.net/ark:/99152/p0m63njjcn4">4th Century CE to 7th
                                 Century CE</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687891">Emmaus</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687891">Emmaus</settlement>
                                 <geogName type="site">North Church</geogName>
                                 <geogFeat type="locus">Eastern end of the south aisle</geogFeat>
                             </placeName>

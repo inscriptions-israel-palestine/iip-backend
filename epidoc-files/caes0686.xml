@@ -75,7 +75,7 @@
                         <origin><date notBefore="0300" notAfter="0500" period="http://n2t.net/ark:/99152/p0m63njjcn4">4th-5th century
                                 CE</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                                 <geogName type="site">Eastern Circus</geogName>
                                 <geogFeat type="locus">spina of the circus</geogFeat>
                             </placeName>

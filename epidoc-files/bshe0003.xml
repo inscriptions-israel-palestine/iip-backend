@@ -108,7 +108,7 @@
                             <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0139" notAfter="0140">139/140 CE</date>
                             <placeName>
                                 <region>Jordan Valley</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date notBefore="0500" notAfter="0600" period="http://n2t.net/ark:/99152/p0m63njjcn4">Circa 500 CE</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/">Beth
+                                <settlement ref="http://pleiades.stoa.org/places/">Beth
                                         Loya<geo>31.563611,34.928056</geo></settlement>
                                 <geogName type="site">Basilica</geogName>
                                 <geogFeat type="locus">Bell Tower</geogFeat>

@@ -81,7 +81,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0546" notAfter="0606">546 CE - 606 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site">Byzantine Esplanade</geogName>
                      </placeName>
                      <p/>

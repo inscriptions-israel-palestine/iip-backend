@@ -103,7 +103,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njdf2z" notBefore="-0266" notAfter="-0201">266-201 BCE</date>
                      <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687966">Maresha</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687966">Maresha</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">Subterranean Complex 57</geogFeat>
                             </placeName>

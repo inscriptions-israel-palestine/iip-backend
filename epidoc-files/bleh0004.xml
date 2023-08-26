@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0324" notAfter="0638">324-638 CE</date><placeName>
                                 <region>Judaea </region>
-                                <settlement ref="https://pleiades.stoa.org/places/687856">Bethlehem </settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687856">Bethlehem </settlement>
                                 <geogName type="site">Justinian Church </geogName>
                                 <geogFeat type="locus">Southern aisle</geogFeat>
                             </placeName>

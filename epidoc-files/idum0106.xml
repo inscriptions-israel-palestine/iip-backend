@@ -104,7 +104,7 @@
                             <date period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njw6r7" notBefore="-0361" notAfter="-0311">Fourth Century BCE</date>
                             <placeName>
                                 <region>Negev</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687927">Idumea</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687927">Idumea</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

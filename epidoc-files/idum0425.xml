@@ -105,7 +105,7 @@
                         <origin><date notBefore="-0315" notAfter="-0315" period="http://n2t.net/ark:/99152/p0m63njw6r7">July 21, 315
                                 BCE</date><placeName>
                                 <region>Negev</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687927">Idumea</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687927">Idumea</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName><!-- check about place vs placeName, also about geographical coordinates if specific enough 
@@ -188,6 +188,7 @@
                     <bibl xml:id="b1"><ptr target="IIP-708.xml"/>
                         <biblScope n="insc" unit="insc">A11.9</biblScope>
                     </bibl>
+                    <bibl><ptr/><biblScope/></bibl>
                 </listBibl>
             </div>
         </back>

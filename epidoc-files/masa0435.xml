@@ -103,7 +103,7 @@
                             <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0066" notAfter="0073">66-73 CE</date>
                             <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687968">Masada</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687968">Masada</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">113</geogFeat>
                             </placeName>
@@ -157,8 +157,8 @@
      -->
     <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
-            <desc/>
-            <graphic url=""/>
+            <desc>Chris Zeichmann</desc>
+            <graphic url="masa0435.jpg"/>
         </surface>
     </facsimile>
     <text>
@@ -171,7 +171,7 @@
                 <p xml:lang="heb">בן פטי</p>
             </div>
             <div type="translation" ana="b1">
-                <p/>
+                <p>Ben Pety</p>
             </div>
             <div type="commentary" ana="b1">
                 <p>See MASA0388. The name also may be related to פטא in PT Moʿed Qaṭan 81d.</p>

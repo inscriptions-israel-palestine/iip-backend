@@ -66,7 +66,11 @@ def main(session):
     files = list_directory_xml(EPIDOC_FILES_DIR)
 
     for file in files:
-        parser = EpidocParser(f"{EPIDOC_FILES_DIR}/{file}")
+        try:
+            parser = EpidocParser(f"{EPIDOC_FILES_DIR}/{file}")
+        except Exception as error:
+            logging.error(error)
+            continue
 
         bibliographic_entries_raw = parser.get_bibliography()
         city_raw = parser.get_city()
@@ -102,19 +106,19 @@ def main(session):
                 session, models.IIPPreservation, **iip_preservation_raw
             )
         else:
-            logging.warning(f"No iip_preservation for {file}!")
+            logging.warning(f"No iip_preservation for {file}.")
 
         provenance = None
         if provenance_raw.get("placename") is not None:
             provenance = get_or_create(session, models.Provenance, **provenance_raw)
         else:
-            logging.warning(f"No provenance for {file}!")
+            logging.warning(f"No provenance for {file}.")
 
         region = None
         if region_raw is not None:
             region = get_or_create(session, models.Region, **region_raw)
         else:
-            logging.warning(f"No region for {file}!")
+            logging.warning(f"No region for {file}.")
 
         if (
             location_coordinates == None

@@ -110,7 +110,7 @@
                                 period.</date>
                      <placeName>
                                 <region>Galilee</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678431">Tiberias</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678431">Tiberias</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

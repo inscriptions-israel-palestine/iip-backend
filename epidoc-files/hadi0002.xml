@@ -75,7 +75,7 @@
                         <origin><date notBefore="0550" notAfter="0600" period="http://n2t.net/ark:/99152/p0m63njjcn4">Late 6th Century
                                 CE</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687913">Hadid</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687913">Hadid</settlement>
                                 <geogName type="site">Chapel?</geogName>
                                 <geogFeat type="locus">Field of vine-trellis medallions</geogFeat>
                             </placeName>

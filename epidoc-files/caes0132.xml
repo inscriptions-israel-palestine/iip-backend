@@ -72,7 +72,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0550" notAfter="0650">550-650 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Found by JECM in a room in the "Upper Market" in Field B, just south of the Byzantine Esplanade.</p>

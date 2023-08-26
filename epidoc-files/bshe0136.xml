@@ -104,7 +104,7 @@
                                 CE</date>
                      <placeName>
                                 <region>Jordan Valley</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
                                 <geogName type="site">Between city and theatre</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>

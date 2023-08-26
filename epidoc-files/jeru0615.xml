@@ -75,7 +75,7 @@
                         </summary>
                         <origin><date notBefore="0070" notAfter="0300" period="http://n2t.net/ark:/99152/p0m63njbxb9 http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njtk9m">70-300 CE</date><placeName>
                                 <region>Judaea </region>
-                                <settlement ref="https://pleiades.stoa.org/places/687928">Jerusalem </settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem </settlement>
                                 <geogName type="site">Temple Mount</geogName>
                                 <geogFeat type="locus">Under the plaza to the west of the Temple
                                     Mount on the exterior on the northern face of the southern wall

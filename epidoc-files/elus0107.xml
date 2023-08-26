@@ -76,7 +76,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0100" notAfter="0299">100 CE - 299 CE</date>
                      <placeName>
                         <region>Negev</region>
-                        <settlement ref="https://pleiades.stoa.org/places/687890">Elusa
+                        <settlement ref="http://pleiades.stoa.org/places/687890">Elusa
                            (Haluza)</settlement>
                         <geogName type="site">Foundation of an abandoned Beduin structure</geogName>
                      </placeName>

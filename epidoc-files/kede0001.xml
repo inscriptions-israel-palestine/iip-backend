@@ -72,7 +72,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0279" notAfter="0285">279 CE - 285 CE (?).</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678215">Cadasa (Tel
+                        <settlement ref="http://pleiades.stoa.org/places/678215">Cadasa (Tel
                            Qedesh)</settlement>
                         <geogName type="site">Roman temple complex at Kedesh (Tel Qedesh)</geogName>
                      </placeName>

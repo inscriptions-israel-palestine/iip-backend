@@ -76,7 +76,7 @@
                             <date period="http://n2t.net/ark:/99152/p0m63njgvtd" notBefore="-0152" notAfter="-0146">152-146 BCE</date>
                             <placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678010">Akko</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678010">Akko</settlement>
                                 <geogName type="site">Area W</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>

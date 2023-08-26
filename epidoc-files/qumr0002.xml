@@ -103,7 +103,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njw2xp" notBefore="0020" notAfter="0068">First century CE</date>
                      <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/688011">Qumran</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/688011">Qumran</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

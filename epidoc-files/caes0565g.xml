@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date notBefore="-0199" notAfter="0299" period="http://n2t.net/ark:/99152/p0m63njgvtd http://n2t.net/ark:/99152/p0m63njbxb9 http://n2t.net/ark:/99152/p0m63njtmv8">Second century BCE - Third century CE</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

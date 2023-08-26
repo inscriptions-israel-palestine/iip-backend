@@ -102,7 +102,7 @@
                             <date period="http://n2t.net/ark:/99152/p0m63njbxb9 http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0100" notAfter="0299">2nd-3rd century CE</date>
                             <placeName>
                                 <region>Golan</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678324">Banias</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678324">Banias</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

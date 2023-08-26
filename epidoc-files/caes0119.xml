@@ -88,7 +88,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0001" notAfter="0200">First-second century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Aharon Wegman found the bottom pieces in the dunes around Caesarea in 1946;

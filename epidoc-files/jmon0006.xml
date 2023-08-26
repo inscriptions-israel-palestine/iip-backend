@@ -102,7 +102,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0219" notAfter="0219">219 CE</date>
                      <placeName>
                                 <region>Sinai</region>
-                                <settlement ref="https://pleiades.stoa.org/places/746751">Jebel Moneijah</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/746751">Jebel Moneijah</settlement>
                                 <geogName type="site">Sanctuary</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>

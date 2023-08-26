@@ -71,7 +71,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0500">400-500 CE</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678093">El-Kursi</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678093">El-Kursi</settlement>
                         <geogName type="site">basilica</geogName>
                         <geogFeat type="locus">floor</geogFeat>
                      </placeName>

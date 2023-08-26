@@ -106,7 +106,7 @@
                                 BCE</date>
                      <placeName>
                                 <region>Galilee</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678410">Tel Anafa</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678410">Tel Anafa</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

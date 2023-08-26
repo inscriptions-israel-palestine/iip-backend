@@ -74,7 +74,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0338" notAfter="0640">338-640 CE</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678185">Hippos (Susita)</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678185">Hippos (Susita)</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Found in an ecclesiastical complex in Hippus, 

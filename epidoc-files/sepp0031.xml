@@ -148,7 +148,7 @@
                         <origin><date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0160" notAfter="0363">Late second to fourth century
                                 CE</date><placeName>
                                 <region>Galilee</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678387">Sepphoris</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678387">Sepphoris</settlement>
                                 <geogName type="site">Dionysius House</geogName>
                                 <geogFeat type="locus">Floor of the triclinium</geogFeat>
                             </placeName>

@@ -78,7 +78,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0450" notAfter="0550">450 CE - 500 CE</date>
                      <placeName>
                         <region>Negev</region>
-                        <settlement ref="https://pleiades.stoa.org/places/687864">Birsama</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/687864">Birsama</settlement>
                         <geogName type="site">ancient Christian church</geogName>
                         <geogFeat type="locus">Chancel</geogFeat>
                      </placeName>

@@ -110,7 +110,7 @@
                                 notBefore="0066">66-73 CE</date>
                             <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687968">Masada</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687968">Masada</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">1270</geogFeat>
                             </placeName>

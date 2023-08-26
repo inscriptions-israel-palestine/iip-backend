@@ -105,7 +105,7 @@
                             <date period="http://n2t.net/ark:/99152/p0m63njtk9m http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0054" notAfter="0600">54-600 CE</date>
                             <placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678404">Haifa</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678404">Haifa</settlement>
                                 <geogName type="site">Elijah's Cave</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>

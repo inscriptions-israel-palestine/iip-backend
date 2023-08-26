@@ -29,7 +29,7 @@
                     <msContents>
                         <textLang mainLang="grc" otherLangs=""/>
                         <msItem class="dedicatory" ana="christian">
-                            <p>Hebron Hills, June 556, 571, or 586. Mosiac. Dedicatory. </p>
+                            <p>Hebron Hills, June 556, 571, or 586. Mosaic. Dedicatory. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
@@ -76,7 +76,7 @@
                         <origin><date notBefore="0556" notAfter="0586" period="http://n2t.net/ark:/99152/p0m63njjcn4">June 556, 571, or
                                 586</date><placeName>
                                 <region>Judaea </region>
-                                <settlement ref="https://pleiades.stoa.org/places/687915">Hebron
+                                <settlement ref="http://pleiades.stoa.org/places/687915">Hebron
                                     Hills </settlement>
                                 <geogName type="site">Anab el-Kabir (Khierbet Anab)</geogName>
                                 <geogFeat type="locus">in the atrium, in front of the entrance to

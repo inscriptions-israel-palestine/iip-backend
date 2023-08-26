@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date notBefore="0578" notAfter="0578" period="http://n2t.net/ark:/99152/p0m63njjcn4">578 CE</date><placeName>
                                 <region>Negev</region>
-                                <settlement ref="https://pleiades.stoa.org/places/">Kissufim</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/">Kissufim</settlement>
                                 <geogName type="site">Basilica ruins</geogName>
                                 <geogFeat type="locus">North Intercolumnar Panel</geogFeat>
                             </placeName>

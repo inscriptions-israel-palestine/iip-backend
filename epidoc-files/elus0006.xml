@@ -75,7 +75,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0603" notAfter="0603">603 CE</date>
                      <placeName>
                         <region>Negev</region>
-                        <settlement ref="https://pleiades.stoa.org/places/687890">Elusa (Haluza)</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/687890">Elusa (Haluza)</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p/>

@@ -71,7 +71,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0150" notAfter="0250">150 CE to 250 CE</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678063">Beth Shearim</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678063">Beth Shearim</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p/>

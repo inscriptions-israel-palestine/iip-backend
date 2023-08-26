@@ -29,7 +29,7 @@
                     <msContents>
                         <textLang mainLang="grc" otherLangs=""/>
                         <msItem class="building" ana="christian">
-                            <p>Hanotha, 5th C. Mosiac. Building. </p>
+                            <p>Hanotha, 5th C. Mosaic. Building. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date notBefore="0401" notAfter="0500" period="http://n2t.net/ark:/99152/p0m63njjcn4">5th century CE</date><placeName>
                                 <region>Coastal Plain </region>
-                                <settlement ref="https://pleiades.stoa.org/places/678300">Hanotha</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678300">Hanotha</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

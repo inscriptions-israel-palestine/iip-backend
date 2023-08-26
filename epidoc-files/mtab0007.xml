@@ -76,7 +76,7 @@
                         <origin><date notBefore="0300" notAfter="0600" period="http://n2t.net/ark:/99152/p0m63njjcn4">4th-6th century
                                 CE</date><placeName>
                                 <region>Galilee </region>
-                                <settlement ref="https://pleiades.stoa.org/places/678419">Mount
+                                <settlement ref="http://pleiades.stoa.org/places/678419">Mount
                                     Tabor</settlement>
                                 <geogName type="site">Franciscan Monastery</geogName>
                                 <geogFeat type="locus"/>

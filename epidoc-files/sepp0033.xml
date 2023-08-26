@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date notBefore="0200" notAfter="0550" period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4">third to early fifth century CE</date><placeName>
                                 <region>Galilee</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678387">Sepphoris</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678387">Sepphoris</settlement>
                                 <geogName type="site">Western Cemetery</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>

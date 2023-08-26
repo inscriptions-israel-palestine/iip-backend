@@ -85,7 +85,7 @@
                                 Century CE</date>
                      <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/">Jerusalem</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/">Jerusalem</settlement>
                                 <geogName type="site">Wad Yasul</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -122,8 +122,8 @@
     <!--  *************************************  <facsimile>  *********************************    -->
     <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
-            <desc/>
-            <graphic url=""/>
+            <desc>Chris Zeichmann (scan)</desc>
+            <graphic url="jeru0413.jpg"/>
         </surface>
     </facsimile>
     <text>

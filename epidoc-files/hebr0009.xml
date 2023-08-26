@@ -29,7 +29,7 @@
                     <msContents>
                         <textLang mainLang="grc" otherLangs=""/>
                         <msItem class="invocation" ana="christian">
-                            <p>Hebron Hills, Early 6th Century CE. Mosiac. Invocation. </p>
+                            <p>Hebron Hills, Early 6th Century CE. Mosaic. Invocation. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
@@ -79,7 +79,7 @@
                         </summary>
                         <origin><date notBefore="0501" notAfter="0550" period="http://n2t.net/ark:/99152/p0m63njjcn4">Early 6th c. </date><placeName>
                                 <region>Judaea </region>
-                                <settlement ref="https://pleiades.stoa.org/places/687915">Hebron
+                                <settlement ref="http://pleiades.stoa.org/places/687915">Hebron
                                     Hills</settlement>
                                 <geogName type="site">Anab el-Kabir (Khierbet Anab)</geogName>
                                 <geogFeat type="locus">In the border of the nave mosaic carpet in

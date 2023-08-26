@@ -76,7 +76,7 @@
                         <origin><date notBefore="0300" notAfter="0499" period="http://n2t.net/ark:/99152/p0m63njjcn4">4th or 5th century
                                 CE</date><placeName>
                                 <region>Galilee</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678185">Hippos (Susita)</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678185">Hippos (Susita)</settlement>
                                 <geogName type="site">North-West Church</geogName>
                                 <geogFeat type="locus">South Aisle</geogFeat>
                             </placeName>

@@ -73,7 +73,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0591" notAfter="0591">591 CE</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678185">Hippos (Susita)</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678185">Hippos (Susita)</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Found on the mosaic floor of the baptistry in an ecclesiastical complex in Hippus, 

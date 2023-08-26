@@ -77,7 +77,7 @@
                         <origin><date notBefore="0395" notAfter="0408" period="http://n2t.net/ark:/99152/p0m63njjcn4">Late 4th Century to
                                 Early 5th Century</date><placeName>
                                 <region>Galilee</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678180">Heptapegon</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678180">Heptapegon</settlement>
                                 <geogName type="site">Church of the Miracle of the Multiplication of
                                     the Loaves</geogName>
                                 <geogFeat type="locus">Apse</geogFeat>
@@ -118,6 +118,10 @@
         <surface>
             <desc>Zev Radovan</desc>
             <graphic url="hept0001.jpg"/>
+        </surface>
+        <surface>
+            <desc>Chris Zeichmann</desc>
+            <graphic url="hept0001b.jpg"/>
         </surface>
     </facsimile>
     <text>

@@ -76,7 +76,7 @@
                         <origin><date notBefore="0550" notAfter="0700" period="http://n2t.net/ark:/99152/p0m63njjcn4">Mid-6th Century CE to
                                 early 8th Century</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678066">Betthar</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678066">Betthar</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">Pavement</geogFeat>
                             </placeName>

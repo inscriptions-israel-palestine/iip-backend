@@ -75,7 +75,7 @@
                         <origin><date notBefore="0400" notAfter="0599" period="http://n2t.net/ark:/99152/p0m63njjcn4">5th to 6th century
                                 CE</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/">Khan
+                                <settlement ref="http://pleiades.stoa.org/places/">Khan
                                     Saliba</settlement>
                                 <geogName type="site">Monastery ruins</geogName>
                                 <geogFeat type="locus">Room 4</geogFeat>

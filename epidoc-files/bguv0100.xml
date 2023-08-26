@@ -104,7 +104,7 @@
                             <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0375">300 CE to 375 CE</date>
                             <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687854">Beth
+                                <settlement ref="http://pleiades.stoa.org/places/687854">Beth
                                     Guvrin</settlement>
                                 <geogName type="site">Kibbutz Beit Guvrin</geogName>
                                 <geogFeat type="locus"/>

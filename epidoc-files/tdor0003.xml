@@ -104,7 +104,7 @@
                             <date period="http://n2t.net/ark:/99152/p0m63njgvtd" notBefore="-0138" notAfter="-0137">138-137 BCE</date>
                             <placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678121">Dor</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678121">Dor</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

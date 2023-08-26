@@ -103,7 +103,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0027" notAfter="0027">27 BCE</date>
                      <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687968">Masada</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687968">Masada</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">5001</geogFeat>
                             </placeName>
@@ -144,6 +144,7 @@
          <change when="2019-01-29" who="persons.xml#Elli_Mylonas">
                 adding period attribute to date element, with Periodo value.
             </change>
+            <change when="2023-08-08" who="Chris Zeichmann">added imagw</change>
       </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************
@@ -156,8 +157,8 @@
      -->
     <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <surface>
-            <desc/>
-            <graphic url=""/>
+            <desc>Chris Zeichmann</desc>
+            <graphic url="masa0795.jpg"/>
         </surface>
     </facsimile>
     <text>

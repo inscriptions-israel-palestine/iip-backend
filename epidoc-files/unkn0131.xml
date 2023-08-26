@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date notBefore="0213" notAfter="0213" period="http://n2t.net/ark:/99152/p0m63njtk9m">213 CE</date><placeName>
                                 <region>Unknown</region>
-                                <settlement ref="https://pleiades.stoa.org/places/">Unknown</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/">Unknown</settlement>
                                 <geogName type="site">Mile 6 of Scythopolis-Jericho road</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>

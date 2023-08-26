@@ -87,7 +87,7 @@
                      <date period="" notBefore="0429" notAfter="0430">429/430 CE</date>
                      <placeName>
                                 <region>Galilee</region>
-                            <settlement ref="https://pleiades.stoa.org/places/678431">Tiberias</settlement>
+                            <settlement ref="http://pleiades.stoa.org/places/678431">Tiberias</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

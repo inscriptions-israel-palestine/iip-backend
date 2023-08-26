@@ -109,7 +109,7 @@
                            notAfter="-0330">Persian Period</date>
                      <placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678010">Akko</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678010">Akko</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

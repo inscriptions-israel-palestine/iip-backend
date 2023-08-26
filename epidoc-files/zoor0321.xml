@@ -87,7 +87,7 @@
                            notAfter="0515">End of 4th, beginning of 5th c CE</date>
                      <placeName>
                         <region>Negev</region>
-                        <settlement ref="https://pleiades.stoa.org/places/697768">Zoora</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
                         <geogName type="site">An Naq</geogName>
                         <geogFeat type="locus">cemetery</geogFeat>
                      </placeName>

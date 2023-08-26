@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date notBefore="0070" notAfter="0337" period="http://n2t.net/ark:/99152/p0m63njtmv8">70-337 CE</date><placeName>
                                 <region>Judaea </region>
-                                <settlement ref="https://pleiades.stoa.org/places/687928">Jerusalem </settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem </settlement>
                                 <geogName type="site">In the strip between the southern end of the
                                     pier of Robinson's Arch and the southern wall of the Umayyad
                                     building</geogName>

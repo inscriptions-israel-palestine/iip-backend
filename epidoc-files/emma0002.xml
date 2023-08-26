@@ -84,7 +84,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0324" notAfter="0638">Byzantine</date>
                      <placeName>
                         <region>Judaea</region>
-                        <settlement ref="https://pleiades.stoa.org/places/687891">Emmaus</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/687891">Emmaus</settlement>
                         <geogName type="site">South Church, South aisle</geogName>
                      </placeName>
                      <p>Judean lowlands, Emmaus I (Nicopolis, 'Imwas), northwest of Jerusalem.</p>

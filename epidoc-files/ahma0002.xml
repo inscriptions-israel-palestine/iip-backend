@@ -70,7 +70,7 @@
                         period</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678006">Ahmadiyye</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678006">Ahmadiyye</settlement>
                         <geogName type="site"/>
                      </placeName>
                   </origin>

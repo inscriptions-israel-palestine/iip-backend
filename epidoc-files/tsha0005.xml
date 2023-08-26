@@ -79,7 +79,7 @@
                         <origin><date notBefore="0197" notAfter="0209"
                                 period="http://n2t.net/ark:/99152/p0m63njtmv8">197 - 209 CE</date><placeName>
                                 <region>Jordan Valley</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678368 ">Tel Shalem </settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678368 ">Tel Shalem </settlement>
                                 <geogName type="site">aedes of the fort</geogName>
                                 <geogFeat type="locus">forecourt</geogFeat>
                             </placeName>

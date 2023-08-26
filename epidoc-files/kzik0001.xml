@@ -104,7 +104,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0300" notAfter="0600">Byzantine period</date>
                      <placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687946">Khirbet Zikrin</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687946">Khirbet Zikrin</settlement>
                                 <geogName type="site">Area F</geogName>
                                 <geogFeat type="locus">church</geogFeat>
                             </placeName>

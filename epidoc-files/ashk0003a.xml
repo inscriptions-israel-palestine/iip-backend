@@ -81,7 +81,7 @@
                                 CE</date>
                      <placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687839">Ashkelon</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687839">Ashkelon</settlement>
                                 <geogName type="site">Third Mile Estate</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>

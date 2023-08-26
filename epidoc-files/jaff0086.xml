@@ -83,7 +83,7 @@
                         </summary>
                         <origin><date notBefore="-0217" notAfter="-0217" period="http://n2t.net/ark:/99152/p0m63njw6r7">217 BCE</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687931">Jaffa</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687931">Jaffa</settlement>
                                 <geogName type="site">Area C (now under Qedumim Square)</geogName>
                                 <geogFeat type="locus">"the courtyard of a structure described as a
                                     catacomb"</geogFeat>

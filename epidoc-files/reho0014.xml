@@ -102,7 +102,7 @@
                             <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0550" notAfter="0555">550/1 or 554/5 CE</date>
                             <placeName>
                                 <region>Negev</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687860">Rehovot</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687860">Rehovot</settlement>
                                 <geogName type="site">Church</geogName>
                                 <geogFeat type="locus">pavement of nave</geogFeat>
                             </placeName>

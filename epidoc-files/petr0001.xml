@@ -76,7 +76,7 @@
                         <origin><date period="http://n2t.net/ark:/99152/p0m63njtmv8">2nd - 3rd
                                 century CE</date><placeName>
                                 <region>Jordan</region>
-                                <settlement ref="https://pleiades.stoa.org/places/697725">Petra </settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/697725">Petra </settlement>
                                 <geogName type="site">Ayl-Tayyiba road </geogName>
                                 <geogFeat type="locus"/>
                             </placeName>

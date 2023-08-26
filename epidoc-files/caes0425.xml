@@ -79,7 +79,7 @@
                         <origin><date notBefore="0500" notAfter="0599" period="">6th century
                                 CE</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">KK 22, Locus 625, Basket 0171</geogFeat>
                             </placeName>

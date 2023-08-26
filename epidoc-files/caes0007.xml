@@ -78,7 +78,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0232" notAfter="0232">232 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site">Field C</geogName>
                      </placeName>
                      <p>Found in a disturbed context within Structure 2 in Field C. It had fallen

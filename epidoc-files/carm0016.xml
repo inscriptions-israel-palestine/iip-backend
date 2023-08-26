@@ -75,7 +75,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notAfter="0550" notBefore="0450">Fifth or sixth century CE</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678226">Carmiel</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678226">Carmiel</settlement>
                         <geogName type="site">Khirbet Bata</geogName>
                         <geogFeat type="locus">Byzantine church (Late)</geogFeat>
                      </placeName>

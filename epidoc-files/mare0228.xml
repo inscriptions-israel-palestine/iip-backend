@@ -75,7 +75,7 @@
                         </summary>
                         <origin><date notBefore="-0187" notAfter="-0175" period="http://n2t.net/ark:/99152/p0m63njw6r7">187-175 BCE</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687966">Maresha</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687966">Maresha</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

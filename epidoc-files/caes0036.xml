@@ -75,7 +75,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0135" notAfter="0300">135-300</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Found during the Italian excavations of 1959-1964.</p>

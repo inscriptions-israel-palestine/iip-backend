@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date notBefore="0493" notAfter="0493" period="http://n2t.net/ark:/99152/p0m63njjcn4">493 CE</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687839">Ashkelon</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687839">Ashkelon</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

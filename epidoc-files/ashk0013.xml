@@ -78,7 +78,7 @@
                         </summary>
                         <origin><date notBefore="0543" notAfter="0543" period="http://n2t.net/ark:/99152/p0m63njjcn4">15 July 543 CE</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687839">Ashkelon</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687839">Ashkelon</settlement>
                                 <geogName type="site">Newe Yam Dalet Neighbourhood</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>

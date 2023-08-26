@@ -72,7 +72,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0250" notAfter="0399">Late Roman or early Byzantine period</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678006">Ahmadiyye</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678006">Ahmadiyye</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p/>

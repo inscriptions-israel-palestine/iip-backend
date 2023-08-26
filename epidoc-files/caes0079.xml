@@ -71,7 +71,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0400" notAfter="0650">Fifth to mid-seventh centuries CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>In entrance hall of last phase of synagogue.</p>

@@ -86,7 +86,7 @@
                         <origin><date notBefore="0300" notAfter="0499" period="http://n2t.net/ark:/99152/p0m63njjcn4">Fourth to fifth
                                 century CE</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687931">Jaffa</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687931">Jaffa</settlement>
                                 <geogName type="site">French Hospital Compound</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>

@@ -75,7 +75,7 @@
                         <origin><date notBefore="0101" notAfter="0300" period="http://n2t.net/ark:/99152/p0m63njtmv8">2-3rd century
                                 CE</date><placeName>
                                 <region>Judaea </region>
-                                <settlement ref="https://pleiades.stoa.org/places/687928"/>
+                                <settlement ref="http://pleiades.stoa.org/places/687928"/>
                                 <geogName type="site">Binyanei Ha-Uma </geogName>
                                 <geogFeat type="locus"/>
                             </placeName>

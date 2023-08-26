@@ -118,7 +118,7 @@
                            notAfter="0600">4th to 7th century CE</date>
                             <placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687838">Ashdod</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687838">Ashdod</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

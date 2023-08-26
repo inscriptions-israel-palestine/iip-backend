@@ -76,7 +76,7 @@
                         notAfter="0385">385 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678401"
+                        <settlement ref="http://pleiades.stoa.org/places/678401"
                            >Caesarea</settlement>
                         <geogName type="site"/>
                         <geogFeat type="locus">Probably built into Channel A of aqueduct.</geogFeat>

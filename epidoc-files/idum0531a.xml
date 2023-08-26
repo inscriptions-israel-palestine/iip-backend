@@ -80,7 +80,7 @@
                         <origin><date notBefore="-0357" notAfter="-0357" period="http://n2t.net/ark:/99152/p0m63nj3bbf">July 14, 357
                                 BCE</date><placeName>
                                 <region>Negev</region>
-<settlement ref="https://pleiades.stoa.org/places/687927">Idumea</settlement>
+<settlement ref="http://pleiades.stoa.org/places/687927">Idumea</settlement>
 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

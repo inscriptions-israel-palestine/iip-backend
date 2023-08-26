@@ -88,7 +88,7 @@
                         <origin><date notBefore="-0338" notAfter="-0338" period="http://n2t.net/ark:/99152/p0m63nj3bbf">October 25-November
                                 23, 338 BCE</date><placeName>
                                 <region>Negev</region>
-<settlement ref="https://pleiades.stoa.org/places/687927">Idumea</settlement>
+<settlement ref="http://pleiades.stoa.org/places/687927">Idumea</settlement>
 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

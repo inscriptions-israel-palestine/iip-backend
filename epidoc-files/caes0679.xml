@@ -85,7 +85,7 @@
                         <origin><date period="http://n2t.net/ark:/99152/p0m63njjcn4">408-411,
                                 461-462, or 539-549 CE</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                                 <geogName type="site">Binyamina</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>

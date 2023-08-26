@@ -104,7 +104,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0553" notAfter="0569">553-4 or 568-9 CE. </date>
                      <placeName>
                                 <region>Jordan Valley</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
                                 <geogName type="site">Monastery of Lady Mary </geogName>
                                 <geogFeat type="locus">Beyond the northern edge of mosaic pavement
                                     of the hall</geogFeat>

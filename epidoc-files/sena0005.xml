@@ -70,7 +70,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0070" notAfter="0150">70 CE to 150 CE</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678181">Hermon Mons (Har
+                        <settlement ref="http://pleiades.stoa.org/places/678181">Hermon Mons (Har
                            Senaim)</settlement>
                         <geogName type="site">temenos area</geogName>
                         <geogFeat type="locus">86</geogFeat>

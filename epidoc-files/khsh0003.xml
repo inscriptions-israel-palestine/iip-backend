@@ -75,7 +75,7 @@
                         <origin><date notBefore="0500" notAfter="0700" period="http://n2t.net/ark:/99152/p0m63njjcn4">6th Century CE to 7th
                                 Century CE</date><placeName>
                                 <region>Galilee</region>
-                                <settlement ref="https://pleiades.stoa.org/places/">Khirbet
+                                <settlement ref="http://pleiades.stoa.org/places/">Khirbet
                                     Shata</settlement>
                                 <geogName type="site">Monastic Farm Complex</geogName>
                                 <geogFeat type="locus">Southern Room</geogFeat>

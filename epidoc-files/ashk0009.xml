@@ -78,7 +78,7 @@
                         </summary>
                         <origin><date notBefore="0068" notAfter="0090" period="http://n2t.net/ark:/99152/p0m63njbxb9 http://n2t.net/ark:/99152/p0m63njw2xp">68-90 CE</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687839">Ashkelon</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687839">Ashkelon</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

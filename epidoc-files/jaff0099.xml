@@ -82,7 +82,7 @@
                         </summary>
                         <origin><date notBefore="-0125" notAfter="-0120" period="http://n2t.net/ark:/99152/p0m63njgvtd">125-120 BCE</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687931">Jaffa</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687931">Jaffa</settlement>
                                 <geogName type="site">10 Ben Gamli’el Street</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>

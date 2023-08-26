@@ -72,7 +72,7 @@
                      <date period="Talmudic" notBefore="0200" notAfter="0699">200 CE - 699 CE</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678352">Mazra'at
+                        <settlement ref="http://pleiades.stoa.org/places/678352">Mazra'at
                            Quneitra</settlement>
                         <geogName type="site"/>
                      </placeName>

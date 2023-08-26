@@ -90,7 +90,7 @@
                      <date period="Talmudic" notBefore="0200" notAfter="0650">200 CE - 650 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Provenance unknown. Observed by J. Braslawski, the British Mandate

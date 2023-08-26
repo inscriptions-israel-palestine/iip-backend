@@ -29,7 +29,7 @@
                     <msContents>
                         <textLang mainLang="grc" otherLangs=""/>
                         <msItem class="building" ana="christian">
-                            <p>Horvat Bata, 526-527 CE. Mosiac. Building. </p>
+                            <p>Horvat Bata, 526-527 CE. Mosaic. Building. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date notBefore="0526" notAfter="0527" period="http://n2t.net/ark:/99152/p0m63njjcn4">526-527 CE</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678226">Horvat
+                                <settlement ref="http://pleiades.stoa.org/places/678226">Horvat
                                     Bata</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>

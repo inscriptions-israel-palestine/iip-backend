@@ -79,7 +79,7 @@
                         <origin><date notBefore="0576" notAfter="0576" period="http://n2t.net/ark:/99152/p0m63njjcn4">August 4th 576
                                 CE</date><placeName>
                                 <region>Negev</region>
-                                <settlement ref="https://pleiades.stoa.org/places/">Kissufim</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/">Kissufim</settlement>
                                 <geogName type="site">Basilica ruins</geogName>
                                 <geogFeat type="locus">Nave</geogFeat>
                             </placeName>

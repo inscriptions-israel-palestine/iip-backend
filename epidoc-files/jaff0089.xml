@@ -82,7 +82,7 @@
                         </summary>
                         <origin><date notBefore="-0142" notAfter="-0137" period="http://n2t.net/ark:/99152/p0m63njgvtd">142-137 BCE</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687931">Jaffa</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687931">Jaffa</settlement>
                                 <geogName type="site">Magen Avraham Compound</geogName>
                                 <geogFeat type="locus">Areas B and G</geogFeat>
                             </placeName>

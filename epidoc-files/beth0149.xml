@@ -84,7 +84,7 @@
                      <date period="Talmudic" notBefore="0200" notAfter="0400">200 CE to 400 CE</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678063">Beth Shearim</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678063">Beth Shearim</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p/>
@@ -120,14 +120,16 @@
                 adding period attribute to date element, with Periodo value.
             </change>
          <change when="2021-10-18" who="Chris Zeichmann">added image</change>
+         <change when="2023-08-03" who="Chris Zeichmann">added new image</change>
       </revisionDesc>
    </teiHeader>
    <!-- ********* <facsimile> ********* -->
    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
          <desc>Gary Todd - Flickr</desc>
-         <graphic url="beth0149.jpg"/>
-      </surface>
+         <graphic url="beth0149.jpg"/></surface>
+         <surface><desc>Chris Zeichmann</desc>
+         <graphic url="beth0149a.jpg"/></surface>
    </facsimile>
    <text>
       <body>

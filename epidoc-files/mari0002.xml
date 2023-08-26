@@ -77,7 +77,7 @@
                            notAfter="-0063">312 BCE - 63 BCE</date>
                      <placeName>
                         <region>Judaea</region>
-                        <settlement ref="https://pleiades.stoa.org/places/687966">Maresha</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/687966">Maresha</settlement>
                         <geogName type="site">Tel Sandahannah</geogName>
                      </placeName>
                      <p>Near Beth Govrin (Eleutheropolis).</p>

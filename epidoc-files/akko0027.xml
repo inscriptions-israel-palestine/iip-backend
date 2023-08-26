@@ -75,7 +75,7 @@
                         <origin><date notBefore="-0500" notAfter="-0450" period="http://n2t.net/ark:/99152/p0m63nj3bbf">early 5th century
                                 BCE</date><placeName>
                                 <region>Coastal Plain </region>
-                                <settlement ref="https://pleiades.stoa.org/places/678010">Akko</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678010">Akko</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

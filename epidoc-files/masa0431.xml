@@ -103,7 +103,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0066" notAfter="0073">66-73 CE</date>
                      <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687968">Masada</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687968">Masada</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">113</geogFeat>
                             </placeName>
@@ -156,7 +156,7 @@
      -->
     <facsimile>
         <surface>
-            <desc/>
+            <desc></desc>
             <graphic url=""/>
         </surface>
     </facsimile>
@@ -170,7 +170,7 @@
                 <p>בני</p>
             </div>
             <div type="translation" ana="b1">
-                <p/>
+                <p>Benaiah (or "the builder" or "Ben Yair")</p>
             </div>
             <div type="commentary" ana="b1">
                 <p>The inscription might be finished and possibly read as בנ יאיר, as in MASA437. It

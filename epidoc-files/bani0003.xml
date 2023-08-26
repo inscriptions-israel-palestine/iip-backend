@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date notBefore="0161" notAfter="0222" period="http://n2t.net/ark:/99152/p0m63njtmv8">161-222 CE</date><placeName>
                                 <region>Golan</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678324">Banias</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678324">Banias</settlement>
                                 <geogName type="site">Pan's cave</geogName>
                                 <geogFeat type="locus">octogonal altar</geogFeat>
                             </placeName>

@@ -109,7 +109,7 @@
                                 notAfter="0500">Fifth century CE</date>
                             <placeName>
                                 <region>Jordan</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678158"
+                                <settlement ref="http://pleiades.stoa.org/places/678158"
                                     >Jerash</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>

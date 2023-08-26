@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date notBefore="0500" notAfter="0614" period="http://n2t.net/ark:/99152/p0m63njjcn4">500-614 CE</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/">Wadi
+                                <settlement ref="http://pleiades.stoa.org/places/">Wadi
                                     Murrar</settlement>
                                 <geogName type="site">Cave-hermitage wall</geogName>
                                 <geogFeat type="locus"/>

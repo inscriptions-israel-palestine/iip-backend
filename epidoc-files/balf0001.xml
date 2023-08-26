@@ -105,7 +105,7 @@
                             <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0518" notAfter="0527">517-527 CE</date>
                             <placeName>
                                 <region>Galilee</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678061">Beit
+                                <settlement ref="http://pleiades.stoa.org/places/678061">Beit
                                     Alpha</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">Beit-Alpha Synagogue</geogFeat>

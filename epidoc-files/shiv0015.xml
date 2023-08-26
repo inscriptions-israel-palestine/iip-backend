@@ -75,7 +75,7 @@
                         <origin><date notBefore="0401" notAfter="0600" period="http://n2t.net/ark:/99152/p0m63njjcn4">5th-6th c entury
                                 CE</date><placeName>
                                 <region>Negev</region>
-                                <settlement ref="https://pleiades.stoa.org/places/688030">Shivta </settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/688030">Shivta </settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

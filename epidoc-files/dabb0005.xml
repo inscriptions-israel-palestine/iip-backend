@@ -84,7 +84,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0200" notAfter="0337">Late Roman period</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678105">Dabbura</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678105">Dabbura</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p/>

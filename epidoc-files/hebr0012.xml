@@ -75,7 +75,7 @@
                         </summary>
                         <origin><date notBefore="0324" notAfter="0638" period="http://n2t.net/ark:/99152/p0m63njjcn4">Byzantine </date><placeName>
                                 <region>Judaea </region>
-                                <settlement ref="https://pleiades.stoa.org/places/687915">Hebron
+                                <settlement ref="http://pleiades.stoa.org/places/687915">Hebron
                                     Hills </settlement>
                                 <geogName type="site">Haram el-Khalil</geogName>
                                 <geogFeat type="locus">In the northen corner of the eastern nave of

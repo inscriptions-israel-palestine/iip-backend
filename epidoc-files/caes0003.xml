@@ -75,7 +75,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njtk9m http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0075" notAfter="0300">Late first to third century CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Found at Maioumas (Shuni), about 6 km from Caesarea.</p>
@@ -112,8 +112,8 @@
    </teiHeader>
    <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
       <surface>
-         <desc/>
-         <graphic url=""/>
+         <desc>Chris Zeichmann</desc>
+         <graphic url="caes0003.jpg"/>
       </surface>
    </facsimile>
    <text>

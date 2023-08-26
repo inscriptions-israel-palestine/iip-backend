@@ -69,11 +69,11 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0561" notAfter="0618">561 CE - 618 CE</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678089">Khisfin</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678089">Khisfin</settlement>
                         <geogName type="site">church</geogName>
                         <geogFeat type="locus">floor</geogFeat>
                      </placeName>
-                     <p>Golan. Khisfin. Mosiac located on church floor.</p>
+                     <p>Golan. Khisfin. Mosaic located on church floor.</p>
                   </origin>
                   <provenance>
                      <placeName/>

@@ -1,0 +1,417 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.33578,
+          31.995698
+        ]
+      },
+      "type": "Feature",
+      "id": "imagery-location-of-dhahr-mirzbaneh",
+      "properties": {
+        "snippet": "Tomb; 2000 BC - 1400 BC",
+        "link": "https://pleiades.stoa.org/places/313779408/imagery-location-of-dhahr-mirzbaneh",
+        "description": "Representative location from Google Earth, after Lapp 1966.",
+        "location_precision": "precise",
+        "title": "Imagery location of Dhahr Mirzbaneh"
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "username": "jbecker",
+      "homepage": null,
+      "name": "Jeffrey Becker",
+      "uri": "https://pleiades.stoa.org/author/jbecker"
+    }
+  ],
+  "locations": [
+    {
+      "contributors": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "associationCertainty": "certain",
+      "attestations": [
+        {
+          "timePeriod": "middle-bronze-age-southern-levant",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/middle-bronze-age-southern-levant",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.worldcat.org/oclc/180670233",
+          "citationDetail": "Plate 1",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Lapp 1966",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/X3TB33SA",
+          "formattedCitation": "<div class=\"csl-entry\">Lapp, Paul W. <i>The Dhahr Mirzba\u0302neh Tombs 3 Intermediate Bronze Age Cemeteries in Jordan</i>. New Haven CT: American Schools of Oriental Research, 1966. http://www.worldcat.org/oclc/180670233.</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.jstor.org/stable/27925334",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Dever 1972",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UB4M2RZE",
+          "formattedCitation": "<div class=\"csl-entry\">Dever, W.G. \u201cMiddle Bronze Age I Cemeteries at Mirzb\u00e2neh and \u2019Ain-S\u00e2miya.\u201d <i>Israel Exploration Journal</i> 22, no. 2/3 (1972): 95\u2013112. http://www.jstor.org/stable/27925334.</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "imagery-location-of-dhahr-mirzbaneh",
+      "featureTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/tomb"
+      ],
+      "end": -1400,
+      "title": "Imagery location of Dhahr Mirzbaneh",
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": -2000,
+      "locationTypeURI": [
+        "https://pleiades.stoa.org/vocabularies/place-types/tomb"
+      ],
+      "archaeologicalRemains": "traces",
+      "details": "",
+      "review_state": "published",
+      "accuracy_value": 5.0,
+      "accuracy": "https://pleiades.stoa.org/features/metadata/google-earth-and-partners-imagery-2015",
+      "featureType": [
+        "tomb"
+      ],
+      "description": "Representative location from Google Earth, after Lapp 1966.",
+      "created": "2017-03-28T14:26:47Z",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.33578,
+          31.995698
+        ]
+      },
+      "locationType": [
+        "representative"
+      ],
+      "uri": "https://pleiades.stoa.org/places/313779408/imagery-location-of-dhahr-mirzbaneh",
+      "creators": [
+        {
+          "username": "gmckee",
+          "homepage": null,
+          "name": "Gabriel Mckee",
+          "uri": "https://pleiades.stoa.org/author/gmckee"
+        }
+      ],
+      "@type": "Location",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "jbecker",
+          "modified": "2017-04-03T14:49:57Z"
+        },
+        {
+          "comment": "edited references",
+          "modifiedBy": "jbecker",
+          "modified": "2017-04-03T14:43:58Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "gmckee",
+          "modified": "2017-03-28T15:08:47Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "gmckee",
+          "modified": "2017-03-28T15:04:06Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "gmckee",
+          "modified": "2017-03-28T14:31:46Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "gmckee",
+          "modified": "2017-03-28T14:27:12Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "gmckee",
+          "modified": "2017-03-28T14:26:49Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "gmckee",
+          "modified": "2017-03-28T14:26:47Z"
+        }
+      ]
+    }
+  ],
+  "connections": [],
+  "references": [
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.worldcat.org/oclc/180670233",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Lapp 1966",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/X3TB33SA",
+      "formattedCitation": "<div class=\"csl-entry\">Lapp, Paul W. <i>The Dhahr Mirzba\u0302neh Tombs 3 Intermediate Bronze Age Cemeteries in Jordan</i>. New Haven CT: American Schools of Oriental Research, 1966. http://www.worldcat.org/oclc/180670233.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://holylandphotos.org/browse.asp?s=1,2,6,32,87 ",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Rasmussen 2017",
+      "bibliographicURI": "",
+      "formattedCitation": "Rasmussen, Carl. 2017. \"Dhahr Mirzbaneh (Ein Samiya).\" Holy Land Photos.",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    },
+    {
+      "alternateURI": "",
+      "accessURI": "http://www.jstor.org/stable/27925334",
+      "citationDetail": "",
+      "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+      "shortTitle": "Dever 1972",
+      "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UB4M2RZE",
+      "formattedCitation": "<div class=\"csl-entry\">Dever, W.G. \u201cMiddle Bronze Age I Cemeteries at Mirzb\u00e2neh and \u2019Ain-S\u00e2miya.\u201d <i>Israel Exploration Journal</i> 22, no. 2/3 (1972): 95\u2013112. http://www.jstor.org/stable/27925334.</div>",
+      "otherIdentifier": "",
+      "type": "seeFurther"
+    }
+  ],
+  "names": [
+    {
+      "nameType": "geographic",
+      "transcriptionAccuracy": "accurate",
+      "associationCertainty": "certain",
+      "romanized": "Dhahr Mirzbaneh",
+      "attestations": [
+        {
+          "timePeriod": "modern",
+          "timePeriodURI": "https://pleiades.stoa.org/vocabularies/time-periods/modern",
+          "confidence": "confident",
+          "confidenceURI": "https://pleiades.stoa.org/vocabularies/attestation-confidence/confident"
+        }
+      ],
+      "references": [
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.worldcat.org/oclc/180670233",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Lapp 1966",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/X3TB33SA",
+          "formattedCitation": "<div class=\"csl-entry\">Lapp, Paul W. <i>The Dhahr Mirzba\u0302neh Tombs 3 Intermediate Bronze Age Cemeteries in Jordan</i>. New Haven CT: American Schools of Oriental Research, 1966. http://www.worldcat.org/oclc/180670233.</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "http://holylandphotos.org/browse.asp?s=1,2,6,32,87 ",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Rasmussen 2017",
+          "bibliographicURI": "",
+          "formattedCitation": "Rasmussen, Carl. 2017. \"Dhahr Mirzbaneh (Ein Samiya).\" Holy Land Photos.",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        },
+        {
+          "alternateURI": "",
+          "accessURI": "http://www.jstor.org/stable/27925334",
+          "citationDetail": "",
+          "citationTypeURI": "http://purl.org/spar/cito/seeFurther",
+          "shortTitle": "Dever 1972",
+          "bibliographicURI": "https://www.zotero.org/groups/pleiades/items/UB4M2RZE",
+          "formattedCitation": "<div class=\"csl-entry\">Dever, W.G. \u201cMiddle Bronze Age I Cemeteries at Mirzb\u00e2neh and \u2019Ain-S\u00e2miya.\u201d <i>Israel Exploration Journal</i> 22, no. 2/3 (1972): 95\u2013112. http://www.jstor.org/stable/27925334.</div>",
+          "otherIdentifier": "",
+          "type": "seeFurther"
+        }
+      ],
+      "id": "name.2017-03-28.5202041691",
+      "end": 2100,
+      "contributors": [
+        {
+          "username": "jbecker",
+          "homepage": null,
+          "name": "Jeffrey Becker",
+          "uri": "https://pleiades.stoa.org/author/jbecker"
+        }
+      ],
+      "provenance": "Pleiades",
+      "associationCertaintyURI": "https://pleiades.stoa.org/vocabularies/association-certainty/certain",
+      "start": 1700,
+      "details": "",
+      "review_state": "published",
+      "description": "",
+      "transcriptionCompleteness": "complete",
+      "language": "ar",
+      "created": "2017-03-28T14:33:05Z",
+      "uri": "https://pleiades.stoa.org/places/313779408/name.2017-03-28.5202041691",
+      "creators": [
+        {
+          "username": "gmckee",
+          "homepage": null,
+          "name": "Gabriel Mckee",
+          "uri": "https://pleiades.stoa.org/author/gmckee"
+        }
+      ],
+      "attested": "\u0638\u0647\u0631 \u0627\u0644\u0645\u0631\u0632\u0628\u0627\u0646\u0629",
+      "@type": "Name",
+      "history": [
+        {
+          "action": "Publish externally",
+          "modifiedBy": "jbecker",
+          "modified": "2017-04-03T14:49:57Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "jbecker",
+          "modified": "2017-04-03T14:44:41Z"
+        },
+        {
+          "action": "Submit for review",
+          "modifiedBy": "gmckee",
+          "modified": "2017-03-28T15:08:47Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "gmckee",
+          "modified": "2017-03-28T15:08:13Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "gmckee",
+          "modified": "2017-03-28T15:03:04Z"
+        },
+        {
+          "comment": "Edited",
+          "modifiedBy": "gmckee",
+          "modified": "2017-03-28T14:57:37Z"
+        },
+        {
+          "comment": "Initial revision",
+          "modifiedBy": "gmckee",
+          "modified": "2017-03-28T14:33:05Z"
+        },
+        {
+          "action": "Create",
+          "modifiedBy": "gmckee",
+          "modified": "2017-03-28T14:33:05Z"
+        }
+      ]
+    }
+  ],
+  "id": "313779408",
+  "subject": [
+    "Bronze Age",
+    "necropolis"
+  ],
+  "title": "Dhahr Mirzbaneh",
+  "provenance": "Pleiades",
+  "placeTypeURIs": [
+    "https://pleiades.stoa.org/vocabularies/place-types/tomb",
+    "https://pleiades.stoa.org/vocabularies/place-types/cemetery"
+  ],
+  "details": "",
+  "@context": {
+    "snippet": "dcterms:abstract",
+    "rights": "dcterms:rights",
+    "description": "dcterms:description",
+    "title": "dcterms:title",
+    "dcterms": "http://purl.org/dc/terms/",
+    "subject": "dcterms:subject",
+    "uri": "@id",
+    "created": "dcterms:created"
+  },
+  "review_state": "published",
+  "type": "FeatureCollection",
+  "description": "A Bronze Age necropolis located near the village of 'Ayn Samiyah in the West Bank.",
+  "reprPoint": [
+    35.33578,
+    31.995698
+  ],
+  "placeTypes": [
+    "tomb",
+    "cemetery"
+  ],
+  "bbox": [
+    35.33578,
+    31.995698,
+    35.33578,
+    31.995698
+  ],
+  "connectsWith": [],
+  "rights": "Copyright \u00a9 The Contributors. Sharing and remixing permitted under terms of the Creative Commons Attribution 3.0 License (cc-by).",
+  "created": "2017-03-28T14:11:27Z",
+  "uri": "https://pleiades.stoa.org/places/313779408",
+  "creators": [
+    {
+      "username": "gmckee",
+      "homepage": null,
+      "name": "Gabriel Mckee",
+      "uri": "https://pleiades.stoa.org/author/gmckee"
+    }
+  ],
+  "@type": "Place",
+  "history": [
+    {
+      "action": "Publish externally",
+      "modifiedBy": "jbecker",
+      "modified": "2017-04-03T14:49:56Z"
+    },
+    {
+      "comment": "edited summary",
+      "modifiedBy": "jbecker",
+      "modified": "2017-04-03T14:45:06Z"
+    },
+    {
+      "comment": "edited references",
+      "modifiedBy": "jbecker",
+      "modified": "2017-04-02T14:22:25Z"
+    },
+    {
+      "action": "Submit for review",
+      "modifiedBy": "gmckee",
+      "modified": "2017-03-28T15:08:47Z"
+    },
+    {
+      "comment": "Edited",
+      "modifiedBy": "gmckee",
+      "modified": "2017-03-28T15:03:38Z"
+    },
+    {
+      "comment": "Edited",
+      "modifiedBy": "gmckee",
+      "modified": "2017-03-28T14:57:05Z"
+    },
+    {
+      "comment": "Edited",
+      "modifiedBy": "gmckee",
+      "modified": "2017-03-28T14:33:54Z"
+    },
+    {
+      "comment": "Initial revision",
+      "modifiedBy": "gmckee",
+      "modified": "2017-03-28T14:11:39Z"
+    },
+    {
+      "action": "Create",
+      "modifiedBy": "gmckee",
+      "modified": "2017-03-28T14:11:27Z"
+    }
+  ]
+}

@@ -72,7 +72,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0578" notAfter="0578">6 April 578 CE</date>
                      <placeName>
                         <region>Negev</region>
-                        <settlement ref="https://pleiades.stoa.org/places/687890">Elusa (Haluza)</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/687890">Elusa (Haluza)</settlement>
                         <geogName type="site">south of town</geogName>
                      </placeName>
                      <p/>

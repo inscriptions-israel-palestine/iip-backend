@@ -104,7 +104,7 @@
                                 centuries CE</date>
                      <placeName>
                                 <region>Sinai</region>
-                                <settlement ref="https://pleiades.stoa.org/places/746751">Jebel Moneijah</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/746751">Jebel Moneijah</settlement>
                                 <geogName type="site">Sanctuary</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>

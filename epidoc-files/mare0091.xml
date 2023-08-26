@@ -77,7 +77,7 @@
                                 century BCE</date>
                      <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/">Maresha</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/">Maresha</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

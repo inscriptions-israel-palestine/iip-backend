@@ -74,7 +74,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0222" notAfter="0270">222 CE - 270 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Found southeast of the Roman theater.</p>

@@ -91,23 +91,25 @@ class EpidocParser:
         entries = []
         for bibl in self.tree.iterfind(self.bibliography_xpath, namespaces=NAMESPACES):
             xml_id = bibl.attrib.get(XML_ID_ATTRIB)
-            bibl_scope = bibl.find("./tei:biblScope", namespaces=NAMESPACES)
-            bibl_scope_unit = bibl_scope.attrib.get("unit")
-            bibl_scope_text = bibl_scope.text
-            ptr = bibl.find("./tei:ptr", namespaces=NAMESPACES)
-            ptr_target = ptr.attrib.get("target")
-            ptr_type = ptr.attrib.get("type")
 
-            entries.append(
-                dict(
-                    xml_id=xml_id,
-                    bibl_scope=bibl_scope_text,
-                    bibl_scope_unit=bibl_scope_unit,
-                    ptr_target=ptr_target,
-                    ptr_type=ptr_type,
-                    raw_xml=etree.tostring(bibl, encoding="unicode"),
+            if xml_id is not None:
+                bibl_scope = bibl.find("./tei:biblScope", namespaces=NAMESPACES)
+                bibl_scope_unit = bibl_scope.attrib.get("unit")
+                bibl_scope_text = bibl_scope.text
+                ptr = bibl.find("./tei:ptr", namespaces=NAMESPACES)
+                ptr_target = ptr.attrib.get("target")
+                ptr_type = ptr.attrib.get("type")
+
+                entries.append(
+                    dict(
+                        xml_id=xml_id,
+                        bibl_scope=bibl_scope_text,
+                        bibl_scope_unit=bibl_scope_unit,
+                        ptr_target=ptr_target,
+                        ptr_type=ptr_type,
+                        raw_xml=etree.tostring(bibl, encoding="unicode"),
+                    )
                 )
-            )
         return entries
 
     def get_city(self):
@@ -463,7 +465,7 @@ class EpidocParser:
 
         if len(editions) > 1:
             logging.warn(
-                f"Expected to find a single edition, but found {len(editions)} for {xpath} in {etree.tostring(tree, encoding='unicode')}."
+                f"Expected to find a single edition, but found {len(editions)} for {xpath} in {etree.tostring(self.tree, encoding='unicode')}."
             )
 
         if len(editions) == 0:

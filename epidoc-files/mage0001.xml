@@ -75,7 +75,7 @@
                         <origin><date notBefore="0450" notAfter="0550" period="http://n2t.net/ark:/99152/p0m63njjcn4">Late 5th to early 6th
                                 century CE. </date><placeName>
                                 <region>Negev</region>
-                                <settlement ref="https://pleiades.stoa.org/places/">Magen</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/">Magen</settlement>
                                 <geogName type="site">Building A (basilical church)</geogName>
                                 <geogFeat type="locus">Narthex</geogFeat>
                             </placeName>

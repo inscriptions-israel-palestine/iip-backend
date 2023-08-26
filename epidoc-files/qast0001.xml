@@ -71,7 +71,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0324" notAfter="0638">Byzantine</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678404">Haifa</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678404">Haifa</settlement>
                         <geogName type="site">Castra Samaritanorum (H. Qastra)</geogName>
                      </placeName>
                      <p>The ruins of Castra Samaritanorum (H. Qastra), located near Haifa.</p>

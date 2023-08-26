@@ -74,7 +74,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0560" notAfter="0610">560 CE - 610 CE</date>
                      <placeName>
                         <region>Coastal Plain</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Found in an oval room south of Old City and west of the Imperial Revenue

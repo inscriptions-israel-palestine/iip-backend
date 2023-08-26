@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date notBefore="0324" notAfter="0427" period="http://n2t.net/ark:/99152/p0m63njjcn4">Pre-427 CE</date><placeName>
                                 <region>Galilee</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678413">Tell
+                                <settlement ref="http://pleiades.stoa.org/places/678413">Tell
                                     Basul</settlement>
                                 <geogName type="site">Monastic complex</geogName>
                                 <geogFeat type="locus">Room 6</geogFeat>

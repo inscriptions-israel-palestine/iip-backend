@@ -76,7 +76,7 @@
                         <origin><date notBefore="0450" notAfter="0550" period="http://n2t.net/ark:/99152/p0m63njjcn4">Late 5th Century CE
                                 to Early 6th Century CE</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687916">Herodion</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687916">Herodion</settlement>
                                 <geogName type="site">Northern Church</geogName>
                                 <geogFeat type="locus">Narthex</geogFeat>
                             </placeName>

@@ -76,7 +76,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0395" notAfter="0404">395-404 CE</date>
                      <placeName>
                                 <region>Jordan Valley</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
                                 <geogName type="site">In front of the southern entrance to the
                                     bathhouse</geogName>
                                 <geogFeat type="locus"/>

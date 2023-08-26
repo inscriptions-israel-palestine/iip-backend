@@ -66,7 +66,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njtmv8"/>
                      <placeName>
                         <region>Syria</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678352">Quneitra</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678352">Quneitra</settlement>
                         <geogName type="site">Khirbet el-Mathana</geogName>
                      </placeName>
                      <p>Syria, east of Quneitra at

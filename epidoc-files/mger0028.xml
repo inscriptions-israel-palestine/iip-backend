@@ -105,7 +105,7 @@
                                 400-300 </date>
                      <placeName>
                                 <region>Samaria</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678147">Mount Gerizim</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678147">Mount Gerizim</settlement>
                                 <geogName type="site">Area S</geogName>
                                 <geogFeat type="locus">22</geogFeat>
                             </placeName>

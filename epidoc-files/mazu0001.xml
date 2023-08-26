@@ -87,7 +87,7 @@
                         </summary>
                         <origin><date notBefore="0600" notAfter="0699" period="http://n2t.net/ark:/99152/p0m63njjcn4">7th century CE</date><placeName>
                                 <region>Galilee</region>
-                                <settlement ref="https://pleiades.stoa.org/places/">Mazuvah</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/">Mazuvah</settlement>
                                 <geogName type="site">Area 1</geogName>
                                 <geogFeat type="locus">Room 2</geogFeat>
                             </placeName>

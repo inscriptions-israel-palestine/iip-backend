@@ -72,7 +72,7 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678089">Khisfin</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678089">Khisfin</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p/>

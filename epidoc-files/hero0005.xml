@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date notBefore="0001" notAfter="0050" period="http://n2t.net/ark:/99152/p0m63njtk9m http://n2t.net/ark:/99152/p0m63njw2xp">Early 1st century CE</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687916">Herodion</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687916">Herodion</settlement>
                                 <geogName type="site">Southeastern sector of Hilltop
                                     palace</geogName>
                                 <geogFeat type="locus">exedera south of eastern tower</geogFeat>

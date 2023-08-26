@@ -89,7 +89,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0450" notAfter="0530">mid-5th-early 6th century CE</date>
                      <placeName>
                         <region>Negev</region>
-                        <settlement ref="https://pleiades.stoa.org/places/697726">Feinan</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/697726">Feinan</settlement>
                         <geogName type="site"/>
                         <geogFeat type="locus">South Cemetery</geogFeat>
                      </placeName>

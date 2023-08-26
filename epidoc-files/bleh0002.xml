@@ -29,7 +29,7 @@
                     <msContents>
                         <textLang mainLang="grc" otherLangs=""/>
                         <msItem class="dedicatory" ana="christian">
-                            <p>Bethlehem, 589-590 CE. Mosiac. Dedicatory. </p>
+                            <p>Bethlehem, 589-590 CE. Mosaic. Dedicatory. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
@@ -75,7 +75,7 @@
                         </summary>
                         <origin><date notBefore="0589" notAfter="0590" period="http://n2t.net/ark:/99152/p0m63njjcn4">589-590 CE</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687856">Bethlehem</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687856">Bethlehem</settlement>
                                 <geogName type="site">Floor of a chapel </geogName>
                                 <geogFeat type="locus"/>
                             </placeName>
@@ -104,14 +104,15 @@
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
             <change when="2023-01-16" who="Ariela Rosenzweig ">Initial Entry</change>
+            <change when="2023-08-08" who="Chris Zeichmann">added image</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
         <graphic url=""/>
         <surface>
-            <desc/>
-            <graphic url=""/>
+            <desc>Chris Zeichmann</desc>
+            <graphic url="bleh0002.jpg"/>
         </surface>
     </facsimile>
     <text>

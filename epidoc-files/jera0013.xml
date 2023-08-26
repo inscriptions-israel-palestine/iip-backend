@@ -76,7 +76,7 @@
                         <origin><date notBefore="0201" notAfter="0400" period="http://n2t.net/ark:/99152/p0m63njtmv8">3rd or 4th century
                                 CE</date><placeName>
                                 <region>Jordan</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678158">Jerash</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678158">Jerash</settlement>
                                 <geogName type="site">Eastern Baths compound</geogName>
                                 <geogFeat type="locus">Nortnern courtyard </geogFeat>
                             </placeName>

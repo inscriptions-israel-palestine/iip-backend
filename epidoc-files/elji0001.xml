@@ -94,7 +94,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="-0020" notAfter="0135">20 BCE - 135 CE</date>
                      <placeName>
                         <region>Judaea</region>
-                        <settlement ref="https://pleiades.stoa.org/places/687900" cert="unknown">El-Jib</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/687900" cert="unknown">El-Jib</settlement>
                         <geogName type="site"/>
                      </placeName>
                   </origin>

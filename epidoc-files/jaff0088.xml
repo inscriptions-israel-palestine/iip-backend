@@ -82,7 +82,7 @@
                         </summary>
                         <origin><date notBefore="-0215" notAfter="-0200" period="http://n2t.net/ark:/99152/p0m63njw6r7">215-200 BCE</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687931">Jaffa</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687931">Jaffa</settlement>
                                 <geogName type="site">Rabbi Yehuda Me-Raguza Street</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>

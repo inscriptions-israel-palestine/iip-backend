@@ -75,7 +75,7 @@
                         </summary>
                         <origin><date notBefore="0509" notAfter="0559" period="http://n2t.net/ark:/99152/p0m63njjcn4">509-559 CE</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/">Nahal
+                                <settlement ref="http://pleiades.stoa.org/places/">Nahal
                                     Kidron</settlement>
                                 <geogName type="site">St. Sabas' Manastery, Hermitage 29</geogName>
                                 <geogFeat type="locus">Chapel's apsis wall, St. Johannes

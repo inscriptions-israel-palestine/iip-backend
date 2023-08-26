@@ -77,7 +77,7 @@
                         <origin><date notBefore="0301" notAfter="0600" period="http://n2t.net/ark:/99152/p0m63njjcn4">4th - 6th century
                                 CE</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/">
+                                <settlement ref="http://pleiades.stoa.org/places/">
                                     Jerusalem</settlement>
                                 <geogName type="site">Bethany</geogName>
                                 <geogFeat type="locus">Northern side of church</geogFeat>

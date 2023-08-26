@@ -78,7 +78,7 @@
                         </summary>
                         <origin><date notBefore="0500" notAfter="0600" period="http://n2t.net/ark:/99152/p0m63njjcn4">6th century</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687839">Ashkelon</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687839">Ashkelon</settlement>
                                 <geogName type="site">Newe Yam Dalet Neighbourhood</geogName>
                                 <geogFeat type="locus">entrance to a tomb</geogFeat>
                             </placeName>

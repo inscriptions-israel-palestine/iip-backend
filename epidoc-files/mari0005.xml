@@ -69,7 +69,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0180" notAfter="0299">180 CE - 299 CE</date>
                      <placeName>
                         <region>Judaea</region>
-                        <settlement ref="https://pleiades.stoa.org/places/687966">Maresha</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/687966">Maresha</settlement>
                         <geogName type="site">amphitheater</geogName>
                         <geogFeat type="locus">substructure of the sacellum</geogFeat>
                      </placeName>

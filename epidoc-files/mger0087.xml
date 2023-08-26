@@ -109,7 +109,7 @@
                                 400-300 BCE</date>
                      <placeName>
                                 <region>Samaria</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678147">Mount Gerizim</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678147">Mount Gerizim</settlement>
                                 <geogName type="site">Area S</geogName>
                                 <geogFeat type="locus">Along the external eastern wall of the sacred
                                     precinct, near the lower gatehouse</geogFeat>

@@ -78,7 +78,7 @@
                         </summary>
                         <origin><date notBefore="0001" notAfter="0638" period="http://n2t.net/ark:/99152/p0m63njbxb9 http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njtk9m http://n2t.net/ark:/99152/p0m63njw2xp http://n2t.net/ark:/99152/p0m63njjcn4">1-638 CE</date><placeName>
                                 <region>Sinai</region>
-                                <settlement ref="https://pleiades.stoa.org/places/746700">Elat</settlement>
+                                <settlement ref="https://pleiades.stoa.org/places/746700/">Elat</settlement>
                                 <geogName type="site">Wadi Umm Sideira</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>

@@ -82,7 +82,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0432" notAfter="0432">13 May 432 CE</date>
                      <placeName>
                                 <region>Negev</region>
-                                <settlement ref="https://pleiades.stoa.org/places/697768">Zoora</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

@@ -76,7 +76,7 @@
                         </summary>
                         <origin><date notBefore="0200" notAfter="0400" period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4">3rd-4th century CE</date><placeName>
                                 <region>Unknown</region>
-                                <settlement ref="https://pleiades.stoa.org/places/">Unknown</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/">Unknown</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

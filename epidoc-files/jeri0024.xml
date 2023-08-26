@@ -75,7 +75,7 @@
                         </summary>
                         <origin><date notBefore="-0037" notAfter="-0031" period="http://n2t.net/ark:/99152/p0m63njbxb9 http://n2t.net/ark:/99152/p0m63njw2xp">37-31 BCE</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687917">Jericho</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687917">Jericho</settlement>
                                 <geogName type="site">Herod's Third Palace</geogName>
                                 <geogFeat type="locus">Pool B147</geogFeat>
                             </placeName>

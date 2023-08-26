@@ -75,7 +75,7 @@
                         <origin><date notBefore="0090" notAfter="0090" period="http://n2t.net/ark:/99152/p0m63njbxb9">1 January-13
                                 September 90 CE</date><placeName>
                                 <region>Unknown</region>
-                                <settlement ref="https://pleiades.stoa.org/places/">Unknown</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/">Unknown</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

@@ -111,7 +111,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0330" notAfter="0630">Byzantine Period</date>
                      <placeName>
                                 <region>Galilee</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678431">Tiberias</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678431">Tiberias</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">
                                 </geogFeat>

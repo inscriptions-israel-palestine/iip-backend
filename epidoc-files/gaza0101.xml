@@ -102,7 +102,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njdf2z" notBefore="-0300" notAfter="-0200">Fourth century BCE</date>
                      <placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687902">Gaza</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687902">Gaza</settlement>
                                 <geogName type="site">Unprovenanced, but supposedly found near
                                     Gaza</geogName>
                                 <geogFeat type="locus"/>

@@ -104,7 +104,7 @@
                                 period</date>
                      <placeName>
                                 <region>Golan</region>
-                         <settlement ref="https://pleiades.stoa.org/places/678324">Banias</settlement>
+                         <settlement ref="http://pleiades.stoa.org/places/678324">Banias</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

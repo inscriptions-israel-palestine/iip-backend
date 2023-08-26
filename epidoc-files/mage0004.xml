@@ -75,7 +75,7 @@
                         <origin><date notBefore="0350" notAfter="0450" period="http://n2t.net/ark:/99152/p0m63njjcn4">Late 4th to early 5th
                                 century CE</date><placeName>
                                 <region>Negev</region>
-                                <settlement ref="https://pleiades.stoa.org/places/">Magen</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/">Magen</settlement>
                                 <geogName type="site">Building C (baptistery)</geogName>
                                 <geogFeat type="locus">Nave</geogFeat>
                             </placeName>

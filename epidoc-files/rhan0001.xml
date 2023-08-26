@@ -76,7 +76,7 @@
                         <origin><date notBefore="-0332" notAfter="-0031" period="http://n2t.net/ark:/99152/p0m63njdf2z">332 BCE - 31
                                 BCE</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678357">Ramat
+                                <settlement ref="http://pleiades.stoa.org/places/678357">Ramat
                                     HaNadiv</settlement>
                                 <geogName type="site">Fortified Building (Area C)</geogName>
                                 <geogFeat type="locus">608</geogFeat>

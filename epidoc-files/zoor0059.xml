@@ -66,7 +66,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0388" notAfter="0388">December 20, 388 CE</date>
                      <placeName>
                         <region>Negev</region>
-                        <settlement ref="https://pleiades.stoa.org/places/697768">Zoora</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/697768">Zoora</settlement>
                         <geogName type="site">An Naq</geogName>
                         <geogFeat type="locus">cemetery</geogFeat>
                      </placeName>

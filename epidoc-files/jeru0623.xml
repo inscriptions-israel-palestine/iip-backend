@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date notBefore="0501" notAfter="0638" period="http://n2t.net/ark:/99152/p0m63njjcn4">6 c. CE or later </date><placeName>
                                 <region>Judaea </region>
-                                <settlement ref="https://pleiades.stoa.org/places/687928">Jerusalem </settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687928">Jerusalem </settlement>
                                 <geogName type="site">Northern part of Temple Mount</geogName>
                                 <geogFeat type="locus">Southern wall of masuoleum of el As'ardiya
                                 </geogFeat>

@@ -86,7 +86,7 @@
                         notBefore="0400">Before 427 CE</date>
                      <placeName>
                         <region>Jordan Valley</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678378">Scythopolis-Beth
+                        <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth
                            Shean</settlement>
                         <geogName type="site">monastery</geogName>
                      </placeName>

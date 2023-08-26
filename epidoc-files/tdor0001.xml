@@ -103,7 +103,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njgvtd http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="-0100" notAfter="0100">Hellenistic or Roman period </date>
                      <placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678121">Dor</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678121">Dor</settlement>
                                 <geogName type="site">Area F</geogName>
                                 <geogFeat type="locus"/>
                             </placeName>

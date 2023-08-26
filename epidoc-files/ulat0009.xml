@@ -66,7 +66,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njtmv8"/>
                      <placeName>
                         <region>Syria</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678011">Aqrabe</settlement>
+                        <settlement ref="http://pleiades.stoa.org/places/678011">Aqrabe</settlement>
                         <geogName type="site"/>
                      </placeName>
                      <p>Syria. Ἁqrabe, halfway

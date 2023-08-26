@@ -76,7 +76,7 @@
                         <origin><date notBefore="0050" notAfter="0150" period="http://n2t.net/ark:/99152/p0m63njbxb9">Late 1st to early 2nd
                                 centuy CE</date><placeName>
                                 <region>Judaea </region>
-                                <settlement ref="https://pleiades.stoa.org/places/687928"/>
+                                <settlement ref="http://pleiades.stoa.org/places/687928"/>
                                 <geogName type="site">Western Wall </geogName>
                                 <geogFeat type="locus">Nothwestern part of the Western Wall Plaza in
                                     a refuse pit sealed under the flagstones of the Eastern

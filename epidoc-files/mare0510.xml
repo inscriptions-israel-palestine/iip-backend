@@ -102,7 +102,7 @@
                             <date period="http://n2t.net/ark:/99152/p0m63njw6r7" notBefore="-0225" notAfter="-0175">late 3rd-early 2nd century CE</date>
                             <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687966">Maresha</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687966">Maresha</settlement>
                                 <geogName type="site">Subterranean complex (no. 169)</geogName>
                                 <geogFeat type="locus">Room 7</geogFeat>
                             </placeName>

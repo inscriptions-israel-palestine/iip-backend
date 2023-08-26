@@ -89,7 +89,7 @@
                         </summary>
                         <origin><date ></date><placeName>
                                 <region></region>
-                                <settlement ref="https://pleiades.stoa.org/places/"> </settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/"> </settlement>
                                 <geogName type="site"></geogName>
                                 <geogFeat type="locus"/>
                             </placeName>

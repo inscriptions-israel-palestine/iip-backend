@@ -76,7 +76,7 @@
                             <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0275" notAfter="0350">Second - Third centuries CE</date>
                             <placeName>
                                 <region>Galilee</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678431">Hammath
+                                <settlement ref="http://pleiades.stoa.org/places/678431">Hammath
                                     Tiberias</settlement>
                                 <geogName type="site">Roman Theatre</geogName>
                                 <geogFeat type="locus"/>

@@ -29,7 +29,7 @@
                     <msContents>
                         <textLang mainLang="grc" otherLangs=""/>
                         <msItem class="dedicatory" ana="christian">
-                            <p>Beit Sha'ar, Byzantine. Mosiac. Dedicatory. </p>
+                            <p>Beit Sha'ar, Byzantine. Mosaic. Dedicatory. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0324" notAfter="0638">324-638 CE</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678411">Beit
+                                <settlement ref="http://pleiades.stoa.org/places/678411">Beit
                                     Sha'ar</settlement>
                                 <geogName type="site">In the nave of the church </geogName>
                                 <geogFeat type="locus"/>

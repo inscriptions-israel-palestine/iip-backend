@@ -69,7 +69,7 @@
                      <date period="Unknown">Date Unknown</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678181">Hermon Mons (Har
+                        <settlement ref="http://pleiades.stoa.org/places/678181">Hermon Mons (Har
                            Senaim)</settlement>
                         <geogName type="site">temenos area</geogName>
                         <geogFeat type="locus">86</geogFeat>

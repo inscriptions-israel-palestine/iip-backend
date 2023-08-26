@@ -80,7 +80,7 @@
                         <origin><date notBefore="0101" notAfter="0150" period="http://n2t.net/ark:/99152/p0m63njbxb9">Early 2nd century
                                 CE</date><placeName>
                                 <region>Jordan</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678158">Jerash</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678158">Jerash</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

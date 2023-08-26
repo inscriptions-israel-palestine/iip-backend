@@ -70,7 +70,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njtmv8" notBefore="0214" notAfter="0215">214/215 CE</date>
                      <placeName>
                         <region>Galilee</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678215">Cadasa (Tel
+                        <settlement ref="http://pleiades.stoa.org/places/678215">Cadasa (Tel
                            Qedesh)</settlement>
                         <geogName type="site">Temple</geogName>
                      </placeName>

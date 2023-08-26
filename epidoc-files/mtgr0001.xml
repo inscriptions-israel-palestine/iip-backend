@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date notBefore="0200" notAfter="0200" period="http://n2t.net/ark:/99152/p0m63njtmv8">200 CE</date><placeName>
                                 <region>Negev</region>
-                                <settlement ref="https://pleiades.stoa.org/places/">Mount
+                                <settlement ref="http://pleiades.stoa.org/places/">Mount
                                     Grafon</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>

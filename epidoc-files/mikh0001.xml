@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date notBefore="-0400" notAfter="-0300" period="http://n2t.net/ark:/99152/p0m63nj3bbf http://n2t.net/ark:/99152/p0m63njw6r7">4th Century BCE</date><placeName>
                                 <region>Samaria</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678369">Tel
+                                <settlement ref="http://pleiades.stoa.org/places/678369">Tel
                                         Mikhal</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>

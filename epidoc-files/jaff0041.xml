@@ -112,7 +112,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0301" notAfter="0600">4th-6th century CE</date>
                      <placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687931">Jaffa</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687931">Jaffa</settlement>
                                 <geogName type="site">Necropolis close to Saknet Abu
                                     Kabîr</geogName>
                                 <geogFeat type="locus"/>
@@ -179,6 +179,7 @@
             <desc>Inscription front side darker. <persName role="Credit">University of Oslo, Institute of Classical Archaeology</persName></desc>
             <graphic url="jaff0041c.jpg"/>
         </surface>
+        <surface><desc>Chris Zeichmann (scan)</desc> <graphic url="jaff0041d.jpg"/></surface>
        </facsimile>
     <text>
         <body>

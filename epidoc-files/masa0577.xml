@@ -103,7 +103,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njbxb9" notBefore="0066" notAfter="0073">Most likely 66-73 CE</date>
                      <placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687968">Masada</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/687968">Masada</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus">217</geogFeat>
                             </placeName>
@@ -160,6 +160,10 @@
         <surface>
             <desc>Full inscription. <persName role="credits">IAA website</persName></desc>
             <graphic url="masa0577.jpg"/>
+        </surface>
+        <surface>
+            <desc>Chris Zeichmann</desc>
+            <graphic url="masa0577b.jpg"/>
         </surface>
     </facsimile>
     <text>

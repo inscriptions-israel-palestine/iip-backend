@@ -103,7 +103,7 @@
                             <date period="http://n2t.net/ark:/99152/p0m63njgvtd" notBefore="-0150" notAfter="-0100">Second half of second century BCE</date>
                             <placeName>
                                 <region>Galilee</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678387">Sepphoris</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678387">Sepphoris</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

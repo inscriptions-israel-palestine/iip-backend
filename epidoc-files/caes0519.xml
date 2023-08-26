@@ -75,7 +75,7 @@
                         </summary>
                         <origin><date notBefore="0300" notAfter="0700" precision="low" period="Unknown">Date Unknown</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678401">Caesarea</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678401">Caesarea</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

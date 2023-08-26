@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date notBefore="0059" notAfter="0096" period="http://n2t.net/ark:/99152/p0m63njbxb9">59-96 CE</date><placeName>
                                 <region>Syria</region>
-                                <settlement ref="https://pleiades.stoa.org/places/">Seeia</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/">Seeia</settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
                             </placeName>

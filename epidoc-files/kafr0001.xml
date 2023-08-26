@@ -68,7 +68,7 @@
                      <date period="http://n2t.net/ark:/99152/p0m63njtk9m" notBefore="0001" notAfter="0199">1 CE - 199 CE</date>
                      <placeName>
                         <region>Golan</region>
-                        <settlement ref="https://pleiades.stoa.org/places/678216">Kafr
+                        <settlement ref="http://pleiades.stoa.org/places/678216">Kafr
                            Nafakh</settlement>
                         <geogName type="site"/>
                      </placeName>

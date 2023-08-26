@@ -76,7 +76,7 @@
                         </summary>
                         <origin><date period="http://n2t.net/ark:/99152/p0m63njjcn4" notBefore="0324" notAfter="0638">Byzantine</date><placeName>
                                 <region>Judaea </region>
-                                <settlement ref="https://pleiades.stoa.org/places/687915">Hebron
+                                <settlement ref="http://pleiades.stoa.org/places/687915">Hebron
                                     hills </settlement>
                                 <geogName type="site">'Ein el Ma'amudieh</geogName>
                                 <geogFeat type="locus">Near a baptismal church </geogFeat>

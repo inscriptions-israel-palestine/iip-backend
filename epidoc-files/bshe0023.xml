@@ -106,7 +106,7 @@
                             <date period="http://n2t.net/ark:/99152/p0m63njjcn4" notAfter="0567" notBefore="0500">Before 567 CE. </date>
                             <placeName>
                                 <region>Jordan Valley</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678378">Scythopolis-Beth Shean</settlement>
                                 <geogName type="site">Monastery of Lady Mary</geogName>
                                 <geogFeat type="locus">Narthex in front of the entrance to the
                                     chapel</geogFeat>

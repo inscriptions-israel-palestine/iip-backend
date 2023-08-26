@@ -106,7 +106,7 @@
                                 CE</date>
                      <placeName>
                                 <region>Negev</region>
-                         <settlement ref="https://pleiades.stoa.org/places/746721">Yotvata</settlement>
+                         <settlement ref="http://pleiades.stoa.org/places/746721">Yotvata</settlement>
                                 <geogName type="site">Roman Fort</geogName>
                                 <geogFeat type="locus">On wall of Roman fort</geogFeat>
                             </placeName>

@@ -74,7 +74,7 @@
                         </summary>
                         <origin><date notBefore="0001" notAfter="0100" period="http://n2t.net/ark:/99152/p0m63njbxb9">1st Century CE</date><placeName>
                                 <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/">Tel
+                                <settlement ref="http://pleiades.stoa.org/places/">Tel
                                         Mikhal<geo>32.159167,34.797778</geo></settlement>
                                 <geogName type="site"/>
                                 <geogFeat type="locus"/>
@@ -111,8 +111,8 @@
     <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
         <graphic url=""/>
         <surface>
-            <desc/>
-            <graphic url=""/>
+            <desc>Chris Zeichmann (scan)</desc>
+            <graphic url="mikh0003.jpg"/>
         </surface>
     </facsimile>
     <text>

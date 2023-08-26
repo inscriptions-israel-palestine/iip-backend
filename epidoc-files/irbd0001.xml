@@ -29,7 +29,7 @@
                     <msContents>
                         <textLang mainLang="grc" otherLangs=""/>
                         <msItem class="dedicatory" ana="christian">
-                            <p>Irbid, 535 CE. Mosiac. Dedicatory. </p>
+                            <p>Irbid, 535 CE. Mosaic. Dedicatory. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
@@ -83,7 +83,7 @@
                         </summary>
                         <origin><date notBefore="0535" notAfter="0535" period="http://n2t.net/ark:/99152/p0m63njjcn4">535 CE</date><placeName>
                                 <region>Jordan</region>
-                                <settlement ref="https://pleiades.stoa.org/places/678028">Irbid</settlement>
+                                <settlement ref="http://pleiades.stoa.org/places/678028">Irbid</settlement>
                                 <geogName type="site">Al-Husn </geogName>
                                 <geogFeat type="locus">Al-Husn church </geogFeat>
                             </placeName>
