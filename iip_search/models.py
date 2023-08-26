@@ -8,6 +8,7 @@ from sqlalchemy import Column
 from sqlalchemy import Computed
 from sqlalchemy import Float
 from sqlalchemy import ForeignKey
+from sqlalchemy import String
 from sqlalchemy import Table
 from sqlalchemy import Text
 from sqlalchemy import UniqueConstraint
@@ -48,10 +49,7 @@ class City(Base):
     pleiades_ref: Mapped[str] = mapped_column(nullable=True)
     searchable_text = mapped_column(
         TSVector,
-        Computed(
-            """
-    to_tsvector('english', coalesce(placename, '') || coalesce(pleiades_ref, ''))
-    """
+        Computed("to_tsvector('english', immutable_concat_ws(' ', placename, pleiades_ref))"
         ),
     )
 
@@ -129,7 +127,7 @@ class Region(Base):
         TSVector,
         Computed(
             """
-    to_tsvector('english', coalesce(description, '') || coalesce(label, ''))
+    to_tsvector('english', immutable_concat_ws(' ', description, label))
     """
         ),
     )
@@ -230,7 +228,7 @@ class BibliographicEntry(Base):
         TSVector,
         Computed(
             """
-    to_tsvector('english', coalesce(ptr_target, ''))
+    to_tsvector(immutable_concat_ws(' ', ptr_target, xml_id, raw_xml))
     """
         ),
     )
@@ -271,7 +269,7 @@ class Figure(Base):
         TSVector,
         Computed(
             """
-    to_tsvector('english', coalesce(locus, '') || coalesce(name, ''))
+    to_tsvector('english', immutable_concat_ws(' ', locus, name))
     """
         ),
     )
@@ -291,7 +289,7 @@ class IIPForm(Base):
         TSVector,
         Computed(
             """
-    to_tsvector('english', coalesce(description, '') || coalesce(ana, ''))
+    to_tsvector('english', immutable_concat_ws(' ', description, ana))
     """
         ),
     )
@@ -368,7 +366,7 @@ class IIPWriting(Base):
         TSVector,
         Computed(
             """
-    to_tsvector('english', coalesce(description, '') || coalesce(note, ''))
+    to_tsvector('english', immutable_concat_ws(' ', description, note))
     """
         ),
     )
@@ -387,7 +385,7 @@ class Language(Base):
         TSVector,
         Computed(
             """
-    to_tsvector('english', coalesce(short_form, '') || coalesce(label, ''))
+    to_tsvector('english', immutable_concat_ws(' ', short_form, label))
     """
         ),
     )
@@ -458,17 +456,13 @@ class Inscription(Base):
     region_id = mapped_column(ForeignKey("regions.id"), nullable=True)
     region: Mapped[Optional[Region]] = relationship(back_populates="inscriptions")
     short_description: Mapped[Optional[str]]
+    slug: Mapped[str] = mapped_column(server_default="replace(filename, '.xml', '')", unique=True)
     title: Mapped[Optional[str]]
     searchable_text = mapped_column(
         TSVector,
         Computed(
             """
-        to_tsvector('english', 
-            coalesce(description, '') || 
-            coalesce(filename, '') || 
-            coalesce(short_description, '') || 
-            coalesce(title, '')
-        )
+        to_tsvector('english', immutable_concat_ws(' ', description, slug, short_description, title))
         """
         ),
     )
