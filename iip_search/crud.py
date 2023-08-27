@@ -4,6 +4,7 @@ from typing import Literal
 from urllib import parse
 
 from sqlalchemy import and_, or_
+from sqlalchemy import func
 from sqlalchemy.orm import Session
 from iip_search import models
 from iip_search import schemas
@@ -40,20 +41,29 @@ def get_region(db: Session, region_id: int):
 
 
 def list_cities(db: Session):
-    return db.query(models.City).all()
+    return db.query(models.City).order_by(models.City.placename).all()
 
 
 # possibly maps to "physical type" in the interface?
 def list_forms(db: Session):
-    return db.query(models.IIPForm).all()
+    return db.query(models.IIPForm).order_by(
+        func.lower(models.IIPForm.description),
+        func.lower(models.IIPForm.xml_id)
+    ).all()
 
 
 def list_genres(db: Session):
-    return db.query(models.IIPGenre).all()
+    return db.query(models.IIPGenre).order_by(
+        func.lower(models.IIPGenre.description), 
+        func.lower(models.IIPGenre.xml_id)
+    ).all()
 
 
 def list_languages(db: Session):
-    return db.query(models.Language).all()
+    return db.query(models.Language).order_by(
+        func.lower(models.Language.label),
+        func.lower(models.Language.short_form)
+    ).all()
 
 
 def list_locations(db: Session):
@@ -65,7 +75,10 @@ def list_locations(db: Session):
 
 
 def list_materials(db: Session):
-    return db.query(models.IIPMaterial).all()
+    return db.query(models.IIPMaterial).order_by(
+        func.lower(models.IIPMaterial.description),
+        func.lower(models.IIPMaterial.xml_id)
+    ).all()
 
 
 def list_provenances(db: Session):
@@ -77,7 +90,10 @@ def list_regions(db: Session):
 
 
 def list_religions(db: Session):
-    return db.query(models.IIPReligion).all()
+    return db.query(models.IIPReligion).order_by(
+        func.lower(models.IIPReligion.description),
+        func.lower(models.IIPReligion.xml_id)
+    ).all()
 
 
 def list_facets(db: Session):
@@ -138,7 +154,7 @@ def list_inscriptions(
     query = (
         db.query(models.Inscription)
         .filter(models.Inscription.display_status == models.DisplayStatus.APPROVED)
-        .distinct(models.Inscription.id)
+        .distinct(models.Inscription.filename)
     )
 
     ands = []
@@ -203,7 +219,7 @@ def list_inscriptions(
             models.Inscription.iip_materials.any(models.IIPMaterial.id.in_(materials))
         )
 
-    return query.filter(or_(*ors)).filter(and_(*ands))
+    return query.filter(or_(*ors)).filter(and_(*ands)).order_by(models.Inscription.filename)
 
 
 def remove_accents(input_str):
