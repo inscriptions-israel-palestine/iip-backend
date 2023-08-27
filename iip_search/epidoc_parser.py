@@ -165,13 +165,12 @@ class EpidocParser:
     def get_figures(self):
         figures = []
         for figure in self.tree.iterfind(
-            "//tei:physDesc/tei:decoDesc/tei:decoNote", namespaces=NAMESPACES
+            "//tei:decoDesc/tei:decoNote", namespaces=NAMESPACES
         ):
             name = figure.xpath("./tei:ab/text()", namespaces=NAMESPACES)
             locus = figure.xpath("./tei:locus/text()", namespaces=NAMESPACES)
-
             if len(name) > 0 and len(locus) > 0:
-                return figures.append(dict(name=name[0], locus=locus[0]))
+                figures.append(dict(name=name[0], locus=locus[0]))
 
         return figures
 

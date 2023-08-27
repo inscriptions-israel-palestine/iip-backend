@@ -257,9 +257,8 @@ class BibliographicEntry(Base):
 
 class Figure(Base):
     __tablename__ = "figures"
-    __table_args__ = (UniqueConstraint("name", name="figure_name"),)
     id: Mapped[int] = mapped_column(primary_key=True)
-    inscriptions: Mapped[Set["Inscription"]] = relationship(
+    inscriptions: Mapped[List["Inscription"]] = relationship(
         back_populates="figures", secondary=figure_inscription
     )
     # the name field corresponds to the text value of the <ab> tags
@@ -413,7 +412,7 @@ class Inscription(Base):
         nullable=False, default=DisplayStatus.APPROVED
     )
     editions: Mapped[Set["Edition"]] = relationship(back_populates="inscription")
-    figures: Mapped[Set[Figure]] = relationship(
+    figures: Mapped[List[Figure]] = relationship(
         secondary=figure_inscription, back_populates="inscriptions"
     )
     filename: Mapped[str] = mapped_column(nullable=False, unique=True)

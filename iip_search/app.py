@@ -136,7 +136,7 @@ def list_inscriptions(
 
 
 @app.get("/map/inscriptions", response_model=list[schemas.InscriptionMapResponse])
-def list_inscriptions(
+def list_map_inscriptions(
     text_search: str | None = None,
     description_place_id: str | None = None,
     figures: str | None = None,

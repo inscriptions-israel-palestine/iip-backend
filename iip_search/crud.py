@@ -174,7 +174,7 @@ def list_inscriptions(
     if figures is not None and figures != "":
         ors.append(
             models.Inscription.figures.any(
-                models.Figure.searchable_text.match(text_search)
+                models.Figure.searchable_text.match(figures)
             )
         )
 
@@ -219,7 +219,7 @@ def list_inscriptions(
             models.Inscription.iip_materials.any(models.IIPMaterial.id.in_(materials))
         )
 
-    return query.filter(or_(*ors)).filter(and_(*ands)).order_by(models.Inscription.filename)
+    return query.filter(or_(*ors)).filter(and_(*ands))
 
 
 def remove_accents(input_str):
