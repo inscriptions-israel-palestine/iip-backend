@@ -74,6 +74,9 @@ class EpidocParser:
     iip_form_description_xpath = (
         "//tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc"
     )
+    diplomatic_xpath = (
+        "//tei:text/tei:body/tei:div[@type = 'edition' and @subtype = 'diplomatic']"
+    )
     transcription_xpath = (
         "//tei:text/tei:body/tei:div[@type = 'edition' and @subtype = 'transcription']"
     )
@@ -476,6 +479,9 @@ class EpidocParser:
     def get_text_elements(self, xpath):
         return self.tree.xpath(f"{xpath}/tei:p/*", namespaces=NAMESPACES)
 
+    def get_diplomatic(self):
+        return self._stringify_xml_and_text(self.diplomatic_xpath)
+
     def get_transcription(self):
         return self._stringify_xml_and_text(self.transcription_xpath)
 
@@ -531,17 +537,14 @@ class EpidocParser:
 
     def _stringify_xml_and_text(self, xpath):
         edition = self.get_edition(xpath)
-        elements = self.get_text_elements(xpath)
 
         if edition is not None:
+            text = etree.tostring(edition, encoding="unicode", method="text").strip()
+            xml = etree.tostring(edition, encoding="unicode")
+            
             return (
-                etree.tostring(edition, encoding="unicode"),
-                " ".join(
-                    [
-                        etree.tostring(el, encoding="unicode", method="text").strip()
-                        for el in elements
-                    ]
-                ),
+                xml,
+                text
             )
 
         logging.warning(f"No nodes found for {xpath} in {self.filename}.")

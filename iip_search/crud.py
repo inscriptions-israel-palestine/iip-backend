@@ -144,7 +144,7 @@ def list_inscriptions(
     ands = []
     ors = []
 
-    if text_search is not None:
+    if text_search is not None and text_search != "":
         cleaned_text_search = remove_accents(parse.unquote(text_search))
         ors.append(
             models.Inscription.editions.any(
@@ -152,10 +152,10 @@ def list_inscriptions(
             )
         )
 
-    if description_place_id is not None:
+    if description_place_id is not None and description_place_id != "":
         ors.append(models.Inscription.searchable_text.match(description_place_id))
 
-    if figures is not None:
+    if figures is not None and figures != "":
         ors.append(
             models.Inscription.figures.any(
                 models.Figure.searchable_text.match(text_search)
@@ -165,37 +165,41 @@ def list_inscriptions(
     if not_before is not None and not_before != "":
         if not_before_era == "bce":
             not_before = -int(not_before)
+        else:
+            not_before = int(not_before)
         ands.append(models.Inscription.not_before >= not_before)
 
     if not_after is not None and not_after != "":
         if not_after_era == "bce":
             not_after = -int(not_after)
+        else:
+            not_after = int(not_after)
         ands.append(models.Inscription.not_after <= not_after)
 
     if cities is not None and len(cities) > 0:
-        ors.append(models.Inscription.city_id.in_(cities))
+        ands.append(models.Inscription.city_id.in_(cities))
 
     if provenances is not None and len(provenances) > 0:
-        ors.append(models.Inscription.provenance_id.in_(provenances))
+        ands.append(models.Inscription.provenance_id.in_(provenances))
 
     if genres is not None and len(genres) > 0:
-        ors.append(models.Inscription.iip_genres.any(models.IIPGenre.id.in_(genres)))
+        ands.append(models.Inscription.iip_genres.any(models.IIPGenre.id.in_(genres)))
 
     if physical_types is not None and len(physical_types) > 0:
-        ors.append(
+        ands.append(
             models.Inscripton.iip_forms.any(models.IIPForm.id.in_(physical_types))
         )
 
     if languages is not None and len(languages) > 0:
-        ors.append(models.Inscription.languages.any(models.Language.id.in_(languages)))
+        ands.append(models.Inscription.languages.any(models.Language.id.in_(languages)))
 
     if religions is not None and len(religions) > 0:
-        ors.append(
+        ands.append(
             models.Inscription.iip_religions.any(models.IIPReligion.id.in_(religions))
         )
 
     if materials is not None and len(materials) > 0:
-        ors.append(
+        ands.append(
             models.Inscription.iip_materials.any(models.IIPMaterial.id.in_(materials))
         )
 

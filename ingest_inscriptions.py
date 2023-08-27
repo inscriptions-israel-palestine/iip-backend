@@ -227,12 +227,22 @@ def main(session):
         for language in languages:
             inscription.languages.add(language)
 
+        (diplomatic_xml, s_diplomatic) = parser.get_diplomatic()
         (transcription_xml, s_transcription) = parser.get_transcription()
         (
             transcription_segmented_xml,
             s_transcription_segmented,
         ) = parser.get_transcription_segmented()
         (translation_xml, s_translation) = parser.get_translation()
+
+        if diplomatic_xml is not None:
+            upsert_edition(
+                session,
+                edition_type=models.EditionType.DIPLOMATIC,
+                inscription_id=inscription.id,
+                raw_xml=diplomatic_xml,
+                text=s_diplomatic,
+            )
 
         if transcription_xml is not None:
             upsert_edition(
