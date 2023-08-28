@@ -13,9 +13,9 @@ def set_up():
         config = config["AUTH0"]
     else:
         config = {
-            "DOMAIN": os.getenv("DOMAIN", "auth0.domain"),
+            "DOMAIN": os.getenv("DOMAIN", "inscriptionsisraelpalestine.us.auth0.com"),
             "API_AUDIENCE": os.getenv("API_AUDIENCE", "search.inscriptionsisraelpalestine.org"),
-            "ISSUER": os.getenv("ISSUER", "https://auth0.domain/"),
+            "ISSUER": os.getenv("ISSUER", "https://inscriptionsisraelpalestine.us.auth0.com/"),
             "ALGORITHMS": os.getenv("ALGORITHMS", "RS256"),
         }
     return config
