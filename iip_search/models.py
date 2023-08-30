@@ -29,7 +29,6 @@ from sqlalchemy.types import TypeDecorator
 
 from typing import Optional
 from typing import List
-from typing import Set
 
 from iip_search.db import Base
 
@@ -44,12 +43,13 @@ class City(Base):
     __table_args__ = (UniqueConstraint("placename", name="city_placename"),)
 
     id: Mapped[int] = mapped_column(primary_key=True)
-    inscriptions: Mapped[Set["Inscription"]] = relationship(back_populates="city")
+    inscriptions: Mapped[List["Inscription"]] = relationship(back_populates="city")
     placename: Mapped[str] = mapped_column(nullable=False)
     pleiades_ref: Mapped[str] = mapped_column(nullable=True)
     searchable_text = mapped_column(
         TSVector,
-        Computed("to_tsvector('english', immutable_concat_ws(' ', placename, pleiades_ref))"
+        Computed(
+            "to_tsvector('english', immutable_concat_ws(' ', placename, pleiades_ref))"
         ),
     )
 
@@ -84,7 +84,7 @@ class IIPPreservation(Base):
     __table_args__ = (UniqueConstraint("xml_id", name="iip_preservation_xml_id"),)
     id: Mapped[int] = mapped_column(primary_key=True)
     description: Mapped[Optional[str]] = mapped_column(Text)
-    inscriptions: Mapped[Set["Inscription"]] = relationship(
+    inscriptions: Mapped[List["Inscription"]] = relationship(
         back_populates="iip_preservation"
     )
     xml_id: Mapped[str] = mapped_column(nullable=False, unique=True)
@@ -102,7 +102,9 @@ class Provenance(Base):
     __tablename__ = "provenances"
     __table_args__ = (UniqueConstraint("placename", name="provenance_placename"),)
     id: Mapped[int] = mapped_column(primary_key=True)
-    inscriptions: Mapped[Set["Inscription"]] = relationship(back_populates="provenance")
+    inscriptions: Mapped[List["Inscription"]] = relationship(
+        back_populates="provenance"
+    )
     placename: Mapped[str]
     searchable_text = mapped_column(
         TSVector,
@@ -118,7 +120,7 @@ class Region(Base):
     __tablename__ = "regions"
     __table_args__ = (UniqueConstraint("label", name="region_label"),)
     id: Mapped[int] = mapped_column(primary_key=True)
-    inscriptions: Mapped[Set["Inscription"]] = relationship(back_populates="region")
+    inscriptions: Mapped[List["Inscription"]] = relationship(back_populates="region")
     label: Mapped[str] = mapped_column(nullable=False, unique=True)
     description: Mapped[Optional[str]] = mapped_column(
         Text, nullable=False, unique=True
@@ -216,7 +218,7 @@ class BibliographicEntry(Base):
     id: Mapped[int] = mapped_column(primary_key=True)
     bibl_scope: Mapped[Optional[str]]
     bibl_scope_unit: Mapped[Optional[str]]
-    inscriptions: Mapped[Set["Inscription"]] = relationship(
+    inscriptions: Mapped[List["Inscription"]] = relationship(
         secondary=inscription_bibliographic_entry,
         back_populates="bibliographic_entries",
     )
@@ -258,7 +260,7 @@ class BibliographicEntry(Base):
 class Figure(Base):
     __tablename__ = "figures"
     id: Mapped[int] = mapped_column(primary_key=True)
-    inscriptions: Mapped[Set["Inscription"]] = relationship(
+    inscriptions: Mapped[List["Inscription"]] = relationship(
         back_populates="figures", secondary=figure_inscription
     )
     # the name field corresponds to the text value of the <ab> tags
@@ -280,7 +282,7 @@ class IIPForm(Base):
     id: Mapped[int] = mapped_column(primary_key=True)
     ana: Mapped[str] = mapped_column(nullable=True)
     description: Mapped[Optional[str]] = mapped_column(Text)
-    inscriptions: Mapped[Set["Inscription"]] = relationship(
+    inscriptions: Mapped[List["Inscription"]] = relationship(
         back_populates="iip_forms", secondary=iip_form_inscription
     )
     xml_id: Mapped[str] = mapped_column(nullable=False, unique=True)
@@ -299,7 +301,7 @@ class IIPGenre(Base):
     __table_args__ = (UniqueConstraint("xml_id", name="iip_genre_xml_id"),)
     id: Mapped[int] = mapped_column(primary_key=True)
     description: Mapped[Optional[str]] = mapped_column(Text)
-    inscriptions: Mapped[Set["Inscription"]] = relationship(
+    inscriptions: Mapped[List["Inscription"]] = relationship(
         secondary=iip_genre_inscription, back_populates="iip_genres"
     )
     xml_id: Mapped[str] = mapped_column(nullable=False, unique=True)
@@ -318,7 +320,7 @@ class IIPMaterial(Base):
     __table_args__ = (UniqueConstraint("xml_id", name="iip_material_xml_id"),)
     id: Mapped[int] = mapped_column(primary_key=True)
     description: Mapped[Optional[str]] = mapped_column(Text)
-    inscriptions: Mapped[Set["Inscription"]] = relationship(
+    inscriptions: Mapped[List["Inscription"]] = relationship(
         secondary=iip_material_inscription, back_populates="iip_materials"
     )
     xml_id: Mapped[str] = mapped_column(nullable=False, unique=True)
@@ -337,7 +339,7 @@ class IIPReligion(Base):
     __table_args__ = (UniqueConstraint("xml_id", name="iip_religion_xml_id"),)
     id: Mapped[int] = mapped_column(primary_key=True)
     description: Mapped[Optional[str]] = mapped_column(Text)
-    inscriptions: Mapped[Set["Inscription"]] = relationship(
+    inscriptions: Mapped[List["Inscription"]] = relationship(
         secondary=iip_religion_inscription, back_populates="iip_religions"
     )
     xml_id: Mapped[str] = mapped_column(nullable=False, unique=True)
@@ -356,7 +358,7 @@ class IIPWriting(Base):
     __table_args__ = (UniqueConstraint("xml_id", name="iip_writing_xml_id"),)
     id: Mapped[int] = mapped_column(primary_key=True)
     description: Mapped[Optional[str]] = mapped_column(Text)
-    inscriptions: Mapped[Set["Inscription"]] = relationship(
+    inscriptions: Mapped[List["Inscription"]] = relationship(
         secondary=iip_writing_inscription, back_populates="iip_writings"
     )
     note: Mapped[str] = mapped_column(nullable=True)
@@ -375,7 +377,7 @@ class Language(Base):
     __tablename__ = "languages"
     __table_args__ = (UniqueConstraint("label", name="language_label"),)
     id: Mapped[int] = mapped_column(primary_key=True)
-    inscriptions: Mapped[Set["Inscription"]] = relationship(
+    inscriptions: Mapped[List["Inscription"]] = relationship(
         secondary=language_inscription, back_populates="languages"
     )
     label: Mapped[str] = mapped_column(nullable=False, unique=True)
@@ -401,7 +403,7 @@ class Inscription(Base):
     __tablename__ = "inscriptions"
 
     id: Mapped[int] = mapped_column(primary_key=True)
-    bibliographic_entries: Mapped[Set[BibliographicEntry]] = relationship(
+    bibliographic_entries: Mapped[List[BibliographicEntry]] = relationship(
         secondary=inscription_bibliographic_entry, back_populates="inscriptions"
     )
     city_id = mapped_column(ForeignKey("cities.id"), nullable=True)
@@ -411,32 +413,32 @@ class Inscription(Base):
     display_status: Mapped[DisplayStatus] = mapped_column(
         nullable=False, default=DisplayStatus.APPROVED
     )
-    editions: Mapped[Set["Edition"]] = relationship(back_populates="inscription")
-    figures: Mapped[Set[Figure]] = relationship(
+    editions: Mapped[List["Edition"]] = relationship(back_populates="inscription")
+    figures: Mapped[List[Figure]] = relationship(
         secondary=figure_inscription, back_populates="inscriptions"
     )
     filename: Mapped[str] = mapped_column(nullable=False, unique=True)
-    iip_forms: Mapped[Set[IIPForm]] = relationship(
+    iip_forms: Mapped[List[IIPForm]] = relationship(
         secondary=iip_form_inscription, back_populates="inscriptions"
     )
-    iip_genres: Mapped[Set[IIPGenre]] = relationship(
+    iip_genres: Mapped[List[IIPGenre]] = relationship(
         secondary=iip_genre_inscription, back_populates="inscriptions"
     )
-    iip_materials: Mapped[Set[IIPMaterial]] = relationship(
+    iip_materials: Mapped[List[IIPMaterial]] = relationship(
         secondary=iip_material_inscription, back_populates="inscriptions"
     )
     iip_preservation_id = mapped_column(ForeignKey("iip_preservations.id"))
     iip_preservation: Mapped[IIPPreservation] = relationship(
         back_populates="inscriptions"
     )
-    iip_religions: Mapped[Set[IIPReligion]] = relationship(
+    iip_religions: Mapped[List[IIPReligion]] = relationship(
         secondary=iip_religion_inscription, back_populates="inscriptions"
     )
-    iip_writings: Mapped[Set[IIPWriting]] = relationship(
+    iip_writings: Mapped[List[IIPWriting]] = relationship(
         secondary=iip_writing_inscription, back_populates="inscriptions"
     )
-    images: Mapped[Set["Image"]] = relationship(back_populates="inscription")
-    languages: Mapped[Set[Language]] = relationship(
+    images: Mapped[List["Image"]] = relationship(back_populates="inscription")
+    languages: Mapped[List[Language]] = relationship(
         secondary=language_inscription, back_populates="inscriptions"
     )
     location_coordinates: Mapped[Optional[List[Float]]] = mapped_column(

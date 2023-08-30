@@ -62,6 +62,10 @@ def run_migrations_online() -> None:
     and associate a connection with the context.
 
     """
+
+    # this line should not matter for the test
+    # database, since the migrations there should be
+    # run with `alembic --name test upgrade head`
     config.set_section_option("alembic", "sqlalchemy.url", DB_URL)
     
     connectable = engine_from_config(
