@@ -39,6 +39,7 @@ def facet_cities_query(db: Session):
     return (
         db.query(models.City, func.count(models.Inscription.id).label("hits"))
         .join(models.City.inscriptions)
+        .order_by(models.City.placename)
         .group_by(models.City.id)
     )
 
@@ -101,7 +102,7 @@ def facet_religions_query(db: Session):
 
 
 def list_cities(db: Session):
-    return db.query(models.City).all()
+    return db.query(models.City).order_by(models.City.placename).all()
 
 
 # possibly maps to "physical type" in the interface?

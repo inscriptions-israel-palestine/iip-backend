@@ -122,7 +122,7 @@ class EpidocParser:
 
         if settlement is not None:
             try:
-                placename = whitespace_regex.sub(" ", settlement.text)
+                placename = whitespace_regex.sub(" ", settlement.text).strip()
             except TypeError:
                 logging.warn(f"No placename provided for {self.filename}.")
                 placename = "No placename provided"
@@ -138,7 +138,7 @@ class EpidocParser:
         )
 
         if len(commentary) > 0:
-            return whitespace_regex.sub(" ", commentary[0])
+            return whitespace_regex.sub(" ", commentary[0]).strip()
 
         return None
 
@@ -540,11 +540,8 @@ class EpidocParser:
         if edition is not None:
             text = etree.tostring(edition, encoding="unicode", method="text").strip()
             xml = etree.tostring(edition, encoding="unicode")
-            
-            return (
-                xml,
-                text
-            )
+
+            return (xml, text)
 
         logging.warning(f"No nodes found for {xpath} in {self.filename}.")
 

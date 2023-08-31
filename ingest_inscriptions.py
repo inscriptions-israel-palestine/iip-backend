@@ -155,7 +155,7 @@ def main(session):
         ]
 
         for entry in bibliographic_entries:
-            inscription.bibliographic_entries.add(entry)
+            inscription.bibliographic_entries.append(entry)
 
         figures = []
         if figures_raw is not None:
@@ -164,7 +164,7 @@ def main(session):
             ]
 
         for figure in figures:
-            inscription.figures.add(figure)
+            inscription.figures.append(figure)
 
         iip_forms = []
         if iip_forms_raw is not None:
@@ -173,7 +173,7 @@ def main(session):
             ]
 
         for form in iip_forms:
-            inscription.iip_forms.add(form)
+            inscription.iip_forms.append(form)
 
         iip_genres = []
         if iip_genres_raw is not None:
@@ -182,7 +182,7 @@ def main(session):
             ]
 
         for genre in iip_genres:
-            inscription.iip_genres.add(genre)
+            inscription.iip_genres.append(genre)
 
         iip_materials = [
             get_or_create(session, models.IIPMaterial, **raw)
@@ -190,7 +190,7 @@ def main(session):
         ]
 
         for material in iip_materials:
-            inscription.iip_materials.add(material)
+            inscription.iip_materials.append(material)
 
         iip_religions = []
         if iip_religions_raw is not None:
@@ -200,7 +200,7 @@ def main(session):
             ]
 
         for religion in iip_religions:
-            inscription.iip_religions.add(religion)
+            inscription.iip_religions.append(religion)
 
         iip_writings = []
         if iip_writings_raw is not None:
@@ -209,7 +209,7 @@ def main(session):
             ]
 
         for writing in iip_writings:
-            inscription.iip_writings.add(writing)
+            inscription.iip_writings.append(writing)
 
         images = [
             get_or_create(session, models.Image, inscription_id=inscription.id, **raw)
@@ -218,14 +218,14 @@ def main(session):
         ]
 
         for image in images:
-            inscription.images.add(image)
+            inscription.images.append(image)
 
         languages = [
             get_or_create(session, models.Language, **raw) for raw in languages_raw
         ]
 
         for language in languages:
-            inscription.languages.add(language)
+            inscription.languages.append(language)
 
         (diplomatic_xml, s_diplomatic) = parser.get_diplomatic()
         (transcription_xml, s_transcription) = parser.get_transcription()
