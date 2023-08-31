@@ -1,5 +1,6 @@
 from typing import List
 from typing import Optional
+from typing import Tuple
 
 from pydantic import BaseModel
 from pydantic import ConfigDict
@@ -110,15 +111,13 @@ class Location(IIPBase):
     pleiades_ref: Optional[str]
 
 
-class FacetsResponse(IIPBase):
-    cities: list[City]
-    genres: list[IIPGenre]
-    languages: list[Language]
-    materials: list[IIPMaterial]
-    physical_types: list[IIPForm]
-    provenances: list[Provenance]
-    regions: list[Region]
-    religions: list[IIPReligion]
+class FacetsResponse(BaseModel):
+    cities: list[Tuple[City, int]]
+    genres: list[Tuple[IIPGenre, int]]
+    languages: list[Tuple[Language, int]]
+    materials: list[Tuple[IIPMaterial, int]]
+    physical_types: list[Tuple[IIPForm, int]]
+    religions: list[Tuple[IIPReligion, int]]
 
 
 # InscriptionMapResponse performs minimal joins
@@ -159,6 +158,7 @@ class Inscription(InscriptionListResponse):
     iip_writings: List[IIPWriting]
     provenance: Optional[Provenance]
     region: Optional[Region]
+
 
 # InscriptionPatch is used for updating inscriptions via
 # the REST API. Right now, it only supports the `display_status`

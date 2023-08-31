@@ -1,6 +1,11 @@
+import logging
+
 import pytest
 
 from iip_search import crud
+
+
+logger = logging.getLogger(__name__)
 
 
 class TestCrud:
@@ -17,3 +22,16 @@ class TestCrud:
             db_session.add(inscription)
 
         inscription = crud.get_inscription(db_session, "filename1")
+
+    def test_facet_cities_query(self, db_session, cities, inscriptions):
+        for city in cities:
+            db_session.add(city)
+
+        for inscription in inscriptions:
+            db_session.add(inscription)
+
+        city_facets = crud.facet_cities_query(db_session).all()
+
+        assert len(city_facets) == 2
+        assert city_facets[0][1] == 1
+        assert city_facets[1][1] == 1
