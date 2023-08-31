@@ -12,12 +12,17 @@ from sqlalchemy.orm import Session
 from iip_search import models
 from iip_search import schemas
 
+"""
+Faceted search is always going to require some kind of expensive
+operation. 
+"""
+
 
 def get_city(db: Session, city_id: int):
     return db.query(models.City).filter(models.City.id == city_id).one()
 
 
-def get_inscription(db: Session, slug: str):
+def get_inscription(db: Session, slug: str) -> models.Inscription:
     return (
         db.query(models.Inscription)
         .filter(models.Inscription.filename == f"{slug}.xml")
@@ -203,8 +208,74 @@ def list_facets(db: Session):
     )
 
 
-def list_inscriptions(
+def list_facets_with_inscriptions(db: Session, inscription_ids: list[int] = []):
+    if len(inscription_ids) == 0:
+        return list_facets(db)
+
+    cities = (
+        facet_cities_query(db).where(models.Inscription.id.in_(inscription_ids)).all()
+    )
+    genres = (
+        facet_genres_query(db).where(models.Inscription.id.in_(inscription_ids)).all()
+    )
+    languages = (
+        facet_languages_query(db)
+        .where(models.Inscription.id.in_(inscription_ids))
+        .all()
+    )
+    materials = (
+        facet_materials_query(db)
+        .where(models.Inscription.id.in_(inscription_ids))
+        .all()
+    )
+    physical_types = (
+        facet_forms_query(db).where(models.Inscription.id.in_(inscription_ids)).all()
+    )
+    religions = (
+        facet_religions_query(db)
+        .where(models.Inscription.id.in_(inscription_ids))
+        .all()
+    )
+
+    return dict(
+        cities=cities,
+        genres=genres,
+        languages=languages,
+        materials=materials,
+        physical_types=physical_types,
+        religions=religions,
+    )
+
+
+def list_inscription_ids(db: Session, *args):
+    query = (
+        db.query(models.Inscription.id)
+        .filter(models.Inscription.display_status == models.DisplayStatus.APPROVED)
+        .distinct(models.Inscription.id)
+    )
+
+    return [
+        inscription.id
+        for inscription in apply_filters_to_inscriptions_query(db, query, *args).all()
+    ]
+
+
+def list_inscriptions_query(
     db: Session,
+    *args,
+):
+    query = (
+        db.query(models.Inscription)
+        .filter(models.Inscription.display_status == models.DisplayStatus.APPROVED)
+        .distinct(models.Inscription.id)
+    )
+
+    return apply_filters_to_inscriptions_query(db, query, *args)
+
+
+def apply_filters_to_inscriptions_query(
+    db: Session,
+    query,
     text_search: str | None = None,
     description_place_id: str | None = None,
     figures: str | None = None,
@@ -220,12 +291,6 @@ def list_inscriptions(
     religions: list[int] | None = [],
     materials: list[int] | None = [],
 ):
-    query = (
-        db.query(models.Inscription)
-        .filter(models.Inscription.display_status == models.DisplayStatus.APPROVED)
-        .distinct(models.Inscription.id)
-    )
-
     ands = []
     ors = []
 
@@ -276,7 +341,14 @@ def list_inscriptions(
         )
 
     if languages is not None and len(languages) > 0:
-        ands.append(models.Inscription.languages.any(models.Language.id.in_(languages)))
+        # Make sure that languages are exclusive, e.g., if a
+        # user searches for "Greek" and "Hebrew", show only
+        # inscriptions in *both* Greek and Hebrew, but not other
+        # inscriptions in Greek *or* Hebrew.
+        for language in languages:
+            ands.append(
+                models.Inscription.languages.any(models.Language.id == language)
+            )
 
     if religions is not None and len(religions) > 0:
         ands.append(

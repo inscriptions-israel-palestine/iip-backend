@@ -40,6 +40,7 @@ from iip_search.db import engine
 app = FastAPI()
 token_auth_scheme = HTTPBearer()
 
+
 def get_db():
     db = SessionLocal()
     try:
@@ -91,8 +92,62 @@ def heartbeat():
 
 
 @app.get("/facets", response_model=schemas.FacetsResponse)
-def facets(db: Session = Depends(get_db)):
-    return crud.list_facets(db)
+def facets(
+    text_search: str | None = None,
+    description_place_id: str | None = None,
+    figures: str | None = None,
+    not_before: int | str | None = None,
+    not_before_era: str | None = None,
+    not_after: int | str | None = None,
+    not_after_era: str | None = None,
+    cities: Annotated[list[int] | None, Query()] = None,
+    provenances: Annotated[list[int] | None, Query()] = None,
+    genres: Annotated[list[int] | None, Query()] = None,
+    physical_types: Annotated[list[int] | None, Query()] = None,
+    languages: Annotated[list[int] | None, Query()] = None,
+    religions: Annotated[list[int] | None, Query()] = None,
+    materials: Annotated[list[int] | None, Query()] = None,
+    db: Session = Depends(get_db),
+):
+    inscription_ids = []
+    # crud.list_inscription_ids is kind of an expensive query,
+    # so we only want to do it if we have query params
+    if any(
+        [
+            text_search,
+            description_place_id,
+            figures,
+            not_before,
+            not_after,
+            cities,
+            provenances,
+            genres,
+            physical_types,
+            languages,
+            religions,
+            materials,
+        ]
+    ):
+        inscription_ids = crud.list_inscription_ids(
+            db,
+            text_search,
+            description_place_id,
+            figures,
+            not_before,
+            not_before_era,
+            not_after,
+            not_after_era,
+            cities,
+            provenances,
+            genres,
+            physical_types,
+            languages,
+            religions,
+            materials,
+        )
+
+    print("HIHIH")
+    return crud.list_facets_with_inscriptions(db, inscription_ids)
 
 
 @app.get("/inscriptions", response_model=Page[schemas.InscriptionListResponse])
@@ -115,7 +170,7 @@ def list_inscriptions(
 ):
     return paginate(
         db,
-        crud.list_inscriptions(
+        crud.list_inscriptions_query(
             db,
             text_search,
             description_place_id,
@@ -135,7 +190,7 @@ def list_inscriptions(
     )
 
 
-@app.get("/map/inscriptions", response_model=list[schemas.InscriptionMapResponse])
+@app.get("/inscriptions/map", response_model=list[schemas.InscriptionMapResponse])
 def list_map_inscriptions(
     text_search: str | None = None,
     description_place_id: str | None = None,
@@ -153,7 +208,7 @@ def list_map_inscriptions(
     materials: Annotated[list[int] | None, Query()] = None,
     db: Session = Depends(get_db),
 ):
-    query = crud.list_inscriptions(
+    query = crud.list_inscriptions_query(
         db,
         text_search,
         description_place_id,
@@ -174,22 +229,40 @@ def list_map_inscriptions(
 
 
 @app.get("/inscriptions/{slug}", response_model=schemas.Inscription)
-def get_inscription(slug: str, db: Session = Depends(get_db)):
-    return crud.get_inscription(db, slug)
+def get_inscription(
+    slug: str,
+    db: Session = Depends(get_db),
+):
+    inscription = crud.get_inscription(db, slug)
+
+    # TODO: restricting individual views requires a more complex
+    # frontend authentication flow. For now, because an un-authed user
+    # won't be able to do anything besides view the unapproved inscription,
+    # let's just let them view it if they have the URL?
+
+    # if inscription.display_status != schemas.DisplayStatus.APPROVED:
+    #     verification = VerifyToken(token.credentials).verify()
+
+    #     if verification.get("status"):
+    #         response.status_code = status.HTTP_404_NOT_FOUND
+    #         return verification
+
+    return inscription
+
 
 @app.patch("/inscriptions/{slug}", response_model=schemas.Inscription)
 def update_inscription(
     response: Response,
-    slug: str, 
-    inscription: Annotated[schemas.InscriptionPatch, Body()], 
-    token: str = Depends(token_auth_scheme), 
-    db: Session = Depends(get_db)
+    slug: str,
+    inscription: Annotated[schemas.InscriptionPatch, Body()],
+    token: str = Depends(token_auth_scheme),
+    db: Session = Depends(get_db),
 ):
-    result = VerifyToken(token.credentials).verify() 
+    result = VerifyToken(token.credentials).verify()
 
     if result.get("status"):
-       response.status_code = status.HTTP_400_BAD_REQUEST
-       return result
+        response.status_code = status.HTTP_400_BAD_REQUEST
+        return result
 
     return crud.update_inscription(db, slug, inscription)
 
