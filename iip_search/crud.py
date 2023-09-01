@@ -44,7 +44,11 @@ def get_region(db: Session, region_id: int):
 def facet_cities_query(db: Session):
     return (
         db.query(models.City, func.count(models.Inscription.id))
-        .join(models.City.inscriptions)
+        .outerjoin(
+            models.City.inscriptions.and_(
+                models.Inscription.display_status == schemas.DisplayStatus.APPROVED
+            )
+        )
         .order_by(models.City.placename)
         .group_by(models.City.id)
     )
@@ -53,7 +57,11 @@ def facet_cities_query(db: Session):
 def facet_forms_query(db: Session):
     return (
         db.query(models.IIPForm, func.count(models.Inscription.id))
-        .join(models.IIPForm.inscriptions)
+        .outerjoin(
+            models.IIPForm.inscriptions.and_(
+                models.Inscription.display_status == schemas.DisplayStatus.APPROVED
+            )
+        )
         .group_by(models.IIPForm.id)
         .order_by(
             func.lower(models.IIPForm.description), func.lower(models.IIPForm.xml_id)
@@ -64,7 +72,11 @@ def facet_forms_query(db: Session):
 def facet_genres_query(db: Session):
     return (
         db.query(models.IIPGenre, func.count(models.Inscription.id))
-        .join(models.IIPGenre.inscriptions)
+        .outerjoin(
+            models.IIPGenre.inscriptions.and_(
+                models.Inscription.display_status == schemas.DisplayStatus.APPROVED
+            )
+        )
         .group_by(models.IIPGenre.id)
         .order_by(
             func.lower(models.IIPGenre.description), func.lower(models.IIPGenre.xml_id)
@@ -75,7 +87,11 @@ def facet_genres_query(db: Session):
 def facet_languages_query(db: Session):
     return (
         db.query(models.Language, func.count(models.Inscription.id))
-        .join(models.Language.inscriptions)
+        .outerjoin(
+            models.Language.inscriptions.and_(
+                models.Inscription.display_status == schemas.DisplayStatus.APPROVED
+            )
+        )
         .group_by(models.Language.id)
         .order_by(
             func.lower(models.Language.label), func.lower(models.Language.short_form)
@@ -86,7 +102,11 @@ def facet_languages_query(db: Session):
 def facet_materials_query(db: Session):
     return (
         db.query(models.IIPMaterial, func.count(models.Inscription.id))
-        .join(models.IIPMaterial.inscriptions)
+        .outerjoin(
+            models.IIPMaterial.inscriptions.and_(
+                models.Inscription.display_status == schemas.DisplayStatus.APPROVED
+            )
+        )
         .group_by(models.IIPMaterial.id)
         .order_by(
             func.lower(models.IIPMaterial.description),
@@ -98,7 +118,11 @@ def facet_materials_query(db: Session):
 def facet_religions_query(db: Session):
     return (
         db.query(models.IIPReligion, func.count(models.Inscription.id))
-        .join(models.IIPReligion.inscriptions)
+        .outerjoin(
+            models.IIPReligion.inscriptions.and_(
+                models.Inscription.display_status == schemas.DisplayStatus.APPROVED
+            )
+        )
         .group_by(models.IIPReligion.id)
         .order_by(
             func.lower(models.IIPReligion.description),
