@@ -139,7 +139,10 @@ def list_facets_with_inscriptions(db: Session, inscription_ids: list[int] = []):
     cities = (
         db.query(models.City, func.count(models.Inscription.id))
         .outerjoin(
-            models.City.inscriptions.and_(models.Inscription.id.in_(inscription_ids))
+            models.City.inscriptions.and_(
+                models.Inscription.id.in_(inscription_ids),
+                models.Inscription.display_status == schemas.DisplayStatus.APPROVED,
+            )
         )
         .group_by(models.City.id)
         .order_by(models.City.placename)
@@ -149,7 +152,8 @@ def list_facets_with_inscriptions(db: Session, inscription_ids: list[int] = []):
         db.query(models.IIPGenre, func.count(models.Inscription.id))
         .outerjoin(
             models.IIPGenre.inscriptions.and_(
-                models.Inscription.id.in_(inscription_ids)
+                models.Inscription.id.in_(inscription_ids),
+                models.Inscription.display_status == schemas.DisplayStatus.APPROVED,
             )
         )
         .group_by(models.IIPGenre.id)
@@ -161,7 +165,8 @@ def list_facets_with_inscriptions(db: Session, inscription_ids: list[int] = []):
         db.query(models.Language, func.count(models.Inscription.id))
         .outerjoin(
             models.Language.inscriptions.and_(
-                models.Inscription.id.in_(inscription_ids)
+                models.Inscription.id.in_(inscription_ids),
+                models.Inscription.display_status == schemas.DisplayStatus.APPROVED,
             )
         )
         .group_by(models.Language.id)
@@ -173,7 +178,8 @@ def list_facets_with_inscriptions(db: Session, inscription_ids: list[int] = []):
         db.query(models.IIPMaterial, func.count(models.Inscription.id))
         .outerjoin(
             models.IIPMaterial.inscriptions.and_(
-                models.Inscription.id.in_(inscription_ids)
+                models.Inscription.id.in_(inscription_ids),
+                models.Inscription.display_status == schemas.DisplayStatus.APPROVED,
             )
         )
         .group_by(models.IIPMaterial.id)
@@ -185,7 +191,10 @@ def list_facets_with_inscriptions(db: Session, inscription_ids: list[int] = []):
     physical_types = (
         db.query(models.IIPForm, func.count(models.Inscription.id))
         .outerjoin(
-            models.IIPForm.inscriptions.and_(models.Inscription.id.in_(inscription_ids))
+            models.IIPForm.inscriptions.and_(
+                models.Inscription.id.in_(inscription_ids),
+                models.Inscription.display_status == schemas.DisplayStatus.APPROVED,
+            )
         )
         .group_by(models.IIPForm.id)
         .order_by(
@@ -196,7 +205,8 @@ def list_facets_with_inscriptions(db: Session, inscription_ids: list[int] = []):
         db.query(models.IIPReligion, func.count(models.Inscription.id))
         .outerjoin(
             models.IIPReligion.inscriptions.and_(
-                models.Inscription.id.in_(inscription_ids)
+                models.Inscription.id.in_(inscription_ids),
+                models.Inscription.display_status == schemas.DisplayStatus.APPROVED,
             )
         )
         .group_by(models.IIPReligion.id)
