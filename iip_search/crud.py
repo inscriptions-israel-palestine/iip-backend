@@ -160,11 +160,12 @@ def list_facets_with_inscriptions(db: Session, inscription_ids: list[int] = []):
     if len(inscription_ids) == 0:
         return list_facets(db)
 
+    # for cities, don't filter on `inscription_ids` because we want to
+    # allow selecting multiple cities (e.g., Jerusalem OR Abilene OR etc.)
     cities = (
         db.query(models.City, func.count(models.Inscription.id))
         .outerjoin(
             models.City.inscriptions.and_(
-                models.Inscription.id.in_(inscription_ids),
                 models.Inscription.display_status == schemas.DisplayStatus.APPROVED,
             )
         )
@@ -449,12 +450,3 @@ def apply_filters_to_inscriptions_query(
 def remove_accents(input_str):
     nfkd_form = unicodedata.normalize("NFKD", input_str)
     return "".join([c for c in nfkd_form if not unicodedata.combining(c)])
-
-
-def update_inscription(db: Session, slug: str, inscription: schemas.InscriptionPatch):
-    to_update = db.query(models.Inscription).filter_by(filename=f"{slug}.xml").one()
-    to_update.display_status = inscription.display_status
-
-    db.commit()
-
-    return get_inscription(db, slug)

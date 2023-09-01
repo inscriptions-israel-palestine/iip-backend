@@ -30,6 +30,7 @@ from fastapi_pagination.ext.sqlalchemy import paginate
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
+from iip_search import admin_crud
 from iip_search import crud
 from iip_search import schemas
 
@@ -72,23 +73,23 @@ def heartbeat():
     return "OK"
 
 
-# Search fields from https://github.com/Brown-University-Library/iip-production/blob/main/iip_smr_web_app/common.py#L146C74-L146C136
-# `(
-#   'text',
-#   'metadata',
-#   'figure',
-#   'region',
-#   'city',
-#   'place',
-#   'type',
-#   'physical_type',
-#   'language',
-#   'religion',
-#   'material',
-#   'notBefore',
-#   'notAfter',
-#   'display_status'
-# )`
+@app.get(
+    "/admin/display_status/{display_status}/inscriptions",
+    response_model=Page[schemas.InscriptionListResponse],
+)
+def inscriptions_by_display_status(
+    response: Response,
+    display_status: str,
+    token: str = Depends(token_auth_scheme),
+    db: Session = Depends(get_db),
+):
+    result = VerifyToken(token.credentials).verify()
+
+    if result.get("status"):
+        response.status_code = status.HTTP_400_BAD_REQUEST
+        return result
+
+    return admin_crud.list_inscriptions_by_display_status(db, display_status)
 
 
 @app.get("/facets", response_model=schemas.FacetsResponse)
@@ -263,17 +264,7 @@ def update_inscription(
         response.status_code = status.HTTP_400_BAD_REQUEST
         return result
 
-    return crud.update_inscription(db, slug, inscription)
-
-
-@app.get("/languages", response_model=list[schemas.Language])
-def list_languages(db: Session = Depends(get_db)):
-    return crud.list_languages(db)
-
-
-@app.get("/locations", response_model=list[schemas.Location])
-def list_locations(db: Session = Depends(get_db)):
-    return crud.list_locations(db)
+    return admin_crud.update_inscription(db, slug, inscription)
 
 
 add_pagination(app)
