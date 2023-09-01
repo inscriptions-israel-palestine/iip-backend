@@ -4,6 +4,7 @@ from typing import Literal
 from urllib import parse
 
 from sqlalchemy import and_, or_
+from sqlalchemy import case
 from sqlalchemy import func
 from sqlalchemy import select
 
@@ -42,7 +43,7 @@ def get_region(db: Session, region_id: int):
 
 def facet_cities_query(db: Session):
     return (
-        db.query(models.City, func.count(models.Inscription.id).label("hits"))
+        db.query(models.City, func.count(models.Inscription.id))
         .join(models.City.inscriptions)
         .order_by(models.City.placename)
         .group_by(models.City.id)
@@ -108,6 +109,111 @@ def facet_religions_query(db: Session):
 
 def list_cities(db: Session):
     return db.query(models.City).order_by(models.City.placename).all()
+
+
+def list_facets(db: Session):
+    cities = facet_cities_query(db).all()
+    genres = facet_genres_query(db).all()
+    languages = facet_languages_query(db).all()
+    materials = facet_materials_query(db).all()
+    physical_types = facet_forms_query(db).all()
+    religions = facet_religions_query(db).all()
+
+    return dict(
+        cities=cities,
+        genres=genres,
+        languages=languages,
+        materials=materials,
+        physical_types=physical_types,
+        religions=religions,
+    )
+
+
+# TODO: clean up these functions -- there's a lot of repetition here,
+# even if it's nice to have the explicit outer joins contained to
+# this filtered function.
+def list_facets_with_inscriptions(db: Session, inscription_ids: list[int] = []):
+    if len(inscription_ids) == 0:
+        return list_facets(db)
+
+    cities = (
+        db.query(models.City, func.count(models.Inscription.id))
+        .outerjoin(
+            models.City.inscriptions.and_(models.Inscription.id.in_(inscription_ids))
+        )
+        .group_by(models.City.id)
+        .order_by(models.City.placename)
+    )
+
+    genres = (
+        db.query(models.IIPGenre, func.count(models.Inscription.id))
+        .outerjoin(
+            models.IIPGenre.inscriptions.and_(
+                models.Inscription.id.in_(inscription_ids)
+            )
+        )
+        .group_by(models.IIPGenre.id)
+        .order_by(
+            func.lower(models.IIPGenre.description), func.lower(models.IIPGenre.xml_id)
+        )
+    )
+    languages = (
+        db.query(models.Language, func.count(models.Inscription.id))
+        .outerjoin(
+            models.Language.inscriptions.and_(
+                models.Inscription.id.in_(inscription_ids)
+            )
+        )
+        .group_by(models.Language.id)
+        .order_by(
+            func.lower(models.Language.label), func.lower(models.Language.short_form)
+        )
+    )
+    materials = (
+        db.query(models.IIPMaterial, func.count(models.Inscription.id))
+        .outerjoin(
+            models.IIPMaterial.inscriptions.and_(
+                models.Inscription.id.in_(inscription_ids)
+            )
+        )
+        .group_by(models.IIPMaterial.id)
+        .order_by(
+            func.lower(models.IIPMaterial.description),
+            func.lower(models.IIPMaterial.xml_id),
+        )
+    )
+    physical_types = (
+        db.query(models.IIPForm, func.count(models.Inscription.id))
+        .outerjoin(
+            models.IIPForm.inscriptions.and_(models.Inscription.id.in_(inscription_ids))
+        )
+        .group_by(models.IIPForm.id)
+        .order_by(
+            func.lower(models.IIPForm.description), func.lower(models.IIPForm.xml_id)
+        )
+    )
+    religions = (
+        db.query(models.IIPReligion, func.count(models.Inscription.id))
+        .outerjoin(
+            models.IIPReligion.inscriptions.and_(
+                models.Inscription.id.in_(inscription_ids)
+            )
+        )
+        .group_by(models.IIPReligion.id)
+        .order_by(
+            func.lower(models.IIPReligion.description),
+            func.lower(models.IIPReligion.xml_id),
+        )
+    )
+
+    return dict(
+        cities=cities,
+        genres=genres,
+        languages=languages,
+        materials=materials,
+        physical_types=physical_types,
+        religions=religions,
+    )
 
 
 # possibly maps to "physical type" in the interface?
@@ -187,63 +293,6 @@ def list_religions(db: Session):
             func.lower(models.IIPReligion.xml_id),
         )
         .all()
-    )
-
-
-def list_facets(db: Session):
-    cities = facet_cities_query(db).all()
-    genres = facet_genres_query(db).all()
-    languages = facet_languages_query(db).all()
-    materials = facet_materials_query(db).all()
-    physical_types = facet_forms_query(db).all()
-    religions = facet_religions_query(db).all()
-
-    return dict(
-        cities=cities,
-        genres=genres,
-        languages=languages,
-        materials=materials,
-        physical_types=physical_types,
-        religions=religions,
-    )
-
-
-def list_facets_with_inscriptions(db: Session, inscription_ids: list[int] = []):
-    if len(inscription_ids) == 0:
-        return list_facets(db)
-
-    cities = (
-        facet_cities_query(db).where(models.Inscription.id.in_(inscription_ids)).all()
-    )
-    genres = (
-        facet_genres_query(db).where(models.Inscription.id.in_(inscription_ids)).all()
-    )
-    languages = (
-        facet_languages_query(db)
-        .where(models.Inscription.id.in_(inscription_ids))
-        .all()
-    )
-    materials = (
-        facet_materials_query(db)
-        .where(models.Inscription.id.in_(inscription_ids))
-        .all()
-    )
-    physical_types = (
-        facet_forms_query(db).where(models.Inscription.id.in_(inscription_ids)).all()
-    )
-    religions = (
-        facet_religions_query(db)
-        .where(models.Inscription.id.in_(inscription_ids))
-        .all()
-    )
-
-    return dict(
-        cities=cities,
-        genres=genres,
-        languages=languages,
-        materials=materials,
-        physical_types=physical_types,
-        religions=religions,
     )
 
 

@@ -146,7 +146,6 @@ def facets(
             materials,
         )
 
-    print("HIHIH")
     return crud.list_facets_with_inscriptions(db, inscription_ids)
 
 
