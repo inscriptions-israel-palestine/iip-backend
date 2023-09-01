@@ -166,6 +166,7 @@ def list_facets_with_inscriptions(db: Session, inscription_ids: list[int] = []):
         db.query(models.City, func.count(models.Inscription.id))
         .outerjoin(
             models.City.inscriptions.and_(
+                models.Inscription.id.in_(inscription_ids),
                 models.Inscription.display_status == schemas.DisplayStatus.APPROVED,
             )
         )
