@@ -14,25 +14,25 @@ It consists of three main parts:
 1. Create a [virtual environment](https://docs.python.org/3/library/venv.html):
 
 ```sh
-$ python -m venv my_venv
+python -m venv my_venv
 ```
 
 2. Activate the virtual environment:
 
 ```sh
-$ source ./my_venv/bin/activate
+source ./my_venv/bin/activate
 ```
 
 Note that you might need to `source` a different `activate` script depending on your shell. If you're using `fish`, for example, you'll run
 
 ```sh
-$ source ./my_venv/bin/activate.fish
+source ./my_venv/bin/activate.fish
 ```
 
-3. Install dependencies:
+3. Install dependencies within the activated virtualenv:
 
 ```sh
-$ (my_venv) pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 4. Run the ingestion script:
@@ -40,6 +40,8 @@ $ (my_venv) pip install -r requirements.txt
 ```sh
 python ./ingest_inscriptions.py
 ```
+
+
 
 The ingestion script uses upserts on data that can change, so you can rerun the script whenever you need.
 
