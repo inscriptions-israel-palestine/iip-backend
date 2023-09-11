@@ -160,10 +160,10 @@ def list_facets_with_inscriptions(db: Session, inscription_ids: list[int] = []):
     if len(inscription_ids) == 0:
         return list_facets(db)
 
-    # for cities, don't filter on `inscription_ids` because we want to
-    # allow selecting multiple cities (e.g., Jerusalem OR Abilene OR etc.)
     cities = (
-        db.query(models.City, func.count(models.Inscription.id))
+        db.query(
+            models.City, func.count(models.Inscription.id).label("inscriptions_count")
+        )
         .outerjoin(
             models.City.inscriptions.and_(
                 models.Inscription.id.in_(inscription_ids),
@@ -173,9 +173,11 @@ def list_facets_with_inscriptions(db: Session, inscription_ids: list[int] = []):
         .group_by(models.City.id)
         .order_by(models.City.placename)
     )
-
     genres = (
-        db.query(models.IIPGenre, func.count(models.Inscription.id))
+        db.query(
+            models.IIPGenre,
+            func.count(models.Inscription.id).label("inscriptions_count"),
+        )
         .outerjoin(
             models.IIPGenre.inscriptions.and_(
                 models.Inscription.id.in_(inscription_ids),
@@ -188,7 +190,10 @@ def list_facets_with_inscriptions(db: Session, inscription_ids: list[int] = []):
         )
     )
     languages = (
-        db.query(models.Language, func.count(models.Inscription.id))
+        db.query(
+            models.Language,
+            func.count(models.Inscription.id).label("inscriptions_count"),
+        )
         .outerjoin(
             models.Language.inscriptions.and_(
                 models.Inscription.id.in_(inscription_ids),
@@ -201,7 +206,10 @@ def list_facets_with_inscriptions(db: Session, inscription_ids: list[int] = []):
         )
     )
     materials = (
-        db.query(models.IIPMaterial, func.count(models.Inscription.id))
+        db.query(
+            models.IIPMaterial,
+            func.count(models.Inscription.id).label("inscriptions_count"),
+        )
         .outerjoin(
             models.IIPMaterial.inscriptions.and_(
                 models.Inscription.id.in_(inscription_ids),
@@ -215,7 +223,10 @@ def list_facets_with_inscriptions(db: Session, inscription_ids: list[int] = []):
         )
     )
     physical_types = (
-        db.query(models.IIPForm, func.count(models.Inscription.id))
+        db.query(
+            models.IIPForm,
+            func.count(models.Inscription.id).label("inscriptions_count"),
+        )
         .outerjoin(
             models.IIPForm.inscriptions.and_(
                 models.Inscription.id.in_(inscription_ids),
@@ -228,7 +239,10 @@ def list_facets_with_inscriptions(db: Session, inscription_ids: list[int] = []):
         )
     )
     religions = (
-        db.query(models.IIPReligion, func.count(models.Inscription.id))
+        db.query(
+            models.IIPReligion,
+            func.count(models.Inscription.id).label("inscriptions_count"),
+        )
         .outerjoin(
             models.IIPReligion.inscriptions.and_(
                 models.Inscription.id.in_(inscription_ids),
@@ -418,32 +432,28 @@ def apply_filters_to_inscriptions_query(
         ands.append(models.Inscription.provenance_id.in_(provenances))
 
     if genres is not None and len(genres) > 0:
-        ands.append(models.Inscription.iip_genres.any(models.IIPGenre.id.in_(genres)))
+        for genre in genres:
+            ands.append(
+                models.Inscription.iip_genres.any(models.IIPGenre.id == genre)
+            )
 
     if physical_types is not None and len(physical_types) > 0:
-        ands.append(
-            models.Inscription.iip_forms.any(models.IIPForm.id.in_(physical_types))
-        )
+        for physical_type in physical_types:
+            ands.append(models.Inscription.iip_forms.any(models.IIPForm.id == physical_type))
 
     if languages is not None and len(languages) > 0:
-        # Make sure that languages are exclusive, e.g., if a
-        # user searches for "Greek" and "Hebrew", show only
-        # inscriptions in *both* Greek and Hebrew, but not other
-        # inscriptions in Greek *or* Hebrew.
         for language in languages:
             ands.append(
                 models.Inscription.languages.any(models.Language.id == language)
             )
 
     if religions is not None and len(religions) > 0:
-        ands.append(
-            models.Inscription.iip_religions.any(models.IIPReligion.id.in_(religions))
-        )
+        for religion in religions:
+            ands.append(models.Inscription.iip_religions.any(models.IIPReligion.id == religion))
 
     if materials is not None and len(materials) > 0:
-        ands.append(
-            models.Inscription.iip_materials.any(models.IIPMaterial.id.in_(materials))
-        )
+        for material in materials:
+            ands.append(models.Inscription.iip_materials.any(models.IIPMaterial.id == material))
 
     return query.filter(or_(*ors)).filter(and_(*ands)).group_by(models.Inscription.id)
 
