@@ -3,10 +3,8 @@ import unicodedata
 from typing import Literal
 from urllib import parse
 
-from sqlalchemy import and_, or_
-from sqlalchemy import case
+from sqlalchemy import and_
 from sqlalchemy import func
-from sqlalchemy import select
 
 from sqlalchemy.orm import Session
 
@@ -391,11 +389,10 @@ def apply_filters_to_inscriptions_query(
     materials: list[int] | None = [],
 ):
     ands = []
-    ors = []
 
     if text_search is not None and text_search != "":
         cleaned_text_search = remove_accents(parse.unquote(text_search))
-        ors.append(
+        ands.append(
             models.Inscription.editions.any(
                 models.Edition.searchable_text.match(cleaned_text_search)
             )
@@ -407,7 +404,7 @@ def apply_filters_to_inscriptions_query(
         )
 
     if figures is not None and figures != "":
-        ors.append(
+        ands.append(
             models.Inscription.figures.any(models.Figure.searchable_text.match(figures))
         )
 
@@ -455,7 +452,7 @@ def apply_filters_to_inscriptions_query(
         for material in materials:
             ands.append(models.Inscription.iip_materials.any(models.IIPMaterial.id == material))
 
-    return query.filter(or_(*ors)).filter(and_(*ands)).group_by(models.Inscription.id)
+    return query.filter(and_(*ands)).group_by(models.Inscription.id)
 
 
 def remove_accents(input_str):
