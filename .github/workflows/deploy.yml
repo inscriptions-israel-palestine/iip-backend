@@ -22,7 +22,7 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
       - name: Run Jelastic command
-        uses: foodstarter/github-action-jelastic@main
+        uses: foodstarter/github-actions-jelastic@main
         with:
           jelastic_url: app.my.reclaim.cloud
           jelastic_username: ${{ secrets.RECLAIM_USERNAME }}
