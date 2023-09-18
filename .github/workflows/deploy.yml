@@ -4,6 +4,11 @@ on:
   workflow_run:
     workflows: [build]
     types:  [completed]
+  
+env:
+  RECLAIM_ENV_NAME: iip-dev
+  RECLAIM_DEPLOYMENT_TAG: main
+  RECLAIM_NODE_ID: 13480
 
 jobs:
   on-failure:
@@ -14,17 +19,10 @@ jobs:
   on-success:
     runs-on: ubuntu-latest
     environment: deployment
+    env:
+      RECLAIM_SESSION_TOKEN: ${{secrets.RECLAIM_SESSION_TOKEN}}
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
-      - name: Install Java
-        uses: actions/setup-java@v3
-        with:
-          distribution: 'temurin'
-          java-version: '17'
-      - name: Run Jelastic command
-        uses: foodstarter/github-actions-jelastic@main
-        with:
-          jelastic_url: app.my.reclaim.cloud
-          jelastic_username: ${{ secrets.RECLAIM_USERNAME }}
-          jelastic_password: ${{ secrets.RECLAIM_TOKEN }}
-          task: environment/control/redeploycontainerbyid --envName ${{ secrets.RECLAIM_ENV_NAME }} --nodeId ${{ secrets.RECLAIM_NODE_ID }} --tag ${{ env.RECLAIM_DEPLOYMENT_TAG }}
+      - name: Run Jelastic deployment command
+        run: |
+          curl -X POST --url "https://app.my.reclaim.cloud/1.0/environment/control/rest/redeploycontainerbyid?envName=${{env.RECLAIM_ENV_NAME}}&session=$RECLAIM_SESSION_TOKEN&tag=${{env.RECLAIM_DEPLOYMENT_TAG}}&nodeId=${{env.RECLAIM_NODE_ID}}" | jq .result
