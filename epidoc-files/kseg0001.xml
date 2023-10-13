@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="jaff0103" n="iip">
+    xml:id="kseg0001" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -25,33 +25,34 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jaff 0103</idno>
+                        <idno type="IIP">Kseg 0001</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="arc" otherLangs="he"/>
-                        <msItem class="funerary.epitaph" ana="jewish">
-                            <p>Jaffa, 200-499 CE. Marble slab. Funerary (epitaph).</p>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="invocation prayer" ana="christian">
+                            <p>Khirbet Siyar el-Ghanam, 300-600 CE. Grey decorative ceramic plate.
+                                Invocation, prayer.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="slab">
-                            <supportDesc ana="marble">
+                        <objectDesc ana="pottery">
+                            <supportDesc ana="material_unknown">
                                 <support>
-                                    <p/>
+                                    <p>Grey ceramic plate.</p>
                                     <dimensions type="surface" unit="cm">
-                                        <height>18.5</height>
-                                        <width>53</width>
-                                        <depth>2</depth>
+                                        <height/>
+                                        <width/>
+                                        <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="complete.broken">
-                                    <p>One slab broken into two contiguous pieces</p>
+                                <condition ana="fragment.single">
+                                    <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="3">
+                                <layout columns="1" writtenLines="1">
                                     <p/>
                                 </layout>
                             </layoutDesc>
@@ -59,8 +60,6 @@
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
                             <handNote ana="impressed.inscribed">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="1.5"
-                                    atMost="2.5"/>
                                 <p/>
                             </handNote>
                         </handDesc>
@@ -76,19 +75,20 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0200" notAfter="0499"
-                                period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4"
-                                >3rd to 5th century CE</date><placeName>
-                                <region>Coastal Plain</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687931/"
-                                    >Jaffa</settlement>
-                                <geogName type="site">Jaffa Necropolis</geogName>
-                                <geogFeat type="locus"/>
+                        <origin><date notBefore="0300" notAfter="0600"
+                                period="http://n2t.net/ark:/99152/p0m63njjcn4">4th to 6th century
+                                CE</date><placeName>
+                                <region>Judaea</region>
+                                <settlement>Khirbet Siyar
+                                    el-Ghanam<geo>31.707306,35.230111</geo></settlement>
+                                <geogName type="site">Shepherds field monastery</geogName>
+                                <geogFeat type="locus">Room 55 outside Monastery's northern
+                                    wall</geogFeat>
                             </placeName>
                             <p/>
                         </origin>
                         <provenance>
-                            <placeName>Old Jaffa Museum of Antiquities</placeName>
+                            <placeName/>
                         </provenance>
                     </history>
                 </msDesc>
@@ -109,39 +109,38 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2023-08-08" who="Adin Pepper Fox">Initial Entry</change>
+            <change when="2023-08-21" who="Adin Pepper Fox">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
         <graphic url=""/>
         <surface>
-            <desc/>
-            <graphic url=""/>
+            <desc>Christopher B. Zeichmann</desc>
+            <graphic url="kseg0001.jpg"/>
         </surface>
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
+            <div type="edition" subtype="diplomatic" ana="b1">
                 <p/>
             </div>
-            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
-                <p>הדא קבורתא דיודן ברה<lb/>דרבי טרפון בירבי נוח נפש <foreign xml:lang="heb"
-                        >זיכרונו<lb/>לברכה שלום</foreign></p>
+            <div type="edition" subtype="transcription" ana="b1">
+                <p><gap reason="lost" extent="unknown"/> <orig><expan><abbr>δώ</abbr><ex>ῃ</ex></expan>ς</orig> <expan><abbr>χάρ</abbr><ex>ιν</ex></expan> <expan><abbr>ἡ</abbr><ex>μῖν</ex></expan> <gap reason="lost"
+                        extent="unknown"/></p>
             </div>
             <div type="translation" ana="b1">
-                <p>This is the grave of Yudan son of Rabbi Tarfon berebi. His soul is at rest. May
-                    his memory be a blessing. Peace.</p>
+                <p>... grant us grace ...</p>
             </div>
             <div type="commentary" ana="b1">
-                <p/>
+                <p>Corbo claims that the text may be inspired by the Divine Liturgy</p>
             </div>
         </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-1194.xml"/>
-                        <biblScope unit="page">123-125</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-1112.xml"/>
+                        <biblScope unit="page">78-79</biblScope>
                     </bibl>
                 </listBibl>
             </div>

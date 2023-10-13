@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xml:id="jaff0103" n="iip">
+    xml:id="jaff0108" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -25,33 +25,33 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jaff 0103</idno>
+                        <idno type="IIP">Jaff 0108</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="arc" otherLangs="he"/>
+                        <textLang mainLang="arc"/>
                         <msItem class="funerary.epitaph" ana="jewish">
-                            <p>Jaffa, 200-499 CE. Marble slab. Funerary (epitaph).</p>
+                            <p>Jaffa, 5th-6th century CE. Marble plaque. Funerary (epitaph).</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="slab">
+                        <objectDesc ana="plaque">
                             <supportDesc ana="marble">
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
-                                        <height>18.5</height>
-                                        <width>53</width>
-                                        <depth>2</depth>
+                                        <height>16</height>
+                                        <width>14</width>
+                                        <depth>1.5</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="complete.broken">
-                                    <p>One slab broken into two contiguous pieces</p>
+                                <condition ana="fragments.contig">
+                                    <p>Seven fragments glued back together</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="3">
+                                <layout columns="1" writtenLines="5">
                                     <p/>
                                 </layout>
                             </layoutDesc>
@@ -76,9 +76,9 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0200" notAfter="0499"
-                                period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4"
-                                >3rd to 5th century CE</date><placeName>
+                        <origin><date notBefore="0400" notAfter="0599"
+                            period="http://n2t.net/ark:/99152/p0m63njtmv8 http://n2t.net/ark:/99152/p0m63njjcn4"
+                            >5th to 6th century CE</date><placeName>
                                 <region>Coastal Plain</region>
                                 <settlement ref="https://pleiades.stoa.org/places/687931/"
                                     >Jaffa</settlement>
@@ -109,7 +109,7 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2023-08-08" who="Adin Pepper Fox">Initial Entry</change>
+            <change when="2023-09-13" who="Adin Pepper Fox">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
@@ -122,16 +122,19 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="arc">
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
-                <p>הדא קבורתא דיודן ברה<lb/>דרבי טרפון בירבי נוח נפש <foreign xml:lang="heb"
-                        >זיכרונו<lb/>לברכה שלום</foreign></p>
+                <p><gap reason="lost" extent="unknown" unit="character"/><lb/><orig>ב</orig><gap
+                        reason="lost" extent="unknown" unit="character"/><orig>ש</orig><gap
+                        reason="lost" extent="unknown" unit="character"/><lb/>בהדה
+                        <orig>ק</orig><gap reason="lost" extent="unknown" unit="character"/><lb/>בר
+                    מן <orig>דע</orig><gap reason="lost" extent="unknown" unit="character"
+                    /><lb/>דקבורתה</p>
             </div>
             <div type="translation" ana="b1">
-                <p>This is the grave of Yudan son of Rabbi Tarfon berebi. His soul is at rest. May
-                    his memory be a blessing. Peace.</p>
+                <p>...in this grave … aside from who... of the grave of...</p>
             </div>
             <div type="commentary" ana="b1">
                 <p/>
@@ -140,8 +143,8 @@
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-1194.xml"/>
-                        <biblScope unit="page">123-125</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-777.xml"/>
+                        <biblScope unit="page">680</biblScope>
                     </bibl>
                 </listBibl>
             </div>
