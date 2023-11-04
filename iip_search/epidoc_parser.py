@@ -1,5 +1,6 @@
 import logging
 import re
+from typing import Dict
 
 from lxml import etree
 from pathlib import Path
@@ -110,7 +111,7 @@ class EpidocParser:
                         bibl_scope_unit=bibl_scope_unit,
                         ptr_target=ptr_target,
                         ptr_type=ptr_type,
-                        raw_xml=etree.tostring(bibl, encoding="unicode"),
+                        raw_xml=etree.tostring(bibl, encoding="unicode"),  # type: ignore
                     )
                 )
         return entries
@@ -187,10 +188,11 @@ class EpidocParser:
                 taxonomy = self.taxonomies.get("forms")
                 # Some forms that appear in documents, like "handle in tjez0004",
                 # are not present in the taxonomy.
-                ana = taxonomy.get(form, {}).get("ana")
-                description = taxonomy.get(form, {}).get("description")
+                if taxonomy is not None:
+                    ana = taxonomy.get(form, {}).get("ana")
+                    description = taxonomy.get(form, {}).get("description")
 
-                forms.append(dict(xml_id=form, ana=ana, description=description))
+                    forms.append(dict(xml_id=form, ana=ana, description=description))
 
             return forms
 
@@ -207,7 +209,7 @@ class EpidocParser:
                 # Some genres that appear in documents, like "commodity_chit",
                 # are not present in the taxonomy.
                 description = (
-                    self.taxonomies.get("genres").get(genre, {}).get("description")
+                    self.taxonomies.get("genres", {}).get(genre, {}).get("description")
                 )
 
                 genres.append(dict(xml_id=genre, description=description))
@@ -228,7 +230,7 @@ class EpidocParser:
                 materials.append(
                     dict(
                         xml_id=material,
-                        description=self.taxonomies.get("materials")
+                        description=self.taxonomies.get("materials", {})
                         .get(material.lower(), {})
                         .get("description", material),
                     )
@@ -244,7 +246,7 @@ class EpidocParser:
 
             return dict(
                 xml_id=ana,
-                description=self.taxonomies.get("preservations")
+                description=self.taxonomies.get("preservations", {})
                 .get(ana, {})
                 .get("description", ana),
             )
@@ -266,7 +268,7 @@ class EpidocParser:
                 religions.append(
                     dict(
                         xml_id=religion,
-                        description=self.taxonomies.get("religions")[religion].get(
+                        description=self.taxonomies.get("religions", {})[religion].get(
                             "description"
                         ),
                     )
@@ -289,7 +291,7 @@ class EpidocParser:
             # Some writings that appear in documents, like "engraved",
             # are not present in the taxonomy.
             description = (
-                self.taxonomies.get("writings").get(ana, {}).get("description")
+                self.taxonomies.get("writings", {}).get(ana, {}).get("description")
             )
             return [
                 dict(
@@ -351,13 +353,13 @@ class EpidocParser:
             if lang.strip() == "":
                 continue
 
-            short_form = LANGUAGES.get(lang).get("short_form", lang)
+            short_form = LANGUAGES.get(lang, {}).get("short_form", lang)
 
             lang_codes.add(short_form)
 
         languages = []
         for short_form in list(lang_codes):
-            label = LANGUAGES.get(short_form).get("label")
+            label = LANGUAGES.get(short_form, {}).get("label")
 
             # TODO: This check is most likely unnecessary, but it's worth
             # keeping an eye on.
@@ -467,7 +469,7 @@ class EpidocParser:
 
         if len(editions) > 1:
             logging.warn(
-                f"Expected to find a single edition, but found {len(editions)} for {xpath} in {etree.tostring(self.tree, encoding='unicode')}."
+                f"Expected to find a single edition, but found {len(editions)} for {xpath} in {etree.tostring(self.tree, encoding='unicode')}."  # type: ignore
             )
 
         if len(editions) == 0:
@@ -490,8 +492,10 @@ class EpidocParser:
     def get_translation(self):
         return self._stringify_xml_and_text(self.translation_xpath)
 
-    def _get_taxonomies(self):
-        tree = etree.parse(TAXONOMY_FILE)
+    def _get_taxonomies(
+        self,
+    ) -> Dict[str, dict,]:
+        tree = etree.parse(TAXONOMY_FILE)  # type: ignore
 
         forms = self._get_taxonomy(tree, "form")
         genres = self._get_taxonomy(tree, "genre")
@@ -509,7 +513,7 @@ class EpidocParser:
             "writings": writings,
         }
 
-    def _get_taxonomy(self, tree, taxonomy_name):
+    def _get_taxonomy(self, tree, taxonomy_name) -> dict:
         logging.info(f"Getting {taxonomy_name} taxonomy...")
         taxonomy = {}
         for item in tree.find(
@@ -532,14 +536,14 @@ class EpidocParser:
     def _parse_file(self):
         logging.info(f"Attempting to parse {self.filename}.")
 
-        return etree.parse(self.filename)
+        return etree.parse(self.filename)  # type: ignore
 
     def _stringify_xml_and_text(self, xpath):
         edition = self.get_edition(xpath)
 
         if edition is not None:
-            text = etree.tostring(edition, encoding="unicode", method="text").strip()
-            xml = etree.tostring(edition, encoding="unicode")
+            text = etree.tostring(edition, encoding="unicode", method="text").strip()  # type: ignore
+            xml = etree.tostring(edition, encoding="unicode")  # type: ignore
 
             return (xml, text)
 

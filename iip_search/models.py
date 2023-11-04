@@ -23,7 +23,7 @@ from sqlalchemy.orm import relationship
 
 from sqlalchemy.types import TypeDecorator
 
-from typing import Optional
+from typing import Optional, Set
 from typing import List
 
 from iip_search.db import Base
@@ -405,7 +405,7 @@ class Inscription(Base):
     title: Mapped[Optional[str]]
 
     id: Mapped[int] = mapped_column(primary_key=True)
-    bibliographic_entries: Mapped[List[BibliographicEntry]] = relationship(
+    bibliographic_entries: Mapped[Set[BibliographicEntry]] = relationship(
         secondary=inscription_bibliographic_entry, back_populates="inscriptions"
     )
     city_id = mapped_column(ForeignKey("cities.id"), nullable=True)
@@ -416,31 +416,31 @@ class Inscription(Base):
         nullable=False, default=DisplayStatus.APPROVED
     )
     editions: Mapped[List["Edition"]] = relationship(back_populates="inscription")
-    figures: Mapped[List[Figure]] = relationship(
+    figures: Mapped[Set[Figure]] = relationship(
         secondary=figure_inscription, back_populates="inscriptions"
     )
     filename: Mapped[str] = mapped_column(nullable=False, unique=True)
-    iip_forms: Mapped[List[IIPForm]] = relationship(
+    iip_forms: Mapped[Set[IIPForm]] = relationship(
         secondary=iip_form_inscription, back_populates="inscriptions"
     )
-    iip_genres: Mapped[List[IIPGenre]] = relationship(
+    iip_genres: Mapped[Set[IIPGenre]] = relationship(
         secondary=iip_genre_inscription, back_populates="inscriptions"
     )
-    iip_materials: Mapped[List[IIPMaterial]] = relationship(
+    iip_materials: Mapped[Set[IIPMaterial]] = relationship(
         secondary=iip_material_inscription, back_populates="inscriptions"
     )
     iip_preservation_id = mapped_column(ForeignKey("iip_preservations.id"))
     iip_preservation: Mapped[IIPPreservation] = relationship(
         back_populates="inscriptions"
     )
-    iip_religions: Mapped[List[IIPReligion]] = relationship(
+    iip_religions: Mapped[Set[IIPReligion]] = relationship(
         secondary=iip_religion_inscription, back_populates="inscriptions"
     )
-    iip_writings: Mapped[List[IIPWriting]] = relationship(
+    iip_writings: Mapped[Set[IIPWriting]] = relationship(
         secondary=iip_writing_inscription, back_populates="inscriptions"
     )
     images: Mapped[List["Image"]] = relationship(back_populates="inscription")
-    languages: Mapped[List[Language]] = relationship(
+    languages: Mapped[Set[Language]] = relationship(
         secondary=language_inscription, back_populates="inscriptions"
     )
     location_coordinates: Mapped[Optional[List[Float]]] = mapped_column(

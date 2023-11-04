@@ -7,7 +7,6 @@ import requests
 import time
 
 from datetime import datetime
-from pathlib import Path
 
 from sqlalchemy.dialects.postgresql import insert
 from sqlalchemy.orm import Session
@@ -109,7 +108,7 @@ def main(session):
             logging.warning(f"No iip_preservation for {file}.")
 
         provenance = None
-        if provenance_raw.get("placename") is not None:
+        if provenance_raw is not None and provenance_raw.get("placename") is not None:
             provenance = get_or_create(session, models.Provenance, **provenance_raw)
         else:
             logging.warning(f"No provenance for {file}.")
@@ -155,7 +154,7 @@ def main(session):
         ]
 
         for entry in bibliographic_entries:
-            inscription.bibliographic_entries.append(entry)
+            inscription.bibliographic_entries.add(entry)
 
         figures = []
         if figures_raw is not None:
@@ -164,7 +163,7 @@ def main(session):
             ]
 
         for figure in figures:
-            inscription.figures.append(figure)
+            inscription.figures.add(figure)
 
         iip_forms = []
         if iip_forms_raw is not None:
@@ -173,7 +172,7 @@ def main(session):
             ]
 
         for form in iip_forms:
-            inscription.iip_forms.append(form)
+            inscription.iip_forms.add(form)
 
         iip_genres = []
         if iip_genres_raw is not None:
@@ -182,7 +181,7 @@ def main(session):
             ]
 
         for genre in iip_genres:
-            inscription.iip_genres.append(genre)
+            inscription.iip_genres.add(genre)
 
         iip_materials = [
             get_or_create(session, models.IIPMaterial, **raw)
@@ -190,7 +189,7 @@ def main(session):
         ]
 
         for material in iip_materials:
-            inscription.iip_materials.append(material)
+            inscription.iip_materials.add(material)
 
         iip_religions = []
         if iip_religions_raw is not None:
@@ -200,7 +199,7 @@ def main(session):
             ]
 
         for religion in iip_religions:
-            inscription.iip_religions.append(religion)
+            inscription.iip_religions.add(religion)
 
         iip_writings = []
         if iip_writings_raw is not None:
@@ -209,7 +208,7 @@ def main(session):
             ]
 
         for writing in iip_writings:
-            inscription.iip_writings.append(writing)
+            inscription.iip_writings.add(writing)
 
         images = [
             get_or_create(session, models.Image, inscription_id=inscription.id, **raw)
@@ -225,7 +224,7 @@ def main(session):
         ]
 
         for language in languages:
-            inscription.languages.append(language)
+            inscription.languages.add(language)
 
         (diplomatic_xml, s_diplomatic) = parser.get_diplomatic()
         (transcription_xml, s_transcription) = parser.get_transcription()
