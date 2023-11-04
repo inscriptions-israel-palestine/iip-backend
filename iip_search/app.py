@@ -1,14 +1,11 @@
 # -*- coding: utf-8 -*-
 import logging
-import os
-import unicodedata
 
 
 # I imagine this style of imports looks strange at first,
 # but it makes it much easier to keep things
 # organized than using comma-separated lists
 from typing import Annotated
-from typing import Literal
 
 from fastapi import Body
 from fastapi import Depends
@@ -27,7 +24,6 @@ from fastapi_pagination import Page
 from fastapi_pagination import add_pagination
 from fastapi_pagination.ext.sqlalchemy import paginate
 
-from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from iip_search import admin_crud
@@ -36,7 +32,6 @@ from iip_search import schemas
 
 from iip_search.auth_utils import VerifyToken
 from iip_search.db import SessionLocal
-from iip_search.db import engine
 
 app = FastAPI()
 token_auth_scheme = HTTPBearer()
@@ -51,7 +46,9 @@ def get_db():
 
 
 @app.exception_handler(RequestValidationError)
-async def validation_exception_handler(request: Request, exc: RequestValidationError):
+async def request_validation_exception_handler(
+    request: Request, exc: RequestValidationError
+):
     exc_str = f"{exc}".replace("\n", " ").replace("   ", " ")
     logging.error(request, exc_str)
     content = {"status_code": 10422, "message": exc_str, "data": None}
@@ -61,7 +58,9 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
 
 
 @app.exception_handler(ResponseValidationError)
-async def validation_exception_handler(request: Request, exc: ResponseValidationError):
+async def response_validation_exception_handler(
+    request: Request, exc: ResponseValidationError
+):
     return JSONResponse(
         status_code=500,
         content=jsonable_encoder({"detail": exc.errors(), "body": exc.body}),
@@ -79,11 +78,11 @@ def heartbeat():
 )
 def inscriptions_by_display_status(
     response: Response,
-    display_status: str,
+    display_status: schemas.DisplayStatus,
     token: str = Depends(token_auth_scheme),
     db: Session = Depends(get_db),
 ):
-    result = VerifyToken(token.credentials).verify()
+    result = VerifyToken(token.credentials).verify()  # type: ignore
 
     if result.get("status"):
         response.status_code = status.HTTP_400_BAD_REQUEST
@@ -258,7 +257,7 @@ def update_inscription(
     token: str = Depends(token_auth_scheme),
     db: Session = Depends(get_db),
 ):
-    result = VerifyToken(token.credentials).verify()
+    result = VerifyToken(token.credentials).verify()  # type: ignore
 
     if result.get("status"):
         response.status_code = status.HTTP_400_BAD_REQUEST

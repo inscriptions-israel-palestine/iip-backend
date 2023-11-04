@@ -3,12 +3,10 @@ import enum
 
 from dataclasses import dataclass
 
-from sqlalchemy import create_engine
 from sqlalchemy import Column
 from sqlalchemy import Computed
 from sqlalchemy import Float
 from sqlalchemy import ForeignKey
-from sqlalchemy import String
 from sqlalchemy import Table
 from sqlalchemy import Text
 from sqlalchemy import UniqueConstraint
@@ -22,8 +20,6 @@ from sqlalchemy.ext.mutable import MutableDict
 from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import mapped_column
 from sqlalchemy.orm import relationship
-from sqlalchemy.orm import scoped_session
-from sqlalchemy.orm import sessionmaker
 
 from sqlalchemy.types import TypeDecorator
 
@@ -402,6 +398,12 @@ class DisplayStatus(enum.Enum):
 class Inscription(Base):
     __tablename__ = "inscriptions"
 
+    not_after: Mapped[Optional[int]]
+    not_before: Mapped[Optional[int]]
+    parsed_at: Mapped[datetime.datetime]
+    short_description: Mapped[Optional[str]]
+    title: Mapped[Optional[str]]
+
     id: Mapped[int] = mapped_column(primary_key=True)
     bibliographic_entries: Mapped[List[BibliographicEntry]] = relationship(
         secondary=inscription_bibliographic_entry, back_populates="inscriptions"
@@ -409,7 +411,7 @@ class Inscription(Base):
     city_id = mapped_column(ForeignKey("cities.id"), nullable=True)
     city: Mapped[Optional[City]] = relationship(back_populates="inscriptions")
     description: Mapped[Optional[str]] = mapped_column(Text)
-    dimensions: Mapped[Optional[dict]] = mapped_column(MutableDict.as_mutable(JSONB))
+    dimensions: Mapped[Optional[dict]] = mapped_column(MutableDict.as_mutable(JSONB))  # type: ignore
     display_status: Mapped[DisplayStatus] = mapped_column(
         nullable=False, default=DisplayStatus.APPROVED
     )
@@ -445,19 +447,14 @@ class Inscription(Base):
         ARRAY(Float), nullable=True
     )
     location_metadata: Mapped[Optional[dict]] = mapped_column(
-        MutableDict.as_mutable(JSONB)
+        MutableDict.as_mutable(JSONB)  # type: ignore
     )
-    not_after: Mapped[Optional[int]]
-    not_before: Mapped[Optional[int]]
-    parsed_at: Mapped[datetime.datetime]
     provenance_id = mapped_column(ForeignKey("provenances.id"), nullable=True)
     provenance: Mapped[Optional[Provenance]] = relationship(
         back_populates="inscriptions"
     )
     region_id = mapped_column(ForeignKey("regions.id"), nullable=True)
     region: Mapped[Optional[Region]] = relationship(back_populates="inscriptions")
-    short_description: Mapped[Optional[str]]
-    title: Mapped[Optional[str]]
     searchable_text = mapped_column(
         TSVector,
         Computed(
