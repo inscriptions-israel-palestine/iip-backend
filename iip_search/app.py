@@ -24,6 +24,8 @@ from fastapi_pagination import Page
 from fastapi_pagination import add_pagination
 from fastapi_pagination.ext.sqlalchemy import paginate
 
+import json
+
 from sqlalchemy.orm import Session
 
 from iip_search import admin_crud
@@ -32,6 +34,7 @@ from iip_search import schemas
 
 from iip_search.auth_utils import VerifyToken
 from iip_search.db import SessionLocal
+
 
 app = FastAPI()
 token_auth_scheme = HTTPBearer()
@@ -264,6 +267,14 @@ def update_inscription(
         return result
 
     return admin_crud.update_inscription(db, slug, inscription)
+
+
+@app.get("/wordlist")
+def wordlist():
+    file = open("./wordlist.json")
+    words = file.read()
+
+    return json.loads(words)
 
 
 add_pagination(app)

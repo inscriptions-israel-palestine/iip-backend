@@ -29,7 +29,7 @@ def get_inscription(db: Session, slug: str) -> models.Inscription:
     )
 
 
-def get_provenance(db: Session, provenance_id: id):
+def get_provenance(db: Session, provenance_id: int):
     return (
         db.query(models.Provenance).filter(models.Provenance.id == provenance_id).one()
     )
@@ -430,13 +430,13 @@ def apply_filters_to_inscriptions_query(
 
     if genres is not None and len(genres) > 0:
         for genre in genres:
-            ands.append(
-                models.Inscription.iip_genres.any(models.IIPGenre.id == genre)
-            )
+            ands.append(models.Inscription.iip_genres.any(models.IIPGenre.id == genre))
 
     if physical_types is not None and len(physical_types) > 0:
         for physical_type in physical_types:
-            ands.append(models.Inscription.iip_forms.any(models.IIPForm.id == physical_type))
+            ands.append(
+                models.Inscription.iip_forms.any(models.IIPForm.id == physical_type)
+            )
 
     if languages is not None and len(languages) > 0:
         for language in languages:
@@ -446,11 +446,15 @@ def apply_filters_to_inscriptions_query(
 
     if religions is not None and len(religions) > 0:
         for religion in religions:
-            ands.append(models.Inscription.iip_religions.any(models.IIPReligion.id == religion))
+            ands.append(
+                models.Inscription.iip_religions.any(models.IIPReligion.id == religion)
+            )
 
     if materials is not None and len(materials) > 0:
         for material in materials:
-            ands.append(models.Inscription.iip_materials.any(models.IIPMaterial.id == material))
+            ands.append(
+                models.Inscription.iip_materials.any(models.IIPMaterial.id == material)
+            )
 
     return query.filter(and_(*ands)).group_by(models.Inscription.id)
 
