@@ -392,6 +392,7 @@ def apply_filters_to_inscriptions_query(
 
     if text_search is not None and text_search != "":
         cleaned_text_search = remove_accents(parse.unquote(text_search))
+        cleaned_text_search = replace_wildcards(cleaned_text_search)
         ands.append(
             models.Inscription.editions.any(
                 models.Edition.searchable_text.match(cleaned_text_search)
@@ -462,3 +463,7 @@ def apply_filters_to_inscriptions_query(
 def remove_accents(input_str):
     nfkd_form = unicodedata.normalize("NFKD", input_str)
     return "".join([c for c in nfkd_form if not unicodedata.combining(c)])
+
+
+def replace_wildcards(input_str: str) -> str:
+    return input_str.replace("*", ":*")

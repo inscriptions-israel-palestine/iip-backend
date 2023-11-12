@@ -10,6 +10,7 @@ from sqlalchemy import ForeignKey
 from sqlalchemy import Table
 from sqlalchemy import Text
 from sqlalchemy import UniqueConstraint
+import sqlalchemy
 
 from sqlalchemy.dialects.postgresql import ARRAY
 from sqlalchemy.dialects.postgresql import JSONB
@@ -465,6 +466,12 @@ class Inscription(Base):
     )
 
 
+inscriptions_trigram_index = sqlalchemy.Index(
+    "inscriptions_trigram_idx",
+    Inscription.searchable_text,
+    postgresql_using="gin",
+    postgresql_ops={"description": "gin_trgm_ops"},
+)
 """
 <facsimile xmlns:xi="http://www.w3.org/2001/XInclude">
     <surface>
