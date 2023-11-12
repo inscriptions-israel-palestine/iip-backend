@@ -81,74 +81,7 @@ class Inscription(Base):
     __tablename__ = "inscriptions"
 
     id: Mapped[int] = mapped_column(primary_key=True)
-    bibliographic_entries: Mapped[Set[BibliographicEntry]] = relationship(
-        secondary=inscription_bibliographic_entry, back_populates="inscriptions"
-    )
-    city_id = mapped_column(ForeignKey("cities.id"), nullable=True)
-    city: Mapped[Optional[City]] = relationship(back_populates="inscriptions")
-    description: Mapped[Optional[str]] = mapped_column(Text)
-    dimensions: Mapped[Optional[dict]] = mapped_column(MutableDict.as_mutable(JSONB))
-    display_status: Mapped[DisplayStatus] = mapped_column(
-        nullable=False, default=DisplayStatus.APPROVED
-    )
-    editions: Mapped[Set["Edition"]] = relationship(back_populates="inscription")
-    figures: Mapped[Set[Figure]] = relationship(
-        secondary=figure_inscription, back_populates="inscriptions"
-    )
-    filename: Mapped[str] = mapped_column(nullable=False, unique=True)
-    iip_forms: Mapped[Set[IIPForm]] = relationship(
-        secondary=iip_form_inscription, back_populates="inscriptions"
-    )
-    iip_genres: Mapped[Set[IIPGenre]] = relationship(
-        secondary=iip_genre_inscription, back_populates="inscriptions"
-    )
-    iip_materials: Mapped[Set[IIPMaterial]] = relationship(
-        secondary=iip_material_inscription, back_populates="inscriptions"
-    )
-    iip_preservation_id = mapped_column(ForeignKey("iip_preservations.id"))
-    iip_preservation: Mapped[IIPPreservation] = relationship(
-        back_populates="inscriptions"
-    )
-    iip_religions: Mapped[Set[IIPReligion]] = relationship(
-        secondary=iip_religion_inscription, back_populates="inscriptions"
-    )
-    iip_writings: Mapped[Set[IIPWriting]] = relationship(
-        secondary=iip_writing_inscription, back_populates="inscriptions"
-    )
-    images: Mapped[Set["Image"]] = relationship(back_populates="inscription")
-    languages: Mapped[Set[Language]] = relationship(
-        secondary=language_inscription, back_populates="inscriptions"
-    )
-    location_coordinates: Mapped[Optional[List[Float]]] = mapped_column(
-        ARRAY(Float), nullable=True
-    )
-    location_metadata: Mapped[Optional[dict]] = mapped_column(
-        MutableDict.as_mutable(JSONB)
-    )
-    not_after: Mapped[Optional[int]]
-    not_before: Mapped[Optional[int]]
-    parsed_at: Mapped[datetime.datetime]
-    provenance_id = mapped_column(ForeignKey("provenances.id"), nullable=True)
-    provenance: Mapped[Optional[Provenance]] = relationship(
-        back_populates="inscriptions"
-    )
-    region_id = mapped_column(ForeignKey("regions.id"), nullable=True)
-    region: Mapped[Optional[Region]] = relationship(back_populates="inscriptions")
-    short_description: Mapped[Optional[str]]
-    title: Mapped[Optional[str]]
-    searchable_text = mapped_column(
-        TSVector,
-        Computed(
-            """
-        to_tsvector('english', 
-            coalesce(description, '') || 
-            coalesce(filename, '') || 
-            coalesce(short_description, '') || 
-            coalesce(title, '')
-        )
-        """
-        ),
-    )
+    ...
 ```
 
 An `Inscription` `belongs_to` a number of other objects (`City`, `Provenance`, etc. --- occasionally, as with `Language`, we need a join table), and it `has_many` `Edition` objects.
@@ -163,7 +96,7 @@ class EditionType(enum.Enum):
     TRANSLATION = "translation"
 ```
 
-We're using PostgreSQL's built-in [`TSVECTOR`](https://www.postgresql.org/docs/current/datatype-textsearch.html) column type to handle full-text search.
+We're using PostgreSQL's trigram index support to handle search.
 
 ## Web Server
 

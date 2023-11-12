@@ -30,6 +30,10 @@ from typing import List
 from iip_search.db import Base
 
 
+# NOTE: Do not use. This is here to support
+# old migrations, but is no longer used by the
+# database. TODO: Clean up migrations so we
+# don't need to keep this class around.
 class TSVector(TypeDecorator):
     impl = TSVECTOR
     cache_ok = False
@@ -43,11 +47,9 @@ class City(Base):
     inscriptions: Mapped[List["Inscription"]] = relationship(back_populates="city")
     placename: Mapped[str] = mapped_column(nullable=False)
     pleiades_ref: Mapped[str] = mapped_column(nullable=True)
-    searchable_text = mapped_column(
-        TSVector,
-        Computed(
-            "to_tsvector('english', immutable_concat_ws(' ', placename, pleiades_ref))"
-        ),
+    searchable_text: Mapped[str] = mapped_column(
+        Text,
+        Computed("immutable_concat_ws(' ', placename, pleiades_ref)"),
     )
 
 
@@ -85,11 +87,11 @@ class IIPPreservation(Base):
         back_populates="iip_preservation"
     )
     xml_id: Mapped[str] = mapped_column(nullable=False, unique=True)
-    searchable_text = mapped_column(
-        TSVector,
+    searchable_text: Mapped[str] = mapped_column(
+        Text,
         Computed(
             """
-    to_tsvector('english', coalesce(description, ''))
+    coalesce(description, '')
     """
         ),
     )
@@ -103,11 +105,11 @@ class Provenance(Base):
         back_populates="provenance"
     )
     placename: Mapped[str]
-    searchable_text = mapped_column(
-        TSVector,
+    searchable_text: Mapped[str] = mapped_column(
+        Text,
         Computed(
             """
-    to_tsvector('english', coalesce(placename, ''))
+    coalesce(placename, '')
     """
         ),
     )
@@ -122,11 +124,11 @@ class Region(Base):
     description: Mapped[Optional[str]] = mapped_column(
         Text, nullable=False, unique=True
     )
-    searchable_text = mapped_column(
-        TSVector,
+    searchable_text: Mapped[str] = mapped_column(
+        Text,
         Computed(
             """
-    to_tsvector('english', immutable_concat_ws(' ', description, label))
+    immutable_concat_ws(' ', description, label)
     """
         ),
     )
@@ -223,11 +225,11 @@ class BibliographicEntry(Base):
     ptr_type: Mapped[Optional[str]]
     raw_xml: Mapped[str] = mapped_column(Text, nullable=False)
     xml_id: Mapped[str] = mapped_column(nullable=False)
-    searchable_text = mapped_column(
-        TSVector,
+    searchable_text: Mapped[str] = mapped_column(
+        Text,
         Computed(
             """
-    to_tsvector(immutable_concat_ws(' ', ptr_target, xml_id, raw_xml))
+    immutable_concat_ws(' ', ptr_target, xml_id, raw_xml)
     """
         ),
     )
@@ -263,11 +265,11 @@ class Figure(Base):
     # the name field corresponds to the text value of the <ab> tags
     name: Mapped[str] = mapped_column(Text)
     locus: Mapped[Optional[str]] = mapped_column(Text)
-    searchable_text = mapped_column(
-        TSVector,
+    searchable_text: Mapped[str] = mapped_column(
+        Text,
         Computed(
             """
-    to_tsvector('english', immutable_concat_ws(' ', locus, name))
+    immutable_concat_ws(' ', locus, name)
     """
         ),
     )
@@ -283,11 +285,11 @@ class IIPForm(Base):
         back_populates="iip_forms", secondary=iip_form_inscription
     )
     xml_id: Mapped[str] = mapped_column(nullable=False, unique=True)
-    searchable_text = mapped_column(
-        TSVector,
+    searchable_text: Mapped[str] = mapped_column(
+        Text,
         Computed(
             """
-    to_tsvector('english', immutable_concat_ws(' ', description, ana))
+    immutable_concat_ws(' ', description, ana)
     """
         ),
     )
@@ -302,11 +304,11 @@ class IIPGenre(Base):
         secondary=iip_genre_inscription, back_populates="iip_genres"
     )
     xml_id: Mapped[str] = mapped_column(nullable=False, unique=True)
-    searchable_text = mapped_column(
-        TSVector,
+    searchable_text: Mapped[str] = mapped_column(
+        Text,
         Computed(
             """
-    to_tsvector('english', coalesce(description, ''))
+    coalesce(description, '')
     """
         ),
     )
@@ -321,11 +323,11 @@ class IIPMaterial(Base):
         secondary=iip_material_inscription, back_populates="iip_materials"
     )
     xml_id: Mapped[str] = mapped_column(nullable=False, unique=True)
-    searchable_text = mapped_column(
-        TSVector,
+    searchable_text: Mapped[str] = mapped_column(
+        Text,
         Computed(
             """
-    to_tsvector('english', coalesce(description, ''))
+    coalesce(description, '')
     """
         ),
     )
@@ -340,11 +342,11 @@ class IIPReligion(Base):
         secondary=iip_religion_inscription, back_populates="iip_religions"
     )
     xml_id: Mapped[str] = mapped_column(nullable=False, unique=True)
-    searchable_text = mapped_column(
-        TSVector,
+    searchable_text: Mapped[str] = mapped_column(
+        Text,
         Computed(
             """
-    to_tsvector('english', coalesce(description, ''))
+    coalesce(description, '')
     """
         ),
     )
@@ -360,11 +362,11 @@ class IIPWriting(Base):
     )
     note: Mapped[str] = mapped_column(nullable=True)
     xml_id: Mapped[str] = mapped_column(nullable=False, unique=True)
-    searchable_text = mapped_column(
-        TSVector,
+    searchable_text: Mapped[str] = mapped_column(
+        Text,
         Computed(
             """
-    to_tsvector('english', immutable_concat_ws(' ', description, note))
+    immutable_concat_ws(' ', description, note)
     """
         ),
     )
@@ -379,11 +381,11 @@ class Language(Base):
     )
     label: Mapped[str] = mapped_column(nullable=False, unique=True)
     short_form: Mapped[str] = mapped_column(nullable=False, unique=True)
-    searchable_text = mapped_column(
-        TSVector,
+    searchable_text: Mapped[str] = mapped_column(
+        Text,
         Computed(
             """
-    to_tsvector('english', immutable_concat_ws(' ', short_form, label))
+    immutable_concat_ws(' ', short_form, label)
     """
         ),
     )
@@ -456,11 +458,11 @@ class Inscription(Base):
     )
     region_id = mapped_column(ForeignKey("regions.id"), nullable=True)
     region: Mapped[Optional[Region]] = relationship(back_populates="inscriptions")
-    searchable_text = mapped_column(
-        TSVector,
+    searchable_text: Mapped[str] = mapped_column(
+        Text,
         Computed(
             """
-        to_tsvector('english', immutable_concat_ws(' ', description, replace(filename, '.xml', ''), short_description, title))
+        immutable_concat_ws(' ', description, replace(filename, '.xml', ''), short_description, title)
         """
         ),
     )
@@ -521,11 +523,11 @@ class Edition(Base):
     # looks correct.
     raw_xml: Mapped[str] = mapped_column(Text)
     text: Mapped[str] = mapped_column(Text)
-    searchable_text = mapped_column(
-        TSVector,
+    searchable_text: Mapped[str] = mapped_column(
+        Text,
         Computed(
             """
-        to_tsvector('english', regexp_replace(normalize(text, NFKD), '[\u0300-\u036f]', '', 'g'))
+        regexp_replace(normalize(text, NFKD), '[\u0300-\u036f]', '', 'g')
         """,
             persisted=True,
         ),

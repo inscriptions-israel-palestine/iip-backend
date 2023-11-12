@@ -395,18 +395,18 @@ def apply_filters_to_inscriptions_query(
         cleaned_text_search = replace_wildcards(cleaned_text_search)
         ands.append(
             models.Inscription.editions.any(
-                models.Edition.searchable_text.match(cleaned_text_search)
+                models.Edition.searchable_text.ilike(cleaned_text_search)
             )
         )
 
     if description_place_id is not None and description_place_id != "":
         query = query.filter(
-            models.Inscription.searchable_text.match(description_place_id)
+            models.Inscription.searchable_text.ilike(description_place_id)
         )
 
     if figures is not None and figures != "":
         ands.append(
-            models.Inscription.figures.any(models.Figure.searchable_text.match(figures))
+            models.Inscription.figures.any(models.Figure.searchable_text.ilike(figures))
         )
 
     if not_before is not None and not_before != "":
@@ -466,4 +466,4 @@ def remove_accents(input_str):
 
 
 def replace_wildcards(input_str: str) -> str:
-    return input_str.replace("*", ":*")
+    return input_str.replace("*", "%")
