@@ -2,7 +2,7 @@
 
 alembic upgrade head
 
-python ingest_inscriptions.py &
-python wordlist.py &
+# python ingest_inscriptions.py &
+# python wordlist.py &
 
 uvicorn iip_search.app:app --proxy-headers --host 0.0.0.0 --port 8080
