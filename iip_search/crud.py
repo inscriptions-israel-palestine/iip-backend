@@ -3,7 +3,7 @@ import unicodedata
 from typing import Literal
 from urllib import parse
 
-from sqlalchemy import and_
+from sqlalchemy import and_, or_, select
 from sqlalchemy import func
 
 from sqlalchemy.orm import Session
@@ -249,7 +249,7 @@ def list_facets_with_inscriptions(db: Session, inscription_ids: list[int] = []):
         )
         .group_by(models.IIPReligion.id)
         .order_by(
-            func.lower(models.IIPReligion.description),
+            func.lower(models.IIPReligion.description),  # type: ignore
             func.lower(models.IIPReligion.xml_id),
         )
     )
@@ -384,11 +384,15 @@ def apply_filters_to_inscriptions_query(
     provenances: list[int] | None = [],
     genres: list[int] | None = [],
     physical_types: list[int] | None = [],
+    physical_types_boolean: Literal["and"] | Literal["or"] | None = None,
     languages: list[int] | None = [],
+    languages_boolean: Literal["and"] | Literal["or"] | None = None,
     religions: list[int] | None = [],
     materials: list[int] | None = [],
+    materials_boolean: Literal["and"] | Literal["or"] | None = None,
 ):
     ands = []
+    ors = []
 
     if text_search is not None and text_search != "":
         cleaned_text_search = remove_accents(parse.unquote(text_search))
@@ -434,10 +438,10 @@ def apply_filters_to_inscriptions_query(
             ands.append(models.Inscription.iip_genres.any(models.IIPGenre.id == genre))
 
     if physical_types is not None and len(physical_types) > 0:
-        for physical_type in physical_types:
-            ands.append(
-                models.Inscription.iip_forms.any(models.IIPForm.id == physical_type)
-            )
+        ands += [
+            models.Inscription.iip_forms.any(models.IIPForm.id == pt)
+            for pt in physical_types
+        ]
 
     if languages is not None and len(languages) > 0:
         for language in languages:
@@ -457,7 +461,7 @@ def apply_filters_to_inscriptions_query(
                 models.Inscription.iip_materials.any(models.IIPMaterial.id == material)
             )
 
-    return query.filter(and_(*ands)).group_by(models.Inscription.id)
+    return query.filter(and_(*ands)).filter(or_(*ors)).group_by(models.Inscription.id)
 
 
 def remove_accents(input_str):

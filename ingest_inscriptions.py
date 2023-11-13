@@ -14,6 +14,7 @@ from sqlalchemy.orm import Session
 from iip_search import db
 from iip_search import models
 from iip_search.epidoc_parser import EpidocParser
+from iip_search.redis_client import RedisConnection
 
 logging.basicConfig(format="%(levelname)s: %(asctime)s %(message)s", level=logging.INFO)
 
@@ -63,6 +64,9 @@ def get_location_coordinates_from_pleiades(ref):
 
 def main(session):
     files = list_directory_xml(EPIDOC_FILES_DIR)
+
+    redis_connection = RedisConnection()
+    redis_connection.create_index()
 
     for file in files:
         try:
@@ -270,9 +274,35 @@ def main(session):
                 text=s_translation,
             )
 
+        faceted_inscription = dict(
+            id=inscription.id,
+            text=" ".join(
+                [
+                    inscription.title,
+                    s_diplomatic or "",
+                    s_transcription or "",
+                    s_transcription_segmented or "",
+                    s_translation or "",
+                ]
+            ),
+            description=inscription.description,
+            not_after=inscription.not_after,
+            not_before=inscription.not_before,
+            bibliographic_entries=[b.ptr_target for b in bibliographic_entries],
+            figures=[f.name for f in figures],
+            city=city.placename if city is not None else None,
+            genres=[g.description or g.xml_id for g in iip_genres],
+            physical_types=[f.description or f.xml_id for f in iip_forms],
+            languages=[l.label or l.short_form for l in languages],
+            religions=[r.description or r.xml_id for r in iip_religions],
+            materials=[m.description or m.xml_id for m in iip_materials],
+        )
+
         session.add(inscription)
         session.commit()
         session.flush()
+
+        redis_connection.add_document(faceted_inscription)
 
 
 def get_or_create(session, model, **kwargs):

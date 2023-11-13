@@ -31,9 +31,11 @@ from sqlalchemy.orm import Session
 from iip_search import admin_crud
 from iip_search import crud
 from iip_search import schemas
+from iip_search import redis_client
 
 from iip_search.auth_utils import VerifyToken
 from iip_search.db import SessionLocal
+from iip_search.redis_client import RedisConnection
 
 
 app = FastAPI()
@@ -46,6 +48,14 @@ def get_db():
         yield db
     finally:
         db.close()
+
+
+def get_redis():
+    redis_client = RedisConnection()
+    try:
+        yield redis_client
+    finally:
+        redis_client.close()
 
 
 @app.exception_handler(RequestValidationError)
@@ -62,7 +72,7 @@ async def request_validation_exception_handler(
 
 @app.exception_handler(ResponseValidationError)
 async def response_validation_exception_handler(
-    request: Request, exc: ResponseValidationError
+    _request: Request, exc: ResponseValidationError
 ):
     return JSONResponse(
         status_code=500,
@@ -71,8 +81,8 @@ async def response_validation_exception_handler(
 
 
 @app.route("/heartbeat")
-def heartbeat():
-    return "OK"
+def heartbeat(_h):
+    return JSONResponse(status_code=200, content=jsonable_encoder({"body": "ok"}))
 
 
 @app.get(
@@ -107,9 +117,12 @@ def facets(
     provenances: Annotated[list[int] | None, Query()] = None,
     genres: Annotated[list[int] | None, Query()] = None,
     physical_types: Annotated[list[int] | None, Query()] = None,
+    physical_types_boolean: str | None = None,
     languages: Annotated[list[int] | None, Query()] = None,
+    languages_boolean: str | None = None,
     religions: Annotated[list[int] | None, Query()] = None,
     materials: Annotated[list[int] | None, Query()] = None,
+    materials_boolean: str | None = None,
     db: Session = Depends(get_db),
 ):
     inscription_ids = []
@@ -144,9 +157,12 @@ def facets(
             provenances,
             genres,
             physical_types,
+            physical_types_boolean,
             languages,
+            languages_boolean,
             religions,
             materials,
+            materials_boolean,
         )
 
     return crud.list_facets_with_inscriptions(db, inscription_ids)

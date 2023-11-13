@@ -120,6 +120,15 @@ class FacetsResponse(BaseModel):
     religions: list[Tuple[IIPReligion, int]]
 
 
+class FacetsV2Response(BaseModel):
+    cities: list[Tuple[str | None, int]]
+    genres: list[Tuple[str | None, int]]
+    languages: list[Tuple[str | None, int]]
+    materials: list[Tuple[str | None, int]]
+    physical_types: list[Tuple[str | None, int]]
+    religions: list[Tuple[str | None, int]]
+
+
 # InscriptionMapResponse performs minimal joins
 # for displaying all inscriptions on the map
 class InscriptionMapResponse(IIPBase):
