@@ -396,7 +396,7 @@ def apply_filters_to_inscriptions_query(
 
     if text_search is not None and text_search != "":
         cleaned_text_search = remove_accents(parse.unquote(text_search))
-        cleaned_text_search = replace_wildcards(cleaned_text_search)
+        cleaned_text_search = replace_wildcards(f"%{cleaned_text_search}%")
         ands.append(
             models.Inscription.editions.any(
                 models.Edition.searchable_text.ilike(cleaned_text_search)
