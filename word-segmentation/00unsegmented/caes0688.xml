@@ -125,10 +125,8 @@
                 <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p>
-                    שלם<lb/>
-                    צין<lb/>
-                   <gap reason="lost" extent="unknown"/> בת<lb/>
+                <p> שלם<lb break="no"/>צין
+                    <gap reason="lost" extent="unknown" unit="character"/> בת<lb/>
                 </p>
             </div>
             <div type="translation" ana="b1">
