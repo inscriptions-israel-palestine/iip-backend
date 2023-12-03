@@ -15,6 +15,7 @@ class IIPBase(BaseModel):
 
 class Edition(IIPBase):
     id: int
+    ana: Optional[str]
     edition_type: EditionType
     raw_xml: str
     text: str

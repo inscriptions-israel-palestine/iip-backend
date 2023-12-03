@@ -226,48 +226,49 @@ def main(session):
         for language in languages:
             inscription.languages.add(language)
 
-        (diplomatic_xml, s_diplomatic) = parser.get_diplomatic()
-        (transcription_xml, s_transcription) = parser.get_transcription()
-        (
-            transcription_segmented_xml,
-            s_transcription_segmented,
-        ) = parser.get_transcription_segmented()
-        (translation_xml, s_translation) = parser.get_translation()
+        diplomatic = parser.get_diplomatic()
+        transcription = parser.get_transcription()
+        transcription_segmented = parser.get_transcription_segmented()
+        translation = parser.get_translation()
 
-        if diplomatic_xml is not None:
+        if diplomatic.xml is not None:
             upsert_edition(
                 session,
                 edition_type=models.EditionType.DIPLOMATIC,
                 inscription_id=inscription.id,
-                raw_xml=diplomatic_xml,
-                text=s_diplomatic,
+                ana=diplomatic.ana,
+                raw_xml=diplomatic.xml,
+                text=diplomatic.text,
             )
 
-        if transcription_xml is not None:
+        if transcription.xml is not None:
             upsert_edition(
                 session,
                 edition_type=models.EditionType.TRANSCRIPTION,
                 inscription_id=inscription.id,
-                raw_xml=transcription_xml,
-                text=s_transcription,
+                ana=transcription.ana,
+                raw_xml=transcription.xml,
+                text=transcription.text,
             )
 
-        if transcription_segmented_xml is not None:
+        if transcription_segmented.xml is not None:
             upsert_edition(
                 session,
                 edition_type=models.EditionType.TRANSCRIPTION_SEGMENTED,
                 inscription_id=inscription.id,
-                raw_xml=transcription_segmented_xml,
-                text=s_transcription_segmented,
+                ana=transcription_segmented.ana,
+                raw_xml=transcription_segmented.xml,
+                text=transcription_segmented.text,
             )
 
-        if translation_xml is not None:
+        if translation.xml is not None:
             upsert_edition(
                 session,
                 edition_type=models.EditionType.TRANSLATION,
                 inscription_id=inscription.id,
-                raw_xml=translation_xml,
-                text=s_translation,
+                ana=translation.ana,
+                raw_xml=translation.xml,
+                text=translation.text,
             )
 
         # TODO: this object is mainly for building up the advanced
@@ -336,6 +337,7 @@ def upsert_edition(session, **kwargs):
     )
 
     if instance:
+        instance.ana = kwargs.get("ana")
         instance.raw_xml = kwargs.get("raw_xml")
         instance.text = kwargs.get("text")
     else:

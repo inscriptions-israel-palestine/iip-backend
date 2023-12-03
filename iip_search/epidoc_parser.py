@@ -1,3 +1,4 @@
+from dataclasses import dataclass
 import logging
 import re
 from typing import Dict
@@ -65,6 +66,13 @@ LANGUAGES = {
     },
     "xcl": {"label": "Armenian"},
 }
+
+
+@dataclass
+class Transcription:
+    ana: str | None
+    text: str | None
+    xml: str | None
 
 
 class EpidocParser:
@@ -522,7 +530,7 @@ class EpidocParser:
             xml_id = item.get(XML_ID_ATTRIB)
             taxonomy[xml_id] = {}
 
-            # only forms appear to have an @ana attribute
+            # only forms appear to have an @ana attribute in the taxonomy
             if taxonomy_name == "form":
                 taxonomy[xml_id]["ana"] = item.get("ana")
 
@@ -542,11 +550,12 @@ class EpidocParser:
         edition = self.get_edition(xpath)
 
         if edition is not None:
+            ana = edition.attrib.get("ana")
             text = etree.tostring(edition, encoding="unicode", method="text").strip()  # type: ignore
             xml = etree.tostring(edition, encoding="unicode")  # type: ignore
 
-            return (xml, text)
+            return Transcription(ana, text, xml)
 
         logging.warning(f"No nodes found for {xpath} in {self.filename}.")
 
-        return (None, None)
+        return Transcription(None, None, None)

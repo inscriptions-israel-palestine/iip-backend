@@ -516,6 +516,8 @@ class Edition(Base):
     edition_type: Mapped[EditionType]
     inscription_id = mapped_column(ForeignKey("inscriptions.id"))
     inscription: Mapped["Inscription"] = relationship(back_populates="editions")
+    # ana seems to point to a bibliographic_entry's @xml:id attribute --- is this right?
+    ana: Mapped[Optional[str]] = mapped_column(Text)
     # NOTE: (charles) Since we're using Postgres, we *could* use the built-in
     # XML type. But there's really no advantage in doing so unless
     # we plan to query against this column. As it stands now, this column
