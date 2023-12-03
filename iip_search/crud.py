@@ -348,7 +348,7 @@ def list_inscription_ids(db: Session, *args):
     query = (
         db.query(models.Inscription.id)
         .filter(models.Inscription.display_status == models.DisplayStatus.APPROVED)
-        .distinct(models.Inscription.id)
+        .distinct(models.Inscription.filename)
     )
 
     return [
@@ -364,7 +364,7 @@ def list_inscriptions_query(
     query = (
         db.query(models.Inscription)
         .filter(models.Inscription.display_status == models.DisplayStatus.APPROVED)
-        .distinct(models.Inscription.id)
+        .distinct(models.Inscription.filename)
     )
 
     return apply_filters_to_inscriptions_query(db, query, *args)
@@ -461,7 +461,12 @@ def apply_filters_to_inscriptions_query(
                 models.Inscription.iip_materials.any(models.IIPMaterial.id == material)
             )
 
-    return query.filter(and_(*ands)).filter(or_(*ors)).group_by(models.Inscription.id)
+    return (
+        query.filter(and_(*ands))
+        .filter(or_(*ors))
+        .group_by(models.Inscription.id)
+        .order_by(models.Inscription.filename)
+    )
 
 
 def remove_accents(input_str):
