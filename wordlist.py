@@ -1,56 +1,66 @@
-# copied essentially verbatim from Brown-University-Library/iip-production
-# the only change is inlining the URL constants LATIN_CSV_[NEW_]URL, instead of pulling
-# them from settings.
-
 import csv
 import logging
 import os
 import requests
 import xml.etree.ElementTree as ET
-
+from collections import OrderedDict
+import unicodedata
 
 def main():
     import json
 
-    word_list = get_latin_words_pos_new()
+    langs = ['latin', 'greek', 'hebrew', 'aramaic']
+    for lang in langs:
+        word_list = get_words_pos_new(lang)
 
-    with open("wordlist.json", "w") as f:
-        f.write(json.dumps(word_list))
-
+        with open(f"wordlist_{lang}.json", "w") as f:
+            f.write(json.dumps(word_list))
 
 log = logging.getLogger(__name__)
 
-LATIN_CSV_URL = "https://raw.githubusercontent.com/Brown-University-Library/iip-word-lists/master/new-version/corrected_latin.csv"
-LATIN_CSV_NEW_URL = "https://raw.githubusercontent.com/Brown-University-Library/iip-word-lists/master/new-version/latinoutput_nounique.csv"
+POSDICT = {"ADV": "adverb", "V": "verb", "N": "noun", "PREP": "preposition", "CC": "conjunction", "ADJ": "adjective"}
+REVPOSDICT = {"noun": "N", "verb": "V", "modal": "V", "existential": "V", "bareinf": "V", "toinf": "V", "adjective": "ADJ", "Adj": "ADJ", "adverb": "ADV", "adv": "ADV", "adp": "PREP", "prep": "PREP", "cconj": "CC", "conj": "CC", "propn": "PROPN", "propername": 'PROPN', "num": "NUM", "ptcp": "PART", "pronoun": "PRON", "interjection": "INTERJ"} # adding more values from current csvs
+                                                          
+MOODDICT = {"IND": "indicative", "PTC": "participle", "IMP": "imperative", "SUB": "subjunctive"}
 
-LATIN_TEXT = 0
-LATIN_WORDNUM = 1
-LATIN_NUMBER = 6
-LATIN_WORD = 7
-LATIN_POS1 = 8
-LATIN_POS2 = 9
-LATIN_LEMMA = 10
-XML1 = 11
-XML2 = 12
-NEWBUFF = 3
+#LATIN_CSV_TEST_URL = 'https://raw.githubusercontent.com/cmroughan/iip-wordlist_mockup/main/libs/wordlist/data/dummy-data_latin.csv'
+LATIN_CSV_TEST_URL = 'https://raw.githubusercontent.com/cmroughan/iip-wordlist_mockup/main/libs/wordlist/data/dummy-data_latin-corr.csv'
+#LATIN_CSV_TEST_URL = 'https://raw.githubusercontent.com/cmroughan/iip-wordlist_mockup/main/libs/wordlist/data/base_greek.csv'
 
-KWIC_BUFF = 2
+GREEK_CSV_TEST_URL = 'https://raw.githubusercontent.com/cmroughan/iip-wordlist_mockup/main/libs/wordlist/data/corr_greek_test-data.csv'
+HEBREW_CSV_TEST_URL = 'https://raw.githubusercontent.com/cmroughan/iip-wordlist_mockup/main/libs/wordlist/data/base_hebrew.csv'
+ARAMAIC_CSV_TEST_URL = 'https://raw.githubusercontent.com/cmroughan/iip-wordlist_mockup/main/libs/wordlist/data/base_aramaic.csv'
 
-POSDICT = {
-    "ADV": "adverb",
-    "V": "verb",
-    "N": "noun",
-    "PREP": "preposition",
-    "CC": "conjunction",
-    "ADJ": "adjective",
-}
-REVPOSDICT = {"noun": "N", "verb": "V", "adjective": "ADJ", "adverb": "ADV"}
-MOODDICT = {
-    "IND": "indicative",
-    "PTC": "participle",
-    "IMP": "imperative",
-    "SUB": "subjunctive",
-}
+
+ALL_TOKEN_IDS_TEST_URL = 'https://raw.githubusercontent.com/cmroughan/iip-wordlist_mockup/main/libs/wordlist/data/prelim_allWordIDs.csv'
+
+NORM = 0
+OCCUR = 1
+LEMMA = 2
+POS = 3
+NORMID = 4
+MORPH = 5
+
+abjad = 'אבגדהוזחטיכךלמנסעפצקרשתםןףץ'
+
+with requests.Session() as s:
+    # adding another csv for kwic purposes
+    log.debug( f'ALL_TOKEN_IDS_TEST_URL, ``{ALL_TOKEN_IDS_TEST_URL}``')
+    download = s.get(ALL_TOKEN_IDS_TEST_URL)
+    log.debug( f'download, ``{download}``' )
+    decoded = download.content.decode('utf-8')
+    tokenIDs = csv.reader(decoded.splitlines(), delimiter=",")
+
+# build the tokenIDsToWord dictionary
+tokenIDsToWord = {}
+for row in tokenIDs:
+    if row[0] == 'tokenID':
+        continue
+    fileID, tokenCount = row[0].split('-')
+    if fileID not in tokenIDsToWord:
+        tokenIDsToWord[fileID] = {}
+    tokenIDsToWord[fileID][row[0]] = row[1], row[2]
+
 
 # data is formatted as a list of dictionaries
 # each dictionary is a lemma
@@ -66,39 +76,125 @@ MOODDICT = {
 #   kwics: list of duples of the form, first index is kwic, second is inscrp id]
 # (kwics and inscription ids should correspond to each other)
 
+def get_words_pos_new(langSelect):
+    global tokenIDsToWord
+    global lang
+    
+    lang = langSelect
 
-def get_latin_words_pos_new():
-    log.debug("start")
+    log.debug( 'start' )
 
     with requests.Session() as s:
-        log.debug(f"LATIN_CSV_NEW_URL, ``{LATIN_CSV_NEW_URL}``")
-        download = s.get(LATIN_CSV_NEW_URL)
-        log.debug(f"download, ``{download}``")
-        decoded = download.content.decode("utf-8")
-        words = {}
+        if langSelect == 'latin':
+#           log.debug( f'LATIN_CSV_NEW_URL, ``{settings_app.LATIN_CSV_NEW_URL}``' )
+            log.debug( f'LATIN_CSV_TEST_URL, ``{LATIN_CSV_TEST_URL}``' )
+#           download = s.get(settings_app.LATIN_CSV_TEST_URL)
+            download = s.get(LATIN_CSV_TEST_URL)
+        elif langSelect == 'greek':
+            log.debug( f'GREEK_CSV_TEST_URL, ``{GREEK_CSV_TEST_URL}``' )
+            download = s.get(GREEK_CSV_TEST_URL)
+        elif langSelect == 'hebrew':
+            log.debug( f'HEBREW_CSV_TEST_URL, ``{HEBREW_CSV_TEST_URL}``' )
+            download = s.get(HEBREW_CSV_TEST_URL)
+        elif langSelect == 'aramaic':
+            log.debug( f'ARAMAIC_CSV_TEST_URL, ``{ARAMAIC_CSV_TEST_URL}``' )
+            download = s.get(ARAMAIC_CSV_TEST_URL)
+        log.debug( f'download, ``{download}``' )
+        decoded = download.content.decode('utf-8')
+        words = {} 
         csv_reader = csv.reader(decoded.splitlines(), delimiter=",")
-        line_count = 0
-        curtext = ""
-        textrows = []
         dbwords = []
-        for row in csv_reader:
-            row_word = row[LATIN_LEMMA + NEWBUFF]
-            if line_count > 0 and len(row_word) > 0 and row_word[:1] != "?":
-                if curtext != row[LATIN_TEXT + NEWBUFF]:
-                    go_through_text_new(textrows, words, dbwords)
-                    curtext = row[LATIN_TEXT + NEWBUFF]
-                    textrows = [row]
-                else:
-                    textrows.append(row)
-            line_count += 1
-        go_through_text_new(textrows, words, dbwords)
-        sorted_words = {k: v for k, v in sorted(words.items(), key=lambda item: item)}
+        inscriptions_seen = []
+        
+        wordsCSV = list(csv_reader)
+        wordIDtoPOS = create_wordIDtoPOS(wordsCSV)
+        
+        for row in wordsCSV:
+            # Latin CSV starts with two header rows, should be fixed
+            if row[0] == 'Normalized' or row[0] == '':
+                continue
+                
+            row_occurs = row[OCCUR]
+            for occur in row_occurs.split(', '):
+                inscrID = occur.split('-')[0]
+                
+                # there are some old broken inscrIDs that need to be skipped
+                if inscrID not in tokenIDsToWord:
+                    continue
+                    
+                if inscrID in inscriptions_seen:
+                    continue
+                inscriptions_seen.append(inscrID)
+                prepare_dbwords(inscrID, wordIDtoPOS, dbwords)
+            
+            row_word = row[NORM]
+            
+            extract_from_rows(row, words, wordIDtoPOS)
+        sorted_words = {k: v for k, v in sorted(words.items(), key = noAccent)}
+        
         mapped_db = map(lambda x: "\n".join(x), dbwords)
-        return {
-            "lemmas": count_words(sorted_words),
-            "db_list": "\n\n\n".join(mapped_db),
-        }
+        
+#         with open('SORTED_WORDS.txt','w') as f:
+#             f.write(str(sorted_words))
+#         with open('MAPPED_DB.txt','w') as f:
+#             f.write("\n\n\n".join(mapped_db))
+#         with open('DBWORDS.txt','w') as f:
+#             f.write(str(dbwords))
+        
+    return {"lemmas": count_words(sorted_words), "db_list": "\n\n\n".join(mapped_db)}
+    
+###############################################
 
+def noAccent(wordDict):
+    return "".join([unicodedata.normalize("NFD", ch)[0].lower() for ch in wordDict[1]['lemma']])
+    
+################################################
+
+def create_wordIDtoPOS(csvIn):
+    wordIDtoPOS = {}
+    for row in csvIn:
+        if row[0] == 'Normalized' or row[0] == '':
+            continue
+        for wordID in row[OCCUR].split(', '):
+            lemma = row[LEMMA]
+            # remove points / accents from hebrew/aramaic
+            if lang == 'hebrew' or lang == 'aramaic':
+                lemma = ''.join([ch for ch in row[LEMMA] if ch in abjad])
+            pos = row[POS]
+            # handle empty pos
+            if pos.strip() == '':
+                pos = 'X'
+            wordIDtoPOS[wordID] = lemma, pos
+    return wordIDtoPOS
+    
+###############################################
+
+# Preparing DBwords should happen separately, and on an inscrID basis, not a wordID basis
+def prepare_dbwords(inscrID, wordIDtoPOS, dbwords):
+    dbwordlist = []
+    for token in tokenIDsToWord[inscrID]:
+        wordform, w_n_naw = tokenIDsToWord[inscrID][token]
+        # get the lemma and pos for <w>
+        if w_n_naw == 'w':
+            if token in wordIDtoPOS:
+                pos = wordIDtoPOS[token][1]
+                if pos.lower().strip() in REVPOSDICT:
+                    pos = REVPOSDICT[pos.lower().strip()]
+                dbwordlist.append(f"{wordIDtoPOS[token][0].upper()}/{pos}")
+            else:
+                dbwordlist.append('[...]/X')
+                
+        # return [NUM]/N for <num> 'lemmas'
+        elif w_n_naw == 'n':
+            dbwordlist.append('[NUM]/NUM')
+            
+        # return [...]/X for <orig> 'lemmas'
+        elif w_n_naw == 'naw':
+            dbwordlist.append('[...]/X')
+            
+    dbwords.append(dbwordlist)
+    
+###############################################
 
 def count_words(words):
     counted = []
@@ -107,196 +203,127 @@ def count_words(words):
         for form, form_dict in lemma_dict["forms"].items():
             formlen = len(form_dict["kwics"])
             total += formlen
-            form_dict["count"] = formlen
+#             form_dict["count"] = formlen
         lemma_dict["count"] = total
         counted.append(lemma_dict)
     return counted
+    
+###############################################
 
+def extract_from_rows(row, words, wordIDtoPOS):
+    lemma = row[LEMMA].lower()
+    wordform = row[NORM].lower()
+    pos = row[POS]
+    wordIDs = row[OCCUR].split(', ')
+    count_wordform = len(wordIDs)
+    morph = row[MORPH]
+    
+    if pos.lower().strip() in REVPOSDICT:
+        pos = REVPOSDICT.get(pos.lower().strip())
+    elif pos.strip() == '':
+        pos = 'X'
+    else:
+        pos = pos
+        
+    # handle proper noun capitalization
+    if pos == 'PROPN':
+        lemma = lemma.title()
+        wordform = wordform.title()
+        
+    # strip points and accents from hebrew/aramaic
+    if lang == 'hebrew' or lang == 'aramaic':
+         lemma = ''.join([ch for ch in lemma if ch in abjad])
+    
+    if lemma not in words:
+        words[lemma] = dict()
+        words[lemma]['lemma'] = lemma
+        words[lemma]['pos'] = pos
+        words[lemma]['forms'] = dict()
+    
+    listKWICstrings = []
+    for wordID in wordIDs:
+        fileID, tokenCount = wordID.split('-')
+        
+        # there are some old broken inscrIDs that need to be skipped
+        if fileID not in tokenIDsToWord:
+            continue
+        
+        # KWIC strings
+        KWICstring = get_kwicTuple(wordID)
+        listKWICstrings.append([KWICstring, fileID])
+        
+    if morph != 'None':
+        morph = morph.replace('UNSPECIFIED','').strip()
+        try:
+            morph = " ".join([morphdata.split('=')[1].lower() for morphdata in morph.split('|')])
+        except:
+            morph = morph.lower()
+            morph = morph.replace('1-prelets','').strip()
+            morph = morph.replace('2-prelets','').strip()
+            morph = morph.replace('prelets-1','').strip()
+            morph = morph.replace('prelets-2','').strip()
+            #print(morph)
+    else:
+        morph = pos.lower()
+        
+    
+    forms = {'form': wordform, 'pos': morph, 'kwics': listKWICstrings, 'count': count_wordform}
+        
+    pos_string = f'{wordform} {morph}'
+    words[lemma]['forms'][pos_string] = forms
+    
+###############################################
 
-def go_through_text_new(text_rows, words, dbwords):
-    dbwordlist = []
-    row_len = len(text_rows)
+# defining a function to get KWIC from an input wordID and the tokenIDsToWord dictionary
+# returns an ordered dictionary
+def get_kwic(wordID, extent=2):
+    fileID, tokenCount = wordID.split('-')
+    tokenCount = int(tokenCount)
+    possTokenStart = max(tokenCount - extent, 1)
+    possTokenEnd = tokenCount + extent
+    
+    kwicList = OrderedDict()
+    for i in range(possTokenStart, possTokenEnd+1):
+        possTokenID = f"{fileID}-{i}"
+        if possTokenID in tokenIDsToWord[fileID].keys():
+            # the ''.join([unicodedata.normalize('NFC',c)... bit is temporary
+            # really this should be handled in the underlying data
+            # or in the underlying scripts that produce that data
+            # but we can't expect the data in the underlying XML files to stay consistent
+            # because it is being encoded by different machines and keyboards etc etc
+            kwicList[possTokenID] = ''.join([unicodedata.normalize('NFC',c) for c in tokenIDsToWord[fileID][possTokenID][0]])
+    return(kwicList)
+    
+###############################################
 
-    for x in range(0, row_len):
-        row = text_rows[x]
-
-        lemma = row[LATIN_LEMMA + NEWBUFF].lower()
-        if lemma.find("|") > -1:
-            lemma = lemma.replace("|", " | ")
-
-        pos1 = row[LATIN_POS1 + NEWBUFF]
-        latext = row[LATIN_TEXT + NEWBUFF]
-        # getting pos info
-        pos2 = getXML1POS(row[XML1 + NEWBUFF], pos1, row[LATIN_POS2 + NEWBUFF])
-        if pos2 is None:
-            pos2 = row[LATIN_POS2 + NEWBUFF].lower()
-            if pos2 == "":
-                pos2 = "undefined"
-        else:
-            pos1 = pos2[0]
-            pos2 = pos2[1]
-            if pos1 in REVPOSDICT:
-                pos1 = REVPOSDICT.get(pos1)
-
-        pos_string = row[LATIN_WORD + NEWBUFF] + " (" + pos2 + ")"
-        lemma_string = lemma + " " + pos1
-
-        # adding to doubletree list
-        dbwordlist.append(row[LATIN_LEMMA + NEWBUFF].upper() + "/" + pos1)
-
-        form = row[LATIN_WORD + NEWBUFF]
-        KWICstr = ""
-        for y in range(x - KWIC_BUFF, x + KWIC_BUFF + 1):
-            if y >= 0 and y < row_len:
-                KWICstr += " " + text_rows[y][LATIN_WORD + NEWBUFF]
-
-        incp_id = row[LATIN_TEXT + NEWBUFF][:-4]
-        KWIC = [KWICstr, incp_id]
-
-        lemma_dict = words.get(lemma_string)
-        if lemma_dict is not None:
-            form_dict = lemma_dict.get("forms").get(pos_string)
-            if form_dict is not None:
-                form_dict.get("kwics").append(KWIC)
-            else:
-                form = {"form": form, "pos": pos2, "kwics": [KWIC]}
-                lemma_dict["forms"][pos_string] = form
-        else:
-            forms = {"form": form, "pos": pos2, "kwics": [KWIC]}
-            words[lemma_string] = {
-                "lemma": lemma,
-                "pos": pos1,
-                "forms": {pos_string: forms},
-            }
-    dbwords.append(dbwordlist)
-
-
-def getXML1POS(xmlString, pos, match):
+# defining a function to get KWIC from an input wordID and the tokenIDsToWord dictionary
+# returns an ordered dictionary
+def get_kwicTuple(wordID, extent=2):
+    fileID, tokenCount = wordID.split('-')
+    tokenCount = int(tokenCount)
+    possTokenStart = max(tokenCount - extent, 1)
+    possTokenEnd = tokenCount + extent
+    
+    kwicList = OrderedDict()
+    pre_token = []
+    for i in range(possTokenStart, tokenCount):
+        possTokenID = f"{fileID}-{i}"
+        if possTokenID in tokenIDsToWord[fileID].keys():
+            pre_token.append(tokenIDsToWord[fileID][possTokenID][0])
+    # temporary, while hebrew data isn't updated yet
     try:
-        root = ET.ElementTree(ET.fromstring(xmlString)).getroot()
-        first = None
-        for elem in root.findall("word/entry/infl"):
-            if first is None:
-                first = elem
-            if checkMatch(elem, pos, match):
-                return parseByPos(elem)
-        if first is None:
-            return None
-        else:
-            return parseByPos(first)
-    except Exception as e:
-        # print(e)
-        return None
+        token = tokenIDsToWord[fileID][wordID][0]
+    except:
+        token = ''
+    post_token = []
+    for i in range(tokenCount+1, possTokenEnd+1):
+        possTokenID = f"{fileID}-{i}"
+        if possTokenID in tokenIDsToWord[fileID].keys():
+            post_token.append(tokenIDsToWord[fileID][possTokenID][0])
+        
+    kwicTuple = (" ".join(pre_token), token, " ".join(post_token))
 
-
-def checkMatch(el, pos, match):
-    if el.find("pofs") is not None and el.find("pofs").text == POSDICT[pos]:
-        if pos == "N":
-            return (
-                el.find("case") is not None
-                and match.lower() == el.find("case").text[:3]
-            )
-        if pos == "V":
-            return (
-                el.find("mood") is not None and MOODDICT[match] == el.find("mood").text
-            )
-        if pos == "ADJ":
-            return (
-                el.find("case") is not None
-                and match.lower() == el.find("case").text[:3]
-            ) or (
-                el.find("comp") is not None
-                and match.lower() == el.find("comp").text[:3]
-            )
-        return False
-    else:
-        return False
-
-
-def getXML2POS(xmlString):
-    try:
-        root = ET.ElementTree(ET.fromstring(xmlString)).getroot()
-        if root.tag == "infl":
-            return parseByPos(root)
-        for elem in root.findall("infl"):
-            return parseByPos(elem)
-    except Exception as e:
-        return None
-
-
-def parseByPos(el):
-    pos = el.find("pofs").text
-    if pos == "noun":
-        return (
-            pos,
-            pPart(el, "decl")
-            + pPart(el, "case")
-            + pPart(el, "gend")
-            + pPart(el, "num"),
-        )
-    elif pos == "verb":
-        return (
-            pos,
-            pPart(el, "pers")
-            + pPart(el, "num")
-            + pPart(el, "voice")
-            + pPart(el, "tense")
-            + pPart(el, "mood"),
-        )
-    elif pos == "adjective":
-        return (
-            pos,
-            pPart(el, "decl")
-            + pPart(el, "case")
-            + pPart(el, "gend")
-            + pPart(el, "num")
-            + pPart(el, "comp"),
-        )
-    elif pos == "pronoun":
-        return (pos, pPart(el, "case") + pPart(el, "gend") + pPart(el, "num"))
-    else:
-        return None
-
-
-def pPart(elem, part):
-    if elem.find(part) is None:
-        return ""
-    else:
-        str = elem.find(part).text + " "
-        if part == "num":
-            str = str[:1]
-        return str
-
-
-def findMatch():
-    with requests.Session() as s:
-        download = s.get(LATIN_CSV_URL)
-        decoded = download.content.decode("utf-8")
-        csv_reader = csv.reader(decoded.splitlines(), delimiter=",")
-        line_count = 1
-        curtext = ""
-        textrows = []
-        for row in csv_reader:
-            if line_count == 5:
-                xmlString = row[XML1]
-                pos = row[LATIN_POS1]
-                match = row[LATIN_POS2]
-                try:
-                    root = ET.ElementTree(ET.fromstring(xmlString)).getroot()
-                    first = None
-                    for elem in root.findall("word/entry/infl"):
-                        if first is None:
-                            first = elem
-                        if checkMatch(elem, pos, match):
-                            print(parseByPos(elem))
-                    if first is None:
-                        print("")
-                    else:
-                        print(parseByPos(first))
-                except Exception as e:
-                    print(e)
-            line_count += 1
-
-
+    return(kwicTuple)
+    
 if __name__ == "__main__":
     main()
