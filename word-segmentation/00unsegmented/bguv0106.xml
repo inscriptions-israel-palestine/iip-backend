@@ -129,7 +129,7 @@
                 </p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p> Vexilla<lb/>tio <expan><abbr>leg</abbr><ex>ionis</ex></expan>
+                <p> Vexilla<lb break="no"/>tio <expan><abbr>leg</abbr><ex>ionis</ex></expan>
                     <lb/>
                     <num value="6">VI</num>
                     <expan><abbr>Ferr</abbr><ex>atae</ex></expan>
