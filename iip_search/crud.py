@@ -403,9 +403,15 @@ def apply_filters_to_inscriptions_query(
             )
         )
 
+    # FIXME: These should really be multiple queries. Right now,
+    # this implementation mimics how the Solr implementation worked,
+    # which took the aggregate of description + place + id and searched
+    # for the user-provides string. We want users to be able to search
+    # by inscription ID alone, though, and shouldn't treat that element
+    # as part of description and place.
     if description_place_id is not None and description_place_id != "":
         query = query.filter(
-            models.Inscription.searchable_text.ilike(description_place_id)
+            models.Inscription.searchable_text.ilike(f"%{description_place_id}%")
         )
 
     if figures is not None and figures != "":

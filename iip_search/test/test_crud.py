@@ -7,6 +7,14 @@ logger = logging.getLogger(__name__)
 
 
 class TestCrud:
+    def test_list_inscriptions_by_description_place_id(self, db_session, inscriptions):
+        for inscription in inscriptions:
+            db_session.add(inscription)
+
+        q = crud.list_inscriptions_query(db_session, None, "filename2")
+
+        assert len(q.all()) == 1
+
     def test_list_locations(self, db_session, locations):
         for location in locations:
             db_session.add(location)
