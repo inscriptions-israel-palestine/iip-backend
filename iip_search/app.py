@@ -7,7 +7,7 @@ import logging
 # organized than using comma-separated lists
 from typing import Annotated
 
-from fastapi import Body, HTTPException
+from fastapi import Body
 from fastapi import Depends
 from fastapi import FastAPI
 from fastapi import Request
@@ -235,6 +235,8 @@ def get_inscription(
     slug: str,
     db: Session = Depends(get_db),
 ):
+    inscription = crud.get_inscription(db, slug)
+
     # TODO: restricting individual views requires a more complex
     # frontend authentication flow. For now, because an un-authed user
     # won't be able to do anything besides view the unapproved inscription,
@@ -246,11 +248,8 @@ def get_inscription(
     #     if verification.get("status"):
     #         response.status_code = status.HTTP_404_NOT_FOUND
     #         return verification
-    try:
-        inscription = crud.get_inscription(db, slug)
-        return inscription
-    except:
-        raise HTTPException(status_code=404, detail=f"Inscription {slug} not found")
+
+    return inscription
 
 
 @app.patch("/inscriptions/{slug}", response_model=schemas.Inscription)
@@ -276,38 +275,62 @@ def wordlist():
     words = file.read()
 
     return json.loads(words)
-
-
+    
 @app.get("/wordlist/latin")
 def wordlist_latin():
-    file = open("./wordlist_latin.json")
+    file = open("./wordlists/wordlist_latin.json")
     words = file.read()
 
     return json.loads(words)
-
-
 @app.get("/wordlist/greek")
 def wordlist_greek():
-    file = open("./wordlist_greek.json")
+    file = open("./wordlists/wordlist_greek.json")
     words = file.read()
 
     return json.loads(words)
-
-
 @app.get("/wordlist/hebrew")
 def wordlist_hebrew():
-    file = open("./wordlist_hebrew.json")
+    file = open("./wordlists/wordlist_hebrew.json")
     words = file.read()
 
     return json.loads(words)
-
-
 @app.get("/wordlist/aramaic")
 def wordlist_aramaic():
-    file = open("./wordlist_aramaic.json")
+    file = open("./wordlists/wordlist_aramaic.json")
+    words = file.read()
+
+    return json.loads(words)
+    
+#######################################################
+# temp additions
+@app.get("/wordlist/names/latin")
+def wordlist_names():
+    file = open("./wordlists/persName_latin.json")
+    words = file.read()
+
+    return json.loads(words)
+    
+@app.get("/wordlist/names/greek")
+def wordlist_names():
+    file = open("./wordlists/persName_greek.json")
+    words = file.read()
+
+    return json.loads(words)
+    
+@app.get("/wordlist/names/hebrew")
+def wordlist_names():
+    file = open("./wordlists/persName_hebrew.json")
+    words = file.read()
+
+    return json.loads(words)
+    
+@app.get("/wordlist/names/aramaic")
+def wordlist_names():
+    file = open("./wordlists/persName_aramaic.json")
     words = file.read()
 
     return json.loads(words)
 
+#######################################################
 
 add_pagination(app)
