@@ -7,7 +7,7 @@ import logging
 # organized than using comma-separated lists
 from typing import Annotated
 
-from fastapi import Body
+from fastapi import Body, HTTPException
 from fastapi import Depends
 from fastapi import FastAPI
 from fastapi import Request
@@ -235,8 +235,6 @@ def get_inscription(
     slug: str,
     db: Session = Depends(get_db),
 ):
-    inscription = crud.get_inscription(db, slug)
-
     # TODO: restricting individual views requires a more complex
     # frontend authentication flow. For now, because an un-authed user
     # won't be able to do anything besides view the unapproved inscription,
@@ -248,8 +246,11 @@ def get_inscription(
     #     if verification.get("status"):
     #         response.status_code = status.HTTP_404_NOT_FOUND
     #         return verification
-
-    return inscription
+    try:
+        inscription = crud.get_inscription(db, slug)
+        return inscription
+    except:
+        raise HTTPException(status_code=404, detail=f"Inscription {slug} not found")
 
 
 @app.patch("/inscriptions/{slug}", response_model=schemas.Inscription)
@@ -332,5 +333,6 @@ def wordlist_names():
     return json.loads(words)
 
 #######################################################
+
 
 add_pagination(app)
