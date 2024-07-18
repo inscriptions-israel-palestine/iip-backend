@@ -331,6 +331,38 @@ def wordlist_names():
     words = file.read()
 
     return json.loads(words)
+    
+    
+@app.get("/wordlist/indices/latin")
+def wordlist_names():
+    file = open("./wordlists/indices_latin.json")
+    words = file.read()
+
+    return json.loads(words)
+    
+    
+@app.get("/wordlist/indices/greek")
+def wordlist_names():
+    file = open("./wordlists/indices_greek.json")
+    words = file.read()
+
+    return json.loads(words)
+    
+    
+@app.get("/wordlist/indices/aramaic")
+def wordlist_names():
+    file = open("./wordlists/indices_aramaic.json")
+    words = file.read()
+
+    return json.loads(words)
+    
+    
+@app.get("/wordlist/indices/hebrew")
+def wordlist_names():
+    file = open("./wordlists/indices_hebrew.json")
+    words = file.read()
+
+    return json.loads(words)
 
 #######################################################
 
