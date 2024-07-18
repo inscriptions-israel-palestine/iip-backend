@@ -39,6 +39,8 @@ from iip_search.db import SessionLocal
 app = FastAPI()
 token_auth_scheme = HTTPBearer()
 
+SUPPORTED_LANGUAGES = ["latin", "greek", "hebrew", "aramaic"]
+
 
 def get_db():
     db = SessionLocal()
@@ -276,90 +278,42 @@ def wordlist():
     words = file.read()
 
     return json.loads(words)
-    
-@app.get("/wordlist/latin")
-def wordlist_latin():
-    file = open("./wordlists/wordlist_latin.json")
-    words = file.read()
 
-    return json.loads(words)
-@app.get("/wordlist/greek")
-def wordlist_greek():
-    file = open("./wordlists/wordlist_greek.json")
-    words = file.read()
+@app.get("/wordlist/{language}")
+def wordlist_for_language(response: Response, language: str):
+    if language not in SUPPORTED_LANGUAGES:
+        response.status_code = status.HTTP_404_NOT_FOUND
 
-    return json.loads(words)
-@app.get("/wordlist/hebrew")
-def wordlist_hebrew():
-    file = open("./wordlists/wordlist_hebrew.json")
-    words = file.read()
-
-    return json.loads(words)
-@app.get("/wordlist/aramaic")
-def wordlist_aramaic():
-    file = open("./wordlists/wordlist_aramaic.json")
+        return {"error": f"Language {language} not found."}
+        
+    file = open(f"./wordlists/wordlist_{language}.json")
     words = file.read()
 
     return json.loads(words)
     
 #######################################################
 # temp additions
-@app.get("/wordlist/names/latin")
-def wordlist_names():
-    file = open("./wordlists/persName_latin.json")
-    words = file.read()
+@app.get("/wordlist/names/{language}")
+def wordlist_names(response: Response, language: str):
+    if language not in SUPPORTED_LANGUAGES:
+        response.status_code = status.HTTP_404_NOT_FOUND
 
-    return json.loads(words)
-    
-@app.get("/wordlist/names/greek")
-def wordlist_names():
-    file = open("./wordlists/persName_greek.json")
-    words = file.read()
-
-    return json.loads(words)
-    
-@app.get("/wordlist/names/hebrew")
-def wordlist_names():
-    file = open("./wordlists/persName_hebrew.json")
-    words = file.read()
-
-    return json.loads(words)
-    
-@app.get("/wordlist/names/aramaic")
-def wordlist_names():
-    file = open("./wordlists/persName_aramaic.json")
+        return {"error": f"Language {language} not found."}
+        
+    file = open(f"./wordlists/persName_{language}.json")
     words = file.read()
 
     return json.loads(words)
     
     
-@app.get("/wordlist/indices/latin")
-def wordlist_names():
-    file = open("./wordlists/indices_latin.json")
-    words = file.read()
+@app.get("/wordlist/indices/{language}")
+def wordlist_names(response: Response, language: str):
+    if language not in SUPPORTED_LANGUAGES:
+        response.status_code = status.HTTP_404_NOT_FOUND
 
-    return json.loads(words)
-    
-    
-@app.get("/wordlist/indices/greek")
-def wordlist_names():
-    file = open("./wordlists/indices_greek.json")
-    words = file.read()
-
-    return json.loads(words)
-    
-    
-@app.get("/wordlist/indices/aramaic")
-def wordlist_names():
-    file = open("./wordlists/indices_aramaic.json")
-    words = file.read()
-
-    return json.loads(words)
-    
-    
-@app.get("/wordlist/indices/hebrew")
-def wordlist_names():
-    file = open("./wordlists/indices_hebrew.json")
+        return {"error": f"Language {language} not found."}
+        
+    file = open(f"./wordlists/indices_{language}.json")
     words = file.read()
 
     return json.loads(words)
