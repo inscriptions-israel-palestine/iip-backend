@@ -5,35 +5,75 @@ import requests
 import xml.etree.ElementTree as ET
 from collections import OrderedDict
 import unicodedata
+import json
 
-def main():
-    import json
+def main():  
+    global tokenIDsToWord, lang   
+    # build the tokenIDsToWord dictionary
+    with requests.Session() as s:
+        # adding another csv for kwic purposes
+        download = s.get(ALL_TOKEN_IDS_TEST_URL)
+        decoded = download.content.decode('utf-8')
+        tokenIDs = csv.reader(decoded.splitlines(), delimiter=",")
 
+    tokenIDsToWord = {}
+    for row in tokenIDs:
+        if row[0] == 'tokenID':
+            continue
+        fileID, tokenCount = row[0].split('-')
+        if fileID not in tokenIDsToWord:
+            tokenIDsToWord[fileID] = {}
+        tokenIDsToWord[fileID][row[0]] = row[1], row[2]
+        
+    # iterate through languages and make wordlists
     langs = ['latin', 'greek', 'hebrew', 'aramaic']
-    for lang in langs:
-        word_list = get_words_pos_new(lang)
 
-        with open(f"wordlist_{lang}.json", "w") as f:
+    for lang in langs:
+        downloadedCSV = download_csv(lang)
+        
+        # MAIN WORDLIST
+        word_list = make_wordlists(downloadedCSV)
+
+        with open(f"json/wordlist_{lang}.json", "w") as f:
             f.write(json.dumps(word_list))
+
+        # PERSONAL NAMES
+        name_list = make_wordlists(downloadedCSV, wordType='PERSON')
+
+        with open(f"json/persName_{lang}.json", "w") as f:
+            f.write(json.dumps(name_list))
+
+        # OTHER INDICES
+        fullDict = {}
+        for indexType in INDEX_TYPES:
+            fullDict[indexType] = make_wordlists(downloadedCSV, wordType=INDEX_TYPES[indexType])
+
+        with open(f"json/indices_{lang}.json", "w") as f:
+            f.write(json.dumps(fullDict))
 
 log = logging.getLogger(__name__)
 
 POSDICT = {"ADV": "adverb", "V": "verb", "N": "noun", "PREP": "preposition", "CC": "conjunction", "ADJ": "adjective"}
 REVPOSDICT = {"noun": "N", "verb": "V", "modal": "V", "existential": "V", "bareinf": "V", "toinf": "V", "adjective": "ADJ", "Adj": "ADJ", "adverb": "ADV", "adv": "ADV", "adp": "PREP", "prep": "PREP", "cconj": "CC", "conj": "CC", "propn": "PROPN", "propername": 'PROPN', "num": "NUM", "ptcp": "PART", "pronoun": "PRON", "interjection": "INTERJ"} # adding more values from current csvs
-                                                          
 MOODDICT = {"IND": "indicative", "PTC": "participle", "IMP": "imperative", "SUB": "subjunctive"}
 
-#LATIN_CSV_TEST_URL = 'https://raw.githubusercontent.com/cmroughan/iip-wordlist_mockup/main/libs/wordlist/data/dummy-data_latin.csv'
-LATIN_CSV_TEST_URL = 'https://raw.githubusercontent.com/cmroughan/iip-wordlist_mockup/main/libs/wordlist/data/dummy-data_latin-corr.csv'
-#LATIN_CSV_TEST_URL = 'https://raw.githubusercontent.com/cmroughan/iip-wordlist_mockup/main/libs/wordlist/data/base_greek.csv'
+# LATIN_CSV_TEST_URL = 'https://raw.githubusercontent.com/cmroughan/iip-wordlist_mockup/main/libs/wordlist/data/dummy-data_latin.csv'
+# LATIN_CSV_TEST_URL = 'https://raw.githubusercontent.com/cmroughan/iip-wordlist_mockup/main/libs/wordlist/data/dummy-data_latin-corr.csv'
+# LATIN_CSV_TEST_URL = 'https://raw.githubusercontent.com/cmroughan/iip-wordlist_mockup/main/libs/wordlist/data/base_greek.csv'
 
-GREEK_CSV_TEST_URL = 'https://raw.githubusercontent.com/cmroughan/iip-wordlist_mockup/main/libs/wordlist/data/corr_greek_test-data.csv'
-HEBREW_CSV_TEST_URL = 'https://raw.githubusercontent.com/cmroughan/iip-wordlist_mockup/main/libs/wordlist/data/base_hebrew.csv'
-ARAMAIC_CSV_TEST_URL = 'https://raw.githubusercontent.com/cmroughan/iip-wordlist_mockup/main/libs/wordlist/data/base_aramaic.csv'
+# GREEK_CSV_TEST_URL = 'https://raw.githubusercontent.com/cmroughan/iip-wordlist_mockup/main/libs/wordlist/data/corr_greek_test-data.csv'
+# HEBREW_CSV_TEST_URL = 'https://raw.githubusercontent.com/cmroughan/iip-wordlist_mockup/main/libs/wordlist/data/base_hebrew.csv'
+# ARAMAIC_CSV_TEST_URL = 'https://raw.githubusercontent.com/cmroughan/iip-wordlist_mockup/main/libs/wordlist/data/base_aramaic.csv'
 
+LATIN_CSV = 'https://raw.githubusercontent.com/inscriptions-israel-palestine/iip-backend/main/wordlists/csv/latin.csv'
+GREEK_CSV = 'https://raw.githubusercontent.com/inscriptions-israel-palestine/iip-backend/main/wordlists/csv/greek.csv'
+ARAMAIC_CSV = 'https://raw.githubusercontent.com/inscriptions-israel-palestine/iip-backend/main/wordlists/csv/aramaic.csv'
+HEBREW_CSV = 'https://raw.githubusercontent.com/inscriptions-israel-palestine/iip-backend/main/wordlists/csv/hebrew.csv'
 
+# Update this!
 ALL_TOKEN_IDS_TEST_URL = 'https://raw.githubusercontent.com/cmroughan/iip-wordlist_mockup/main/libs/wordlist/data/prelim_allWordIDs.csv'
 
+# generic word information
 NORM = 0
 OCCUR = 1
 LEMMA = 2
@@ -41,112 +81,167 @@ POS = 3
 NORMID = 4
 MORPH = 5
 
+# personal name information
+PERS_CHECK = 8
+PERS_GENDER = 9
+PERS_TYPE = 10
+PERS_KEY = 11
+
+# other index information
+TITLE = 13
+MILITARY = 16
+ETHNICON = 18
+RELATIONSHIP = 20
+LOCATION = 22
+DATE = 25
+OCCUPATION = 28
+MEASURE = 30
+OBJECT = 32
+RELIGIOUS = 34
+OTHER = 36
+
+INDEX_TYPES = {"title": TITLE, "military": MILITARY, "ethnicon": ETHNICON,
+              "relationship": RELATIONSHIP, "location": LOCATION, "date": DATE,
+              "occupation": OCCUPATION, "measure": MEASURE, "object": OBJECT,
+              "religious": RELIGIOUS, "other": OTHER}
+
 abjad = 'אבגדהוזחטיכךלמנסעפצקרשתםןףץ'
 
-with requests.Session() as s:
-    # adding another csv for kwic purposes
-    log.debug( f'ALL_TOKEN_IDS_TEST_URL, ``{ALL_TOKEN_IDS_TEST_URL}``')
-    download = s.get(ALL_TOKEN_IDS_TEST_URL)
-    log.debug( f'download, ``{download}``' )
-    decoded = download.content.decode('utf-8')
-    tokenIDs = csv.reader(decoded.splitlines(), delimiter=",")
-
-# build the tokenIDsToWord dictionary
-tokenIDsToWord = {}
-for row in tokenIDs:
-    if row[0] == 'tokenID':
-        continue
-    fileID, tokenCount = row[0].split('-')
-    if fileID not in tokenIDsToWord:
-        tokenIDsToWord[fileID] = {}
-    tokenIDsToWord[fileID][row[0]] = row[1], row[2]
-
-
-# data is formatted as a list of dictionaries
-# each dictionary is a lemma
-# LEMMA DICTIONARY FORMAT
-# [ lemma: normalized form of word
-#   pos: part of speech of lemma
-#   count: # of times word appears in inscriptions
-#   forms : dictionary of different forms of word]
-# FORMS DICTIONARY FORMAT
-# [ form: string of form
-#   count: # of times form appears
-#   pos: pos information about the form
-#   kwics: list of duples of the form, first index is kwic, second is inscrp id]
-# (kwics and inscription ids should correspond to each other)
-
-def get_words_pos_new(langSelect):
-    global tokenIDsToWord
-    global lang
-    
-    lang = langSelect
-
-    log.debug( 'start' )
-
+for langSelect in ['latin', 'greek', 'hebrew', 'aramaic']:
     with requests.Session() as s:
         if langSelect == 'latin':
-#           log.debug( f'LATIN_CSV_NEW_URL, ``{settings_app.LATIN_CSV_NEW_URL}``' )
-            log.debug( f'LATIN_CSV_TEST_URL, ``{LATIN_CSV_TEST_URL}``' )
-#           download = s.get(settings_app.LATIN_CSV_TEST_URL)
-            download = s.get(LATIN_CSV_TEST_URL)
+            latin = s.get(LATIN_CSV).content.decode('utf-8')
         elif langSelect == 'greek':
-            log.debug( f'GREEK_CSV_TEST_URL, ``{GREEK_CSV_TEST_URL}``' )
-            download = s.get(GREEK_CSV_TEST_URL)
+            greek = s.get(GREEK_CSV).content.decode('utf-8')
         elif langSelect == 'hebrew':
-            log.debug( f'HEBREW_CSV_TEST_URL, ``{HEBREW_CSV_TEST_URL}``' )
-            download = s.get(HEBREW_CSV_TEST_URL)
+            hebrew = s.get(HEBREW_CSV).content.decode('utf-8')
         elif langSelect == 'aramaic':
-            log.debug( f'ARAMAIC_CSV_TEST_URL, ``{ARAMAIC_CSV_TEST_URL}``' )
-            download = s.get(ARAMAIC_CSV_TEST_URL)
-        log.debug( f'download, ``{download}``' )
-        decoded = download.content.decode('utf-8')
-        words = {} 
-        csv_reader = csv.reader(decoded.splitlines(), delimiter=",")
-        dbwords = []
-        inscriptions_seen = []
-        
-        wordsCSV = list(csv_reader)
-        wordIDtoPOS = create_wordIDtoPOS(wordsCSV)
-        
-        for row in wordsCSV:
-            # Latin CSV starts with two header rows, should be fixed
-            if row[0] == 'Normalized' or row[0] == '':
+            aramaic = s.get(ARAMAIC_CSV).content.decode('utf-8')
+
+# build the persKey_toLemmas dictionary
+persKey_toLemmas = {}
+for lang, rawCSV in [('latin', latin), ('greek', greek), ('hebrew', hebrew), ('aramaic', aramaic)]:
+    csv_reader = csv.reader(rawCSV.splitlines(), delimiter=",")
+    wordsCSV = list(csv_reader)
+    for row in wordsCSV:
+        # Latin CSV starts with two header rows, should be fixed
+        if row[0] == 'Normalized' or row[0] == '':
+            continue
+
+        if row[POS].strip().lower() == 'propn' and row[PERS_CHECK] == 'y':
+            if row[PERS_KEY].strip() == '':
                 continue
-                
-            row_occurs = row[OCCUR]
-            for occur in row_occurs.split(', '):
-                inscrID = occur.split('-')[0]
-                
-                # there are some old broken inscrIDs that need to be skipped
-                if inscrID not in tokenIDsToWord:
-                    continue
-                    
-                if inscrID in inscriptions_seen:
-                    continue
-                inscriptions_seen.append(inscrID)
-                prepare_dbwords(inscrID, wordIDtoPOS, dbwords)
+            if row[PERS_KEY] not in persKey_toLemmas:
+                persKey_toLemmas[row[PERS_KEY]] = []
+            persLemma = row[LEMMA]
+            if len(persLemma) > 0:
+                persLemma = persLemma[0].upper() + persLemma[1:]
+            if persLemma not in persKey_toLemmas[row[PERS_KEY]]:
+                persKey_toLemmas[row[PERS_KEY]].append(persLemma)
+        
+        elif row[POS].strip().lower() == 'propername':
             
-            row_word = row[NORM]
-            
-            extract_from_rows(row, words, wordIDtoPOS)
-        sorted_words = {k: v for k, v in sorted(words.items(), key = noAccent)}
-        
-        mapped_db = map(lambda x: "\n".join(x), dbwords)
-        
-#         with open('SORTED_WORDS.txt','w') as f:
-#             f.write(str(sorted_words))
-#         with open('MAPPED_DB.txt','w') as f:
-#             f.write("\n\n\n".join(mapped_db))
-#         with open('DBWORDS.txt','w') as f:
-#             f.write(str(dbwords))
-        
-    return {"lemmas": count_words(sorted_words), "db_list": "\n\n\n".join(mapped_db)}
+            if row[PERS_KEY].strip() == '':
+                continue
+            if row[PERS_KEY] not in persKey_toLemmas:
+                persKey_toLemmas[row[PERS_KEY]] = []
+            persLemma = row[LEMMA]
+            if len(persLemma) > 0:
+                persLemma = persLemma[0].upper() + persLemma[1:]
+            if persLemma not in persKey_toLemmas[row[PERS_KEY]]:
+                persKey_toLemmas[row[PERS_KEY]].append(persLemma)
+                
+################################################
+
+def make_wordlists(downloadedCSV, wordType=None):
+    global tokenIDsToWord
     
-###############################################
+    words = {} 
+    csv_reader = csv.reader(downloadedCSV.splitlines(), delimiter=",")
+    dbwords = []
+    inscriptions_seen = []
+
+    wordsCSV = list(csv_reader)
+    wordIDtoPOS = create_wordIDtoPOS(wordsCSV)
+    
+    # handle personal names
+    if wordType == 'PERSON':
+        wordsCSV = filter_csv_toNames(wordsCSV) 
+    # handle other indices
+    elif wordType:
+        wordsCSV = filter_csv_toIndex(wordsCSV, wordType) 
+
+    for row in wordsCSV:
+        # Latin CSV starts with two header rows, should be fixed
+        if row[0] == 'Normalized' or row[0] == '':
+            continue
+
+        row_occurs = row[OCCUR]
+        for occur in row_occurs.split(', '):
+            inscrID = occur.split('-')[0]
+
+            # there are some old broken inscrIDs that need to be skipped
+            if inscrID not in tokenIDsToWord:
+                continue
+
+            if inscrID in inscriptions_seen:
+                continue
+            inscriptions_seen.append(inscrID)
+            if wordType != 'PERSON':
+                prepare_dbwords(inscrID, wordIDtoPOS, dbwords)
+
+        row_word = row[NORM]
+
+        extract_from_rows(row, words, wordIDtoPOS, wordType)
+    sorted_words = {k: v for k, v in sorted(words.items(), key = noAccent)}
+
+    if wordType == 'PERSON':
+        return {"lemmas": count_words(sorted_words)}
+    else:
+        mapped_db = map(lambda x: "\n".join(x), dbwords)
+        return {"lemmas": count_words(sorted_words), "db_list": "\n\n\n".join(mapped_db)}
+
+################################################
+       
+def download_csv(langSelect):
+    with requests.Session() as s:
+        if langSelect == 'latin':
+            download = s.get(LATIN_CSV)
+        elif langSelect == 'greek':
+            download = s.get(GREEK_CSV)
+        elif langSelect == 'hebrew':
+            download = s.get(HEBREW_CSV)
+        elif langSelect == 'aramaic':
+            download = s.get(ARAMAIC_CSV)
+        decoded = download.content.decode('utf-8')
+    return decoded
+
+################################################
 
 def noAccent(wordDict):
     return "".join([unicodedata.normalize("NFD", ch)[0].lower() for ch in wordDict[1]['lemma']])
+    
+################################################
+    
+def filter_csv_toNames(csvList):
+    newCSV = []
+    for row in csvList:
+        if row[POS].strip().lower() == 'propn' and row[PERS_CHECK] == 'y':
+            newCSV.append(row)
+        elif row[POS].strip().lower() == 'propername':
+            newCSV.append(row)
+            
+    return newCSV
+    
+################################################
+
+def filter_csv_toIndex(csvList, INDEX):
+    newCSV = []
+    for row in csvList:
+        if row[INDEX] == 'y':
+            newCSV.append(row)
+            
+    return newCSV
     
 ################################################
 
@@ -210,7 +305,11 @@ def count_words(words):
     
 ###############################################
 
-def extract_from_rows(row, words, wordIDtoPOS):
+def extract_from_rows(row, words, wordIDtoPOS, wordType=None):
+    # wordType expects None for regular wordlists.
+    # Personal name lists are indicated with wordType='PERSON'.
+    # Other indices will input the relevant wordType.
+    
     lemma = row[LEMMA].lower()
     wordform = row[NORM].lower()
     pos = row[POS]
@@ -227,8 +326,8 @@ def extract_from_rows(row, words, wordIDtoPOS):
         
     # handle proper noun capitalization
     if pos == 'PROPN':
-        lemma = lemma.title()
-        wordform = wordform.title()
+        lemma = lemma.capitalize()
+        wordform = wordform.capitalize()
         
     # strip points and accents from hebrew/aramaic
     if lang == 'hebrew' or lang == 'aramaic':
@@ -239,6 +338,19 @@ def extract_from_rows(row, words, wordIDtoPOS):
         words[lemma]['lemma'] = lemma
         words[lemma]['pos'] = pos
         words[lemma]['forms'] = dict()
+        
+        if wordType == 'PERSON':
+            words[lemma]['gender'] = row[PERS_GENDER]
+            words[lemma]['type'] = row[PERS_TYPE]
+            words[lemma]['key'] = row[PERS_KEY]
+            if row[PERS_KEY] != '':
+                words[lemma]['cf'] = [l for l in persKey_toLemmas[row[PERS_KEY]] if l != lemma]
+            else:
+                words[lemma]['cf'] = []
+            words[lemma]['forms'] = dict()
+            
+        elif wordType:
+            words[lemma]['type'] = row[wordType+1]
     
     listKWICstrings = []
     for wordID in wordIDs:
@@ -324,6 +436,8 @@ def get_kwicTuple(wordID, extent=2):
     kwicTuple = (" ".join(pre_token), token, " ".join(post_token))
 
     return(kwicTuple)
+    
+###############################################
     
 if __name__ == "__main__":
     main()
