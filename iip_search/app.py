@@ -272,13 +272,6 @@ def update_inscription(
     return admin_crud.update_inscription(db, slug, inscription)
 
 
-@app.get("/wordlist")
-def wordlist():
-    file = open("./wordlist.json")
-    words = file.read()
-
-    return json.loads(words)
-
 @app.get("/wordlist/{language}")
 def wordlist_for_language(response: Response, language: str):
     if language not in SUPPORTED_LANGUAGES:
@@ -286,7 +279,7 @@ def wordlist_for_language(response: Response, language: str):
 
         return {"error": f"Language {language} not found."}
         
-    file = open(f"./wordlists/wordlist_{language}.json")
+    file = open(f"./wordlists/json/wordlist_{language}.json")
     words = file.read()
 
     return json.loads(words)
@@ -300,7 +293,7 @@ def wordlist_names(response: Response, language: str):
 
         return {"error": f"Language {language} not found."}
         
-    file = open(f"./wordlists/persName_{language}.json")
+    file = open(f"./wordlists/json/persName_{language}.json")
     words = file.read()
 
     return json.loads(words)
@@ -313,7 +306,7 @@ def wordlist_names(response: Response, language: str):
 
         return {"error": f"Language {language} not found."}
         
-    file = open(f"./wordlists/indices_{language}.json")
+    file = open(f"./wordlists/json/indices_{language}.json")
     words = file.read()
 
     return json.loads(words)
