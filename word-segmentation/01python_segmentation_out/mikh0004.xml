@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="jeri0027" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mikh0004" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -24,49 +24,50 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeri 0027</idno>
+                        <idno type="IIP">Mikh 0004</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="la" otherLangs=""/>
-                        <msItem class="prayer" ana="christian">
-                            <p>Jericho, 4th-5th c. Mosaic. Label.</p>
+                        <textLang mainLang="he" otherLangs=""/>
+                        <msItem class="verse" ana="unknown_religion">
+                            <p>Tel Mikhal, 100 BCE-400 CE. Two Bronze Rings. Verse.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="mosaic">
-                            <supportDesc ana="stone">
+                        <objectDesc ana="ring">
+                            <supportDesc ana="material_other">
                                 <support>
-                                    <p/>
+                                    <p>Two Bronze Rings</p>
                                     <dimensions type="surface" unit="cm">
-                                        <height/>
-                                        <width>80</width>
+                                        <height>2.1-2.2</height>
+                                        <width>2.1-2.2</width>
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="complete">
-                                    <p/>
+                                <condition ana="complete.broken">
+                                    <p>Diameter of the ring is 2.1-2.2cm.</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="1">
-                                    <p/>
+                                <layout columns="1" writtenLines="2">
+                                    <p>Each ring is a nine sides polygon, and on each facet there
+                                        are two incised words.</p>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
-                            <handNote ana="inset.mosaic">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="10"/>
+                            <handNote ana="impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast=".1" atMost=".15"/>
                                 <p/>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
                             <decoNote>
-                                <ab>Birds facing bunches of grapes</ab>
-                                <locus>Above inscription</locus>
+                                <ab/>
+                                <locus/>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -74,12 +75,11 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0301" notAfter="0500" period="http://n2t.net/ark:/99152/p0m63njjcn4">4th-5th century
-                                CE</date><placeName>
-                                <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687917">Jericho</settlement>
-                                <geogName type="site">Khirbet en-Nitla</geogName>
-                                <geogFeat type="locus">Church</geogFeat>
+                        <origin><date notBefore="-0100" notAfter="0400" period="http://n2t.net/ark:/99152/p0m63njgvtd http://n2t.net/ark:/99152/p0m63njtk9m">1st century BCE to 5th century CE</date><placeName>
+                                <region>Samaria</region>
+                                <settlement ref="http://pleiades.stoa.org/places/678369">Tel Mikhal </settlement>
+                                <geogName type="site"/>
+                                <geogFeat type="locus"/>
                             </placeName>
                             <p/>
                         </origin>
@@ -105,7 +105,7 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2023-06-28" who="Ariela Rosenzweig">Initial Entry</change>
+            <change when="2023-07-16" who="Adin Pepper Fox">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
@@ -118,26 +118,29 @@
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="diplomatic" ana="b1">
-                <p>TO FECILETODIELE</p>
-            </div>
-            <div type="edition" subtype="transcription" ana="b1">
-                <p> <expan><abbr>To</abbr><ex>to</ex></expan> feci leto die le<supplied reason="lost">to</supplied></p>
-            </div>
-            <div type="translation" ana="b1">
-                <p>I did it all happily on a happy day</p>
-            </div>
-            <div type="commentary" ana="b1">
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
                 <p/>
             </div>
-        <div type="edition" subtype="transcription_segmented" change="c2024-08-25"><p> <w xml:id="jeri0027-1" xml:lang="la"><expan><abbr>To</abbr><ex>to</ex></expan></w> <w xml:id="jeri0027-2" xml:lang="la">feci</w> <w xml:id="jeri0027-3" xml:lang="la">leto</w> <w xml:id="jeri0027-4" xml:lang="la">die</w> <w xml:id="jeri0027-5" xml:lang="la">le<supplied reason="lost">to</supplied></w></p>
+            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
+                <p>כי<lb/>אני<lb/>יהה<lb/>שמו</p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>For I am. YHH his name.</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>The first two lines, "For I am", appear on the first of the nine facets on both
+                    of the rings. The second two lines, "YHH his name", appear on the fourth facet
+                    of the first ring and the fifth facet of the second ring. These were the only
+                    two understood facets of the rings.</p>
+            </div>
+        <div type="edition" subtype="transcription_segmented" change="c2024-08-25"><p><w xml:id="mikh0004-1" xml:lang="he">כי</w> <w xml:id="mikh0004-2" xml:lang="he">אני</w> <w xml:id="mikh0004-3" xml:lang="he">יהה</w> <w xml:id="mikh0004-4" xml:lang="he">שמו</w></p>
 </div>
 </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-1143.xml"/>
-                        <biblScope unit="insc">03</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-1164.xml"/>
+                        <biblScope unit="insc">135-138</biblScope>
                     </bibl>
                 </listBibl>
             </div>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="jeri0027" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="nabr0001" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -24,29 +24,30 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeri 0027</idno>
+                        <idno type="IIP">Nabr 0001</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="la" otherLangs=""/>
-                        <msItem class="prayer" ana="christian">
-                            <p>Jericho, 4th-5th c. Mosaic. Label.</p>
+                        <textLang mainLang="he" otherLangs=""/>
+                        <msItem class="building calendar" ana="jewish">
+                            <p>Nabratein, 564 CE. Limestone lintel. Building, calendar
+                                inscription.</p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="mosaic">
-                            <supportDesc ana="stone">
+                        <objectDesc ana="lintel">
+                            <supportDesc ana="limestone">
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
                                         <height/>
-                                        <width>80</width>
+                                        <width>280</width>
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="complete">
-                                    <p/>
+                                <condition ana="complete.broken">
+                                    <p>Broken on the bottom</p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -57,16 +58,23 @@
                         </objectDesc>
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
-                            <handNote ana="inset.mosaic">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="10"/>
-                                <p/>
+                            <handNote ana="impressed.inscribed">
+                                <p>Parts of the inscription look to be cut in relief.</p>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
                             <decoNote>
-                                <ab>Birds facing bunches of grapes</ab>
-                                <locus>Above inscription</locus>
+                                <ab>Four carved square frames</ab>
+                                <locus>Above the inscription, towards the top of the lintel</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>A leaf strip</ab>
+                                <locus>Above the inscription, towards the top of the lintel</locus>
+                            </decoNote>
+                            <decoNote>
+                                <ab>Menorah signet </ab>
+                                <locus>In the middle of the inscription</locus>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -74,17 +82,16 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0301" notAfter="0500" period="http://n2t.net/ark:/99152/p0m63njjcn4">4th-5th century
-                                CE</date><placeName>
-                                <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687917">Jericho</settlement>
-                                <geogName type="site">Khirbet en-Nitla</geogName>
-                                <geogFeat type="locus">Church</geogFeat>
+                        <origin><date notBefore="0563" notAfter="0565" period="http://n2t.net/ark:/99152/p0m63njjcn4">564 CE</date><placeName>
+                                <region>Galilee</region>
+                                <settlement>Nabratein<geo>32.991892, 35.516739</geo></settlement>
+                                <geogName type="site">Synagogue</geogName>
+                                <geogFeat type="locus"/>
                             </placeName>
                             <p/>
                         </origin>
                         <provenance>
-                            <placeName/>
+                            <placeName>Israel Museum, Jerusalem. IAA inv. no. 1966-700</placeName>
                         </provenance>
                     </history>
                 </msDesc>
@@ -105,39 +112,43 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2023-06-28" who="Ariela Rosenzweig">Initial Entry</change>
+            <change when="2023-11-27" who="Adin Pepper Fox">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
     <facsimile>
         <graphic url=""/>
         <surface>
-            <desc/>
-            <graphic url=""/>
+            <desc>Chris Zeichmann</desc>
+            <graphic url="nabr0001.jpg"/>
         </surface>
     </facsimile>
     <text>
         <body>
-            <div type="edition" subtype="diplomatic" ana="b1">
-                <p>TO FECILETODIELE</p>
-            </div>
-            <div type="edition" subtype="transcription" ana="b1">
-                <p> <expan><abbr>To</abbr><ex>to</ex></expan> feci leto die le<supplied reason="lost">to</supplied></p>
-            </div>
-            <div type="translation" ana="b1">
-                <p>I did it all happily on a happy day</p>
-            </div>
-            <div type="commentary" ana="b1">
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
                 <p/>
             </div>
-        <div type="edition" subtype="transcription_segmented" change="c2024-08-25"><p> <w xml:id="jeri0027-1" xml:lang="la"><expan><abbr>To</abbr><ex>to</ex></expan></w> <w xml:id="jeri0027-2" xml:lang="la">feci</w> <w xml:id="jeri0027-3" xml:lang="la">leto</w> <w xml:id="jeri0027-4" xml:lang="la">die</w> <w xml:id="jeri0027-5" xml:lang="la">le<supplied reason="lost">to</supplied></w></p>
+            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
+                <p>למספר ארבע מאות ותישעים וארבע שנה לחרבן <g ref="menorah"/> הבית ניבנה בסרר חנינה בן ליזר
+                    ולוליאנא בר יודן</p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>According to the counting of four hundred and ninety four years to the
+                    destruction of the Temple built during the public service of Ḥanina son of Lizar
+                    and Luliana son of Yudan.</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>Four hundred and ninety four years after the destruction of the second temple
+                    equates to 564 CE.</p>
+            </div>
+        <div type="edition" subtype="transcription_segmented" change="c2024-08-25"><p><w xml:id="nabr0001-1" xml:lang="he">למספר</w> <w xml:id="nabr0001-2" xml:lang="he">ארבע</w> <w xml:id="nabr0001-3" xml:lang="he">מאות</w> <w xml:id="nabr0001-4" xml:lang="he">ותישעים</w> <w xml:id="nabr0001-5" xml:lang="he">וארבע</w> <w xml:id="nabr0001-6" xml:lang="he">שנה</w> <w xml:id="nabr0001-7" xml:lang="he">לחרבן</w> <w xml:id="nabr0001-8" xml:lang="he">הבית</w> <w xml:id="nabr0001-9" xml:lang="he">ניבנה</w> <w xml:id="nabr0001-10" xml:lang="he">בסרר</w> <w xml:id="nabr0001-11" xml:lang="he">חנינה</w> <w xml:id="nabr0001-12" xml:lang="he">בן</w> <w xml:id="nabr0001-13" xml:lang="he">ליזר</w> <w xml:id="nabr0001-14" xml:lang="he">ולוליאנא</w> <w xml:id="nabr0001-15" xml:lang="he">בר</w> <w xml:id="nabr0001-16" xml:lang="he">יודן</w></p>
 </div>
 </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-1143.xml"/>
-                        <biblScope unit="insc">03</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-1227.xml"/>
+                        <biblScope unit="page">49-56</biblScope>
                     </bibl>
                 </listBibl>
             </div>

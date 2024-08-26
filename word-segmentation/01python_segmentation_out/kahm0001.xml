@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="jeri0027" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="kahm0001" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
                 
             -->
             <titleStmt>
-                <title>Inscriptions of Israel/Palestine</title>
+                <title>kahm0001Inscriptions of Israel/Palestine</title>
                 <respStmt>
                     <resp>Creator</resp>
                     <name xml:id="MS">Michael Satlow</name>
@@ -24,49 +24,49 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeri 0027</idno>
+                        <idno type="IIP">Kahm 0001</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="la" otherLangs=""/>
-                        <msItem class="prayer" ana="christian">
-                            <p>Jericho, 4th-5th c. Mosaic. Label.</p>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="funerary.epitaph" ana="christian">
+                            <p>Khan el-Ahmar, Byzantine. Unidentifiable Object. Funerary (Epitaph). </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="mosaic">
-                            <supportDesc ana="stone">
+                        <objectDesc ana="unknown_object">
+                            <supportDesc ana="marble">
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
-                                        <height/>
-                                        <width>80</width>
-                                        <depth/>
+                                        <height>19.5</height>
+                                        <width>18.5</width>
+                                        <depth>3</depth>
                                     </dimensions>
                                 </support>
-                                <condition ana="complete">
+                                <condition ana="fragment.single">
                                     <p/>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="1">
+                                <layout columns="1" writtenLines="4">
                                     <p/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
-                            <handNote ana="inset.mosaic">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="10"/>
+                            <handNote ana="impressed.inscribed">
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="3.5" atMost="4"/>
                                 <p/>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
                             <decoNote>
-                                <ab>Birds facing bunches of grapes</ab>
-                                <locus>Above inscription</locus>
+                                <ab/>
+                                <locus/>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -74,17 +74,18 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0301" notAfter="0500" period="http://n2t.net/ark:/99152/p0m63njjcn4">4th-5th century
-                                CE</date><placeName>
+                        <origin><date notBefore="0324" notAfter="0638" period="http://n2t.net/ark:/99152/p0m63njjcn4">Byzantine</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687917">Jericho</settlement>
-                                <geogName type="site">Khirbet en-Nitla</geogName>
-                                <geogFeat type="locus">Church</geogFeat>
+                                <settlement ref="https://pleiades.stoa.org/places/687898">Khan
+                                    el-Ahmar </settlement>
+                                <geogName type="site">Euthymios Monestary </geogName>
+                                <geogFeat type="locus">found in the debris outside the east wall of
+                                    the church</geogFeat>
                             </placeName>
                             <p/>
                         </origin>
                         <provenance>
-                            <placeName/>
+                            <placeName>Rockefeller Museum, Jerusalem</placeName>
                         </provenance>
                     </history>
                 </msDesc>
@@ -105,7 +106,7 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2023-06-28" who="Ariela Rosenzweig">Initial Entry</change>
+            <change when="2023-06-06" who="Ariela Rosenzweig">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
@@ -119,25 +120,26 @@
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p>TO FECILETODIELE</p>
+                <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p> <expan><abbr>To</abbr><ex>to</ex></expan> feci leto die le<supplied reason="lost">to</supplied></p>
+                <p>
+                    <lb/><supplied reason="lost"><g ref="cross">+</g></supplied> <supplied reason="lost">Θε</supplied>οδό<supplied reason="lost">ρου</supplied> <lb/>χαρτου<supplied reason="lost">λαρίο</supplied><lb break="no"/>υ <expan><abbr>Σ</abbr><ex>ι</ex><abbr>μη<supplied reason="lost">ῶνος</supplied></abbr></expan>                 <lb/>ὑοῦ. </p>
             </div>
             <div type="translation" ana="b1">
-                <p>I did it all happily on a happy day</p>
+                <p>(Tomb) of Theodorus the chartularius son of Simeon.</p>
             </div>
             <div type="commentary" ana="b1">
                 <p/>
             </div>
-        <div type="edition" subtype="transcription_segmented" change="c2024-08-25"><p> <w xml:id="jeri0027-1" xml:lang="la"><expan><abbr>To</abbr><ex>to</ex></expan></w> <w xml:id="jeri0027-2" xml:lang="la">feci</w> <w xml:id="jeri0027-3" xml:lang="la">leto</w> <w xml:id="jeri0027-4" xml:lang="la">die</w> <w xml:id="jeri0027-5" xml:lang="la">le<supplied reason="lost">to</supplied></w></p>
+        <div type="edition" subtype="transcription_segmented" change="c2024-08-25"><p> <w xml:id="kahm0001-1" xml:lang="grc"><supplied reason="lost">Θε</supplied>οδό<supplied reason="lost">ρου</supplied></w> <w xml:id="kahm0001-2" xml:lang="grc">χαρτου<supplied reason="lost">λαρίο</supplied>υ</w> <w xml:id="kahm0001-3" xml:lang="grc"><expan><abbr>Σ</abbr><ex>ι</ex><abbr>μη<supplied reason="lost">ῶνος</supplied></abbr></expan></w> <w xml:id="kahm0001-4" xml:lang="grc">ὑοῦ.</w> </p>
 </div>
 </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-1143.xml"/>
-                        <biblScope unit="insc">03</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-1102.xml"/>
+                        <biblScope unit="page">203</biblScope>
                     </bibl>
                 </listBibl>
             </div>

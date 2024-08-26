@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="jeri0027" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="jeru0666" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -24,29 +24,29 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeri 0027</idno>
+                        <idno type="IIP">Jeru 0666</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="la" otherLangs=""/>
-                        <msItem class="prayer" ana="christian">
-                            <p>Jericho, 4th-5th c. Mosaic. Label.</p>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="funerary.epitaph" ana="christian">
+                            <p>Jerusalem, 324-638 CE. Tombstone. Epitaph. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="mosaic">
+                        <objectDesc ana="tombstone">
                             <supportDesc ana="stone">
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
-                                        <height/>
-                                        <width>80</width>
+                                        <height>20</height>
+                                        <width>30</width>
                                         <depth/>
                                     </dimensions>
                                 </support>
-                                <condition ana="complete">
-                                    <p/>
+                                <condition ana="fragment.single">
+                                    <p>one of a set of three fragments </p>
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
@@ -57,16 +57,15 @@
                         </objectDesc>
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
-                            <handNote ana="inset.mosaic">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="10"/>
+                            <handNote ana="impressed.inscribed">
                                 <p/>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
                             <decoNote>
-                                <ab>Birds facing bunches of grapes</ab>
-                                <locus>Above inscription</locus>
+                                <ab/>
+                                <locus/>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -74,12 +73,11 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0301" notAfter="0500" period="http://n2t.net/ark:/99152/p0m63njjcn4">4th-5th century
-                                CE</date><placeName>
+                        <origin><date notBefore="0324" notAfter="0638" period="http://n2t.net/ark:/99152/p0m63njjcn4">Byzantine</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687917">Jericho</settlement>
-                                <geogName type="site">Khirbet en-Nitla</geogName>
-                                <geogFeat type="locus">Church</geogFeat>
+                                <settlement ref="https://pleiades.stoa.org/places/687928">Jerusalem</settlement>
+                                <geogName type="site">City of David, Channel I </geogName>
+                                <geogFeat type="locus">Area F, Chapter 13</geogFeat>
                             </placeName>
                             <p/>
                         </origin>
@@ -105,7 +103,7 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2023-06-28" who="Ariela Rosenzweig">Initial Entry</change>
+            <change when="2023-07-14" who="Jean Wanlass">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
@@ -114,30 +112,31 @@
         <surface>
             <desc/>
             <graphic url=""/>
+            <note/>
         </surface>
     </facsimile>
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p>TO FECILETODIELE</p>
+                <p>THC</p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p> <expan><abbr>To</abbr><ex>to</ex></expan> feci leto die le<supplied reason="lost">to</supplied></p>
+                <p><orig>THC</orig></p>
             </div>
             <div type="translation" ana="b1">
-                <p>I did it all happily on a happy day</p>
+                <p>of (the genitive case)</p>
             </div>
             <div type="commentary" ana="b1">
-                <p/>
+                <p>upside down in relation to the slabs on either side of it</p>
             </div>
-        <div type="edition" subtype="transcription_segmented" change="c2024-08-25"><p> <w xml:id="jeri0027-1" xml:lang="la"><expan><abbr>To</abbr><ex>to</ex></expan></w> <w xml:id="jeri0027-2" xml:lang="la">feci</w> <w xml:id="jeri0027-3" xml:lang="la">leto</w> <w xml:id="jeri0027-4" xml:lang="la">die</w> <w xml:id="jeri0027-5" xml:lang="la">le<supplied reason="lost">to</supplied></w></p>
+        <div type="edition" subtype="transcription_segmented" change="c2024-08-25"><p><orig xml:id="jeru0666-1" xml:lang="grc">THC</orig></p>
 </div>
 </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-1143.xml"/>
-                        <biblScope unit="insc">03</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-1163.xml"/>
+                        <biblScope unit="page">578</biblScope>
                     </bibl>
                 </listBibl>
             </div>

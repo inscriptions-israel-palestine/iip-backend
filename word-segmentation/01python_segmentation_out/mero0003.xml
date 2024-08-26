@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="mero0003" n="iip">
+    <teiHeader>
+        <fileDesc>
+            <!-- *************************************  <titleStmt>  *********************************
+                
+            -->
+            <titleStmt>
+                <title>Inscriptions of Israel/Palestine</title>
+                <respStmt>
+                    <resp>Creator</resp>
+                    <name xml:id="MS">Michael Satlow</name>
+                </respStmt>
+            </titleStmt>
+            <!-- *************************************  <publicationStmt>  ********************************* -->
+            <publicationStmt>
+                <authority>Brown University</authority>
+                <idno/>
+            </publicationStmt>
+            <!--  *************************************  <sourceDesc>  ********************************* -->
+            <sourceDesc>
+                <!--  *************************************  <msDesc>  ********************************* 
+                       repeat the id number here. This is an Epidoc convention.
+                -->
+                <msDesc>
+                    <msIdentifier>
+                        <idno type="IIP">Mero 0003</idno>
+                    </msIdentifier>
+                    <!--  *************************************  <msContents>  ********************************* -->
+                    <msContents>
+                        <textLang mainLang="he" otherLangs="arc"/>
+                        <msItem class="invocation magic.apotropaic magic" ana="jewish">
+                            <p>Meroth, 7th century CE. Bronze Amulet. Invocation, magical
+                                protection.</p>
+                        </msItem>
+                    </msContents>
+                    <!--  *************************************  <physDesc>  ********************************* -->
+                    <physDesc>
+                        <objectDesc ana="amulet">
+                            <supportDesc ana="material_other">
+                                <support>
+                                    <p>Bronze</p>
+                                    <dimensions type="surface" unit="cm">
+                                        <height>13.8</height>
+                                        <width>4.8</width>
+                                        <depth/>
+                                    </dimensions>
+                                </support>
+                                <condition ana="complete.broken">
+                                    <p/>
+                                </condition>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout columns="1" writtenLines="26">
+                                    <p/>
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <!--  *************************************  <handDesc>  ********************************* -->
+                        <handDesc>
+                            <handNote ana="impressed.inscribed">
+                                <p>Hebrew square letters. Letter size increases towards the bottom
+                                    of the amulet.</p>
+                            </handNote>
+                        </handDesc>
+                        <!--  *************************************  <decoDesc>  ********************************* -->
+                        <decoDesc>
+                            <decoNote>
+                                <ab/>
+                                <locus/>
+                            </decoNote>
+                        </decoDesc>
+                    </physDesc>
+                    <history>
+                        <summary>
+                            <rs/>
+                        </summary>
+                        <origin><date notBefore="0600" notAfter="0699" period="http://n2t.net/ark:/99152/p0m63njjcn4">7th century CE</date><placeName>
+                                <region>Galilee</region>
+                                <settlement>Meroth<geo>33.0467536544738,35.530055833974956</geo></settlement>
+                                <geogName type="site">Meroth Synagogue</geogName>
+                                <geogFeat type="locus"/>
+                            </placeName>
+                            <p/>
+                        </origin>
+                        <provenance>
+                            <placeName>Israel Museum, Jerusalem.</placeName>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <!--  *************************************  <encodingDesc>  ********************************
+            
+            Encoders do not edit the <encodingDesc>.
+        -->
+        <encodingDesc>
+            <xi:include href="http://cds.library.brown.edu/projects/iip/include_taxonomies.xml">
+                <xi:fallback>
+                    <p>Taxonomies for IIP controlled values</p>
+                </xi:fallback>
+            </xi:include>
+        </encodingDesc>
+        <!-- Ignore profileDesc for now -->
+        <profileDesc/>
+        <!--  *************************************  <revisionDesc>  *********************************  -->
+        <revisionDesc>
+            <change when="2023-11-27" who="Adin Pepper Fox">Initial Entry</change>
+        </revisionDesc>
+    </teiHeader>
+    <!--  *************************************  <facsimile>  *********************************  -->
+    <facsimile>
+        <graphic url=""/>
+        <surface>
+            <desc>Chris Zeichmann</desc>
+            <graphic url="mero0003.jpg"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" subtype="diplomatic" ana="b1" xml:lang="heb">
+                <p/>
+            </div>
+            <div type="edition" subtype="transcription" ana="b1" xml:lang="heb">
+                <p>דעל חסדך ועל אמתך<lb/>בשם יהוה נעשה ונצליח<lb/>אל חזק וגיבור ברוך שמך<lb/>וברוכה
+                    מלכותך היך דכבשת<lb/>ימה בסוסיך ורקעת ארעה<lb/>במסנך והיך מה דאת
+                    מכבש<lb/>אילנייה ביום סיתבה ועסבה<lb/>דארעה ביום קייטה כדין ית<supplied reason="lost">כבשון</supplied><lb/>ע<gap reason="illegible" quantity="2" unit="character"/>ל<gap reason="illegible" extent="unknown" unit="character"/>וי<gap reason="illegible" extent="unknown" unit="character"/>תה<lb/>קודם יוסי ברה דזינביה יהווי<lb/>ממרי ומשמעי עליהון הך
+                    מה<lb/>דשמיה כבישין קודם אלהא<lb/>וארעה כבישה קודם בני<lb/>אנשה ובני אנשה
+                    כבישין<lb/>כבישין קודם מותה<lb/>ומותה כביש קודם<lb/>אלהא כדין יהוון עמה<lb/>דהדה
+                    קרתה כבישין<lb/>ות<supplied reason="lost">ב</supplied>ירין ונפילין<lb/>קודם יוסי ברה
+                    דזינביה<lb/>בשם חטועע מלאכה<lb/>דאשתלח קודם ישראל<lb/>אנה עבד סימן צלח<lb/>צלח
+                    אמן<lb/>אמן סלה<lb/>הללויה</p>
+            </div>
+            <div type="translation" ana="b1">
+                <p>For your mercy and for your truth. In the name of YHWH we shall do and succeed.
+                    Strong and mighty God! May your name be blessed and may your kingdom be blessed.
+                    As you have suppressed the sea by your horses and stamped the earth with your
+                    shoe, and as you suppress trees in winter days and the herb of the earth in
+                    summer days, so may (there be suppressed) … before Yose son of Zenobia. May my
+                    word and my obedience be imposed on them. Just as the sky is suppressed before
+                    God, and the earth is suppressed before people, and people are suppressed before
+                    death, and death is suppressed before God, so may the inhabitants of this town
+                    be suppressed and broken and fallen before Yose son of Zenobia. In the name of
+                    Ḥṭwʿʿ, the angel who was sent before Israel, I make a (magic) sign. Success,
+                    Success, Amen, Amen, Selah, Hallelujah.</p>
+            </div>
+            <div type="commentary" ana="b1">
+                <p>The first line is a quote of Psalms 115:1 and 138:2. The text can be broken down
+                    into three parts. An introduction addressing God, a greeting of sorts, and the
+                    magical invocations.</p>
+            </div>
+        <div type="edition" subtype="transcription_segmented" change="c2024-08-25"><p><w xml:id="mero0003-1" xml:lang="he">דעל</w> <w xml:id="mero0003-2" xml:lang="he">חסדך</w> <w xml:id="mero0003-3" xml:lang="he">ועל</w> <w xml:id="mero0003-4" xml:lang="he">אמתך</w> <w xml:id="mero0003-5" xml:lang="he">בשם</w> <w xml:id="mero0003-6" xml:lang="he">יהוה</w> <w xml:id="mero0003-7" xml:lang="he">נעשה</w> <w xml:id="mero0003-8" xml:lang="he">ונצליח</w> <w xml:id="mero0003-9" xml:lang="he">אל</w> <w xml:id="mero0003-10" xml:lang="he">חזק</w> <w xml:id="mero0003-11" xml:lang="he">וגיבור</w> <w xml:id="mero0003-12" xml:lang="he">ברוך</w> <w xml:id="mero0003-13" xml:lang="he">שמך</w> <w xml:id="mero0003-14" xml:lang="he">וברוכה</w> <w xml:id="mero0003-15" xml:lang="he">מלכותך</w> <w xml:id="mero0003-16" xml:lang="he">היך</w> <w xml:id="mero0003-17" xml:lang="he">דכבשת</w> <w xml:id="mero0003-18" xml:lang="he">ימה</w> <w xml:id="mero0003-19" xml:lang="he">בסוסיך</w> <w xml:id="mero0003-20" xml:lang="he">ורקעת</w> <w xml:id="mero0003-21" xml:lang="he">ארעה</w> <w xml:id="mero0003-22" xml:lang="he">במסנך</w> <w xml:id="mero0003-23" xml:lang="he">והיך</w> <w xml:id="mero0003-24" xml:lang="he">מה</w> <w xml:id="mero0003-25" xml:lang="he">דאת</w> <w xml:id="mero0003-26" xml:lang="he">מכבש</w> <w xml:id="mero0003-27" xml:lang="he">אילנייה</w> <w xml:id="mero0003-28" xml:lang="he">ביום</w> <w xml:id="mero0003-29" xml:lang="he">סיתבה</w> <w xml:id="mero0003-30" xml:lang="he">ועסבה</w> <w xml:id="mero0003-31" xml:lang="he">דארעה</w> <w xml:id="mero0003-32" xml:lang="he">ביום</w> <w xml:id="mero0003-33" xml:lang="he">קייטה</w> <w xml:id="mero0003-34" xml:lang="he">כדין</w> <w xml:id="mero0003-35" xml:lang="he">ית<supplied reason="lost">כבשון</supplied></w> <w xml:id="mero0003-36" xml:lang="he">ע</w> <w xml:id="mero0003-37" xml:lang="he">ל</w> <w xml:id="mero0003-38" xml:lang="he">וי</w> <w xml:id="mero0003-39" xml:lang="he">תה</w> <w xml:id="mero0003-40" xml:lang="he">קודם</w> <w xml:id="mero0003-41" xml:lang="he">יוסי</w> <w xml:id="mero0003-42" xml:lang="he">ברה</w> <w xml:id="mero0003-43" xml:lang="he">דזינביה</w> <w xml:id="mero0003-44" xml:lang="he">יהווי</w> <w xml:id="mero0003-45" xml:lang="he">ממרי</w> <w xml:id="mero0003-46" xml:lang="he">ומשמעי</w> <w xml:id="mero0003-47" xml:lang="he">עליהון</w> <w xml:id="mero0003-48" xml:lang="he">הך</w> <w xml:id="mero0003-49" xml:lang="he">מה</w> <w xml:id="mero0003-50" xml:lang="he">דשמיה</w> <w xml:id="mero0003-51" xml:lang="he">כבישין</w> <w xml:id="mero0003-52" xml:lang="he">קודם</w> <w xml:id="mero0003-53" xml:lang="he">אלהא</w> <w xml:id="mero0003-54" xml:lang="he">וארעה</w> <w xml:id="mero0003-55" xml:lang="he">כבישה</w> <w xml:id="mero0003-56" xml:lang="he">קודם</w> <w xml:id="mero0003-57" xml:lang="he">בני</w> <w xml:id="mero0003-58" xml:lang="he">אנשה</w> <w xml:id="mero0003-59" xml:lang="he">ובני</w> <w xml:id="mero0003-60" xml:lang="he">אנשה</w> <w xml:id="mero0003-61" xml:lang="he">כבישין</w> <w xml:id="mero0003-62" xml:lang="he">כבישין</w> <w xml:id="mero0003-63" xml:lang="he">קודם</w> <w xml:id="mero0003-64" xml:lang="he">מותה</w> <w xml:id="mero0003-65" xml:lang="he">ומותה</w> <w xml:id="mero0003-66" xml:lang="he">כביש</w> <w xml:id="mero0003-67" xml:lang="he">קודם</w> <w xml:id="mero0003-68" xml:lang="he">אלהא</w> <w xml:id="mero0003-69" xml:lang="he">כדין</w> <w xml:id="mero0003-70" xml:lang="he">יהוון</w> <w xml:id="mero0003-71" xml:lang="he">עמה</w> <w xml:id="mero0003-72" xml:lang="he">דהדה</w> <w xml:id="mero0003-73" xml:lang="he">קרתה</w> <w xml:id="mero0003-74" xml:lang="he">כבישין</w> <w xml:id="mero0003-75" xml:lang="he">ות<supplied reason="lost">ב</supplied>ירין</w> <w xml:id="mero0003-76" xml:lang="he">ונפילין</w> <w xml:id="mero0003-77" xml:lang="he">קודם</w> <w xml:id="mero0003-78" xml:lang="he">יוסי</w> <w xml:id="mero0003-79" xml:lang="he">ברה</w> <w xml:id="mero0003-80" xml:lang="he">דזינביה</w> <w xml:id="mero0003-81" xml:lang="he">בשם</w> <w xml:id="mero0003-82" xml:lang="he">חטועע</w> <w xml:id="mero0003-83" xml:lang="he">מלאכה</w> <w xml:id="mero0003-84" xml:lang="he">דאשתלח</w> <w xml:id="mero0003-85" xml:lang="he">קודם</w> <w xml:id="mero0003-86" xml:lang="he">ישראל</w> <w xml:id="mero0003-87" xml:lang="he">אנה</w> <w xml:id="mero0003-88" xml:lang="he">עבד</w> <w xml:id="mero0003-89" xml:lang="he">סימן</w> <w xml:id="mero0003-90" xml:lang="he">צלח</w> <w xml:id="mero0003-91" xml:lang="he">צלח</w> <w xml:id="mero0003-92" xml:lang="he">אמן</w> <w xml:id="mero0003-93" xml:lang="he">אמן</w> <w xml:id="mero0003-94" xml:lang="he">סלה</w> <w xml:id="mero0003-95" xml:lang="he">הללויה</w></p>
+</div>
+</body>
+        <back>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl xml:id="b1"><ptr target="IIP-1226.xml"/>
+                        <biblScope unit="page">367-382</biblScope>
+                    </bibl>
+                    <bibl xml:id="b2"><ptr target="IIP-966"/><biblScope unit="page">286-293</biblScope></bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>

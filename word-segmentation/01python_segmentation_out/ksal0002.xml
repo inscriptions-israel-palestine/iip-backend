@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="jeri0027" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="ksal0002" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -24,13 +24,13 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeri 0027</idno>
+                        <idno type="IIP">Ksal 0002</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="la" otherLangs=""/>
-                        <msItem class="prayer" ana="christian">
-                            <p>Jericho, 4th-5th c. Mosaic. Label.</p>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="building" ana="christian">
+                            <p>Khan Saliba, Byzantine. Mosaic. Building. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
@@ -40,8 +40,8 @@
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
-                                        <height/>
-                                        <width>80</width>
+                                        <height>12</height>
+                                        <width>2.65</width>
                                         <depth/>
                                     </dimensions>
                                 </support>
@@ -58,15 +58,15 @@
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
                             <handNote ana="inset.mosaic">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="10"/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="7" atMost="9"/>
                                 <p/>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
                             <decoNote>
-                                <ab>Birds facing bunches of grapes</ab>
-                                <locus>Above inscription</locus>
+                                <ab>Palm branch</ab>
+                                <locus>Beginning inscription</locus>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -74,12 +74,13 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0301" notAfter="0500" period="http://n2t.net/ark:/99152/p0m63njjcn4">4th-5th century
-                                CE</date><placeName>
+                        <origin><date notBefore="0324" notAfter="0638" period="http://n2t.net/ark:/99152/p0m63njjcn4">Byzantine</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687917">Jericho</settlement>
-                                <geogName type="site">Khirbet en-Nitla</geogName>
-                                <geogFeat type="locus">Church</geogFeat>
+                                <settlement>Khan Saliba
+                                    <geo>31.8150288,35.2894541</geo></settlement>
+                                <geogName type="site">St. Adam Monastry </geogName>
+                                <geogFeat type="locus">At the eastern end of the mosaic pavement of
+                                    Room 4.</geogFeat>
                             </placeName>
                             <p/>
                         </origin>
@@ -105,7 +106,7 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2023-06-28" who="Ariela Rosenzweig">Initial Entry</change>
+            <change when="2023-06-06" who="Ariela Rosenzweig">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
@@ -119,25 +120,27 @@
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p>TO FECILETODIELE</p>
+                <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p> <expan><abbr>To</abbr><ex>to</ex></expan> feci leto die le<supplied reason="lost">to</supplied></p>
+                <p>
+                    Ἐπὶ τοῦ <expan><abbr>θεοφ</abbr><ex>ιλεστάτου</ex></expan> <expan><abbr>πρεσβ</abbr><ex>υτέρου</ex></expan> <expan><abbr>κ</abbr><ex>αὶ</ex></expan> <expan><abbr>ἡγουμ</abbr><ex>ένου</ex></expan> Παύλου ἐγένετο τὸ ἔργον.
+                </p>
             </div>
             <div type="translation" ana="b1">
-                <p>I did it all happily on a happy day</p>
+                <p>The work was executed under the most God-loving priest and Abbot Paulus.</p>
             </div>
             <div type="commentary" ana="b1">
                 <p/>
             </div>
-        <div type="edition" subtype="transcription_segmented" change="c2024-08-25"><p> <w xml:id="jeri0027-1" xml:lang="la"><expan><abbr>To</abbr><ex>to</ex></expan></w> <w xml:id="jeri0027-2" xml:lang="la">feci</w> <w xml:id="jeri0027-3" xml:lang="la">leto</w> <w xml:id="jeri0027-4" xml:lang="la">die</w> <w xml:id="jeri0027-5" xml:lang="la">le<supplied reason="lost">to</supplied></w></p>
+        <div type="edition" subtype="transcription_segmented" change="c2024-08-25"><p> <w xml:id="ksal0002-1" xml:lang="grc">Ἐπὶ</w> <w xml:id="ksal0002-2" xml:lang="grc">τοῦ</w> <w xml:id="ksal0002-3" xml:lang="grc"><expan><abbr>θεοφ</abbr><ex>ιλεστάτου</ex></expan></w> <w xml:id="ksal0002-4" xml:lang="grc"><expan><abbr>πρεσβ</abbr><ex>υτέρου</ex></expan></w> <w xml:id="ksal0002-5" xml:lang="grc"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w xml:id="ksal0002-6" xml:lang="grc"><expan><abbr>ἡγουμ</abbr><ex>ένου</ex></expan></w> <w xml:id="ksal0002-7" xml:lang="grc">Παύλου</w> <w xml:id="ksal0002-8" xml:lang="grc">ἐγένετο</w> <w xml:id="ksal0002-9" xml:lang="grc">τὸ</w> <w xml:id="ksal0002-10" xml:lang="grc">ἔργον.</w> </p>
 </div>
 </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-1143.xml"/>
-                        <biblScope unit="insc">03</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-1103.xml"/>
+                        <biblScope unit="insc">09</biblScope>
                     </bibl>
                 </listBibl>
             </div>

@@ -124,13 +124,14 @@
                 <p>ב<choice><unclear>ל</unclear><unclear>ק</unclear></choice> לתמוז שנת<lb/>תשעין ותשע להורקנוס<lb/>התשצא ככא<lb/>לשמעון </p>
             </div>
             <div type="translation" ana="b1">
-                <p>On the thirtieth of Tammuz, year ninety and nine of Hyrcanus. Will it end thus
-                    for Simon?</p>
+                <p>On the tenth of Tammuz,  ninety nine of Hyrcanus this loculus was completed for
+                    Simon</p>
             </div>
             <div type="commentary" ana="b1">
-                <p/>
+                <p>The uncertainty of Garfinkel's earlier interpretation is mostly resolved by
+                    context provided by Morgenstern and Ariel in 2023.</p>
             </div>
-        <div type="edition" subtype="transcription_segmented" change="c2023-07-10"><p><w xml:id="jeru0638-1" xml:lang="he">ב<choice><unclear>ל</unclear><unclear>ק</unclear></choice></w> <w xml:id="jeru0638-2" xml:lang="he">לתמוז</w> <w xml:id="jeru0638-3" xml:lang="he">שנת</w> <w xml:id="jeru0638-4" xml:lang="he">תשעין</w> <w xml:id="jeru0638-5" xml:lang="he">ותשע</w> <w xml:id="jeru0638-6" xml:lang="he">להורקנוס</w> <w xml:id="jeru0638-7" xml:lang="he">התשצא</w> <w xml:id="jeru0638-8" xml:lang="he">ככא</w> <w xml:id="jeru0638-9" xml:lang="he">לשמעון</w> </p>
+        <div type="edition" subtype="transcription_segmented" change="c2024-08-25"><p><w xml:id="jeru0638-1" xml:lang="he">ב<choice><unclear>ל</unclear><unclear>ק</unclear></choice></w> <w xml:id="jeru0638-2" xml:lang="he">לתמוז</w> <w xml:id="jeru0638-3" xml:lang="he">שנת</w> <w xml:id="jeru0638-4" xml:lang="he">תשעין</w> <w xml:id="jeru0638-5" xml:lang="he">ותשע</w> <w xml:id="jeru0638-6" xml:lang="he">להורקנוס</w> <w xml:id="jeru0638-7" xml:lang="he">התשצא</w> <w xml:id="jeru0638-8" xml:lang="he">ככא</w> <w xml:id="jeru0638-9" xml:lang="he">לשמעון</w> </p>
 </div>
 </body>
         <back>
@@ -139,6 +140,7 @@
                     <bibl xml:id="b1"><ptr target="IIP-1068.xml"/>
                         <biblScope unit="page">137</biblScope>
                     </bibl>
+                    <bibl xml:id="b2"><ptr target="IIP-1142.xml"/><biblScope unit="page">1-11</biblScope></bibl>
                 </listBibl>
             </div>
         </back>

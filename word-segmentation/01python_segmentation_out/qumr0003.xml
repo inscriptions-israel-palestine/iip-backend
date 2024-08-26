@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="jeri0027" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="qumr0003" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -24,24 +24,24 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeri 0027</idno>
+                        <idno type="IIP">Qumr 0003</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="la" otherLangs=""/>
-                        <msItem class="prayer" ana="christian">
-                            <p>Jericho, 4th-5th c. Mosaic. Label.</p>
+                        <textLang mainLang="he" otherLangs=""/>
+                        <msItem class="text_unknown" ana="jewish">
+                            <p>Qumran, 1 c. BCE - 1 c. CE. Vase. Unknown Text. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="mosaic">
+                        <objectDesc ana="other_object">
                             <supportDesc ana="stone">
                                 <support>
-                                    <p/>
+                                    <p>Vase</p>
                                     <dimensions type="surface" unit="cm">
-                                        <height/>
-                                        <width>80</width>
+                                        <height>71</height>
+                                        <width>39</width>
                                         <depth/>
                                     </dimensions>
                                 </support>
@@ -50,23 +50,22 @@
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="1">
+                                <layout columns="1" writtenLines="2">
                                     <p/>
                                 </layout>
                             </layoutDesc>
                         </objectDesc>
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
-                            <handNote ana="inset.mosaic">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="10"/>
+                            <handNote ana="impressed.inscribed">
                                 <p/>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
                             <decoNote>
-                                <ab>Birds facing bunches of grapes</ab>
-                                <locus>Above inscription</locus>
+                                <ab/>
+                                <locus/>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -74,17 +73,17 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0301" notAfter="0500" period="http://n2t.net/ark:/99152/p0m63njjcn4">4th-5th century
+                        <origin><date notBefore="-0100" notAfter="0100" period="http://n2t.net/ark:/99152/p0m63njbxb9">1 c. BCE - 1 c.
                                 CE</date><placeName>
                                 <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687917">Jericho</settlement>
-                                <geogName type="site">Khirbet en-Nitla</geogName>
-                                <geogFeat type="locus">Church</geogFeat>
+                                <settlement ref="https://pleiades.stoa.org/places/688011">Qumran</settlement>
+                                <geogName type="site">Ein Feshkha</geogName>
+                                <geogFeat type="locus"/>
                             </placeName>
                             <p/>
                         </origin>
                         <provenance>
-                            <placeName/>
+                            <placeName>Rockefeller Museum, Jerusalem</placeName>
                         </provenance>
                     </history>
                 </msDesc>
@@ -105,7 +104,7 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2023-06-28" who="Ariela Rosenzweig">Initial Entry</change>
+            <change when="2023-07-31" who="Ariela Rosenzweig">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
@@ -119,25 +118,26 @@
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p>TO FECILETODIELE</p>
+                <p/>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p> <expan><abbr>To</abbr><ex>to</ex></expan> feci leto die le<supplied reason="lost">to</supplied></p>
+                <p><lb/>בשנת אחת<lb/>
+                    <orig>סב<choice><unclear>ד</unclear><unclear>ר</unclear></choice>א</orig><gap reason="lost" extent="unknown"/></p>
             </div>
             <div type="translation" ana="b1">
-                <p>I did it all happily on a happy day</p>
+                <p>In year one...</p>
             </div>
             <div type="commentary" ana="b1">
                 <p/>
             </div>
-        <div type="edition" subtype="transcription_segmented" change="c2024-08-25"><p> <w xml:id="jeri0027-1" xml:lang="la"><expan><abbr>To</abbr><ex>to</ex></expan></w> <w xml:id="jeri0027-2" xml:lang="la">feci</w> <w xml:id="jeri0027-3" xml:lang="la">leto</w> <w xml:id="jeri0027-4" xml:lang="la">die</w> <w xml:id="jeri0027-5" xml:lang="la">le<supplied reason="lost">to</supplied></w></p>
+        <div type="edition" subtype="transcription_segmented" change="c2024-08-25"><p> <w xml:id="qumr0003-1" xml:lang="he">בשנת</w> <w xml:id="qumr0003-2" xml:lang="he">אחת</w> <orig xml:id="qumr0003-3" xml:lang="he">סב<choice><unclear>ד</unclear><unclear>ר</unclear></choice>א</orig> </p>
 </div>
 </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-1143.xml"/>
-                        <biblScope unit="insc">03</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-1184.xml"/>
+                        <biblScope unit="page">244</biblScope>
                     </bibl>
                 </listBibl>
             </div>

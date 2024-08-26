@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="jeri0027" n="iip">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="shun0001" n="iip">
     <teiHeader>
         <fileDesc>
             <!-- *************************************  <titleStmt>  *********************************
@@ -24,24 +24,24 @@
                 -->
                 <msDesc>
                     <msIdentifier>
-                        <idno type="IIP">Jeri 0027</idno>
+                        <idno type="IIP">Shun 0001</idno>
                     </msIdentifier>
                     <!--  *************************************  <msContents>  ********************************* -->
                     <msContents>
-                        <textLang mainLang="la" otherLangs=""/>
-                        <msItem class="prayer" ana="christian">
-                            <p>Jericho, 4th-5th c. Mosaic. Label.</p>
+                        <textLang mainLang="grc" otherLangs=""/>
+                        <msItem class="building dedicatory" ana="christian">
+                            <p>Shuni, late fifth or early sixth century CE. Mosaic. Dedication. </p>
                         </msItem>
                     </msContents>
                     <!--  *************************************  <physDesc>  ********************************* -->
                     <physDesc>
-                        <objectDesc ana="mosaic">
+                        <objectDesc ana="floor mosaic">
                             <supportDesc ana="stone">
                                 <support>
                                     <p/>
                                     <dimensions type="surface" unit="cm">
-                                        <height/>
-                                        <width>80</width>
+                                        <height>126.5 </height>
+                                        <width>243.0 </width>
                                         <depth/>
                                     </dimensions>
                                 </support>
@@ -50,7 +50,7 @@
                                 </condition>
                             </supportDesc>
                             <layoutDesc>
-                                <layout columns="1" writtenLines="1">
+                                <layout columns="1" writtenLines="6">
                                     <p/>
                                 </layout>
                             </layoutDesc>
@@ -58,15 +58,17 @@
                         <!--  *************************************  <handDesc>  ********************************* -->
                         <handDesc>
                             <handNote ana="inset.mosaic">
-                                <dimensions type="letter" extent="height" unit="cm" atLeast="5" atMost="10"/>
-                                <p/>
+                                <dimensions type="letter" extent="height" unit="cm" atLeast="17" atMost="18"/>
+                                <p>on avg.</p>
                             </handNote>
                         </handDesc>
                         <!--  *************************************  <decoDesc>  ********************************* -->
                         <decoDesc>
                             <decoNote>
-                                <ab>Birds facing bunches of grapes</ab>
-                                <locus>Above inscription</locus>
+                                <ab>tabula ansata, with the rectangular panel and triangular handles
+                                    framed by rows of red tesserae, and the fill of the triangles
+                                    made of yellow tesserae with a white circle in the middle </ab>
+                                <locus>around text</locus>
                             </decoNote>
                         </decoDesc>
                     </physDesc>
@@ -74,12 +76,12 @@
                         <summary>
                             <rs/>
                         </summary>
-                        <origin><date notBefore="0301" notAfter="0500" period="http://n2t.net/ark:/99152/p0m63njjcn4">4th-5th century
-                                CE</date><placeName>
-                                <region>Judaea</region>
-                                <settlement ref="https://pleiades.stoa.org/places/687917">Jericho</settlement>
-                                <geogName type="site">Khirbet en-Nitla</geogName>
-                                <geogFeat type="locus">Church</geogFeat>
+                        <origin><date notBefore="0450" notAfter="0550" period="http://n2t.net/ark:/99152/p0m63njjcn4">late fifth or early
+                                sixth century CE</date><placeName>
+                                <region>Coastal Plain</region>
+                                <settlement ref="https://pleiades.stoa.org/places/678233">Shuni</settlement>
+                                <geogName type="site">Area C</geogName>
+                                <geogFeat type="locus"/>
                             </placeName>
                             <p/>
                         </origin>
@@ -105,7 +107,7 @@
         <profileDesc/>
         <!--  *************************************  <revisionDesc>  *********************************  -->
         <revisionDesc>
-            <change when="2023-06-28" who="Ariela Rosenzweig">Initial Entry</change>
+            <change when="2023-07-07" who="Jean Wanlass">Initial Entry</change>
         </revisionDesc>
     </teiHeader>
     <!--  *************************************  <facsimile>  *********************************  -->
@@ -119,25 +121,36 @@
     <text>
         <body>
             <div type="edition" subtype="diplomatic" ana="b1">
-                <p>TO FECILETODIELE</p>
+                <p>ΕΠΙΦΛsΜΑΡΚΙΑΝΟΥ <lb/>
+                    ΑΝΤΙΠΑΤΡΟΥΤΟΥΛΑΜΠΡΟ <lb/>
+                    ΤΑΤΟΥΚΑΙΜΕΓΑΛΟΠΡΕΠΕϹΤΑ <lb/>
+                    ΤΟΥΥΠΑΤΙΚΟΥΚΑΙΤΟΥΤΟΤΟ <lb/>
+                    ΟΡΟϹΕΤΕΜΦΘΗΚΑΙΤΟΕΡΓΟΝ <lb/>
+                    ΕΚΘΕΜΕΛΙWΝΕΚΤΕΙϹΘΗ</p>
             </div>
             <div type="edition" subtype="transcription" ana="b1">
-                <p> <expan><abbr>To</abbr><ex>to</ex></expan> feci leto die le<supplied reason="lost">to</supplied></p>
+                <p>Ἐπὶ <expan><abbr>Φλ</abbr><ex>αουίου</ex></expan> Μαρκιανοῦ <lb/>
+                    Ἀντιπάτρου τοῦ λαμπρο<lb break="no"/>
+                    τάτου καὶ μεγαλοπρεπεστά<lb break="no"/>
+                    του ὑπατικοῦ καὶ τοῦτο τὸ <lb/>
+                    ὄρος ἐτέμφθη καὶ τὸ ἔργον <lb/> 
+                    ἐκ θεμελίων ἐκτείσθη</p>
             </div>
             <div type="translation" ana="b1">
-                <p>I did it all happily on a happy day</p>
+                <p>Under Flavius Marcianus Antipater, the clarissimus and most magnificent consular,
+                    this mountain was carved and this building was erected from the foundations.</p>
             </div>
             <div type="commentary" ana="b1">
                 <p/>
             </div>
-        <div type="edition" subtype="transcription_segmented" change="c2024-08-25"><p> <w xml:id="jeri0027-1" xml:lang="la"><expan><abbr>To</abbr><ex>to</ex></expan></w> <w xml:id="jeri0027-2" xml:lang="la">feci</w> <w xml:id="jeri0027-3" xml:lang="la">leto</w> <w xml:id="jeri0027-4" xml:lang="la">die</w> <w xml:id="jeri0027-5" xml:lang="la">le<supplied reason="lost">to</supplied></w></p>
+        <div type="edition" subtype="transcription_segmented" change="c2024-08-25"><p><w xml:id="shun0001-1" xml:lang="grc">Ἐπὶ</w> <w xml:id="shun0001-2" xml:lang="grc"><expan><abbr>Φλ</abbr><ex>αουίου</ex></expan></w> <w xml:id="shun0001-3" xml:lang="grc">Μαρκιανοῦ</w> <w xml:id="shun0001-4" xml:lang="grc">Ἀντιπάτρου</w> <w xml:id="shun0001-5" xml:lang="grc">τοῦ</w> <w xml:id="shun0001-6" xml:lang="grc">λαμπρο</w> <w xml:id="shun0001-7" xml:lang="grc">τάτου</w> <w xml:id="shun0001-8" xml:lang="grc">καὶ</w> <w xml:id="shun0001-9" xml:lang="grc">μεγαλοπρεπεστά</w> <w xml:id="shun0001-10" xml:lang="grc">του</w> <w xml:id="shun0001-11" xml:lang="grc">ὑπατικοῦ</w> <w xml:id="shun0001-12" xml:lang="grc">καὶ</w> <w xml:id="shun0001-13" xml:lang="grc">τοῦτο</w> <w xml:id="shun0001-14" xml:lang="grc">τὸ</w> <w xml:id="shun0001-15" xml:lang="grc">ὄρος</w> <w xml:id="shun0001-16" xml:lang="grc">ἐτέμφθη</w> <w xml:id="shun0001-17" xml:lang="grc">καὶ</w> <w xml:id="shun0001-18" xml:lang="grc">τὸ</w> <w xml:id="shun0001-19" xml:lang="grc">ἔργον</w> <w xml:id="shun0001-20" xml:lang="grc">ἐκ</w> <w xml:id="shun0001-21" xml:lang="grc">θεμελίων</w> <w xml:id="shun0001-22" xml:lang="grc">ἐκτείσθη</w></p>
 </div>
 </body>
         <back>
             <div type="bibliography">
                 <listBibl>
-                    <bibl xml:id="b1"><ptr target="IIP-1143.xml"/>
-                        <biblScope unit="insc">03</biblScope>
+                    <bibl xml:id="b1"><ptr target="IIP-1153.xml"/>
+                        <biblScope unit="insc">1</biblScope>
                     </bibl>
                 </listBibl>
             </div>
