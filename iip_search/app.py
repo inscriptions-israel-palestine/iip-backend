@@ -278,12 +278,13 @@ def wordlist_for_language(response: Response, language: str):
         response.status_code = status.HTTP_404_NOT_FOUND
 
         return {"error": f"Language {language} not found."}
-        
+
     file = open(f"./wordlists/json/wordlist_{language}.json")
     words = file.read()
 
     return json.loads(words)
-    
+
+
 #######################################################
 # temp additions
 @app.get("/wordlist/names/{language}")
@@ -292,24 +293,25 @@ def wordlist_names(response: Response, language: str):
         response.status_code = status.HTTP_404_NOT_FOUND
 
         return {"error": f"Language {language} not found."}
-        
+
     file = open(f"./wordlists/json/persName_{language}.json")
     words = file.read()
 
     return json.loads(words)
-    
-    
+
+
 @app.get("/wordlist/indices/{language}")
-def wordlist_names(response: Response, language: str):
+def wordlist_indices(response: Response, language: str):
     if language not in SUPPORTED_LANGUAGES:
         response.status_code = status.HTTP_404_NOT_FOUND
 
         return {"error": f"Language {language} not found."}
-        
+
     file = open(f"./wordlists/json/indices_{language}.json")
     words = file.read()
 
     return json.loads(words)
+
 
 #######################################################
 

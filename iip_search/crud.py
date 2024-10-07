@@ -11,10 +11,8 @@ from sqlalchemy.orm import Session
 from iip_search import models
 from iip_search import schemas
 
-"""
-Faceted search is always going to require some kind of expensive
-operation. 
-"""
+# Faceted search is always going to require some kind of expensive
+# operation.
 
 
 def get_city(db: Session, city_id: int):
@@ -353,7 +351,7 @@ def list_inscription_ids(db: Session, *args):
 
     return [
         inscription.id
-        for inscription in apply_filters_to_inscriptions_query(db, query, *args).all()
+        for inscription in apply_filters_to_inscriptions_query(query, *args).all()
     ]
 
 
@@ -367,11 +365,10 @@ def list_inscriptions_query(
         .distinct(models.Inscription.filename)
     )
 
-    return apply_filters_to_inscriptions_query(db, query, *args)
+    return apply_filters_to_inscriptions_query(query, *args)
 
 
 def apply_filters_to_inscriptions_query(
-    db: Session,
     query,
     text_search: str | None = None,
     description_place_id: str | None = None,
@@ -384,12 +381,9 @@ def apply_filters_to_inscriptions_query(
     provenances: list[int] | None = [],
     genres: list[int] | None = [],
     physical_types: list[int] | None = [],
-    physical_types_boolean: Literal["and"] | Literal["or"] | None = None,
     languages: list[int] | None = [],
-    languages_boolean: Literal["and"] | Literal["or"] | None = None,
     religions: list[int] | None = [],
     materials: list[int] | None = [],
-    materials_boolean: Literal["and"] | Literal["or"] | None = None,
 ):
     ands = []
     ors = []
@@ -406,7 +400,7 @@ def apply_filters_to_inscriptions_query(
     # FIXME: These should really be multiple queries. Right now,
     # this implementation mimics how the Solr implementation worked,
     # which took the aggregate of description + place + id and searched
-    # for the user-provides string. We want users to be able to search
+    # for the user-provided string. We want users to be able to search
     # by inscription ID alone, though, and shouldn't treat that element
     # as part of description and place.
     if description_place_id is not None and description_place_id != "":
