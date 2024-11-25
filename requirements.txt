@@ -1,6 +1,6 @@
 alembic >= 1.11.1
 fastapi >= 0.101.0
-fastapi-pagination
+fastapi-pagination == 0.12.32
 lunr >= 0.7.0
 lxml >= 4.9.3
 psycopg >= 3.1.9

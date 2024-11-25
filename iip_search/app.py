@@ -172,26 +172,25 @@ def list_inscriptions(
     materials: Annotated[list[int] | None, Query()] = None,
     db: Session = Depends(get_db),
 ):
-    return paginate(
+    query = crud.list_inscriptions_query(
         db,
-        crud.list_inscriptions_query(
-            db,
-            text_search,
-            description_place_id,
-            figures,
-            not_before,
-            not_before_era,
-            not_after,
-            not_after_era,
-            cities,
-            provenances,
-            genres,
-            physical_types,
-            languages,
-            religions,
-            materials,
-        ),
+        text_search,
+        description_place_id,
+        figures,
+        not_before,
+        not_before_era,
+        not_after,
+        not_after_era,
+        cities,
+        provenances,
+        genres,
+        physical_types,
+        languages,
+        religions,
+        materials,
     )
+
+    return paginate(query)  # type: ignore
 
 
 @app.get("/inscriptions/map", response_model=list[schemas.InscriptionMapResponse])
